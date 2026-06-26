@@ -1,0 +1,65 @@
+name: Deploy Pigeon to GitHub Pages
+
+# Publishes the static export of the Pigeon news app to GitHub Pages at
+# https://ipud67.github.io/pigeon/ . Public deploy mirror under the ipud67 identity — the
+# canonical source + internal planning docs live in the PRIVATE repo ipud67/pigeon-newsapp
+# and are deliberately NOT mirrored here. No paid LLM call: ingest runs with the mock
+# classifier (RED LINE), and if any live free feed is down it falls back to the committed
+# data/facts.json so a flaky source never breaks a deploy.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install deps
+        run: npm ci
+
+      - name: Ingest (live free feeds, mock classifier; non-fatal — committed data is the fallback)
+        run: npm run ingest || echo "ingest failed or a feed was down — using committed data/facts.json"
+
+      - name: Build static export
+        env:
+          PIGEON_BASE_PATH: /pigeon
+        run: npm run build
+
+      - name: Ensure Jekyll is disabled on the artifact
+        run: touch out/.nojekyll
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

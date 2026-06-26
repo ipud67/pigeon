@@ -1,0 +1,3673 @@
+[
+  {
+    "id": "4be20c75e51a",
+    "datetime_utc": "2026-06-30T00:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "U.S. Treasury auctions 6-Week Bill",
+    "deck": "Treasury auction settled 2026-06-30, high yield null%, bid-to-cover null.",
+    "context": "Treasury auction settled 2026-06-30, high yield null%, bid-to-cover null. Demand for U.S. debt is a money-flow indicator.",
+    "sources": [
+      {
+        "outlet": "U.S. Treasury",
+        "url": "https://www.treasurydirect.gov/auctions/auction-query/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "economics",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "2bc4c9ef2968",
+    "datetime_utc": "2026-06-26T20:53:02.000Z",
+    "place": "WASHINGTON",
+    "what": "8-K - FiscalNote Holdings, Inc. (0001823466) (Filer)",
+    "deck": "Form 8-K filed with the SEC.",
+    "context": "Form 8-K filed with the SEC. 8-K - FiscalNote Holdings, Inc. (0001823466) (Filer)",
+    "sources": [
+      {
+        "outlet": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1823466/000119312526285640/0001193125-26-285640-index.htm",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "economics",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "e06dea8e44dd",
+    "datetime_utc": "2026-06-26T20:52:56.000Z",
+    "place": "WASHINGTON",
+    "what": "8-K - Wilco 63 Corp (0002101470) (Filer)",
+    "deck": "Form 8-K filed with the SEC.",
+    "context": "Form 8-K filed with the SEC. 8-K - Wilco 63 Corp (0002101470) (Filer)",
+    "sources": [
+      {
+        "outlet": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/2101470/000121390026072679/0001213900-26-072679-index.htm",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "economics",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "83a7aa8a1b60",
+    "datetime_utc": "2026-06-26T20:52:28.000Z",
+    "place": "WASHINGTON",
+    "what": "8-K - Hawkeye Systems, Inc. (0001750777) (Filer)",
+    "deck": "Form 8-K filed with the SEC.",
+    "context": "Form 8-K filed with the SEC. 8-K - Hawkeye Systems, Inc. (0001750777) (Filer)",
+    "sources": [
+      {
+        "outlet": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1750777/000168316826005137/0001683168-26-005137-index.htm",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "economics",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "1f4604790af0",
+    "datetime_utc": "2026-06-26T20:50:18.000Z",
+    "place": "WASHINGTON",
+    "what": "8-K - ChronoScale Corp (0001549084) (Filer)",
+    "deck": "Form 8-K filed with the SEC.",
+    "context": "Form 8-K filed with the SEC. 8-K - ChronoScale Corp (0001549084) (Filer)",
+    "sources": [
+      {
+        "outlet": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1549084/000149315226030318/0001493152-26-030318-index.htm",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "economics",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "d2775868ef4c",
+    "datetime_utc": "2026-06-26T20:48:50.000Z",
+    "place": "WASHINGTON",
+    "what": "8-K - Contineum Therapeutics, Inc. (0001855175) (Filer)",
+    "deck": "Form 8-K filed with the SEC.",
+    "context": "Form 8-K filed with the SEC. 8-K - Contineum Therapeutics, Inc. (0001855175) (Filer)",
+    "sources": [
+      {
+        "outlet": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1855175/000162828026045804/0001628280-26-045804-index.htm",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "economics",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "b52dfc2bbb08",
+    "datetime_utc": "2026-06-26T20:45:39.000Z",
+    "place": "WASHINGTON",
+    "what": "8-K - Healthcare Triangle, Inc. (0001839285) (Filer)",
+    "deck": "Form 8-K filed with the SEC.",
+    "context": "Form 8-K filed with the SEC. 8-K - Healthcare Triangle, Inc. (0001839285) (Filer)",
+    "sources": [
+      {
+        "outlet": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1839285/000121390026072674/0001213900-26-072674-index.htm",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "economics",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "934f2fa8cf82",
+    "datetime_utc": "2026-06-26T20:45:30.000Z",
+    "place": "WASHINGTON",
+    "what": "8-K - CHARLES & COLVARD LTD (0001015155) (Filer)",
+    "deck": "Form 8-K filed with the SEC.",
+    "context": "Form 8-K filed with the SEC. 8-K - CHARLES & COLVARD LTD (0001015155) (Filer)",
+    "sources": [
+      {
+        "outlet": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1015155/000110465926078310/0001104659-26-078310-index.htm",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "economics",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "0262dc5a2921",
+    "datetime_utc": "2026-06-26T20:45:20.000Z",
+    "place": "WASHINGTON",
+    "what": "8-K - SPLASH BEVERAGE GROUP, INC. (0001553788) (Filer)",
+    "deck": "Form 8-K filed with the SEC.",
+    "context": "Form 8-K filed with the SEC. 8-K - SPLASH BEVERAGE GROUP, INC. (0001553788) (Filer)",
+    "sources": [
+      {
+        "outlet": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1553788/000173112226000895/0001731122-26-000895-index.htm",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "economics",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "958c9f0fac54",
+    "datetime_utc": "2026-06-26T20:45:14.000Z",
+    "place": "WASHINGTON",
+    "what": "8-K - BiomX Inc. (0001739174) (Filer)",
+    "deck": "Form 8-K filed with the SEC.",
+    "context": "Form 8-K filed with the SEC. 8-K - BiomX Inc. (0001739174) (Filer)",
+    "sources": [
+      {
+        "outlet": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1739174/000121390026072673/0001213900-26-072673-index.htm",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "economics",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "caba62540951",
+    "datetime_utc": "2026-06-26T20:42:18.000Z",
+    "place": "WASHINGTON",
+    "what": "8-K - Fortrea Holdings Inc. (0001965040) (Filer)",
+    "deck": "Form 8-K filed with the SEC.",
+    "context": "Form 8-K filed with the SEC. 8-K - Fortrea Holdings Inc. (0001965040) (Filer)",
+    "sources": [
+      {
+        "outlet": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1965040/000162828026045801/0001628280-26-045801-index.htm",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "economics",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "468dfe7341f8",
+    "datetime_utc": "2026-06-26T20:41:58.000Z",
+    "place": "WASHINGTON",
+    "what": "8-K - Blue Owl Technology Income Corp. (0001869453) (Filer)",
+    "deck": "Form 8-K filed with the SEC.",
+    "context": "Form 8-K filed with the SEC. 8-K - Blue Owl Technology Income Corp. (0001869453) (Filer)",
+    "sources": [
+      {
+        "outlet": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1869453/000119312526285610/0001193125-26-285610-index.htm",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "economics",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "44d830d4df84",
+    "datetime_utc": "2026-06-26T20:41:34.000Z",
+    "place": "WASHINGTON",
+    "what": "8-K - IRON MOUNTAIN INC (0001020569) (Filer)",
+    "deck": "Form 8-K filed with the SEC.",
+    "context": "Form 8-K filed with the SEC. 8-K - IRON MOUNTAIN INC (0001020569) (Filer)",
+    "sources": [
+      {
+        "outlet": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1020569/000110465926078307/0001104659-26-078307-index.htm",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "economics",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "9ddbb697739a",
+    "datetime_utc": "2026-06-26T20:39:55.000Z",
+    "place": "WASHINGTON",
+    "what": "8-K - SentinelOne, Inc. (0001583708) (Filer)",
+    "deck": "Form 8-K filed with the SEC.",
+    "context": "Form 8-K filed with the SEC. 8-K - SentinelOne, Inc. (0001583708) (Filer)",
+    "sources": [
+      {
+        "outlet": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1583708/000158370826000044/0001583708-26-000044-index.htm",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "economics",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "ac8b13bcf15b",
+    "datetime_utc": "2026-06-26T20:39:27.000Z",
+    "place": "WASHINGTON",
+    "what": "8-K - Blue Owl Credit Income Corp. (0001812554) (Filer)",
+    "deck": "Form 8-K filed with the SEC.",
+    "context": "Form 8-K filed with the SEC. 8-K - Blue Owl Credit Income Corp. (0001812554) (Filer)",
+    "sources": [
+      {
+        "outlet": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1812554/000119312526285602/0001193125-26-285602-index.htm",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "economics",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "b1ac384076d9",
+    "datetime_utc": "2026-06-26T20:38:46.000Z",
+    "place": "WASHINGTON",
+    "what": "8-K - Bristow Group Inc. (0001525221) (Filer)",
+    "deck": "Form 8-K filed with the SEC.",
+    "context": "Form 8-K filed with the SEC. 8-K - Bristow Group Inc. (0001525221) (Filer)",
+    "sources": [
+      {
+        "outlet": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1525221/000152522126000091/0001525221-26-000091-index.htm",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "economics",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "79c6736f01db",
+    "datetime_utc": "2026-06-26T20:38:43.000Z",
+    "place": "WASHINGTON",
+    "what": "8-K - Aterian, Inc. (0001757715) (Filer)",
+    "deck": "Form 8-K filed with the SEC.",
+    "context": "Form 8-K filed with the SEC. 8-K - Aterian, Inc. (0001757715) (Filer)",
+    "sources": [
+      {
+        "outlet": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1757715/000143774926021850/0001437749-26-021850-index.htm",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "economics",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "497e77575bab",
+    "datetime_utc": "2026-06-26T20:37:27.000Z",
+    "place": "WASHINGTON",
+    "what": "8-K - Navan, Inc. (0001639723) (Filer)",
+    "deck": "Form 8-K filed with the SEC.",
+    "context": "Form 8-K filed with the SEC. 8-K - Navan, Inc. (0001639723) (Filer)",
+    "sources": [
+      {
+        "outlet": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1639723/000162828026045797/0001628280-26-045797-index.htm",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "economics",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "7bd2d4c4da8f",
+    "datetime_utc": "2026-06-26T20:37:06.000Z",
+    "place": "WASHINGTON",
+    "what": "8-K - DEERE JOHN CAPITAL CORP (0000027673) (Filer)",
+    "deck": "Form 8-K filed with the SEC.",
+    "context": "Form 8-K filed with the SEC. 8-K - DEERE JOHN CAPITAL CORP (0000027673) (Filer)",
+    "sources": [
+      {
+        "outlet": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/27673/000110465926078304/0001104659-26-078304-index.htm",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "economics",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "602edff918c8",
+    "datetime_utc": "2026-06-26T20:37:05.000Z",
+    "place": "WASHINGTON",
+    "what": "8-K - Northfield Bancorp, Inc. (0001493225) (Filer)",
+    "deck": "Form 8-K filed with the SEC.",
+    "context": "Form 8-K filed with the SEC. 8-K - Northfield Bancorp, Inc. (0001493225) (Filer)",
+    "sources": [
+      {
+        "outlet": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1493225/000149322526000062/0001493225-26-000062-index.htm",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "economics",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "86b9f6650c69",
+    "datetime_utc": "2026-06-26T20:36:43.000Z",
+    "place": "WASHINGTON",
+    "what": "8-K - Blue Owl Technology Finance Corp. (0001747777) (Filer)",
+    "deck": "Form 8-K filed with the SEC.",
+    "context": "Form 8-K filed with the SEC. 8-K - Blue Owl Technology Finance Corp. (0001747777) (Filer)",
+    "sources": [
+      {
+        "outlet": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1747777/000119312526285596/0001193125-26-285596-index.htm",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "economics",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "f523ef3b77a2",
+    "datetime_utc": "2026-06-26T20:35:59.000Z",
+    "place": "WASHINGTON",
+    "what": "8-K - UPEXI, INC. (0001775194) (Filer)",
+    "deck": "Form 8-K filed with the SEC.",
+    "context": "Form 8-K filed with the SEC. 8-K - UPEXI, INC. (0001775194) (Filer)",
+    "sources": [
+      {
+        "outlet": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1775194/000147793226004047/0001477932-26-004047-index.htm",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "economics",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "88f9d45343df",
+    "datetime_utc": "2026-06-26T20:35:37.000Z",
+    "place": "WASHINGTON",
+    "what": "8-K - Horizon Technology Finance Corp (0001487428) (Filer)",
+    "deck": "Form 8-K filed with the SEC.",
+    "context": "Form 8-K filed with the SEC. 8-K - Horizon Technology Finance Corp (0001487428) (Filer)",
+    "sources": [
+      {
+        "outlet": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1487428/000143774926021848/0001437749-26-021848-index.htm",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "economics",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "215911cd46f0",
+    "datetime_utc": "2026-06-26T20:34:29.000Z",
+    "place": "WASHINGTON",
+    "what": "8-K - URSB Bancorp, Inc. (0002084261) (Filer)",
+    "deck": "Form 8-K filed with the SEC.",
+    "context": "Form 8-K filed with the SEC. 8-K - URSB Bancorp, Inc. (0002084261) (Filer)",
+    "sources": [
+      {
+        "outlet": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/2084261/000110465926078302/0001104659-26-078302-index.htm",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "economics",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "fc638abce5a4",
+    "datetime_utc": "2026-06-26T20:34:20.000Z",
+    "place": "WASHINGTON",
+    "what": "8-K - GOODYEAR TIRE & RUBBER CO /OH/ (0000042582) (Filer)",
+    "deck": "Form 8-K filed with the SEC.",
+    "context": "Form 8-K filed with the SEC. 8-K - GOODYEAR TIRE & RUBBER CO /OH/ (0000042582) (Filer)",
+    "sources": [
+      {
+        "outlet": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/42582/000162828026045795/0001628280-26-045795-index.htm",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "economics",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "a60dde89984e",
+    "datetime_utc": "2026-06-26T20:34:19.000Z",
+    "place": "WASHINGTON",
+    "what": "8-K - Blue Owl Capital Corp II (0001655887) (Filer)",
+    "deck": "Form 8-K filed with the SEC.",
+    "context": "Form 8-K filed with the SEC. 8-K - Blue Owl Capital Corp II (0001655887) (Filer)",
+    "sources": [
+      {
+        "outlet": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1655887/000119312526285588/0001193125-26-285588-index.htm",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "economics",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "07147c258a44",
+    "datetime_utc": "2026-06-26T19:58:50.000Z",
+    "place": "NEW YORK",
+    "what": "Secretary-General Appoints Mohamed Yahya of Somalia Assistant Secretary-General for Humanitarian Affairs and Deputy Emergency Relief Coordinator",
+    "deck": "United Nations Secretary-General António Guterres announced today the appointment of Mohamed Yahya of Somalia as Assistant Secretary-General for Humanitarian Affairs and Deputy Emergency Relief Coordinator in the Offi…",
+    "context": "United Nations Secretary-General António Guterres announced today the appointment of Mohamed Yahya of Somalia as Assistant Secretary-General for Humanitarian Affairs and Deputy Emergency Relief Coordinator in the Office for the Coordination of Humanitarian Affairs.",
+    "sources": [
+      {
+        "outlet": "UN Press",
+        "url": "https://press.un.org/en/2026/sga2426.doc.htm",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "world",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "20c2198712ac",
+    "datetime_utc": "2026-06-26T19:37:24.000Z",
+    "place": "WASHINGTON",
+    "what": "Joint Task Force Southern Border Conducts Medevac in Arizona Mountains",
+    "deck": "Service members assigned to Joint Task Force Southern Border conducted an aeromedical evacuation after receiving a request to assist a civilian who was experiencing a medical emergency in a remote mountainous area of…",
+    "context": "Service members assigned to Joint Task Force Southern Border conducted an aeromedical evacuation after receiving a request to assist a civilian who was experiencing a medical emergency in a remote mountainous area of Arizona.",
+    "sources": [
+      {
+        "outlet": "U.S. Dept. of Defense",
+        "url": "https://www.war.gov/News/News-Stories/Article/Article/4528171/joint-task-force-southern-border-conducts-medevac-in-arizona-mountains/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "health",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "b81ce95ab762",
+    "datetime_utc": "2026-06-26T19:29:57.000Z",
+    "place": "NEW YORK",
+    "what": "Secretary-General Appoints Catharina Boehme of Germany Deputy Executive Director, United Nations Population Fund",
+    "deck": "United Nations Secretary-General António Guterres announced today the appointment of Catharina Boehme of Germany as Assistant Secretary-General to serve as Deputy Executive Director, Programme of the United Nations Po…",
+    "context": "United Nations Secretary-General António Guterres announced today the appointment of Catharina Boehme of Germany as Assistant Secretary-General to serve as Deputy Executive Director, Programme of the United Nations Population Fund (UNFPA).",
+    "sources": [
+      {
+        "outlet": "UN Press",
+        "url": "https://press.un.org/en/2026/sga2427.doc.htm",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "world",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "d112acf5a8ca",
+    "datetime_utc": "2026-06-26T18:13:13.000Z",
+    "place": "WASHINGTON",
+    "what": "President Trump’s America First Agenda Scores Major Supreme Court Win on TPS Termination",
+    "deck": "The Supreme Court has delivered a major victory for American sovereignty, ruling that the Trump Administration has full authority to terminate Temporary Protected Status (TPS) for Haitian migrants.",
+    "context": "The Supreme Court has delivered a major victory for American sovereignty, ruling that the Trump Administration has full authority to terminate Temporary Protected Status (TPS) for Haitian migrants. The Biden Administration weaponized TPS as a backdoor amnesty to flood the country with millions of unvetted migrants — and that loophole is finally closed. This is [&#8230;] The post President Trump’s America First Agenda Scores Major Supreme Court Win on TPS Termination appeared first on The White House .",
+    "sources": [
+      {
+        "outlet": "White House",
+        "url": "https://www.whitehouse.gov/releases/2026/06/president-trumps-america-first-agenda-scores-major-supreme-court-win-on-tps-termination/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "courts",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "c1c46ba49854",
+    "datetime_utc": "2026-06-26T17:25:51.000Z",
+    "place": "NEW YORK",
+    "what": "United Nations Charter ‘A Promise to the World’, Says Secretary‑General at Anniversary Event",
+    "deck": "Following are UN Secretary-General António Guterres’ remarks to the informal meeting the General Assembly to commemorate the United Nations Charter Day, in New York today:",
+    "context": "Following are UN Secretary-General António Guterres’ remarks to the informal meeting the General Assembly to commemorate the United Nations Charter Day, in New York today:",
+    "sources": [
+      {
+        "outlet": "UN Press",
+        "url": "https://press.un.org/en/2026/sgsm23200.doc.htm",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "world",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "06b22c740205",
+    "datetime_utc": "2026-06-26T16:28:10.000Z",
+    "place": "WASHINGTON",
+    "what": "Southern Command Moves Quickly to Support Venezuela Earthquake Relief",
+    "deck": "As directed by the War Department, U.S.",
+    "context": "As directed by the War Department, U.S. Southern Command is working with the State Department to support U.S. government relief operations in Venezuela in response to devastating earthquakes.",
+    "sources": [
+      {
+        "outlet": "U.S. Dept. of Defense",
+        "url": "https://www.war.gov/News/News-Stories/Article/Article/4527843/southern-command-moves-quickly-to-support-venezuela-earthquake-relief/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "war",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "f90aa98d1fb0",
+    "datetime_utc": "2026-06-26T11:04:11.000Z",
+    "place": "NEW YORK",
+    "what": "Security Council, 10184th Meeting (AM) Sudan",
+    "deck": "At 10 a.m., the Security Council will hear a briefing on Sudan.",
+    "context": "At 10 a.m., the Security Council will hear a briefing on Sudan. Under-Secretary-General for Political and Peacebuilding Affairs Rosemary DiCarlo and Deputy Executive Director of the United Nations International Children's Emergency Fund (UNICEF) Hannan Sulieman are expected to brief.",
+    "sources": [
+      {
+        "outlet": "UN Press",
+        "url": "https://press.un.org/en/blog/sc16399",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "world",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "bb98c524fc2f",
+    "datetime_utc": "2026-06-26T00:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Citric Acid and Certain Citrate Salts From India: Preliminary Affirmative Countervailing Duty Determination and Alignment of Final Determination With Final Antidumping Duty Determination",
+    "deck": "Notice.",
+    "context": "Reported by 2 sources. Notice. The U.S. Department of Commerce (Commerce) preliminarily determines that countervailable subsidies are being provided to producers and exporters of citric acid and certain citrate salts (citric acid) from India. The period of investigation is January 1, 2025, through December 31, 2025. Interested parties are invited to comment on this preliminary determination. (Commerce Department, International Trade Administration)",
+    "sources": [
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/06/26/2026-12963/citric-acid-and-certain-citrate-salts-from-india-preliminary-affirmative-countervailing-duty",
+        "tier": "T1_gov"
+      },
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/06/26/2026-12962/citric-acid-and-certain-citrate-salts-from-canada-preliminary-affirmative-countervailing-duty",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "economics",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "4d1abdb6efed",
+    "datetime_utc": "2026-06-26T00:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Agency Information Collection Activities; Comment Request; Federal Family Educational Loan Program (FFEL)-Administrative Requirements for States, Not-For-Profit Lenders, and Eligible Lenders Trustees",
+    "deck": "Notice.",
+    "context": "Notice. In accordance with the Paperwork Reduction Act (PRA) of 1995, the Department is proposing an extension without change of a currently approved information collection request (ICR). (Education Department)",
+    "sources": [
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/06/26/2026-12964/agency-information-collection-activities-comment-request-federal-family-educational-loan-program",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "4c891c0c12a5",
+    "datetime_utc": "2026-06-26T00:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Agency Information Collection Activities; Comment Request; Request for Title IV Reimbursement or Heightened Cash Monitoring 2 (HCM2)",
+    "deck": "Notice.",
+    "context": "Notice. In accordance with the Paperwork Reduction Act (PRA) of 1995, the Department is proposing an extension without change of a currently approved information collection request (ICR). (Education Department)",
+    "sources": [
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/06/26/2026-12965/agency-information-collection-activities-comment-request-request-for-title-iv-reimbursement-or",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "be3a70cb41f4",
+    "datetime_utc": "2026-06-26T00:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Agency Information Collection Activities; Submission to the Office of Management and Budget for Review and Approval; Comment Request; William D. Ford Federal Direct Loan Program (Direct Loan Program) Promissory Notes and Related Forms",
+    "deck": "Notice.",
+    "context": "Notice. In accordance with the Paperwork Reduction Act (PRA) of 1995, the Department is proposing a revision of a currently approved information collection request (ICR). (Education Department)",
+    "sources": [
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/06/26/2026-12966/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-for",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "b92b68e1e7d9",
+    "datetime_utc": "2026-06-26T00:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Proposed Data Collection Submitted for Public Comment and Recommendations",
+    "deck": "Notice.",
+    "context": "Notice. The Agency for Toxic Substances and Disease Registry (ATSDR), as part of its continuing effort to reduce public burden and maximize the utility of government information, invites the general public and other federal agencies the opportunity to comment on a continuing information collection, as required by the Paperwork Reduction Act of 1995. This notice invites comment on a proposed information collection project titled APPLETREE Performance Measures. ATSDR will use this data collection to manage the current cooperative agreement program under ATSDR's Partnership to Promote Local Efforts to Reduce Environmental Exposures (APPLETREE) Program. (Health and Human Services Department, Agency for Toxic Substances and Disease Registry)",
+    "sources": [
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/06/26/2026-12967/proposed-data-collection-submitted-for-public-comment-and-recommendations",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "76f86ea0d2d6",
+    "datetime_utc": "2026-06-26T00:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "HEARTH Act Approval of Cachil DeHe Band of Wintun Indians of the Colusa Indian Community of the Colusa Rancheria, California, Leasing Ordinance",
+    "deck": "Notice.",
+    "context": "Notice. The Assistant Secretary--Indian Affairs approved the Cachil DeHe Band of Wintun Indians of the Colusa Indian Community of the Colusa Rancheria, California, Leasing Ordinance under the Helping Expedite and Advance Responsible Tribal Homeownership Act of 2012 (HEARTH Act). With this approval, the Tribe is authorized to enter into leases without further Secretary of the Interior approval. (Interior Department, Indian Affairs Bureau)",
+    "sources": [
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/06/26/2026-12968/hearth-act-approval-of-cachil-dehe-band-of-wintun-indians-of-the-colusa-indian-community-of-the",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "ab39d53bd746",
+    "datetime_utc": "2026-06-26T00:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "HEARTH Act Approval of Caddo Nation of Oklahoma Leasing Ordinance",
+    "deck": "Notice.",
+    "context": "Notice. The Assistant Secretary--Indian Affairs approved the Caddo Nation of Oklahoma Leasing Ordinance under the Helping Expedite and Advance Responsible Tribal Homeownership Act of 2012 (HEARTH Act). With this approval, the Tribe is authorized to enter into leases without further approval from the Secretary of the Interior. (Interior Department, Indian Affairs Bureau)",
+    "sources": [
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/06/26/2026-12969/hearth-act-approval-of-caddo-nation-of-oklahoma-leasing-ordinance",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "091cb9ced11e",
+    "datetime_utc": "2026-06-26T00:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Aman Kaushik, Complainant v. SFL Worldwide LLC, Respondent; Notice of Filing of Complaint and Assignment",
+    "deck": "Notice.",
+    "context": "Notice. Aman Kaushik, Complainant v. SFL Worldwide LLC, Respondent; Notice of Filing of Complaint and Assignment (Federal Maritime Commission)",
+    "sources": [
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/06/26/2026-12970/aman-kaushik-complainant-v-sfl-worldwide-llc-respondent-notice-of-filing-of-complaint-and-assignment",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "dddcb927b7c5",
+    "datetime_utc": "2026-06-26T00:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Proposed Information Collection Activity; TANF Contingency Fund Application",
+    "deck": "Notice.",
+    "context": "Notice. The Office of Family Assistance, Administration for Children and Families (ACF), U.S. Department of Health and Human Services, is proposing to collect data for state requests of Temporary Assistance for Needy Families (TANF) Contingency Fund provisional payments through the TANF Contingency Fund Application. (Health and Human Services Department, Children and Families Administration)",
+    "sources": [
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/06/26/2026-12971/proposed-information-collection-activity-tanf-contingency-fund-application",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "1273b4c4eeb0",
+    "datetime_utc": "2026-06-26T00:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Reopening or Extension of Application Deadline Dates; Applications for New Awards",
+    "deck": "Notice.",
+    "context": "Notice. The Department announces competitions each year for its discretionary grant funding through Application Notice and Instruction documents published on Grants.gov. In our announcements, we share the dates for the transmittal of applications for these competitions. When there is a Major Disaster Declaration issued by the President, the Department will consider, on a competition-by-competition basis and at the Department's discretion, extending the deadline for the transmittal of applications or reopening a competition for eligible applicants located in the affected areas. (Education Department)",
+    "sources": [
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/06/26/2026-12972/reopening-or-extension-of-application-deadline-dates-applications-for-new-awards",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "b142172b589e",
+    "datetime_utc": "2026-06-26T00:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Submission for OMB Review; Comment Request",
+    "deck": "Notice.",
+    "context": "Notice. Submission for OMB Review; Comment Request (Agriculture Department)",
+    "sources": [
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/06/26/2026-12973/submission-for-omb-review-comment-request",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "b08b4a3eec62",
+    "datetime_utc": "2026-06-26T00:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Privacy Act of 1974; System of Records",
+    "deck": "Notice.",
+    "quote": "OPM/Central-9, Personnel Investigations Records",
+    "context": "Notice. In accordance with the Privacy Act of 1974, the Office of Personnel Management (OPM) proposes to modify and republish a new system of records previously titled \"OPM/Central-9, Personnel Investigations Records\" which will be renamed to \"OPM/Central-9, OPM Suitability Adjudications Files.\" The modification is necessary since the current system of records previously covered both background investigation records and suitability adjudication records. OPM has transferred the background investigation mission and associated records to the Defense Counterintelligence and Security Agency (DCSA) at the U.S. Department of Defense. DCSA published a new system of records notice for the personnel investigations records titled \"Personnel Vetting Records System, DUSDI 02-DoD\" (83 FR 52420 and 83 FR 52317). As a result, the personnel investigations records are no longer maintained in OPM/Central-9. Accordingly, OPM has modified the system to maintain only suitability adjudication, action, and appeals records. The system contains records used by OPM to make, document, and review suitability determinations and related actions for individuals seeking or holding covered Federal positions. These records support OPM's statutory and regulatory responsibilities to determine whether an individual is suitable for Federal employment and to adjudicate and process related appeals. (Personnel Management Office)",
+    "sources": [
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/06/26/2026-12974/privacy-act-of-1974-system-of-records",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "482befafea6e",
+    "datetime_utc": "2026-06-26T00:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Agency Information Collection Activities: Submission for Office of Management and Budget Review (OMB); Comment Request",
+    "deck": "Notice.",
+    "context": "Notice. Agency Information Collection Activities: Submission for Office of Management and Budget Review (OMB); Comment Request (Health and Human Services Department, Substance Abuse and Mental Health Services Administration)",
+    "sources": [
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/06/26/2026-12975/agency-information-collection-activities-submission-for-office-of-management-and-budget-review-omb",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "0e372e9c0c4c",
+    "datetime_utc": "2026-06-26T00:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Uniform Allowances",
+    "deck": "Rule.",
+    "context": "Rule. The Office of Personnel Management (OPM) is confirming the effective date of its direct final rule amending 5 CFR part 591, subpart A, to increase the governmentwide maximum annual uniform allowance rate to $1,500 and make related technical and clarifying changes. OPM received no significant adverse comments during the comment period and therefore confirms the rule will become effective as scheduled. (Personnel Management Office)",
+    "sources": [
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/06/26/2026-12976/uniform-allowances",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "b7f9a7909d06",
+    "datetime_utc": "2026-06-26T00:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Agency Information Collection Activities: Proposed Collection; Comment Request Proposed Project: Request To Publish the 30-Day Notices in the Federal Register To Solicit Public Comment on Information Collection for the Continued Approval and Updates for the Protection and Advocacy for Individuals With Mental Illness (PAIMI)-Revised Annual Program Performance Report (PPR)-OMB No. 0930-0169- DECISION",
+    "deck": "Notice.",
+    "context": "Notice. Agency Information Collection Activities: Proposed Collection; Comment Request Proposed Project: Request To Publish the 30-Day Notices in the Federal Register To Solicit Public Comment on Information Collection for the Continued Approval and Updates for the Protection and Advocacy for Individuals With Mental Illness (PAIMI)-Revised Annual Program Performance Report (PPR)-OMB No. 0930-0169- DECISION (Health and Human Services Department, Substance Abuse and Mental Health Services Administration)",
+    "sources": [
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/06/26/2026-12977/agency-information-collection-activities-proposed-collection-comment-request-proposed-project",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "1ef3a2ec41f0",
+    "datetime_utc": "2026-06-26T00:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Meeting of the Regional Energy Resource Council",
+    "deck": "Notice.",
+    "context": "Notice. The TVA Regional Energy Resource Council (RERC) will hold a meeting on July 14, 2026, to receive an update and provide advice on TVA's 2026 Integrated Resource Plan (IRP). The IRP provides strategic direction on how TVA will continue to provide low-cost, reliable, and resilient electricity to the 10 million residents of the Valley region. (Tennessee Valley Authority)",
+    "sources": [
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/06/26/2026-12978/meeting-of-the-regional-energy-resource-council",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "f31381744dd2",
+    "datetime_utc": "2026-06-26T00:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Agency Information Collection Activities: Request for Comments for a New Information Collection",
+    "deck": "Notice.",
+    "context": "Notice. The FHWA has forwarded the information collection request described in this notice to the Office of Management and Budget (OMB) to approve a new information collection. We are required to publish this notice in the Federal Register by the Paperwork Reduction Act of 1995. (Transportation Department, Federal Highway Administration)",
+    "sources": [
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/06/26/2026-12979/agency-information-collection-activities-request-for-comments-for-a-new-information-collection",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "528b8a631f9b",
+    "datetime_utc": "2026-06-26T00:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "ADS-Equipped Vehicle Safety, Transparency, and Evaluation Program; Withdrawal",
+    "deck": "Proposed Rule.",
+    "context": "Proposed Rule. This action withdraws the notice of proposed rulemaking (NPRM) published in the Federal Register on January 15, 2025, which proposed to establish the Automated Driving System-Equipped Vehicle Safety, Transparency, and Evaluation Program (AV STEP). The proposal would have created a voluntary program for vehicle manufacturers, developers of Automated Driving Systems (ADS), and fleet operators or system integrators of such vehicles. Based on its reevaluation of the proposal, consideration of the comments received, and subsequent progress on other ADS initiatives, NHTSA is withdrawing the rulemaking. (Transportation Department, National Highway Traffic Safety Administration)",
+    "sources": [
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/06/26/2026-12980/ads-equipped-vehicle-safety-transparency-and-evaluation-program-withdrawal",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "1bd32d42d8b2",
+    "datetime_utc": "2026-06-26T00:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Federal Motor Vehicle Safety Standards; Modernization of FMVSS No. 135 To Accommodate ADS-Equipped Vehicles",
+    "deck": "Proposed Rule.",
+    "quote": "Light vehicle brake systems.",
+    "context": "Proposed Rule. NHTSA is proposing to amend Federal Motor Vehicle Safety Standard (FMVSS) No. 135, \"Light vehicle brake systems.\" The proposed modifications would distinguish how regulations apply to vehicles with and without manually operated driving controls. The proposed modifications would clarify definitions, telltale requirements, performance requirements, and test procedures in the standard and remove sections that are no longer relevant. The stopping distance performance requirements, which address the primary safety purpose of the standard, would still apply to all subject vehicles. This rulemaking would remove unnecessary regulatory burdens and costs without detriment to vehicle safety. (Transportation Department, National Highway Traffic Safety Administration)",
+    "sources": [
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/06/26/2026-12981/federal-motor-vehicle-safety-standards-modernization-of-fmvss-no-135-to-accommodate-ads-equipped",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "71371d4b17de",
+    "datetime_utc": "2026-06-26T00:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Notice of Determinations; Culturally Significant Object Being Imported for Exhibition-Determinations: “Georgia O'Keeffe Architecture” Exhibition",
+    "deck": "Notice.",
+    "quote": "Georgia O'Keeffe Architecture",
+    "context": "Notice. Notice is hereby given of the following determinations: I hereby determine that a certain object being imported from abroad pursuant to an agreement with its foreign owner or custodian for temporary display in the exhibition \"Georgia O'Keeffe Architecture\" at the Detroit Institute of Arts, Detroit, Michigan, and at possible additional exhibitions or venues yet to be determined, is of cultural significance, and, further, that its temporary exhibition or display within the United States as aforementioned is in the national interest. I have ordered that Public Notice of these determinations be published in the Federal Register. (State Department)",
+    "sources": [
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/06/26/2026-12982/notice-of-determinations-culturally-significant-object-being-imported-for-exhibition-determinations",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "c08428913561",
+    "datetime_utc": "2026-06-26T00:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Sunshine Act Meetings",
+    "deck": "Notice.",
+    "context": "Notice. Sunshine Act Meetings (Nuclear Regulatory Commission)",
+    "sources": [
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/06/26/2026-12983/sunshine-act-meetings",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "ef5178488382",
+    "datetime_utc": "2026-06-26T00:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Modernizing Security Requirements",
+    "deck": "Proposed Rule.",
+    "quote": "Ordering the Reform of the Nuclear Regulatory Commission.",
+    "context": "Proposed Rule. The U.S. Nuclear Regulatory Commission (NRC) is proposing to revise its regulations to modernize security and fitness-for-duty requirements to enhance efficiency, consistent with Executive Order 14300, \"Ordering the Reform of the Nuclear Regulatory Commission.\" The proposed revisions are intended to reduce regulatory burden, where appropriate, while continuing to provide reasonable assurance that safety and security will be adequately maintained at NRC-licensed facilities. (Nuclear Regulatory Commission)",
+    "sources": [
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/06/26/2026-12989/modernizing-security-requirements",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "70b63dd7c94b",
+    "datetime_utc": "2026-06-26T00:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Commission Meeting-Sunshine Act Notice",
+    "deck": "Notice.",
+    "context": "Notice. Commission Meeting-Sunshine Act Notice (Equal Employment Opportunity Commission)",
+    "sources": [
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/06/26/2026-12995/commission-meeting-sunshine-act-notice",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "22f188dffc79",
+    "datetime_utc": "2026-06-26T00:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Removing Obsolete References to Twentieth-Century Airman Certificates",
+    "deck": "Proposed Rule.",
+    "context": "Proposed Rule. FAA proposes to remove obsolete references to pilot certificates and ratings issued more than 50 years ago. (Transportation Department, Federal Aviation Administration)",
+    "sources": [
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/06/26/2026-13003/removing-obsolete-references-to-twentieth-century-airman-certificates",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "14acdb24fc0f",
+    "datetime_utc": "2026-06-25T23:00:19.000Z",
+    "place": "WASHINGTON",
+    "what": "Advancing Regenerative Agriculture and Strengthening American Farm Resilience",
+    "deck": "By the authority vested in me as President by the Constitution and the laws of the United States of America, it is hereby ordered: Section 1.",
+    "context": "By the authority vested in me as President by the Constitution and the laws of the United States of America, it is hereby ordered: Section 1. Purpose and Policy. Executive Order 14212 of February 13, 2025 (Establishing the President’s Make America Healthy Again Commission) established the Make America Healthy Again (MAHA) Commission, with an initial [&#8230;] The post Advancing Regenerative Agriculture and Strengthening American Farm Resilience appeared first on The White House .",
+    "sources": [
+      {
+        "outlet": "White House",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/06/advancing-regenerative-agriculture-and-strengthening-american-farm-resilience/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [
+      {
+        "tenet": "power-scope",
+        "question": "Does Advancing Regenerative Agriculture and Strengthening American Farm Resilience keep the executive inside the powers the Constitution enumerates (Art. I §8; 10th Amendment), or does it extend federal reach beyond them?",
+        "anchor": "Federalist No. 45 (Madison); Constitution Art. I §8; Amendment X"
+      },
+      {
+        "tenet": "historical-contrast",
+        "question": "Set against the founders’ framework and the presidents who best embodied it, is this executive action a step toward that tradition or away from it?",
+        "anchor": "The founding canon, taken as a whole"
+      }
+    ],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "f6171e0e52ca",
+    "datetime_utc": "2026-06-25T23:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Fact Sheet: President Donald J. Trump Advances Regenerative Agriculture and Strengthens American Farm Resilience",
+    "deck": "ACCELERATING INNOVATION IN AMERICA’S FOOD SUPPLY: Today, President Donald J.",
+    "context": "ACCELERATING INNOVATION IN AMERICA’S FOOD SUPPLY: Today, President Donald J. Trump signed an Executive Order to accelerate American agriculture innovation, empowering farmers and ranchers and bolstering the strength and security of our food supply. STRENGTHENING FOOD SECURITY AND PRODUCTION:&#160;President Trump is empowering America’s farmers and ranchers to ensure the Nation’s food supply is the healthiest, most [&#8230;] The post Fact Sheet: President Donald J. Trump Advances Regenerative Agriculture and Strengthens American Farm Resilience appeared first on The White House .",
+    "sources": [
+      {
+        "outlet": "White House",
+        "url": "https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-advances-regenerative-agriculture-and-strengthens-american-farm-resilience/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [
+      {
+        "tenet": "power-scope",
+        "question": "Does Fact Sheet: President Donald J. Trump Advances Regenerative Agriculture and Strengthens American Farm Resilience keep the executive inside the powers the Constitution enumerates (Art. I §8; 10th Amendment), or does it extend federal reach beyond them?",
+        "anchor": "Federalist No. 45 (Madison); Constitution Art. I §8; Amendment X"
+      },
+      {
+        "tenet": "historical-contrast",
+        "question": "Set against the founders’ framework and the presidents who best embodied it, is this executive action a step toward that tradition or away from it?",
+        "anchor": "The founding canon, taken as a whole"
+      }
+    ],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "5ec46d48942d",
+    "datetime_utc": "2026-06-25T22:14:08.000Z",
+    "place": "NEW YORK",
+    "what": "Daily Press Briefing by the Office of the Spokesperson for the Secretary-General",
+    "deck": "UN humanitarian partners are fully mobilized to support the people of Venezuela following the deadly earthquakes that hit the country.",
+    "context": "UN humanitarian partners are fully mobilized to support the people of Venezuela following the deadly earthquakes that hit the country. UN agencies are also mobilizing assistance and will deliver support as quickly as possible.",
+    "sources": [
+      {
+        "outlet": "UN Press",
+        "url": "https://press.un.org/en/2026/db260625.doc.htm",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "longform_url": "https://press.un.org/en/2026/db260625.doc.htm",
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "cfbbf436f1b7",
+    "datetime_utc": "2026-06-25T21:18:41.000Z",
+    "place": "NEW YORK",
+    "what": "At 20, Peacebuilding Commission Must ‘Imagine New Generation of Peace Efforts’ for Today’s Reality, Secretary‑General Says",
+    "deck": "Following are UN Secretary-General António Guterres’ remarks to the annual session of the Peacebuilding Commission, in New York today:",
+    "context": "Following are UN Secretary-General António Guterres’ remarks to the annual session of the Peacebuilding Commission, in New York today:",
+    "sources": [
+      {
+        "outlet": "UN Press",
+        "url": "https://press.un.org/en/2026/sgsm23199.doc.htm",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "f219ec983fe5",
+    "datetime_utc": "2026-06-25T21:08:00.000Z",
+    "place": "WASHINGTON",
+    "what": "National Guard Says Domestic Missions Improving Troop Readiness",
+    "deck": "Domestic missions like the D.C.",
+    "context": "Domestic missions like the D.C. Safe and Beautiful Task Force are helping build troop readiness rather than detracting from it, Army Maj. Gen. Ronald Burkett II said during a media roundtable discussion.",
+    "sources": [
+      {
+        "outlet": "U.S. Dept. of Defense",
+        "url": "https://www.war.gov/News/News-Stories/Article/Article/4527133/national-guard-says-domestic-missions-improving-troop-readiness/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "war",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "0a2d11ee3016",
+    "datetime_utc": "2026-06-25T20:55:51.000Z",
+    "place": "NEW YORK",
+    "what": "Security Council Renews Mandate of UN Disengagement Observer Force for Six Months, Unanimously Adopting Resolution 2824 (2026)",
+    "deck": "The Security Council today renewed the mandate of the United Nations Disengagement Observer Force (UNDOF) for six months, until 31 December 2026, and requested the Secretary-General to ensure the Force has the require…",
+    "context": "The Security Council today renewed the mandate of the United Nations Disengagement Observer Force (UNDOF) for six months, until 31 December 2026, and requested the Secretary-General to ensure the Force has the required capacity and resources to fulfil its mandate in a safe and secure manner.",
+    "sources": [
+      {
+        "outlet": "UN Press",
+        "url": "https://press.un.org/en/2026/sc16398.doc.htm",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "world",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "dfb9a58bfc4a",
+    "datetime_utc": "2026-06-25T20:47:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Families of Vietnam War Missing Gather to Hear Updates, Share Stories",
+    "deck": "War Department officials pledged to continue searching for the 1,565 service members still missing from the Vietnam War during a meeting with grieving families in Arlington, Va.",
+    "context": "War Department officials pledged to continue searching for the 1,565 service members still missing from the Vietnam War during a meeting with grieving families in Arlington, Va.",
+    "sources": [
+      {
+        "outlet": "U.S. Dept. of Defense",
+        "url": "https://www.war.gov/News/News-Stories/Article/Article/4527088/families-of-vietnam-war-missing-gather-to-hear-updates-share-stories/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "war",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "c6161412539f",
+    "datetime_utc": "2026-06-25T19:36:13.000Z",
+    "place": "NEW YORK",
+    "what": "As Conflicts Rage, Humanitarian Budgets Shrink, Peacebuilding Commission, Fund More Critical than Ever, Speakers Tell General Assembly",
+    "deck": "In a world of raging conflicts and shrinking humanitarian budgets, the UN Peacebuilding Commission — and the related, catalytic Peacebuilding Fund — are more critical now than ever, the General Assembly heard today, a…",
+    "context": "In a world of raging conflicts and shrinking humanitarian budgets, the UN Peacebuilding Commission — and the related, catalytic Peacebuilding Fund — are more critical now than ever, the General Assembly heard today, as it considered the two bodies’ latest annual reports.",
+    "sources": [
+      {
+        "outlet": "UN Press",
+        "url": "https://press.un.org/en/2026/ga12765.doc.htm",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "cf82d0cd6277",
+    "datetime_utc": "2026-06-25T18:01:50.000Z",
+    "place": "WASHINGTON",
+    "what": "Radical Lunatics Deface America’s Reflecting Pool — and President Trump Was Right (Again)",
+    "deck": "Crazed and deranged lunatics have once again exposed their hatred for America with a cowardly, deliberate attack on one of our nation’s most iconic landmarks — the newly renovated Lincoln Memorial Reflecting Pool.",
+    "context": "Crazed and deranged lunatics have once again exposed their hatred for America with a cowardly, deliberate attack on one of our nation’s most iconic landmarks — the newly renovated Lincoln Memorial Reflecting Pool. President Donald J. Trump was right from the beginning. Fake News hacks and so-called “experts” immediately rushed to mock him, call him [&#8230;] The post Radical Lunatics Deface America’s Reflecting Pool — and President Trump Was Right (Again) appeared first on The White House .",
+    "sources": [
+      {
+        "outlet": "White House",
+        "url": "https://www.whitehouse.gov/releases/2026/06/radical-lunatics-deface-americas-reflecting-pool-and-president-trump-was-right-again/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "a4ebc3acaf2b",
+    "datetime_utc": "2026-06-25T17:31:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Trump Accounts Lay Solid Financial Foundation for Military Children",
+    "deck": "Thanks to newly available Trump Accounts, military families can lay the foundation to ensure each of their children has a head start on a retirement plan.",
+    "context": "Thanks to newly available Trump Accounts, military families can lay the foundation to ensure each of their children has a head start on a retirement plan. The program opens for financial contributions July 4.",
+    "sources": [
+      {
+        "outlet": "U.S. Dept. of Defense",
+        "url": "https://www.war.gov/News/News-Stories/Article/Article/4526712/trump-accounts-lay-solid-financial-foundation-for-military-children/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "war",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "99c06f1eebb9",
+    "datetime_utc": "2026-06-25T17:10:25.000Z",
+    "place": "NEW YORK",
+    "what": "Secretary-General Expresses Readiness to Work with Incoming Administration in Colombia",
+    "deck": "The following statement was issued today by the Spokesman for UN Secretary-General António Guterres:",
+    "context": "The following statement was issued today by the Spokesman for UN Secretary-General António Guterres:",
+    "sources": [
+      {
+        "outlet": "UN Press",
+        "url": "https://press.un.org/en/2026/sgsm23198.doc.htm",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "e823563c859c",
+    "datetime_utc": "2026-06-25T16:27:00.000Z",
+    "place": "WASHINGTON",
+    "what": "USVDIV-32 Advances Unmanned Operations With NATO During BALTOPS 2026",
+    "deck": "Sailors assigned to the Unmanned Surface Vessel Division 32 are at the forefront of the Navy's fleet during Exercise Baltic Operation, delivering realistic counter-unmanned surface vessel training against unmanned ves…",
+    "context": "Sailors assigned to the Unmanned Surface Vessel Division 32 are at the forefront of the Navy's fleet during Exercise Baltic Operation, delivering realistic counter-unmanned surface vessel training against unmanned vessels to NATO allies.",
+    "sources": [
+      {
+        "outlet": "U.S. Dept. of Defense",
+        "url": "https://www.war.gov/News/News-Stories/Article/Article/4526512/usvdiv-32-advances-unmanned-operations-with-nato-during-baltops-2026/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "war",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "61198fb24fc8",
+    "datetime_utc": "2026-06-25T07:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Monsanto v. Durnell",
+    "deck": "Supreme Court opinion.",
+    "context": "Supreme Court opinion. (Slip Opinion) OCTOBER TERM, 2025 1 Syllabus NOTE: Where it is feasible, a syllabus (headnote) will be released, as is being done in connection with this case, at the time the opinion is issued. The syllabus constitutes no part of the opinion of the Court but has been prepared by the Reporter of Decisions for the convenience of the reader. See United States v. Detroit Timber Original document",
+    "sources": [
+      {
+        "outlet": "Supreme Court (CourtListener)",
+        "url": "https://www.courtlistener.com/opinion/10880244/monsanto-v-durnell/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "courts",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "d2f8a5e2e633",
+    "datetime_utc": "2026-06-25T07:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Mullin v. Doe",
+    "deck": "Supreme Court opinion.",
+    "context": "Supreme Court opinion. (Slip Opinion) OCTOBER TERM, 2025 1 Syllabus NOTE: Where it is feasible, a syllabus (headnote) will be released, as is being done in connection with this case, at the time the opinion is issued. The syllabus constitutes no part of the opinion of the Court but has been prepared by the Reporter of Decisions for the convenience of the reader. See United States v. Detroit Timber Original document",
+    "sources": [
+      {
+        "outlet": "Supreme Court (CourtListener)",
+        "url": "https://www.courtlistener.com/opinion/10880242/mullin-v-doe/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "courts",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "14013b8db49a",
+    "datetime_utc": "2026-06-25T07:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Mullin v. Al Otro Lado",
+    "deck": "Supreme Court opinion.",
+    "context": "Supreme Court opinion. (Slip Opinion) OCTOBER TERM, 2025 1 Syllabus NOTE: Where it is feasible, a syllabus (headnote) will be released, as is being done in connection with this case, at the time the opinion is issued. The syllabus constitutes no part of the opinion of the Court but has been prepared by the Reporter of Decisions for the convenience of the reader. See United States v. Detroit Timber Original document",
+    "sources": [
+      {
+        "outlet": "Supreme Court (CourtListener)",
+        "url": "https://www.courtlistener.com/opinion/10880243/mullin-v-al-otro-lado/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "courts",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "b1d1bedbd271",
+    "datetime_utc": "2026-06-25T07:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Wolford v. Lopez",
+    "deck": "Supreme Court opinion.",
+    "context": "Supreme Court opinion. (Slip Opinion) OCTOBER TERM, 2025 1 Syllabus NOTE: Where it is feasible, a syllabus (headnote) will be released, as is being done in connection with this case, at the time the opinion is issued. The syllabus constitutes no part of the opinion of the Court but has been prepared by the Reporter of Decisions for the convenience of the reader. See United States v. Detroit Timber Original document",
+    "sources": [
+      {
+        "outlet": "Supreme Court (CourtListener)",
+        "url": "https://www.courtlistener.com/opinion/10880241/wolford-v-lopez/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "courts",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "dddab677c125",
+    "datetime_utc": "2026-06-25T07:00:00.000Z",
+    "place": "LONDON",
+    "what": "Lord Mandelson Humble Address: Government Response",
+    "deck": "UK Parliament (Hansard) verbatim record.",
+    "context": "Reported by 6 sources. UK Parliament (Hansard) verbatim record. Lord Mandelson Humble Address: Government Response",
+    "sources": [
+      {
+        "outlet": "UK Hansard",
+        "url": "https://hansard.parliament.uk/Commons/debates/0508707B-0B33-4E81-9E6F-081FC71D36D4",
+        "tier": "T1_gov"
+      },
+      {
+        "outlet": "UK Hansard",
+        "url": "https://hansard.parliament.uk/Commons/debates/C55A4228-5D03-4BE1-B7FC-E34C259EA14E",
+        "tier": "T1_gov"
+      },
+      {
+        "outlet": "UK Hansard",
+        "url": "https://hansard.parliament.uk/Commons/debates/D3A5D4C6-EC00-460C-A981-39C17B72A73C",
+        "tier": "T1_gov"
+      },
+      {
+        "outlet": "UK Hansard",
+        "url": "https://hansard.parliament.uk/Commons/debates/C1ADCD2A-B20D-45BC-BA91-96C886FA4777",
+        "tier": "T1_gov"
+      },
+      {
+        "outlet": "UK Hansard",
+        "url": "https://hansard.parliament.uk/Commons/debates/6041A380-9A71-44B0-A655-672B56FBDBDF",
+        "tier": "T1_gov"
+      },
+      {
+        "outlet": "UK Hansard",
+        "url": "https://hansard.parliament.uk/Commons/debates/BC7BBBFF-ABD8-4D4F-8CF2-EC4B9FE1E65E",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "569fe1406450",
+    "datetime_utc": "2026-06-24T16:51:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Air Force Rescue Squadron Deploys Jolly Green II Helicopters to East Africa",
+    "deck": "The 56th Expeditionary Rescue Squadron arrived at Camp Lemonnier, Djibouti, setting a milestone by deploying HH-60W Jolly Green II helicopters and establishing a critical rotary-wing rescue capability in East Africa t…",
+    "context": "The 56th Expeditionary Rescue Squadron arrived at Camp Lemonnier, Djibouti, setting a milestone by deploying HH-60W Jolly Green II helicopters and establishing a critical rotary-wing rescue capability in East Africa to support regional response efforts.",
+    "sources": [
+      {
+        "outlet": "U.S. Dept. of Defense",
+        "url": "https://www.war.gov/News/News-Stories/Article/Article/4525318/air-force-rescue-squadron-deploys-jolly-green-ii-helicopters-to-east-africa/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "cfbfd2f1a6ac",
+    "datetime_utc": "2026-06-24T15:57:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Army Armaments Center Develops New Counter-UAS Capability",
+    "deck": "A new effort led by the U.S.",
+    "context": "A new effort led by the U.S. Army Combat Capabilities Development Command Armaments Center demonstrated advancements developed for fire control, enabling the ability to engage and defeat drones with a common remotely operated weapon station while shooting on the move.",
+    "sources": [
+      {
+        "outlet": "U.S. Dept. of Defense",
+        "url": "https://www.war.gov/News/News-Stories/Article/Article/4525223/army-armaments-center-develops-new-counter-uas-capability/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "war",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "1ddc5132c608",
+    "datetime_utc": "2026-06-24T14:08:26.000Z",
+    "place": "WASHINGTON",
+    "what": "Nomination Sent to the Senate",
+    "deck": "NOMINATION SENT TO THE SENATE: Konstantinos Ligris, of Florida, to be an Assistant Attorney General.",
+    "context": "Reported by 4 sources. NOMINATION SENT TO THE SENATE: Konstantinos Ligris, of Florida, to be an Assistant Attorney General. The post Nomination Sent to the Senate appeared first on The White House .",
+    "sources": [
+      {
+        "outlet": "White House",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/06/nomination-sent-to-the-senate-648d/",
+        "tier": "T1_gov"
+      },
+      {
+        "outlet": "White House",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/06/nomination-and-withdrawal-sent-to-the-senate/",
+        "tier": "T1_gov"
+      },
+      {
+        "outlet": "White House",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/06/nomination-sent-to-the-senate-6e45/",
+        "tier": "T1_gov"
+      },
+      {
+        "outlet": "White House",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/06/nomination-sent-to-the-senate-3556/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "a7ea12731e9e",
+    "datetime_utc": "2026-06-24T07:00:00.000Z",
+    "place": "LONDON",
+    "what": "Scottish Government: Social Security Benefits",
+    "deck": "UK Parliament (Hansard) verbatim record.",
+    "context": "UK Parliament (Hansard) verbatim record. Scottish Government: Social Security Benefits",
+    "sources": [
+      {
+        "outlet": "UK Hansard",
+        "url": "https://hansard.parliament.uk/Commons/debates/C9889C2C-5DEF-4381-A1DF-7FEF02607865",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "b6c3da1d618d",
+    "datetime_utc": "2026-06-24T07:00:00.000Z",
+    "place": "LONDON",
+    "what": "Draft Local Government (Structural and Boundary Changes) (Control of Disposals etc.) (Amendment) Order 2026",
+    "deck": "UK Parliament (Hansard) verbatim record.",
+    "context": "Reported by 2 sources. UK Parliament (Hansard) verbatim record. Draft Local Government (Structural and Boundary Changes) (Control of Disposals etc.) (Amendment) Order 2026",
+    "sources": [
+      {
+        "outlet": "UK Hansard",
+        "url": "https://hansard.parliament.uk/Commons/debates/0474a537-40e6-4fc6-9558-5c49799d98c2",
+        "tier": "T1_gov"
+      },
+      {
+        "outlet": "UK Hansard",
+        "url": "https://hansard.parliament.uk/Commons/debates/FA3F1D8E-4A67-4D95-9B4D-123083C23C1F",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "c8c6c08c454e",
+    "datetime_utc": "2026-06-23T21:28:24.000Z",
+    "place": "WASHINGTON",
+    "what": "White House Unveils President Trump’s America First Resilience Strategy",
+    "deck": "The White House today released “President Trump’s America First Resilience Strategy,” a bold mandate that denies adversaries the ability to hold America and our core interests at risk.",
+    "quote": "President Trump’s America First Resilience Strategy,",
+    "context": "The White House today released “President Trump’s America First Resilience Strategy,” a bold mandate that denies adversaries the ability to hold America and our core interests at risk. Resilience is a strategic capability that preserves our freedom of action, advances American interests, promotes prosperity, deters adversaries, multiplies and enables peace through strength, and reduces consequences [&#8230;] The post White House Unveils President Trump’s America First Resilience Strategy appeared first on The White House .",
+    "sources": [
+      {
+        "outlet": "White House",
+        "url": "https://www.whitehouse.gov/releases/2026/06/white-house-unveils-president-trumps-america-first-resilience-strategy/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [
+      {
+        "tenet": "power-scope",
+        "question": "Does White House Unveils President Trump’s America First Resilience Strategy keep the executive inside the powers the Constitution enumerates (Art. I §8; 10th Amendment), or does it extend federal reach beyond them?",
+        "anchor": "Federalist No. 45 (Madison); Constitution Art. I §8; Amendment X"
+      },
+      {
+        "tenet": "historical-contrast",
+        "question": "Set against the founders’ framework and the presidents who best embodied it, is this executive action a step toward that tradition or away from it?",
+        "anchor": "The founding canon, taken as a whole"
+      }
+    ],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "ded5fb178c7a",
+    "datetime_utc": "2026-06-23T18:37:51.000Z",
+    "place": "WASHINGTON",
+    "what": "National Guard Counterdrug Program Adapts to Evolving Criminal Threats",
+    "deck": "The National Guard Counterdrug Program helps law enforcement connect investigations and share intelligence to stop sophisticated drug trafficking networks across the country.",
+    "context": "The National Guard Counterdrug Program helps law enforcement connect investigations and share intelligence to stop sophisticated drug trafficking networks across the country.",
+    "sources": [
+      {
+        "outlet": "U.S. Dept. of Defense",
+        "url": "https://www.war.gov/News/News-Stories/Article/Article/4524222/national-guard-counterdrug-program-adapts-to-evolving-criminal-threats/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "d216cc4cb279",
+    "datetime_utc": "2026-06-23T17:05:00.000Z",
+    "place": "WASHINGTON",
+    "what": "A Historic First: Marine Corps Reserve Integrates Multidomain Assets During Exercise",
+    "deck": "The Marine Corps Reserve is actively deploying multidomain collection assets during an integration course for the first time in its history, marking a technological milestone that ensures the service remains an agile…",
+    "context": "The Marine Corps Reserve is actively deploying multidomain collection assets during an integration course for the first time in its history, marking a technological milestone that ensures the service remains an agile force prepared to dominate in complex, data-driven conflicts.",
+    "sources": [
+      {
+        "outlet": "U.S. Dept. of Defense",
+        "url": "https://www.war.gov/News/News-Stories/Article/Article/4524108/a-historic-first-marine-corps-reserve-integrates-multidomain-assets-during-exer/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "other",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "8f471cb654ab",
+    "datetime_utc": "2026-06-23T14:58:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Hegseth: Defense and Fiscal Hawks, Unite!",
+    "deck": "Urgency, speed, efficiency, competition and lethality are the new guiding principles of the War Department, Secretary of War Pete Hegseth writes.",
+    "context": "Urgency, speed, efficiency, competition and lethality are the new guiding principles of the War Department, Secretary of War Pete Hegseth writes. This moment requires defense hawks and fiscal hawks to pull together.",
+    "sources": [
+      {
+        "outlet": "U.S. Dept. of Defense",
+        "url": "https://www.war.gov/News/News-Stories/Article/Article/4523963/hegseth-defense-and-fiscal-hawks-unite/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "war",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "5faaef239403",
+    "datetime_utc": "2026-06-23T07:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Exxon Mobil Corp. v. Corporación Cimex, S. A. (Cuba)",
+    "deck": "Supreme Court opinion.",
+    "context": "Supreme Court opinion. (Slip Opinion) OCTOBER TERM, 2025 1 Syllabus NOTE: Where it is feasible, a syllabus (headnote) will be released, as is being done in connection with this case, at the time the opinion is issued. The syllabus constitutes no part of the opinion of the Court but has been prepared by the Reporter of Decisions for the convenience of the reader. See United States v. Detroit Timber Original document",
+    "sources": [
+      {
+        "outlet": "Supreme Court (CourtListener)",
+        "url": "https://www.courtlistener.com/opinion/10878536/exxon-mobil-corp-v-corporacion-cimex-s-a-cuba/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "courts",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "3c9c16642e15",
+    "datetime_utc": "2026-06-23T07:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Blanche v. Lau",
+    "deck": "Supreme Court opinion.",
+    "context": "Supreme Court opinion. (Slip Opinion) OCTOBER TERM, 2025 1 Syllabus NOTE: Where it is feasible, a syllabus (headnote) will be released, as is being done in connection with this case, at the time the opinion is issued. The syllabus constitutes no part of the opinion of the Court but has been prepared by the Reporter of Decisions for the convenience of the reader. See United States v. Detroit Timber Original document",
+    "sources": [
+      {
+        "outlet": "Supreme Court (CourtListener)",
+        "url": "https://www.courtlistener.com/opinion/10878538/blanche-v-lau/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "courts",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "3c19751efb4b",
+    "datetime_utc": "2026-06-23T07:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Pung v. Isabella County",
+    "deck": "Supreme Court opinion.",
+    "context": "Supreme Court opinion. (Slip Opinion) OCTOBER TERM, 2025 1 Syllabus NOTE: Where it is feasible, a syllabus (headnote) will be released, as is being done in connection with this case, at the time the opinion is issued. The syllabus constitutes no part of the opinion of the Court but has been prepared by the Reporter of Decisions for the convenience of the reader. See United States v. Detroit Original document",
+    "sources": [
+      {
+        "outlet": "Supreme Court (CourtListener)",
+        "url": "https://www.courtlistener.com/opinion/10878534/pung-v-isabella-county/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "courts",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "6ddab62d34b3",
+    "datetime_utc": "2026-06-23T07:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Cisco Systems, Inc. v. Doe",
+    "deck": "Supreme Court opinion.",
+    "context": "Supreme Court opinion. (Slip Opinion) OCTOBER TERM, 2025 1 Syllabus NOTE: Where it is feasible, a syllabus (headnote) will be released, as is being done in connection with this case, at the time the opinion is issued. The syllabus constitutes no part of the opinion of the Court but has been prepared by the Reporter of Decisions for the convenience of the reader. See United States v. Detroit Timber Original document",
+    "sources": [
+      {
+        "outlet": "Supreme Court (CourtListener)",
+        "url": "https://www.courtlistener.com/opinion/10878537/cisco-systems-inc-v-doe/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "courts",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "08f494337c5f",
+    "datetime_utc": "2026-06-23T07:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Landor v. Louisiana Dept of Corrections and Public Safety",
+    "deck": "Supreme Court opinion.",
+    "context": "Reported by 2 sources. Supreme Court opinion. (Slip Opinion) OCTOBER TERM, 2025 1 Syllabus NOTE: Where it is feasible, a syllabus (headnote) will be released, as is being done in connection with this case, at the time the opinion is issued. The syllabus constitutes no part of the opinion of the Court but has been prepared by the Reporter of Decisions for the convenience of the reader. See United States v. Detroit Timber Original document",
+    "sources": [
+      {
+        "outlet": "Supreme Court (CourtListener)",
+        "url": "https://www.courtlistener.com/opinion/10878535/landor-v-louisiana-dept-of-corrections-and-public-safety/",
+        "tier": "T1_gov"
+      },
+      {
+        "outlet": "Supreme Court (CourtListener)",
+        "url": "https://www.courtlistener.com/opinion/10879690/landor-v-louisiana-dept-of-corrections-and-public-safety-revisions/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "courts",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "52761ff4fd30",
+    "datetime_utc": "2026-06-23T07:00:00.000Z",
+    "place": "LONDON",
+    "what": "Social Media: Use of X by Government Departments",
+    "deck": "UK Parliament (Hansard) verbatim record.",
+    "context": "UK Parliament (Hansard) verbatim record. Social Media: Use of X by Government Departments",
+    "sources": [
+      {
+        "outlet": "UK Hansard",
+        "url": "https://hansard.parliament.uk/Commons/debates/E0562B6B-868C-4B51-82F2-21CE22CD5902",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "5f6733f5e080",
+    "datetime_utc": "2026-06-23T00:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "America 250: Presidential Message on the Anniversary of the Battle of Okinawa",
+    "deck": "On this day 81 years ago, American forces emerged victorious from the Battle of Okinawa, a grueling test of American might, will, and sacrifice that would echo through the ages.&#160; As Imperial Japan mounted one of…",
+    "context": "On this day 81 years ago, American forces emerged victorious from the Battle of Okinawa, a grueling test of American might, will, and sacrifice that would echo through the ages.&#160; As Imperial Japan mounted one of its final and most ferocious defenses, our Nation’s courageous heroes battled their way across the island and broke the [&#8230;] The post America 250: Presidential Message on the Anniversary of the Battle of Okinawa appeared first on The White House .",
+    "sources": [
+      {
+        "outlet": "White House",
+        "url": "https://www.whitehouse.gov/briefings-statements/2026/06/america-250-presidential-message-on-the-anniversary-of-the-battle-of-okinawa/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "97ef08166a85",
+    "datetime_utc": "2026-06-22T20:39:42.000Z",
+    "place": "WASHINGTON",
+    "what": "Fact Sheet: President Donald J. Trump Secures the Nation Against Advanced Cryptographic Attacks",
+    "deck": "DRIVING INNOVATION WHILE DEFENDING DATA:&#160;&#160;Today, President Donald J.",
+    "context": "DRIVING INNOVATION WHILE DEFENDING DATA:&#160;&#160;Today, President Donald J. Trump signed an Executive Order to safeguard America’s most sensitive data, our critical infrastructure, and the digital economy that drives jobs and growth. PUTTING AMERICA FIRST IN CYBERSECURITY: President Trump is promoting a key technology that will protect American systems in the quantum era, ensuring defense and [&#8230;] The post Fact Sheet: President Donald J. Trump Secures the Nation Against Advanced Cryptographic Attacks appeared first on The White House .",
+    "sources": [
+      {
+        "outlet": "White House",
+        "url": "https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-secures-the-nation-against-advanced-cryptographic-attacks/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": true,
+    "weigh_it_questions": [
+      {
+        "tenet": "power-scope",
+        "question": "Does Fact Sheet: President Donald J. Trump Secures the Nation Against Advanced Cryptographic Attacks keep the executive inside the powers the Constitution enumerates (Art. I §8; 10th Amendment), or does it extend federal reach beyond them?",
+        "anchor": "Federalist No. 45 (Madison); Constitution Art. I §8; Amendment X"
+      },
+      {
+        "tenet": "historical-contrast",
+        "question": "Set against the founders’ framework and the presidents who best embodied it, is this executive action a step toward that tradition or away from it?",
+        "anchor": "The founding canon, taken as a whole"
+      }
+    ],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "d228083f1312",
+    "datetime_utc": "2026-06-22T20:39:32.000Z",
+    "place": "WASHINGTON",
+    "what": "Fact Sheet: President Donald J. Trump Ushers in the Next Frontier of Quantum Innovation",
+    "deck": "ACCELERATING QUANTUM INNOVATION:&#160;Today, President Donald J.",
+    "context": "ACCELERATING QUANTUM INNOVATION:&#160;Today, President Donald J. Trump signed an Executive Order to supercharge U.S. innovation in quantum technologies and strengthen our national security in this critical area.&#160;&#160; STRENGTHENING AMERICA’S QUANTUM ADVANTAGE:&#160;President Trump recognizes that quantum technologies are on the verge of a massive commercial breakthrough and require a bold new policy approach to ensure America [&#8230;] The post Fact Sheet: President Donald J. Trump Ushers in the Next Frontier of Quantum Innovation appeared first on The White House .",
+    "sources": [
+      {
+        "outlet": "White House",
+        "url": "https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-ushers-in-the-next-frontier-of-quantum-innovation/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [
+      {
+        "tenet": "power-scope",
+        "question": "Does Fact Sheet: President Donald J. Trump Ushers in the Next Frontier of Quantum Innovation keep the executive inside the powers the Constitution enumerates (Art. I §8; 10th Amendment), or does it extend federal reach beyond them?",
+        "anchor": "Federalist No. 45 (Madison); Constitution Art. I §8; Amendment X"
+      },
+      {
+        "tenet": "historical-contrast",
+        "question": "Set against the founders’ framework and the presidents who best embodied it, is this executive action a step toward that tradition or away from it?",
+        "anchor": "The founding canon, taken as a whole"
+      }
+    ],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "1871299e16d6",
+    "datetime_utc": "2026-06-22T20:38:18.000Z",
+    "place": "WASHINGTON",
+    "what": "Ushering in the Next Frontier of Quantum Innovation",
+    "deck": "By the authority vested in me as President by the Constitution and the laws of the United States of America, it is hereby ordered: Section 1.",
+    "context": "By the authority vested in me as President by the Constitution and the laws of the United States of America, it is hereby ordered: Section 1. Purpose. America stands at the cusp of a quantum revolution. Quantum information science and technology (QIST) will provide transformational capabilities that will drive American innovation, power economic growth, generate [&#8230;] The post Ushering in the Next Frontier of Quantum Innovation appeared first on The White House .",
+    "sources": [
+      {
+        "outlet": "White House",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/06/ushering-in-the-next-frontier-of-quantum-innovation/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "economics",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "ac1c041e06ae",
+    "datetime_utc": "2026-06-22T20:37:30.000Z",
+    "place": "WASHINGTON",
+    "what": "Securing the Nation Against Advanced Cryptographic Attacks",
+    "deck": "By the authority vested in me as President by the Constitution and the laws of the United States of America, it is hereby ordered: Section 1.",
+    "context": "By the authority vested in me as President by the Constitution and the laws of the United States of America, it is hereby ordered: Section 1. Background and Policy. The advent of large-scale quantum computers, particularly in the hands of adversaries, will pose a significant threat to widely used cryptographic security systems. Ongoing cyber activity [&#8230;] The post Securing the Nation Against Advanced Cryptographic Attacks appeared first on The White House .",
+    "sources": [
+      {
+        "outlet": "White House",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [
+      {
+        "tenet": "power-scope",
+        "question": "Does Securing the Nation Against Advanced Cryptographic Attacks keep the executive inside the powers the Constitution enumerates (Art. I §8; 10th Amendment), or does it extend federal reach beyond them?",
+        "anchor": "Federalist No. 45 (Madison); Constitution Art. I §8; Amendment X"
+      },
+      {
+        "tenet": "historical-contrast",
+        "question": "Set against the founders’ framework and the presidents who best embodied it, is this executive action a step toward that tradition or away from it?",
+        "anchor": "The founding canon, taken as a whole"
+      }
+    ],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "07f262b05783",
+    "datetime_utc": "2026-06-22T18:47:12.000Z",
+    "place": "WASHINGTON",
+    "what": "President Trump Drives Down Rents by Ending Open Borders Disaster",
+    "deck": "President Donald J.",
+    "context": "President Donald J. Trump’s decisive enforcement of America’s immigration laws is producing real results for hardworking families — including the nation’s 46 million renters. Rents are falling sharply across the country for the first time in years as the record surge in illegal immigration has been reversed. Rents in major metro areas have dropped significantly [&#8230;] The post President Trump Drives Down Rents by Ending Open Borders Disaster appeared first on The White House .",
+    "sources": [
+      {
+        "outlet": "White House",
+        "url": "https://www.whitehouse.gov/releases/2026/06/president-trump-drives-down-rents-by-ending-open-borders-disaster/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "171b0928c47d",
+    "datetime_utc": "2026-06-22T17:03:00.000Z",
+    "place": "WASHINGTON",
+    "what": "NASCAR San Diego Weekend Connects Sailors, Community for Navy 250",
+    "deck": "Naval Base Coronado welcomed more than 100,000 visitors, race fans, service members, military families and community partners during the inaugural NASCAR San Diego Weekend, which celebrated the service's enduring conn…",
+    "context": "Naval Base Coronado welcomed more than 100,000 visitors, race fans, service members, military families and community partners during the inaugural NASCAR San Diego Weekend, which celebrated the service's enduring connection to the American people.",
+    "sources": [
+      {
+        "outlet": "U.S. Dept. of Defense",
+        "url": "https://www.war.gov/News/News-Stories/Article/Article/4522864/nascar-san-diego-weekend-connects-sailors-community-for-navy-250/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "war",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "1c1ef2ec2c1b",
+    "datetime_utc": "2026-06-22T15:53:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Allies Come Together in the Indo-Pacific for Exercise Valiant Shield 26",
+    "deck": "U.S.",
+    "context": "U.S. Pacific Command joint forces, along with allied and partner forces, kicked off Exercise Valiant Shield 2026 in the Indo-Pacific region to strengthen the joint and combined force through training in precise, lethal and overwhelming scenarios.",
+    "sources": [
+      {
+        "outlet": "U.S. Dept. of Defense",
+        "url": "https://www.war.gov/News/News-Stories/Article/Article/4522795/allies-come-together-in-the-indo-pacific-for-exercise-valiant-shield-26/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "8215287de488",
+    "datetime_utc": "2026-06-22T14:11:05.000Z",
+    "place": "WASHINGTON",
+    "what": "Ceremony Brings New Name, Transformation to 7th Infantry Division",
+    "deck": "The 7th Infantry Division (Multi-Domain Command-Pacific) is the Army's newest theater-enabling command, built to integrate maneuver, fires, air defense, cyber, space, electronic warfare, intelligence, unmanned systems…",
+    "context": "The 7th Infantry Division (Multi-Domain Command-Pacific) is the Army's newest theater-enabling command, built to integrate maneuver, fires, air defense, cyber, space, electronic warfare, intelligence, unmanned systems, sustainment and command and control to support the joint force across the Pacific.",
+    "sources": [
+      {
+        "outlet": "U.S. Dept. of Defense",
+        "url": "https://www.army.mil/article-amp/293387/7th_id_conducts_redesignation_ceremony",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "war",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "e1629f78d122",
+    "datetime_utc": "2026-06-22T07:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Grayson v. United States",
+    "deck": "Supreme Court opinion.",
+    "context": "Supreme Court opinion. Cite as: 608 U. S. ____ (2026) 1 ALITO, J., dissenting SUPREME COURT OF THE UNITED STATES ASHLEY GRAYSON v. UNITED STATES ON PETITION FOR WRIT OF CERTIORARI TO THE UNITED STATES COURT OF APPEALS FOR THE SIXTH CIRCUIT No. 25–851. Decided June 22, 2026 The petition for a writ of certiorari is granted. The judg- ment is vacated, and the case is remanded to the United States Court of Appeals for the Sixth Circuit Original document",
+    "sources": [
+      {
+        "outlet": "Supreme Court (CourtListener)",
+        "url": "https://www.courtlistener.com/opinion/10878008/grayson-v-united-states/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "courts",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "1a9f4dece39e",
+    "datetime_utc": "2026-06-22T07:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "United States v. Carter",
+    "deck": "Supreme Court opinion.",
+    "context": "Supreme Court opinion. Cite as: 608 U. S. ____ (2026) 1 ALITO, J., dissenting SUPREME COURT OF THE UNITED STATES UNITED STATES v. DONTE J. CARTER ON PETITION FOR WRIT OF CERTIORARI TO THE DISTRICT OF COLUMBIA COURT OF APPEALS No. 25–885. Decided June 22, 2026 The petition for a writ of certiorari is denied. JUSTICE ALITO, with whom JUSTICE THOMAS joins, dis- senting from the denial of certiorari. On a September afternoon Original document",
+    "sources": [
+      {
+        "outlet": "Supreme Court (CourtListener)",
+        "url": "https://www.courtlistener.com/opinion/10878006/united-states-v-carter/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "courts",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "52544506bd60",
+    "datetime_utc": "2026-06-22T07:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "McCarthy v. Hernandez",
+    "deck": "Supreme Court opinion.",
+    "context": "Supreme Court opinion. Cite as: 608 U. S. ____ (2026) 1 Per Curiam SUPREME COURT OF THE UNITED STATES KEVIN MCCARTHY, SUPERINTENDENT, ELMIRA CORRECTIONAL FACILITY v. PEDRO HERNANDEZ ON PETITION FOR WRIT OF CERTIORARI TO THE UNITED STATES COURT OF APPEALS FOR THE SECOND CIRCUIT No. 25–748. Decided June 22, 2026 PER CURIAM. The Antiterrorism and Effective Death Penalty Act of 1996 (AEDPA) imposes strict limits Original document",
+    "sources": [
+      {
+        "outlet": "Supreme Court (CourtListener)",
+        "url": "https://www.courtlistener.com/opinion/10878009/mccarthy-v-hernandez/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "courts",
+    "economics_flag": false,
+    "weigh_it_questions": [
+      {
+        "tenet": "power-scope",
+        "question": "Does McCarthy v. Hernandez keep the court inside the powers the Constitution enumerates (Art. I §8; 10th Amendment), or does it extend federal reach beyond them?",
+        "anchor": "Federalist No. 45 (Madison); Constitution Art. I §8; Amendment X"
+      },
+      {
+        "tenet": "historical-contrast",
+        "question": "Set against the founders’ framework and the presidents who best embodied it, is this ruling a step toward that tradition or away from it?",
+        "anchor": "The founding canon, taken as a whole"
+      }
+    ],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "29006b212a0b",
+    "datetime_utc": "2026-06-22T07:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Saldaño v. Texas",
+    "deck": "Supreme Court opinion.",
+    "context": "Supreme Court opinion. Cite as: 608 U. S. ____ (2026) 1 SOTOMAYOR, J., dissenting SUPREME COURT OF THE UNITED STATES VICTOR SALDAÑO v. TEXAS ON PETITION FOR WRIT OF CERTIORARI TO THE COURT OF CRIMINAL APPEALS OF TEXAS No. 25–5749. Decided June 22, 2026 The petition for a writ of certiorari is denied. JUSTICE SOTOMAYOR, with whom JUSTICE KAGAN and JUSTICE JACKSON join, dissenting from the denial of certio- rari. Under Atkins Original document",
+    "sources": [
+      {
+        "outlet": "Supreme Court (CourtListener)",
+        "url": "https://www.courtlistener.com/opinion/10878007/saldano-v-texas/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "courts",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "5653657ba475",
+    "datetime_utc": "2026-06-21T16:46:19.000Z",
+    "place": "WASHINGTON",
+    "what": "Presidential Message on Father’s Day",
+    "deck": "This Father’s Day, we honor the men who are the backbone of our families and the strength of our Republic—the driving force behind 250 glorious years of American prosperity and success.&#160; The American father has a…",
+    "context": "This Father’s Day, we honor the men who are the backbone of our families and the strength of our Republic—the driving force behind 250 glorious years of American prosperity and success.&#160; The American father has always stood as the most enduring pillar of our Nation.&#160; He provides for his family through hard work, personal sacrifice, [&#8230;] The post Presidential Message on Father’s Day appeared first on The White House .",
+    "sources": [
+      {
+        "outlet": "White House",
+        "url": "https://www.whitehouse.gov/briefings-statements/2026/06/presidential-message-on-fathers-day/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "a709d76ea98b",
+    "datetime_utc": "2026-06-19T22:13:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Trump, Hegseth Praise New Medal of Honor Recipients",
+    "deck": "President Donald J.",
+    "context": "President Donald J. Trump and Secretary of War Pete Hegseth lauded the intrepid valor of three servicemen whom the commander in chief awarded the Medal of Honor to at a White House ceremony.",
+    "sources": [
+      {
+        "outlet": "U.S. Dept. of Defense",
+        "url": "https://www.war.gov/News/News-Stories/Article/Article/4522219/trump-hegseth-praise-new-medal-of-honor-recipients/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "war",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "8143b1edc7bc",
+    "datetime_utc": "2026-06-19T17:37:43.000Z",
+    "place": "WASHINGTON",
+    "what": "President Trump’s Iran Agreement Is America First in Action",
+    "deck": "President Donald J.",
+    "context": "President Donald J. Trump and Vice President JD Vance have secured a historic breakthrough by signing a Memorandum of Understanding with Iran. Forged through decisive American strength, this agreement ensures Iran will never obtain a nuclear weapon, reopens the Strait of Hormuz to free navigation, and puts America First — rejecting the failed policies of [&#8230;] The post President Trump’s Iran Agreement Is America First in Action appeared first on The White House .",
+    "sources": [
+      {
+        "outlet": "White House",
+        "url": "https://www.whitehouse.gov/releases/2026/06/president-trumps-iran-agreement-is-america-first-in-action/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "e3f8b8b8d53a",
+    "datetime_utc": "2026-06-18T19:31:26.000Z",
+    "place": "WASHINGTON",
+    "what": "Effects of Banning Anti-Competitive Hospital Contracts",
+    "deck": "Executive Summary Anti-steering, anti-tiering, and all-or-nothing bundled contracting are mechanisms by which dominant hospital systems insulate themselves from price competition: anti-steering prohibits insurers from…",
+    "context": "Executive Summary Anti-steering, anti-tiering, and all-or-nothing bundled contracting are mechanisms by which dominant hospital systems insulate themselves from price competition: anti-steering prohibits insurers from directing patients toward lower-cost providers; anti-tiering is one form of anti-steering that bars insurers from placing the dominant system in a less favorable benefit tier; and all-or-nothing contracting requires insurers to [&#8230;] The post Effects of Banning Anti-Competitive Hospital Contracts appeared first on The White House .",
+    "sources": [
+      {
+        "outlet": "White House",
+        "url": "https://www.whitehouse.gov/research/2026/06/effects-of-banning-anti-competitive-hospital-contracts/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [
+      {
+        "tenet": "power-scope",
+        "question": "Does Effects of Banning Anti-Competitive Hospital Contracts keep the executive inside the powers the Constitution enumerates (Art. I §8; 10th Amendment), or does it extend federal reach beyond them?",
+        "anchor": "Federalist No. 45 (Madison); Constitution Art. I §8; Amendment X"
+      },
+      {
+        "tenet": "historical-contrast",
+        "question": "Set against the founders’ framework and the presidents who best embodied it, is this executive action a step toward that tradition or away from it?",
+        "anchor": "The founding canon, taken as a whole"
+      }
+    ],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "8db8bb3f76e9",
+    "datetime_utc": "2026-06-18T16:35:00.000Z",
+    "place": "WASHINGTON",
+    "what": "War Department Review to Ensure 'NATO 3.0' Becomes Europe-Led Defense Alliance",
+    "deck": "The War Department plans a review of its posture and footprint in Europe to determine how the U.S.",
+    "context": "The War Department plans a review of its posture and footprint in Europe to determine how the U.S. is supporting NATO, how partners are supporting NATO and whether what's happening on the ground reflects what President Donald J. Trump and Secretary of War Pete Hegseth believe the alliance should be.",
+    "sources": [
+      {
+        "outlet": "U.S. Dept. of Defense",
+        "url": "https://www.war.gov/News/News-Stories/Article/Article/4521330/war-department-review-to-ensure-nato-30-becomes-europe-led-defense-alliance/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "war",
+    "economics_flag": false,
+    "weigh_it_questions": [
+      {
+        "tenet": "foreign-restraint",
+        "question": "Does War Department Review to Ensure 'NATO 3.0' Becomes Europe-Led Defense Alliance move American foreign policy toward permanent entanglement and standing-army interventionism, or toward the armed restraint Washington and Jefferson urged?",
+        "anchor": "Washington, Farewell Address (1796); Jefferson, First Inaugural (1801); Federalist No. 8 (Hamilton); Art. I §8 cl. 11"
+      },
+      {
+        "tenet": "historical-contrast",
+        "question": "Set against the founders’ framework and the presidents who best embodied it, is this action a step toward that tradition or away from it?",
+        "anchor": "The founding canon, taken as a whole"
+      }
+    ],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "f474bce30d4e",
+    "datetime_utc": "2026-06-18T13:23:51.000Z",
+    "place": "WASHINGTON",
+    "what": "President Trump to Award Medal of Honor",
+    "deck": "On Thursday, June 18, 2026, President Donald J.",
+    "context": "On Thursday, June 18, 2026, President Donald J. Trump will award the Medal of Honor to Major James Capers, Jr., U.S. Marine Corps (Retired), Colonel John W. Ripley, U.S. Marine Corps (Posthumous), and Major Nicholas Dockery, U.S. Army (Retired). Then-Second Lieutenant James Capers, Jr. will receive the Medal of Honor for acts of gallantry and [&#8230;] The post President Trump to Award Medal of Honor appeared first on The White House .",
+    "sources": [
+      {
+        "outlet": "White House",
+        "url": "https://www.whitehouse.gov/briefings-statements/2026/06/president-trump-to-award-medal-of-honor/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "8c1c16c73535",
+    "datetime_utc": "2026-06-18T07:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Hunter v. United States Revisions: 6/19/26",
+    "deck": "Supreme Court opinion.",
+    "context": "Reported by 2 sources. Supreme Court opinion. (Slip Opinion) OCTOBER TERM, 2025 1 Syllabus NOTE: Where it is feasible, a syllabus (headnote) will be released, as is being done in connection with this case, at the time the opinion is issued. The syllabus constitutes no part of the opinion of the Court but has been prepared by the Reporter of Decisions for the convenience of the reader. See United States v. Detroit Timber Original document",
+    "sources": [
+      {
+        "outlet": "Supreme Court (CourtListener)",
+        "url": "https://www.courtlistener.com/opinion/10877631/hunter-v-united-states-revisions-61926/",
+        "tier": "T1_gov"
+      },
+      {
+        "outlet": "Supreme Court (CourtListener)",
+        "url": "https://www.courtlistener.com/opinion/10876935/hunter-v-united-states/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "courts",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "8fa3cbab8b5a",
+    "datetime_utc": "2026-06-18T07:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "T. M. v. University of Md. Medical System Corporation Revisions: 6/19/26",
+    "deck": "Supreme Court opinion.",
+    "context": "Reported by 2 sources. Supreme Court opinion. (Slip Opinion) OCTOBER TERM, 2025 1 Syllabus NOTE: Where it is feasible, a syllabus (headnote) will be released, as is being done in connection with this case, at the time the opinion is issued. The syllabus constitutes no part of the opinion of the Court but has been prepared by the Reporter of Decisions for the convenience of the reader. See United States v. Detroit Timber Original document",
+    "sources": [
+      {
+        "outlet": "Supreme Court (CourtListener)",
+        "url": "https://www.courtlistener.com/opinion/10877643/t-m-v-university-of-md-medical-system-corporation-revisions-61926/",
+        "tier": "T1_gov"
+      },
+      {
+        "outlet": "Supreme Court (CourtListener)",
+        "url": "https://www.courtlistener.com/opinion/10876934/t-m-v-university-of-md-medical-system-corporation/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "courts",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "b4ab24881ecb",
+    "datetime_utc": "2026-06-18T07:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "United States v. Hemani",
+    "deck": "Supreme Court opinion.",
+    "context": "Supreme Court opinion. (Slip Opinion) OCTOBER TERM, 2025 1 Syllabus NOTE: Where it is feasible, a syllabus (headnote) will be released, as is being done in connection with this case, at the time the opinion is issued. The syllabus constitutes no part of the opinion of the Court but has been prepared by the Reporter of Decisions for the convenience of the reader. See United States v. Detroit Timber Original document",
+    "sources": [
+      {
+        "outlet": "Supreme Court (CourtListener)",
+        "url": "https://www.courtlistener.com/opinion/10876933/united-states-v-hemani/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "courts",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "44ffbe4a848c",
+    "datetime_utc": "2026-06-17T21:48:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Drone Dominance Program Receives First Order, Gauntlet II Gets Underway",
+    "deck": "Drone Dominance Program Gauntlet Phase II, a critical test for a battlefield that is evolving at an unprecedented pace, will kick off as the War Department gears up to order 60,000 more high-performing drones in Septe…",
+    "context": "Drone Dominance Program Gauntlet Phase II, a critical test for a battlefield that is evolving at an unprecedented pace, will kick off as the War Department gears up to order 60,000 more high-performing drones in September.",
+    "sources": [
+      {
+        "outlet": "U.S. Dept. of Defense",
+        "url": "https://www.war.gov/News/News-Stories/Article/Article/4520698/drone-dominance-program-receives-first-order-gauntlet-ii-gets-underway/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "war",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "1977b1c8e0c6",
+    "datetime_utc": "2026-06-17T18:42:00.000Z",
+    "place": "WASHINGTON",
+    "what": "USV Swarm Demonstrates Maritime Security Capabilities During Exercise Salaknib 26",
+    "deck": "Soldiers assigned to the 25th Infantry Division partnered with Philippine Army forces and industry representatives during Exercise Salaknib 2026 to demonstrate how autonomous maritime systems can enhance security and…",
+    "context": "Soldiers assigned to the 25th Infantry Division partnered with Philippine Army forces and industry representatives during Exercise Salaknib 2026 to demonstrate how autonomous maritime systems can enhance security and protect critical transportation operations in contested environments.",
+    "sources": [
+      {
+        "outlet": "U.S. Dept. of Defense",
+        "url": "https://www.war.gov/News/News-Stories/Article/Article/4519923/usv-swarm-demonstrates-maritime-security-capabilities-during-exercise-salaknib/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "346a1392277e",
+    "datetime_utc": "2026-06-17T18:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+    "deck": "Federal Reserve · June 17, 2026.",
+    "context": "Reported by 2 sources. Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+    "sources": [
+      {
+        "outlet": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
+        "tier": "T1_gov"
+      },
+      {
+        "outlet": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318b.htm",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "economics",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "f53992639dab",
+    "datetime_utc": "2026-06-17T18:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Federal Reserve issues FOMC statement",
+    "deck": "Federal Reserve · June 17, 2026.",
+    "context": "Reported by 4 sources. Federal Reserve issues FOMC statement",
+    "sources": [
+      {
+        "outlet": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+        "tier": "T1_gov"
+      },
+      {
+        "outlet": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
+        "tier": "T1_gov"
+      },
+      {
+        "outlet": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a.htm",
+        "tier": "T1_gov"
+      },
+      {
+        "outlet": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260128a.htm",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "economics",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "05bd2c69a524",
+    "datetime_utc": "2026-06-17T17:36:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Team Army Opens 2026 Warrior Games With Eight Powerlifting Medals",
+    "deck": "Team Army earned eight medals in powerlifting on the first day of competition during the 2026 Warrior Games in San Antonio, while demonstrating that the greatest victories often extend far beyond the podium.",
+    "context": "Team Army earned eight medals in powerlifting on the first day of competition during the 2026 Warrior Games in San Antonio, while demonstrating that the greatest victories often extend far beyond the podium.",
+    "sources": [
+      {
+        "outlet": "U.S. Dept. of Defense",
+        "url": "https://www.war.gov/News/News-Stories/Article/Article/4519929/team-army-opens-2026-warrior-games-with-eight-powerlifting-medals/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "426a086728d5",
+    "datetime_utc": "2026-06-17T15:57:08.000Z",
+    "place": "WASHINGTON",
+    "what": "Trump Administration Delivers Another Crushing Blow to Antifa Terrorist Network",
+    "deck": "Last year, President Donald J.",
+    "context": "Last year, President Donald J. Trump designated Antifa a domestic terrorist organization and directed the full power of the federal government to hunt down, disrupt, and dismantle the violent anarchist network. This week, the Department of Justice struck another decisive blow by charging 15 Antifa-linked terrorists in a conspiracy to violently obstruct lawful immigration enforcement [&#8230;] The post Trump Administration Delivers Another Crushing Blow to Antifa Terrorist Network appeared first on The White House .",
+    "sources": [
+      {
+        "outlet": "White House",
+        "url": "https://www.whitehouse.gov/releases/2026/06/trump-administration-delivers-another-crushing-blow-to-antifa-terrorist-network/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "courts",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "0454c7942094",
+    "datetime_utc": "2026-06-17T13:23:49.000Z",
+    "place": "WASHINGTON",
+    "what": "WHAT THEY ARE SAYING: First Lady Melania Trump Launches Fostering the Future Accounts",
+    "deck": "Last week, First Lady Melania Trump&#160;launched Fostering the Future Accounts, a new financial resource established to empower foster youth to be fiscally autonomous in adulthood.",
+    "context": "Last week, First Lady Melania Trump&#160;launched Fostering the Future Accounts, a new financial resource established to empower foster youth to be fiscally autonomous in adulthood. Developed in partnership with the Department of the Treasury, these accounts will provide eligible youth in foster care with tax-advantaged investment and savings accounts to help build long-term financial stability [&#8230;] The post WHAT THEY ARE SAYING: First Lady Melania Trump Launches Fostering the Future Accounts appeared first on The White House .",
+    "sources": [
+      {
+        "outlet": "White House",
+        "url": "https://www.whitehouse.gov/briefings-statements/2026/06/what-they-are-saying-first-lady-melania-trump-launches-fostering-the-future-accounts/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "economics",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "9dae693527a5",
+    "datetime_utc": "2026-06-16T22:19:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Project Patriot Pipeline Crafting Avenues of Service for Skilled Workers",
+    "deck": "The War Department's Project Patriot Pipeline is an initiative designed to provide a flow of skilled workers to meet the department's needs, while simultaneously supporting the defense industrial base.",
+    "context": "The War Department's Project Patriot Pipeline is an initiative designed to provide a flow of skilled workers to meet the department's needs, while simultaneously supporting the defense industrial base.",
+    "sources": [
+      {
+        "outlet": "U.S. Dept. of Defense",
+        "url": "https://www.war.gov/News/News-Stories/Article/Article/4519056/project-patriot-pipeline-crafting-avenues-of-service-for-skilled-workers/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "war",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "144d9fe5f0a0",
+    "datetime_utc": "2026-06-16T18:07:26.000Z",
+    "place": "WASHINGTON",
+    "what": "“Excellent Choice”: Jay Clayton Earns Broad Praise as President Trump’s DNI Nominee",
+    "deck": "President Donald J.",
+    "context": "President Donald J. Trump’s nomination of Jay Clayton as Director of National Intelligence is drawing strong bipartisan acclaim across Capitol Hill and beyond. A former U.S. Attorney for the Southern District of New York — where he aggressively prosecuted terrorists, cartels, and major national security threats — and former Chair of the Securities and Exchange [&#8230;] The post “Excellent Choice”: Jay Clayton Earns Broad Praise as President Trump’s DNI Nominee appeared first on The White House .",
+    "sources": [
+      {
+        "outlet": "White House",
+        "url": "https://www.whitehouse.gov/releases/2026/06/excellent-choice-jay-clayton-earns-broad-praise-as-president-trumps-dni-nominee/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "927bca68673f",
+    "datetime_utc": "2026-06-16T14:29:12.000Z",
+    "place": "WASHINGTON",
+    "what": "White House CEQ to Convene Leading Innovators with Promising Permitting Technology",
+    "deck": "CEQ invites industry to showcase solutions at the inaugural Permitting Innovators Expo.",
+    "context": "CEQ invites industry to showcase solutions at the inaugural Permitting Innovators Expo. Today, the Council on Environmental Quality, in collaboration with NASA’s Center of Excellence for Collaborative Innovation, opened the attendee interest form for the Permitting Innovators Expo — a full-day event focused on shaping the future of environmental review and permitting through public-private collaboration. [&#8230;] The post White House CEQ to Convene Leading Innovators with Promising Permitting Technology appeared first on The White House .",
+    "sources": [
+      {
+        "outlet": "White House",
+        "url": "https://www.whitehouse.gov/releases/2026/06/white-house-ceq-to-convene-leading-innovators-with-promising-permitting-technology/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "0f0527720bb7",
+    "datetime_utc": "2026-06-16T07:00:00.000Z",
+    "place": "LONDON",
+    "what": "West Midlands Police: Government Support",
+    "deck": "UK Parliament (Hansard) verbatim record.",
+    "context": "UK Parliament (Hansard) verbatim record. West Midlands Police: Government Support",
+    "sources": [
+      {
+        "outlet": "UK Hansard",
+        "url": "https://hansard.parliament.uk/Commons/debates/E4319D15-F78F-494B-B1F3-5FF0EF754C5E",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "0d680087e981",
+    "datetime_utc": "2026-06-16T00:02:15.000Z",
+    "place": "WASHINGTON",
+    "what": "America 250: Presidential Message on the Anniversary of the Signing of Magna Carta",
+    "deck": "Today, we celebrate&#160;the&#160;anniversary of the&#160;adoption of&#160;Magna Carta—one of&#160;history’s&#160;earliest and most consequential declarations of&#160;human freedom.&#160;&#160;Forged&#160;over 500 yea…",
+    "context": "Today, we celebrate&#160;the&#160;anniversary of the&#160;adoption of&#160;Magna Carta—one of&#160;history’s&#160;earliest and most consequential declarations of&#160;human freedom.&#160;&#160;Forged&#160;over 500 years before the dawn of our Republic, its eternal principles of equal justice, liberty, and the rule of law would ultimately leave an indelible mark on the American way of life.&#160; On June 15, 1215, King John of England affixed [&#8230;] The post America 250: Presidential Message on the Anniversary of the Signing of Magna Carta appeared first on The White House .",
+    "sources": [
+      {
+        "outlet": "White House",
+        "url": "https://www.whitehouse.gov/briefings-statements/2026/06/america-250-presidential-message-on-the-anniversary-of-the-signing-of-magna-carta/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "courts",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "82a9572fee95",
+    "datetime_utc": "2026-06-15T21:53:41.000Z",
+    "place": "WASHINGTON",
+    "what": "Nominations Sent to the Senate",
+    "deck": "NOMINATIONS SENT TO THE SENATE: James Andrew Crowell IV, of the District of Columbia, to be an Associate Judge of the District of Columbia Court of Appeals for the term of fifteen years.",
+    "context": "Reported by 2 sources. NOMINATIONS SENT TO THE SENATE: James Andrew Crowell IV, of the District of Columbia, to be an Associate Judge of the District of Columbia Court of Appeals for the term of fifteen years. Stuart Gordon Nash, of the District of Columbia, to be an Associate Judge of the District of Columbia Court of Appeals for [&#8230;] The post Nominations Sent to the Senate appeared first on The White House .",
+    "sources": [
+      {
+        "outlet": "White House",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/06/nominations-sent-to-the-senate-4101/",
+        "tier": "T1_gov"
+      },
+      {
+        "outlet": "White House",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/06/nominations-and-withdrawal-sent-to-the-senate-9d32/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "courts",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "3db47b774a26",
+    "datetime_utc": "2026-06-15T16:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Presidential Message on Men’s Health Week",
+    "deck": "This Men’s Health Week, I pledge my commitment to ensuring our Nation’s men have the resources they need to be healthy, resilient, and capable of doing what they do best—caring for their families, uplifting their comm…",
+    "context": "This Men’s Health Week, I pledge my commitment to ensuring our Nation’s men have the resources they need to be healthy, resilient, and capable of doing what they do best—caring for their families, uplifting their communities, and forging an even brighter, more prosperous future for America.&#160; The health challenges men face every day are serious [&#8230;] The post Presidential Message on Men’s Health Week appeared first on The White House .",
+    "sources": [
+      {
+        "outlet": "White House",
+        "url": "https://www.whitehouse.gov/briefings-statements/2026/06/presidential-message-on-mens-health-week/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "6d5785e66f00",
+    "datetime_utc": "2026-06-15T07:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Alabama v. Powell",
+    "deck": "Supreme Court opinion.",
+    "context": "Supreme Court opinion. Cite as: 608 U. S. ____ (2026) 1 ALITO, J., dissenting SUPREME COURT OF THE UNITED STATES ALABAMA v. MICHAEL ANTHONY POWELL ON PETITION FOR WRIT OF CERTIORARI TO THE COURT OF CRIMINAL APPEALS OF ALABAMA No. 25–848. Decided June 15, 2026 The motion of respondent for leave to proceed in forma pauperis is granted. The petition for a writ of certiorari is denied. JUSTICE ALITO, with whom JUSTICE THOMAS joins Original document",
+    "sources": [
+      {
+        "outlet": "Supreme Court (CourtListener)",
+        "url": "https://www.courtlistener.com/opinion/10875029/alabama-v-powell/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "courts",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "cac0da366eb0",
+    "datetime_utc": "2026-06-15T07:00:00.000Z",
+    "place": "LONDON",
+    "what": "Housing, Communities and Local Government",
+    "deck": "UK Parliament (Hansard) verbatim record.",
+    "context": "UK Parliament (Hansard) verbatim record. Housing, Communities and Local Government",
+    "sources": [
+      {
+        "outlet": "UK Hansard",
+        "url": "https://hansard.parliament.uk/Commons/debates/FF815B39-C69A-4D12-8DC6-AC924B8D4092",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "80a37da45e5c",
+    "datetime_utc": "2026-06-14T18:42:20.000Z",
+    "place": "WASHINGTON",
+    "what": "Presidential Message on the 251st Birthday of the United States Army",
+    "deck": "Today, our Nation celebrates the 251st birthday of the United States Army, the oldest branch of the most storied and feared fighting force the world has ever known.&#160; For over two and a half centuries, the courage…",
+    "context": "Today, our Nation celebrates the 251st birthday of the United States Army, the oldest branch of the most storied and feared fighting force the world has ever known.&#160; For over two and a half centuries, the courage and sacrifice of our soldiers have defended our homeland and kept our Nation sovereign, strong, and free in [&#8230;] The post Presidential Message on the 251st Birthday of the United States Army appeared first on The White House .",
+    "sources": [
+      {
+        "outlet": "White House",
+        "url": "https://www.whitehouse.gov/briefings-statements/2026/06/presidential-message-on-the-251st-birthday-of-the-united-states-army/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "2144a7816875",
+    "datetime_utc": "2026-06-12T19:24:42.000Z",
+    "place": "WASHINGTON",
+    "what": "National Homeownership Month, 2026",
+    "deck": "BY THE PRESIDENT OF THE UNITED STATES OF AMERICA A PROCLAMATION During National Homeownership Month, my Administration recommits to making housing more affordable so that young Americans and hardworking families can r…",
+    "context": "BY THE PRESIDENT OF THE UNITED STATES OF AMERICA A PROCLAMATION During National Homeownership Month, my Administration recommits to making housing more affordable so that young Americans and hardworking families can raise children, build memories, and create a future in a home of their own. For too long, reckless spending, burdensome regulations, and failed housing [&#8230;] The post National Homeownership Month, 2026 appeared first on The White House .",
+    "sources": [
+      {
+        "outlet": "White House",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/06/national-homeownership-month-2026/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "19ac9747ffce",
+    "datetime_utc": "2026-06-12T19:22:08.000Z",
+    "place": "WASHINGTON",
+    "what": "Flag Day and National Flag Week, 2026",
+    "deck": "BY THE PRESIDENT OF THE UNITED STATES OF AMERICA A PROCLAMATION On June 14, 1777, the delegates of the Second Continental Congress adopted a resolution declaring &#8220;that the flag of the United States be thirteen s…",
+    "context": "BY THE PRESIDENT OF THE UNITED STATES OF AMERICA A PROCLAMATION On June 14, 1777, the delegates of the Second Continental Congress adopted a resolution declaring &#8220;that the flag of the United States be thirteen stripes, alternate red and white; that the union be thirteen stars, white in a blue field, representing a new Constellation.&#8221; [&#8230;] The post Flag Day and National Flag Week, 2026 appeared first on The White House .",
+    "sources": [
+      {
+        "outlet": "White House",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/06/flag-day-and-national-flag-week-2026/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "7ca3b7a14d08",
+    "datetime_utc": "2026-06-12T19:19:12.000Z",
+    "place": "WASHINGTON",
+    "what": "National Security Presidential Memorandum/NSPM-12",
+    "deck": "MEMORANDUM FOR THE VICE PRESIDENT THE SECRETARY OF STATE THE SECRETARY OF THE TREASURY THE SECRETARY OF WAR THE ATTORNEY GENERAL THE SECRETARY OF THE INTERIOR THE SECRETARY OF AGRICULTURE THE SECRETARY OF COMMERCE THE…",
+    "context": "Reported by 2 sources. MEMORANDUM FOR THE VICE PRESIDENT THE SECRETARY OF STATE THE SECRETARY OF THE TREASURY THE SECRETARY OF WAR THE ATTORNEY GENERAL THE SECRETARY OF THE INTERIOR THE SECRETARY OF AGRICULTURE THE SECRETARY OF COMMERCE THE SECRETARY OF LABOR THE SECRETARY OF HEALTH AND HUMAN SERVICES THE SECRETARY OF HOUSING AND URBAN DEVELOPMENT THE SECRETARY OF [&#8230;] The post National Security Presidential Memorandum/NSPM-12 appeared first on The White House .",
+    "sources": [
+      {
+        "outlet": "White House",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/06/national-security-presidential-memorandum-nspm-12/",
+        "tier": "T1_gov"
+      },
+      {
+        "outlet": "White House",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/06/national-security-presidential-memorandum-nspm-11/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "war",
+    "economics_flag": true,
+    "weigh_it_questions": [
+      {
+        "tenet": "power-scope",
+        "question": "Does National Security Presidential Memorandum/NSPM-12 keep the executive inside the powers the Constitution enumerates (Art. I §8; 10th Amendment), or does it extend federal reach beyond them?",
+        "anchor": "Federalist No. 45 (Madison); Constitution Art. I §8; Amendment X"
+      },
+      {
+        "tenet": "historical-contrast",
+        "question": "Set against the founders’ framework and the presidents who best embodied it, is this executive action a step toward that tradition or away from it?",
+        "anchor": "The founding canon, taken as a whole"
+      }
+    ],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "09ed0e49552b",
+    "datetime_utc": "2026-06-11T20:27:44.000Z",
+    "place": "WASHINGTON",
+    "what": "75th Anniversary of the White House Navy Mess, 2026",
+    "deck": "BY THE PRESIDENT OF THE UNITED STATES OF AMERICA A PROCLAMATION On June 11, 1951, President Harry S.",
+    "context": "BY THE PRESIDENT OF THE UNITED STATES OF AMERICA A PROCLAMATION On June 11, 1951, President Harry S. Truman formally established a unit of the United States Navy to provide culinary services to the Commander in Chief and the First Family.&#160; For 75 years, the elite service members assigned to the Presidential Food Service have [&#8230;] The post 75th Anniversary of the White House Navy Mess, 2026 appeared first on The White House .",
+    "sources": [
+      {
+        "outlet": "White House",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/06/75th-anniversary-of-the-white-house-navy-mess-2026/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "425f610f9f1b",
+    "datetime_utc": "2026-06-11T20:25:24.000Z",
+    "place": "WASHINGTON",
+    "what": "Restoring American Commercial Fishing in the Pacific",
+    "deck": "BY THE PRESIDENT OF THE UNITED STATES OF AMERICA A PROCLAMATION Building on prior actions to strengthen American seafood production and support working fishing communities, this proclamation restores access to hundred…",
+    "context": "BY THE PRESIDENT OF THE UNITED STATES OF AMERICA A PROCLAMATION Building on prior actions to strengthen American seafood production and support working fishing communities, this proclamation restores access to hundreds of thousands of square miles of Pacific waters for commercial fishing managed under existing Federal law. &#160;I have determined that restoring access to responsibly [&#8230;] The post Restoring American Commercial Fishing in the Pacific appeared first on The White House .",
+    "sources": [
+      {
+        "outlet": "White House",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/06/restoring-american-commercial-fishing-in-the-pacific/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "c9a179cd40b7",
+    "datetime_utc": "2026-06-10T07:00:00.000Z",
+    "place": "LONDON",
+    "what": "Local Government Reform",
+    "deck": "UK Parliament (Hansard) verbatim record.",
+    "context": "UK Parliament (Hansard) verbatim record. Local Government Reform",
+    "sources": [
+      {
+        "outlet": "UK Hansard",
+        "url": "https://hansard.parliament.uk/Commons/debates/02F6BCAE-6D7F-48AB-AA63-6922DBAB5D5E",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "1c2be895b681",
+    "datetime_utc": "2026-06-10T07:00:00.000Z",
+    "place": "LONDON",
+    "what": "Concealed Surveillance Equipment in Government Offices and Vehicles",
+    "deck": "UK Parliament (Hansard) verbatim record.",
+    "context": "UK Parliament (Hansard) verbatim record. Concealed Surveillance Equipment in Government Offices and Vehicles",
+    "sources": [
+      {
+        "outlet": "UK Hansard",
+        "url": "https://hansard.parliament.uk/Commons/debates/903BAB13-443D-4C20-A844-18B3694F6543",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "fa0cb7e2a23b",
+    "datetime_utc": "2026-06-05T08:30:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Payroll employment increases by 172,000 in May; unemployment rate unchanged at 4.3%",
+    "deck": "Total nonfarm payroll employment increased by 172,000 in May, and the unemployment rate was unchanged at 4.3 percent.",
+    "context": "Reported by 3 sources. Total nonfarm payroll employment increased by 172,000 in May, and the unemployment rate was unchanged at 4.3 percent. Job gains occurred in leisure and hospitality, local government, and health care. Employment in financial activities declined.",
+    "sources": [
+      {
+        "outlet": "Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/news.release/archives/empsit_06052026.htm",
+        "tier": "T1_gov"
+      },
+      {
+        "outlet": "Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/news.release/archives/empsit_05082026.htm",
+        "tier": "T1_gov"
+      },
+      {
+        "outlet": "Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/news.release/archives/empsit_06062025.htm",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "economics",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "12030b070c09",
+    "datetime_utc": "2026-06-04T22:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Granting Pardon to Stephen E. Buyer",
+    "deck": "BY THE PRESIDENT OF THE UNITED STATES OF AMERICA A PROCLAMATION Acting pursuant to the grant of authority in Article II, Section 2, of the Constitution of the United States, and upon the advice and recommendation of t…",
+    "context": "BY THE PRESIDENT OF THE UNITED STATES OF AMERICA A PROCLAMATION Acting pursuant to the grant of authority in Article II, Section 2, of the Constitution of the United States, and upon the advice and recommendation of the individuals listed below, I, DONALD J. TRUMP, President of the United States, do hereby grant a full, [&#8230;] The post Granting Pardon to Stephen E. Buyer appeared first on The White House .",
+    "sources": [
+      {
+        "outlet": "White House",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/06/granting-pardon-to-stephen-e-buyer/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "fd820eeeddc0",
+    "datetime_utc": "2026-06-04T07:00:00.000Z",
+    "place": "LONDON",
+    "what": "High Street Businesses: Government Support",
+    "deck": "UK Parliament (Hansard) verbatim record.",
+    "context": "UK Parliament (Hansard) verbatim record. High Street Businesses: Government Support",
+    "sources": [
+      {
+        "outlet": "UK Hansard",
+        "url": "https://hansard.parliament.uk/Commons/debates/A729F963-E372-4968-8287-29C63B80E519",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "d51c877f1f33",
+    "datetime_utc": "2026-06-03T20:35:52.000Z",
+    "place": "WASHINGTON",
+    "what": "Strengthening Customs Enforcement",
+    "deck": "By the authority vested in me as President by the Constitution and the laws of the United States of America, I&#160;hereby determine and order: Section 1.",
+    "context": "By the authority vested in me as President by the Constitution and the laws of the United States of America, I&#160;hereby determine and order: Section 1. Purpose. Customs enforcement is essential to the national security, foreign policy, and economy of the United States. Effective customs enforcement prevents the importation of unlawful and dangerous goods; ensures importers [&#8230;] The post Strengthening Customs Enforcement appeared first on The White House .",
+    "sources": [
+      {
+        "outlet": "White House",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/06/strengthening-customs-enforcement/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [
+      {
+        "tenet": "power-scope",
+        "question": "Does Strengthening Customs Enforcement keep the executive inside the powers the Constitution enumerates (Art. I §8; 10th Amendment), or does it extend federal reach beyond them?",
+        "anchor": "Federalist No. 45 (Madison); Constitution Art. I §8; Amendment X"
+      },
+      {
+        "tenet": "historical-contrast",
+        "question": "Set against the founders’ framework and the presidents who best embodied it, is this executive action a step toward that tradition or away from it?",
+        "anchor": "The founding canon, taken as a whole"
+      }
+    ],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "f77d2fc466ef",
+    "datetime_utc": "2026-06-03T20:34:27.000Z",
+    "place": "WASHINGTON",
+    "what": "Implementing Schedule Policy/Career in the Excepted Service",
+    "deck": "By the authority vested in me as President by the Constitution and the laws of the United States of America, including sections 3301, 3302, 5595 and 7511 of title 5, United&#160;States Code, it is hereby ordered: Sect…",
+    "context": "By the authority vested in me as President by the Constitution and the laws of the United States of America, including sections 3301, 3302, 5595 and 7511 of title 5, United&#160;States Code, it is hereby ordered: Section 1. Purpose. The President relies on subordinates in the executive branch to help him faithfully execute the laws [&#8230;] The post Implementing Schedule Policy/Career in the Excepted Service appeared first on The White House .",
+    "sources": [
+      {
+        "outlet": "White House",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/06/implementing-schedule-policy-career-in-the-excepted-service/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [
+      {
+        "tenet": "power-scope",
+        "question": "Does Implementing Schedule Policy/Career in the Excepted Service keep the executive inside the powers the Constitution enumerates (Art. I §8; 10th Amendment), or does it extend federal reach beyond them?",
+        "anchor": "Federalist No. 45 (Madison); Constitution Art. I §8; Amendment X"
+      },
+      {
+        "tenet": "historical-contrast",
+        "question": "Set against the founders’ framework and the presidents who best embodied it, is this executive action a step toward that tradition or away from it?",
+        "anchor": "The founding canon, taken as a whole"
+      }
+    ],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "b941e7c4aaf4",
+    "datetime_utc": "2026-06-03T07:00:00.000Z",
+    "place": "LONDON",
+    "what": "Cabinet Manual: Guidelines for Government Formation",
+    "deck": "UK Parliament (Hansard) verbatim record.",
+    "context": "UK Parliament (Hansard) verbatim record. Cabinet Manual: Guidelines for Government Formation",
+    "sources": [
+      {
+        "outlet": "UK Hansard",
+        "url": "https://hansard.parliament.uk/Commons/debates/667B2BEC-C603-4078-8565-5B034ACE3EA6",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "b8b1ceaeed6f",
+    "datetime_utc": "2026-06-02T15:34:13.000Z",
+    "place": "WASHINGTON",
+    "what": "Promoting Advanced Artificial Intelligence Innovation and Security",
+    "deck": "By the authority vested in me as President by the Constitution and the laws of the United States of America, it is hereby ordered: Section 1.",
+    "context": "By the authority vested in me as President by the Constitution and the laws of the United States of America, it is hereby ordered: Section 1. Purpose. The United States continues to lead the world in Artificial Intelligence (AI) because of the enormous talent and innovation of our AI industry, and because we refuse to [&#8230;] The post Promoting Advanced Artificial Intelligence Innovation and Security appeared first on The White House .",
+    "sources": [
+      {
+        "outlet": "White House",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [
+      {
+        "tenet": "power-scope",
+        "question": "Does Promoting Advanced Artificial Intelligence Innovation and Security keep the executive inside the powers the Constitution enumerates (Art. I §8; 10th Amendment), or does it extend federal reach beyond them?",
+        "anchor": "Federalist No. 45 (Madison); Constitution Art. I §8; Amendment X"
+      },
+      {
+        "tenet": "historical-contrast",
+        "question": "Set against the founders’ framework and the presidents who best embodied it, is this executive action a step toward that tradition or away from it?",
+        "anchor": "The founding canon, taken as a whole"
+      }
+    ],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "c4206117db7c",
+    "datetime_utc": "2026-06-02T01:09:17.000Z",
+    "place": "WASHINGTON",
+    "what": "Further Adjusting the Tariff Regimes for Imports of Aluminum, Steel, and Copper into the United States",
+    "deck": "BY THE PRESIDENT OF THE UNITED STATES OF AMERICA A PROCLAMATION 1.&#160; In Proclamation 9704 of March 8, 2018 (Adjusting Imports of Aluminum Into the United States), as amended; Proclamation 9705 of March 8, 2018 (Ad…",
+    "context": "BY THE PRESIDENT OF THE UNITED STATES OF AMERICA A PROCLAMATION 1.&#160; In Proclamation 9704 of March 8, 2018 (Adjusting Imports of Aluminum Into the United States), as amended; Proclamation 9705 of March 8, 2018 (Adjusting Imports of Steel Into the United States), as amended; and Proclamation 10962 of July 30, 2025 (Adjusting Imports of [&#8230;] The post Further Adjusting the Tariff Regimes for Imports of Aluminum, Steel, and Copper into the United States appeared first on The White House .",
+    "sources": [
+      {
+        "outlet": "White House",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/06/further-adjusting-the-tariff-regimes-for-imports-of-aluminum-steel-and-copper-into-the-united-states/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "economics",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "c06350b49ca2",
+    "datetime_utc": "2026-06-01T07:00:00.000Z",
+    "place": "LONDON",
+    "what": "Coastal Communities: Government Support",
+    "deck": "UK Parliament (Hansard) verbatim record.",
+    "context": "UK Parliament (Hansard) verbatim record. Coastal Communities: Government Support",
+    "sources": [
+      {
+        "outlet": "UK Hansard",
+        "url": "https://hansard.parliament.uk/Commons/debates/0F7650A3-C170-46DC-9B88-2E1B781662D5",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "0c0eef3320b7",
+    "datetime_utc": "2026-05-29T22:03:02.000Z",
+    "place": "WASHINGTON",
+    "what": "Realigning United States Core Childhood Vaccine Recommendations with Best Practices from Peer, Developed Countries",
+    "deck": "By the authority vested in me as President by the Constitution and the laws of the United States of America, it is hereby ordered: Section 1.",
+    "context": "By the authority vested in me as President by the Constitution and the laws of the United States of America, it is hereby ordered: Section 1. Purpose and Policy. Pursuant to the Presidential Memorandum of December 5, 2025 (Aligning United States Core Childhood Vaccine Recommendations with Best Practices from Peer, Developed Countries) (Memorandum), the Department of [&#8230;] The post Realigning United States Core Childhood Vaccine Recommendations with Best Practices from Peer, Developed Countries appeared first on The White House .",
+    "sources": [
+      {
+        "outlet": "White House",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/05/realigning-united-states-core-childhood-vaccine-recommendations-with-best-practices-from-peer-developed-countries/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [
+      {
+        "tenet": "power-scope",
+        "question": "Does Realigning United States Core Childhood Vaccine Recommendations with Best Practices from Peer, Developed Countries keep the executive inside the powers the Constitution enumerates (Art. I §8; 10th Amendment), or does it extend federal reach beyond them?",
+        "anchor": "Federalist No. 45 (Madison); Constitution Art. I §8; Amendment X"
+      },
+      {
+        "tenet": "historical-contrast",
+        "question": "Set against the founders’ framework and the presidents who best embodied it, is this executive action a step toward that tradition or away from it?",
+        "anchor": "The founding canon, taken as a whole"
+      }
+    ],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "484501e97d10",
+    "datetime_utc": "2026-05-29T21:50:13.000Z",
+    "place": "WASHINGTON",
+    "what": "Approving Critical Position Pay Authority for National Security Investment Workforce",
+    "deck": "MEMORANDUM FOR THE DIRECTOR OF THE OFFICE OF PERSONNEL MANAGEMENT SUBJECT: Approving Critical Position Pay Authority for National Security Investment Workforce Pursuant to the authority vested in me under 5 U.S.C.",
+    "context": "MEMORANDUM FOR THE DIRECTOR OF THE OFFICE OF PERSONNEL MANAGEMENT SUBJECT: Approving Critical Position Pay Authority for National Security Investment Workforce Pursuant to the authority vested in me under 5 U.S.C. 5377(d)(2) and 5 C.F.R. 535.103(a)(3) and 535.104(c), I hereby approve the use of critical position pay for up to 400 positions supporting investment [&#8230;] The post Approving Critical Position Pay Authority for National Security Investment Workforce appeared first on The White House .",
+    "sources": [
+      {
+        "outlet": "White House",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/05/approving-critical-position-pay-authority-for-national-security-investment-workforce/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "eb73e93e8c06",
+    "datetime_utc": "2026-05-29T21:48:41.000Z",
+    "place": "WASHINGTON",
+    "what": "Removing Unnecessary and Counterproductive Restrictions on Access to Federal Lands",
+    "deck": "By the authority vested in me as President by the Constitution and the laws of the United States of America, it is hereby ordered: Section 1.",
+    "context": "By the authority vested in me as President by the Constitution and the laws of the United States of America, it is hereby ordered: Section 1. Purpose. My Administration has eliminated a record number of unnecessary regulations to further our Nation’s prosperity and reduce regulatory burdens on industries critical to our national and economic security [&#8230;] The post Removing Unnecessary and Counterproductive Restrictions on Access to Federal Lands appeared first on The White House .",
+    "sources": [
+      {
+        "outlet": "White House",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/05/removing-unnecessary-and-counterproductive-restrictions-on-access-to-federal-lands/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "economics",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "c72c68ee8c58",
+    "datetime_utc": "2026-05-26T18:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
+    "deck": "Minutes of the Board&#39;s discount rate meeting on April 20 and 29, 2026",
+    "context": "Minutes of the Board&#39;s discount rate meeting on April 20 and 29, 2026",
+    "sources": [
+      {
+        "outlet": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "other",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "0856ad7ae540",
+    "datetime_utc": "2026-05-23T03:11:28.000Z",
+    "place": "WASHINGTON",
+    "what": "Memorial Day, 2026",
+    "deck": "BY THE PRESIDENT OF THE UNITED STATES OF AMERICA A PROCLAMATION The greatest fighting force the world has ever known is&#160;built upon the&#160;extraordinary service&#160;of selfless men and women who&#160;safeguard…",
+    "context": "BY THE PRESIDENT OF THE UNITED STATES OF AMERICA A PROCLAMATION The greatest fighting force the world has ever known is&#160;built upon the&#160;extraordinary service&#160;of selfless men and women who&#160;safeguard our liberty and preserve our way of life. &#160;Since the birth of our Nation nearly 250 years ago, countless souls have lost their lives in this [&#8230;] The post Memorial Day, 2026 appeared first on The White House .",
+    "sources": [
+      {
+        "outlet": "White House",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/05/memorial-day-2026/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "270e3e1750b9",
+    "datetime_utc": "2026-05-20T18:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Minutes of the Federal Open Market Committee, April 28-29, 2026",
+    "deck": "Federal Reserve · May 20, 2026.",
+    "context": "Reported by 3 sources. Minutes of the Federal Open Market Committee, April 28-29, 2026",
+    "sources": [
+      {
+        "outlet": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260520a.htm",
+        "tier": "T1_gov"
+      },
+      {
+        "outlet": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260408a.htm",
+        "tier": "T1_gov"
+      },
+      {
+        "outlet": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260218a.htm",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "economics",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "335929d6dc01",
+    "datetime_utc": "2026-05-19T07:00:00.000Z",
+    "place": "LONDON",
+    "what": "Climate Change: Government Action",
+    "deck": "UK Parliament (Hansard) verbatim record.",
+    "context": "UK Parliament (Hansard) verbatim record. Climate Change: Government Action",
+    "sources": [
+      {
+        "outlet": "UK Hansard",
+        "url": "https://hansard.parliament.uk/Commons/debates/59B44E32-C2ED-4629-85DE-890382BF00AC",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "ba3f83a7cd94",
+    "datetime_utc": "2026-05-18T07:00:00.000Z",
+    "place": "LONDON",
+    "what": "Local Government Pension Fund",
+    "deck": "UK Parliament (Hansard) verbatim record.",
+    "context": "UK Parliament (Hansard) verbatim record. Local Government Pension Fund",
+    "sources": [
+      {
+        "outlet": "UK Hansard",
+        "url": "https://hansard.parliament.uk/Commons/debates/4954FE95-3653-4279-8D56-7788A24F9F90",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "81ff273d97f9",
+    "datetime_utc": "2026-04-29T07:00:00.000Z",
+    "place": "LONDON",
+    "what": "Agriculture: Government Support",
+    "deck": "UK Parliament (Hansard) verbatim record.",
+    "context": "UK Parliament (Hansard) verbatim record. Agriculture: Government Support",
+    "sources": [
+      {
+        "outlet": "UK Hansard",
+        "url": "https://hansard.parliament.uk/Commons/debates/339F8A93-483E-4E46-A4B4-C0CEA21FDB9D",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "bbfb51ef2297",
+    "datetime_utc": "2026-04-14T18:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Minutes of the Board’s discount rate meetings on February 9 and March 18, 2026",
+    "deck": "Federal Reserve · April 14, 2026.",
+    "context": "Reported by 2 sources. Minutes of the Board’s discount rate meetings on February 9 and March 18, 2026",
+    "sources": [
+      {
+        "outlet": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260414a.htm",
+        "tier": "T1_gov"
+      },
+      {
+        "outlet": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260224a.htm",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "other",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "60fcbf177f15",
+    "datetime_utc": "2026-04-03T08:30:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Payroll employment increases by 178,000 in March; unemployment rate changes little at 4.3%",
+    "deck": "Total nonfarm payroll employment increased by 178,000 in March, and the unemployment rate changed little at 4.3 percent.",
+    "context": "Reported by 4 sources. Total nonfarm payroll employment increased by 178,000 in March, and the unemployment rate changed little at 4.3 percent. Job gains occurred in health care, in construction, and in transportation and warehousing. Federal government employment continued to decline.",
+    "sources": [
+      {
+        "outlet": "Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/news.release/archives/empsit_04032026.htm",
+        "tier": "T1_gov"
+      },
+      {
+        "outlet": "Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/news.release/archives/empsit_02112026.htm",
+        "tier": "T1_gov"
+      },
+      {
+        "outlet": "Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/news.release/archives/empsit_11202025.htm",
+        "tier": "T1_gov"
+      },
+      {
+        "outlet": "Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/news.release/archives/empsit_07032025.htm",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "economics",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "84201b5ae03d",
+    "datetime_utc": "2026-03-06T08:30:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Payroll employment edges down 92,000 in February; unemployment rate changes little at 4.4%",
+    "deck": "Total nonfarm payroll employment edged down by 92,000 in February, and the unemployment rate changed little at 4.4 percent.",
+    "context": "Total nonfarm payroll employment edged down by 92,000 in February, and the unemployment rate changed little at 4.4 percent. Employment in health care decreased, reflecting strike activity. Employment in information and federal government continued to trend down.",
+    "sources": [
+      {
+        "outlet": "Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/news.release/archives/empsit_03062026.htm",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "war",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "1c9420e740d3",
+    "datetime_utc": "2026-01-28T19:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Federal Open Market Committee reaffirms its \"Statement on Longer-Run Goals and Monetary Policy Strategy\"",
+    "deck": "Federal Reserve · January 28, 2026.",
+    "quote": "Statement on Longer-Run Goals and Monetary Policy Strategy",
+    "context": "Federal Open Market Committee reaffirms its \"Statement on Longer-Run Goals and Monetary Policy Strategy\"",
+    "sources": [
+      {
+        "outlet": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260128b.htm",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "economics",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "68551553506e",
+    "datetime_utc": "2026-01-09T08:30:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Both payroll employment (+50,000) and unemployment rate (4.4%) change little in December",
+    "deck": "Both total nonfarm payroll employment (+50,000) and the unemployment rate (4.4 percent) changed little in December.",
+    "context": "Reported by 4 sources. Both total nonfarm payroll employment (+50,000) and the unemployment rate (4.4 percent) changed little in December. Employment continued to trend up in food services and drinking places, health care, and social assistance. Retail trade lost jobs.",
+    "sources": [
+      {
+        "outlet": "Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/news.release/archives/empsit_01092026.htm",
+        "tier": "T1_gov"
+      },
+      {
+        "outlet": "Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/news.release/archives/empsit_12162025.htm",
+        "tier": "T1_gov"
+      },
+      {
+        "outlet": "Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/news.release/archives/empsit_09052025.htm",
+        "tier": "T1_gov"
+      },
+      {
+        "outlet": "Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/news.release/archives/empsit_08012025.htm",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "economics",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "f1e38807b87d",
+    "datetime_utc": "2026-01-06T19:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Minutes of the Board's discount rate meeting on December 10, 2025",
+    "deck": "Minutes of the Board&#39;s discount rate meeting on December 10, 2025",
+    "context": "Minutes of the Board&#39;s discount rate meeting on December 10, 2025",
+    "sources": [
+      {
+        "outlet": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260106a.htm",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "other",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  },
+  {
+    "id": "25375405f40f",
+    "datetime_utc": "2025-12-30T19:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Minutes of the Federal Open Market Committee, December 9–10, 2025",
+    "deck": "Federal Reserve · December 30, 2025.",
+    "context": "Minutes of the Federal Open Market Committee, December 9–10, 2025",
+    "sources": [
+      {
+        "outlet": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20251230a.htm",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "economics",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.72,
+    "ingested_at": "2026-06-26T20:59:30.236Z"
+  }
+]

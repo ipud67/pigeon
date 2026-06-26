@@ -1,0 +1,74 @@
+// lib/predict/sample.ts
+//
+// Two sample PREDICT threads operationalized from Clark §2b (NK alignment drift; Houthi
+// maritime escalation). These demonstrate the data model + the six indicator categories +
+// the falsifiability discipline. They carry illustrative probabilities/dates so the
+// surface renders; in production PREDICT populates indicators from the live FACT track.
+//
+// HARD RULE (Clark §2c rule 1): the value lens is BANNED from these forecasts. They answer
+// only "what is likely to happen," mechanically. No founders'-framework language appears.
+
+import type { Forecast } from '../types';
+
+const now = new Date().toISOString();
+
+export const SAMPLE_FORECASTS: Forecast[] = [
+  {
+    id: 'nk-alignment-drift',
+    thread: 'North Korea: China vs. Russia alignment drift',
+    question:
+      'By 2026-12-31, will North Korea have signaled net alignment toward Russia and away from China on ≥2 of the six indicator categories?',
+    resolution_date: '2026-12-31',
+    resolution_criterion:
+      'Net movement on ≥2 of: statements/protocol, military cooperation, economic/trade, domestic signaling — adjudicated against sourced FACT-track events.',
+    base_rate:
+      'Outside view: North Korea’s historical base behavior is HEDGING — playing patrons against each other for leverage — not durable alignment. Prior leans against a hard, lasting tilt.',
+    probability: 0.45,
+    confidence_band: '35–55%',
+    indicators: [
+      { category: 'statements_signaling', text: 'Honorific language toward Putin vs. Xi; summit snubs', direction: 'up' },
+      { category: 'diplomatic_protocol', text: 'State-visit cadence and seating/protocol at multilateral events', direction: 'neutral' },
+      { category: 'military_movements', text: 'Russia-bound arms/labor cooperation; missile-tech inflows', direction: 'up' },
+      { category: 'economic_trade', text: 'Energy/labor/trade deals tilting to Moscow vs. Beijing', direction: 'up' },
+      { category: 'domestic_political', text: 'Internal propaganda framing of each patron', direction: 'neutral' },
+      { category: 'base_rate_history', text: 'NK pattern of hedging rather than committing', direction: 'down' },
+    ],
+    watch_items: [
+      'A signed Russia–DPRK economic/energy agreement with public terms',
+      'A pointed Xi snub at a summit (dropped honorific or no-show)',
+    ],
+    economics_note:
+      'Follow the money first: a Russia-tilted energy/labor deal would be a leading economic tell, often moving before the political signaling.',
+    resolved: null,
+    created_at: now,
+  },
+  {
+    id: 'houthi-maritime',
+    thread: 'Houthi maritime escalation — Bab-el-Mandeb / Red Sea',
+    question:
+      'Will Houthi forces conduct ≥1 confirmed attack on a commercial vessel in the Bab-el-Mandeb/Red Sea by 2026-09-30?',
+    resolution_date: '2026-09-30',
+    resolution_criterion:
+      '≥1 attack on a commercial (non-military) vessel, confirmed by a primary maritime authority (UKMTO/EUNAVFOR) or the flag state.',
+    base_rate:
+      'Outside view: anchor on the trailing-N-month strike frequency. When the trailing window shows active strikes, the base rate for ≥1 attack in a 90-day horizon is high.',
+    probability: 0.6,
+    confidence_band: '50–70%',
+    indicators: [
+      { category: 'statements_signaling', text: 'Explicit threats tied to Gaza/regional triggers', direction: 'up' },
+      { category: 'military_movements', text: 'Drone/missile stockpiling; prior strike tempo; naval probing', direction: 'up' },
+      { category: 'diplomatic_protocol', text: 'Ceasefire talks / Iran signaling restraint or escalation', direction: 'neutral' },
+      { category: 'economic_trade', text: 'Shipping war-risk insurance premiums and re-routing data', direction: 'up' },
+      { category: 'domestic_political', text: 'Houthi internal cohesion / Iran proxy dynamics', direction: 'neutral' },
+      { category: 'base_rate_history', text: 'Strike frequency over the trailing 6 months', direction: 'up' },
+    ],
+    watch_items: [
+      'A spike in Red Sea war-risk insurance premiums (market-priced leading indicator)',
+      'A breakdown in regional ceasefire talks',
+    ],
+    economics_note:
+      'War-risk insurance premiums and vessel re-routing are a market-priced leading indicator — they typically spike before a confirmed strike.',
+    resolved: null,
+    created_at: now,
+  },
+];

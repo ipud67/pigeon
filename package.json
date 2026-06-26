@@ -1,0 +1,33 @@
+{
+  "name": "pigeon-newsapp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Pigeon — a minimalist, fact-only news app. FACT -> CONTEXT -> WEIGH-IT. Built on free primary-source ingestion + a provider-abstracted classifier (mock default, Grok-ready, inert without key).",
+  "type": "module",
+  "engines": {
+    "node": ">=20.11"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "ingest": "node --import tsx lib/ingestion/run.ts",
+    "ingest:dry": "PIGEON_INGEST_DRY=1 node --import tsx lib/ingestion/run.ts"
+  },
+  "dependencies": {
+    "fast-xml-parser": "4.5.1",
+    "next": "^15.5.19",
+    "openai": "4.104.0",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.7",
+    "@types/react": "19.0.7",
+    "@types/react-dom": "19.0.3",
+    "playwright": "^1.59.1",
+    "tsx": "4.19.2",
+    "typescript": "5.7.3"
+  }
+}
