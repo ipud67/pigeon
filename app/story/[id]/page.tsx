@@ -1,15 +1,22 @@
-// app/story/[id]/page.tsx — the three-layer record: FACT → CONTEXT → WEIGH-IT.
+// app/story/[id]/page.tsx — every headline IS its own long form (SPEC v2 §B).
 //
-// FACT: neutral who/what/when/where (+ exact quote for statements).
-// CONTEXT: neutral factual background (Context is king).
-// WEIGH-IT: value-lens QUESTIONS only, clearly labeled as a thinking aid, anchored to the
-//           founding canon — never a conclusion (Clark §1b; v2 layer 3).
-// Then a sources panel (every primary linkout, tiered, paywall-flagged) + long-form link.
+// Section order:
+//   FACT                    — dateline + who/what/when/where (+ exact quote for statements)
+//   CONTEXT                  — the neutral factual blurb (kept) + SHORT HISTORY subsection
+//   CONSTITUTIONAL ANALYSIS  — within-bounds vs beyond-bounds, cited to founding documents
+//   PREDICTIVE MODEL         — neutral, indicator-based per-story forecast (no value lens)
+//   PRIMARY SOURCES          — every linkout, tiered, paywall-flagged (+ full-event linkout)
+//
+// Depth fields come from data/depth-overrides.json (Clark's research) when present, else the
+// ingest output: constitutional analysis is rule-based + cited (real now); short history +
+// prediction are clearly-labeled placeholders under mock and real under Grok — NEVER faked.
+// White-House advocacy phrasing is neutralized before render (Clark editorial must-fix).
 
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { readFacts, readFactById } from '../../../lib/store';
 import { Masthead, Footer } from '../../components';
+import { neutralizeText } from '../../../lib/editorial/neutralize';
 
 export const dynamic = 'force-static';
 
@@ -35,10 +42,24 @@ function fmtFull(dt: string): string {
   );
 }
 
+function srcTag(source: string): string {
+  if (source === 'override') return 'researched';
+  if (source === 'llm') return 'model-generated';
+  if (source === 'rule-based') return 'cited framework';
+  return 'pending';
+}
+
 export default async function Story({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
   const fact = readFactById(id);
   if (!fact) notFound();
+
+  const headline = neutralizeText(fact.what) || fact.what;
+  const context = neutralizeText(fact.context);
+  const depth = fact.depth;
+  const ca = depth?.constitutional_analysis;
+  const sh = depth?.short_history;
+  const pred = depth?.prediction;
 
   return (
     <div className="shell">
@@ -59,36 +80,88 @@ export default async function Story({ params }: { params: Promise<{ id: string }
         <div className="rule" />
 
         {/* FACT */}
-        <div className="lede">{fact.what}</div>
-        {fact.quote ? <div className="quote">&ldquo;{fact.quote}&rdquo;</div> : null}
+        <div className="lede">{headline}</div>
+        {fact.quote ? <div className="quote">&ldquo;{neutralizeText(fact.quote) || fact.quote}&rdquo;</div> : null}
 
-        {/* CONTEXT */}
-        {fact.context && fact.context.trim() && fact.context !== fact.what ? (
+        {/* CONTEXT (+ SHORT HISTORY) */}
+        {context && context.trim() && context !== headline ? (
           <section className="narr">
             <div className="sec-label">Context</div>
-            <div className="body">{fact.context}</div>
+            <div className="body">{context}</div>
           </section>
         ) : null}
 
-        {/* WEIGH-IT — questions only, labeled, anchored to the canon */}
-        {fact.weigh_it_questions.length > 0 ? (
-          <section className="narr weighit">
-            <div className="sec-label">Weigh It</div>
-            <div className="lens-note">
-              A reflective lens, not a verdict. These are questions to weigh the event against the
-              American founding and constitutional tradition — Pigeon prompts your thinking; it never
-              hands you the conclusion.
-            </div>
-            {fact.weigh_it_questions.map((w, i) => (
-              <div className="weigh-q" key={w.tenet + i}>
-                <span className="q-text">{w.question}</span>
-                <span className="anchor">— {w.anchor}</span>
+        <section className="narr">
+          <div className="sec-label">Short history</div>
+          {sh && sh.source !== 'placeholder' ? (
+            <div className="body">{sh.text}</div>
+          ) : (
+            <div className="body placeholder-body">{sh?.text}</div>
+          )}
+          {sh ? <div className="depth-prov">{srcTag(sh.source)}</div> : null}
+        </section>
+
+        {/* CONSTITUTIONAL ANALYSIS — within-bounds vs beyond-bounds, cited */}
+        <section className="narr constitutional">
+          <div className="sec-label">Constitutional analysis</div>
+          <div className="lens-note">
+            The facts set against the American founding framework — the case that the action is within
+            constitutional bounds and the case that it exceeds them, each anchored to a founding
+            document. Pigeon lays out both; it does not hand you a verdict.
+          </div>
+
+          {ca?.prose ? (
+            <div className="body">{ca.prose}</div>
+          ) : ca && ca.contrasts.length > 0 ? (
+            ca.contrasts.map((c, i) => (
+              <div className="contrast" key={c.tenet + i}>
+                <div className="contrast-q">{c.question}</div>
+                <div className="within">
+                  <span className="side-label">Within bounds</span>
+                  {c.within_bounds}
+                </div>
+                <div className="beyond">
+                  <span className="side-label">Beyond bounds</span>
+                  {c.beyond_bounds}
+                </div>
+                <div className="anchor">— {c.anchor}</div>
               </div>
-            ))}
-          </section>
-        ) : null}
+            ))
+          ) : (
+            <div className="body placeholder-body">
+              {ca?.note ??
+                'No constitutional question maps to this routine item — Pigeon shows the fact and its context only.'}
+            </div>
+          )}
+          {ca ? <div className="depth-prov">{srcTag(ca.source)}</div> : null}
+        </section>
 
-        {/* SOURCES */}
+        {/* PREDICTIVE MODEL — neutral, indicator-based */}
+        <section className="narr predictive">
+          <div className="sec-label">Predictive model</div>
+          <div className="lens-note">
+            A neutral, indicator-based forecast — how long this is likely to continue and where it may
+            go next. Falsifiable, value-lens excluded.
+          </div>
+          {pred && pred.source !== 'placeholder' ? (
+            <>
+              <div className="body">{pred.forecast}</div>
+              {pred.horizon ? <div className="horizon">Horizon: {pred.horizon}</div> : null}
+              {pred.indicators && pred.indicators.length > 0 ? (
+                <ul className="indicators">
+                  {pred.indicators.map((ind, i) => (
+                    <li key={i}>{ind}</li>
+                  ))}
+                </ul>
+              ) : null}
+            </>
+          ) : (
+            <div className="body placeholder-body">{pred?.forecast}</div>
+          )}
+          {pred ? <div className="depth-prov">{srcTag(pred.source)}</div> : null}
+        </section>
+
+        {/* PRIMARY SOURCES */}
         <div className="sources-panel">
           <div className="sp-label">Primary sources</div>
           {fact.sources.map((s, i) => (
@@ -101,14 +174,12 @@ export default async function Story({ params }: { params: Promise<{ id: string }
               {s.paywalled ? <span className="paywall">paywall</span> : null}
             </div>
           ))}
+          {fact.longform_url ? (
+            <a className="longform-link" href={fact.longform_url} target="_blank" rel="noopener noreferrer">
+              Watch / read the full event →
+            </a>
+          ) : null}
         </div>
-
-        {/* LONG-FORM */}
-        {fact.longform_url ? (
-          <a className="longform-link" href={fact.longform_url} target="_blank" rel="noopener noreferrer">
-            Watch / read the full event →
-          </a>
-        ) : null}
       </article>
 
       <Footer />

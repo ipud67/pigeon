@@ -18,6 +18,7 @@ import OpenAI from 'openai';
 import {
   type ClassifyInput,
   type ClassifyOutput,
+  type CompletionInput,
   type LLMProvider,
   coerceClassification,
   extractJson,
@@ -71,5 +72,20 @@ export class OpenAICompatibleAdapter implements LLMProvider {
     };
 
     return coerceClassification(extractJson(text), costFields);
+  }
+
+  // Generic completion for the DEPTH layer (short history + per-story prediction). Only the
+  // real provider has this; the mock adapter omits it, so under mock the depth generator
+  // never reaches a paid call. Wired but UNTESTED against a live xAI endpoint (no key).
+  async complete(input: CompletionInput): Promise<string> {
+    const resp = await this.client.chat.completions.create({
+      model: this.modelId,
+      max_tokens: input.maxTokens ?? 700,
+      messages: [
+        { role: 'system', content: input.system },
+        { role: 'user', content: input.user },
+      ],
+    });
+    return resp.choices[0]?.message?.content?.trim() ?? '';
   }
 }

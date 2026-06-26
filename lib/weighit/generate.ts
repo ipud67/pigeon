@@ -219,13 +219,28 @@ function extractEvent(what: string): string {
   return e;
 }
 
-export function generateWeighIt(args: {
+export type WeighItArgs = {
   what: string;
   context?: string;
   category: Category;
   outlet?: string;
-}): WeighItQuestion[] {
-  if (!LENS_ELIGIBLE.includes(args.category)) return [];
+};
+
+// Slot filler shared by WEIGH-IT and the CONSTITUTIONAL ANALYSIS builder.
+function makeFiller(args: WeighItArgs, ctx: MatchContext) {
+  const event = extractEvent(args.what);
+  const actor = actorPhrase(ctx.actor);
+  const eventRef = actorGist(ctx.actor);
+  return (s: string): string =>
+    s.replace(/\{event\}/g, event).replace(/\{actor\}/g, actor).replace(/\{eventRef\}/g, eventRef);
+}
+
+// THE shared relevance pass: returns the tenets the event actually implicates (capped),
+// in tenet order. Both WEIGH-IT (questions) and CONSTITUTIONAL ANALYSIS (cited contrast)
+// project off this so they never disagree about which tenets a story touches. Returns the
+// raw Tenet objects + a slot filler; the empty array is a valid, correct result.
+export function matchTenets(args: WeighItArgs): { tenets: Tenet[]; fill: (s: string) => string } {
+  if (!LENS_ELIGIBLE.includes(args.category)) return { tenets: [], fill: (s) => s };
 
   const text = `${args.what} ${args.context ?? ''}`.toLowerCase();
   const outlet = args.outlet ?? '';
@@ -238,29 +253,29 @@ export function generateWeighIt(args: {
     actor: detectActor(text),
   };
 
-  const event = extractEvent(args.what);
-  const actor = actorPhrase(ctx.actor);
-  const eventRef = actorGist(ctx.actor);
-
-  const fill = (t: Tenet): WeighItQuestion => ({
-    tenet: t.id,
-    question: t.question
-      .replace(/\{event\}/g, event)
-      .replace(/\{actor\}/g, actor)
-      .replace(/\{eventRef\}/g, eventRef),
-    anchor: t.anchor,
-  });
-
-  const matched: WeighItQuestion[] = [];
+  const fill = makeFiller(args, ctx);
+  const matched: Tenet[] = [];
   for (const tenet of TENETS) {
     const gate = RELEVANCE[tenet.id];
     if (gate && gate(ctx)) {
-      matched.push(fill(tenet));
+      matched.push(tenet);
       if (matched.length >= MAX_TENET_QUESTIONS) break;
     }
   }
+  return { tenets: matched, fill };
+}
 
-  if (matched.length === 0) return []; // zero is correct — show FACT + CONTEXT only
-  matched.push(fill(HISTORICAL_CONTRAST)); // close the set with the clean reference
-  return matched;
+export function generateWeighIt(args: WeighItArgs): WeighItQuestion[] {
+  const { tenets, fill } = matchTenets(args);
+  if (tenets.length === 0) return []; // zero is correct — show FACT + CONTEXT only
+
+  const toQ = (t: Tenet): WeighItQuestion => ({
+    tenet: t.id,
+    question: fill(t.question),
+    anchor: t.anchor,
+  });
+
+  const out = tenets.map(toQ);
+  out.push(toQ(HISTORICAL_CONTRAST)); // close the set with the clean reference
+  return out;
 }

@@ -29,6 +29,54 @@ export type WeighItQuestion = {
   anchor: string; // the primary-document citation (e.g. "Washington, Farewell Address 1796")
 };
 
+// ---- DEPTH layers (SPEC v2 §B/§D) ------------------------------------------
+// Every headline IS its own long form. These three depth fields are first-class on the
+// fact record. They require LLM generation grounded in the real fact (the Grok path); the
+// mock adapter never fabricates them — it leaves them undefined and the renderer shows a
+// clearly-labeled placeholder. A hand-researched data/depth-overrides.json entry (Clark)
+// supersedes whatever ingest produced.
+
+// CONSTITUTIONAL ANALYSIS — the facts contrasted against the founding framework. Evolved
+// from WEIGH-IT (questions-only) to a substantive, cited, two-sided within-bounds-or-not
+// contrast. Still primary-source-anchored; still avoids a partisan verdict (calibration
+// pending Timn's relevance chat).
+export type ConstitutionalContrast = {
+  tenet: string; // the tenet id this contrast turns on
+  label: string; // human label of the tenet
+  question: string; // the framing question (interrogative, retained from WEIGH-IT)
+  within_bounds: string; // the case that the action sits inside constitutional limits
+  beyond_bounds: string; // the case that it reaches past them
+  anchor: string; // primary-document citation(s)
+};
+
+export type ConstitutionalAnalysis = {
+  source: 'rule-based' | 'llm' | 'override' | 'placeholder';
+  contrasts: ConstitutionalContrast[]; // one block per firing tenet (rule-based mode)
+  prose?: string; // override / LLM mode: a researched within-bounds-AND-beyond-bounds prose block
+  note?: string; // a labeled placeholder line when no substantive analysis is present
+};
+
+// SHORT HISTORY — when this thing began and why. Needs real-world facts -> LLM/override.
+export type ShortHistory = {
+  source: 'llm' | 'override' | 'placeholder';
+  text: string; // the narrative, or a clearly-labeled placeholder
+};
+
+// PREDICTIVE MODEL — per-story forecast: how long / where next, indicator-based, neutral,
+// falsifiable. Needs real-world facts -> LLM/override. The value lens is BANNED here.
+export type PredictiveModel = {
+  source: 'llm' | 'override' | 'placeholder';
+  forecast: string; // the neutral forecast, or a clearly-labeled placeholder
+  horizon?: string; // e.g. "3-6 months"
+  indicators?: string[]; // the observable tells that would move it
+};
+
+export type FactDepth = {
+  short_history?: ShortHistory;
+  constitutional_analysis?: ConstitutionalAnalysis;
+  prediction?: PredictiveModel;
+};
+
 export type FactRecord = {
   id: string; // stable hash id
   datetime_utc: string; // ISO 8601, the event/publication time
@@ -41,6 +89,15 @@ export type FactRecord = {
   category: Category;
   economics_flag: boolean; // economics standing lens — money movement present
   weigh_it_questions: WeighItQuestion[]; // rule-based, may be empty when no tenet maps
+  // DEPTH (SPEC v2 §B): every headline IS its long form. Constitutional analysis is
+  // rule-based (cited, deterministic) and present now; short_history + prediction need the
+  // Grok path and are placeholders under mock (never fabricated). data/depth-overrides.json
+  // supersedes any of these per fact id.
+  depth?: FactDepth;
+  // IMPORTANCE (SPEC v2 §A): 0-100 score + tier set by the ranking engine at ingest. The
+  // home/week feeds rank by this and bury micro-noise (8-K etc.).
+  importance?: number; // 0-100
+  importance_tier?: 'HIGH' | 'MED' | 'LOW' | 'BURIED';
   longform_url?: string; // optional full press-event / stream linkout
   // provenance / audit
   classifier_kind: string; // the editorial-gate classification that admitted this record

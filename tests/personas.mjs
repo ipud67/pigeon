@@ -1,8 +1,11 @@
-// tests/personas.mjs — 5-persona Playwright QC for the Pigeon reader.
+// tests/personas.mjs — 5-persona Playwright QC for the Pigeon reader (SPEC v2 rework).
 // Standing rule (roster-wide): five distinct personas drive the core flows before any
 // deploy is called done. Run: BASE_URL=https://... node tests/personas.mjs
 //
 // Personas: curious-browser, power-user, mobile-only, fresh-signup, returning-user.
+// This suite verifies the v2 rework: mixed importance-ranked home (NOT all economics),
+// 8-K micro-noise buried, tap-to-expand dropdown -> full long-form, and the long-form
+// depth structure (context / short history / constitutional analysis / prediction).
 
 import { chromium, devices } from 'playwright';
 import { mkdirSync } from 'node:fs';
@@ -20,51 +23,68 @@ function log(persona, name, pass, detail = '') {
 async function run() {
   const browser = await chromium.launch();
 
-  // 1 — CURIOUS BROWSER: lands, clicks a dispatch, reads the three layers, bails back.
+  // 1 — CURIOUS BROWSER: lands, taps a headline -> context dropdown -> full long form, bails.
   {
     const ctx = await browser.newContext();
     const page = await ctx.newPage();
     await page.goto(BASE + '/', { waitUntil: 'networkidle' });
-    const dispatches = page.locator('a.dispatch');
-    const n = await dispatches.count();
-    log('curious', 'home shows dispatches', n > 0, `${n} dispatches`);
+    await page.waitForTimeout(500); // hydration
+    const cards = page.locator('.dispatch');
+    const n = await cards.count();
+    log('curious', 'home shows dispatch cards', n > 0, `${n} cards`);
+
+    // tap headline -> inline context dropdown appears (no navigation yet)
+    await cards.first().locator('.dispatch-head').click();
+    await page.waitForTimeout(150);
+    const dropVisible = (await cards.first().locator('.dispatch-drop').count()) > 0;
+    log('curious', 'headline tap opens context dropdown', dropVisible);
+    await page.screenshot({ path: `${SHOTS}/home.png`, fullPage: true });
+
+    // tap dropdown -> navigate to full long form
     await Promise.all([
       page.waitForURL('**/story/**', { timeout: 15000 }),
-      dispatches.first().click(),
+      cards.first().locator('.dispatch-drop').click(),
     ]).catch(() => {});
     await page.waitForLoadState('networkidle');
     const hasFact = (await page.locator('.detail .lede').count()) > 0;
     const hasSources = (await page.locator('.sources-panel').count()) > 0;
-    log('curious', 'detail renders FACT + sources', hasFact && hasSources);
-    await page.screenshot({ path: `${SHOTS}/curious-detail.png`, fullPage: true });
+    log('curious', 'long form renders FACT + sources', hasFact && hasSources);
     await Promise.all([
       page.waitForURL((u) => !/\/story\//.test(u.toString()), { timeout: 15000 }),
       page.locator('.back-bar a').click(),
     ]).catch(() => {});
-    await page.waitForLoadState('networkidle');
     log('curious', 'back to feed works', page.url().replace(/\/$/, '') === BASE);
     await ctx.close();
   }
 
-  // 2 — POWER USER IN A HURRY: sweeps every section fast, expects all to load.
+  // 2 — POWER USER: sweeps fast; the WHOLE POINT — top of home must be MIXED, not economics.
   {
     const ctx = await browser.newContext();
     const page = await ctx.newPage();
     for (const [path, sel, label] of [
       ['/', '.feed-label', 'today'],
-      ['/weekly', '.sec-label', 'weekly'],
-      ['/predict', '.forecast', 'predict'],
-      ['/longform', '.section-kicker', 'longform'],
+      ['/weekly', '.dispatch', 'weekly'],
     ]) {
       await page.goto(BASE + path, { waitUntil: 'domcontentloaded' });
       const ok = (await page.locator(sel).count()) > 0;
       log('power', `${label} section loads`, ok);
     }
-    // predict must show a probability and the firewall note
-    await page.goto(BASE + '/predict', { waitUntil: 'networkidle' });
-    const prob = (await page.locator('.prob').count()) > 0;
-    const firewall = (await page.locator('.predict-firewall').count()) > 0;
-    log('power', 'predict shows probability + firewall', prob && firewall);
+    await page.goto(BASE + '/', { waitUntil: 'networkidle' });
+    await page.waitForTimeout(500);
+    // top 15 must NOT be dominated by economics (round-1 failure was ~15 straight econ/8-K)
+    const ledes = await page.locator('.dispatch .lede').allInnerTexts();
+    const first15 = ledes.slice(0, 15);
+    let econCount = 0;
+    const cardCount = Math.min(15, await page.locator('.dispatch').count());
+    for (let i = 0; i < cardCount; i++) {
+      econCount += await page.locator('.dispatch').nth(i).locator('.econ-tag').count();
+    }
+    const has8K = first15.some((t) => /\b8-?K\b/i.test(t));
+    log('power', 'top 15 not economics-dominated', econCount <= 6, `${econCount}/15 econ-tagged`);
+    log('power', 'no SEC 8-K micro-filing on default home', !has8K);
+    // nav no longer carries Long-form / Predict tabs
+    const navText = (await page.locator('nav.nav').innerText()).toLowerCase();
+    log('power', 'nav dropped Long-form + Predict tabs', !/long-?form|predict/.test(navText));
     await ctx.close();
   }
 
@@ -73,48 +93,53 @@ async function run() {
     const ctx = await browser.newContext({ ...devices['iPhone 13'] });
     const page = await ctx.newPage();
     await page.goto(BASE + '/', { waitUntil: 'networkidle' });
-    const n = await page.locator('a.dispatch').count();
+    await page.waitForTimeout(500);
+    const n = await page.locator('.dispatch').count();
     log('mobile', 'feed renders on 390px viewport', n > 0);
-    // no horizontal overflow
     const overflow = await page.evaluate(
       () => document.documentElement.scrollWidth <= window.innerWidth + 2,
     );
     log('mobile', 'no horizontal overflow', overflow);
+    await page.locator('.dispatch').first().locator('.dispatch-head').tap();
+    await page.waitForTimeout(150);
     await Promise.all([
       page.waitForURL('**/story/**', { timeout: 15000 }),
-      page.locator('a.dispatch').first().tap(),
+      page.locator('.dispatch').first().locator('.dispatch-drop').tap(),
     ]).catch(() => {});
-    log('mobile', 'tap opens story', /\/story\//.test(page.url()) && (await page.locator('.detail').count()) > 0);
-    await page.screenshot({ path: `${SHOTS}/mobile-home.png`, fullPage: true });
+    log('mobile', 'tap-through opens story', /\/story\//.test(page.url()) && (await page.locator('.detail').count()) > 0);
     await ctx.close();
   }
 
-  // 4 — FRESH SIGNUP / FIRST-TIME: reads everything, tries curation, sees the terminator.
+  // 4 — FRESH SIGNUP / FIRST-TIME: reads everything, tries the opt-in economics filter.
   {
     const ctx = await browser.newContext();
     const page = await ctx.newPage();
     await page.goto(BASE + '/', { waitUntil: 'networkidle' });
+    await page.waitForTimeout(500);
     const term = await page.locator('.terminator').innerText();
     log('fresh', 'terminator present (anti-doomscroll)', /caught up/i.test(term));
     const chips = await page.locator('.chip').count();
-    log('fresh', 'curation chips present', chips >= 5, `${chips} chips`);
-    // Curation is a client island: click the Economics chip and assert econ items float up.
-    await page.getByRole('button', { name: 'Economics' }).click();
+    log('fresh', 'Top Stories + category filter chips present', chips >= 6, `${chips} chips`);
+    // Economics is OPT-IN: clicking it surfaces the buried micro-noise (8-K reachable here)
+    await page.locator('.chip', { hasText: 'Economics' }).click();
     await page.waitForTimeout(200);
     const econActive = (await page.locator('.chip.active').innerText()).toLowerCase().includes('econ');
-    const firstHasEcon = (await page.locator('a.dispatch').first().locator('.econ-tag').count()) > 0;
-    log('fresh', 'economics curation prioritizes econ items', econActive && firstHasEcon);
+    const firstHasEcon = (await page.locator('.dispatch').first().locator('.econ-tag').count()) > 0;
+    const ledes = await page.locator('.dispatch .lede').allInnerTexts();
+    const eightKReachable = ledes.some((t) => /\b8-?K\b/i.test(t));
+    log('fresh', 'economics filter surfaces econ items', econActive && firstHasEcon);
+    log('fresh', 'buried 8-K reachable via economics filter', eightKReachable);
     await ctx.close();
   }
 
-  // 5 — RETURNING USER: theme preference persists across reload; continuity.
+  // 5 — RETURNING USER: theme persists; AND the long-form depth structure renders on a real
+  // high-importance story (National Guard force-posture — Clark depth override).
   {
     const ctx = await browser.newContext();
     const page = await ctx.newPage();
     await page.goto(BASE + '/', { waitUntil: 'networkidle' });
     const defaultTheme = await page.evaluate(() => document.documentElement.getAttribute('data-theme'));
     log('returning', 'dark is the default theme', defaultTheme === 'dark');
-    // Wait for hydration so the toggle's onClick is wired before we click.
     await page.waitForTimeout(600);
     await page.locator('.toggle-btn').click();
     await page.waitForTimeout(200);
@@ -122,6 +147,17 @@ async function run() {
     await page.reload({ waitUntil: 'networkidle' });
     const afterReload = await page.evaluate(() => document.documentElement.getAttribute('data-theme'));
     log('returning', 'theme choice persists across reload', afterToggle === 'light' && afterReload === 'light');
+
+    // full long-form depth on a high-importance force-posture story
+    await page.goto(BASE + '/story/f219ec983fe5/', { waitUntil: 'networkidle' });
+    const labels = (await page.locator('.narr .sec-label').allInnerTexts()).map((s) => s.toLowerCase());
+    const hasHistory = labels.some((l) => /short history/.test(l));
+    const hasConstitutional = labels.some((l) => /constitutional/.test(l));
+    const hasPrediction = labels.some((l) => /predictive/.test(l));
+    log('returning', 'long form has short-history + constitutional + predictive sections', hasHistory && hasConstitutional && hasPrediction);
+    const researched = (await page.locator('.depth-prov', { hasText: 'researched' }).count()) > 0;
+    log('returning', 'Clark depth override renders (researched)', researched);
+    await page.screenshot({ path: `${SHOTS}/longform-detail.png`, fullPage: true });
     await ctx.close();
   }
 

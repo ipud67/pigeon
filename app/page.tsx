@@ -1,24 +1,36 @@
-// app/page.tsx — the 5-minute reader. Today's dispatches, newest first.
+// app/page.tsx — the 5-minute reader. The DEFAULT home is the mixed, importance-ranked
+// "Top Stories" stream (SPEC v2 §A): top stories across ALL categories, micro-noise buried,
+// the top diversified so no category dominates. NO category section labels on the landing.
 //
-// No woven-prose briefing here — Timn rejected the single-digest home (D6); the home is
-// the per-story feed, each with its own 1-2 sentence factual deck. Curation runs in the
-// <Feed> client island (priority, not filter — SPEC §5.3).
+// Ranking + the tap-to-expand interaction run in the <Feed> client island; the server just
+// passes a slim projection of every fact (the island ranks + filters in the browser, which
+// keeps it static-export-safe).
 
 import { readFacts } from '../lib/store';
 import { Masthead, Footer } from './components';
-import { Feed } from './feed';
+import { Feed, type FeedItem } from './feed';
 
 export const dynamic = 'force-static';
 
 export default function Home() {
   const facts = readFacts();
-  // Pass a generous window (covers every category for client-side prioritization).
-  const window = facts.slice(0, 80);
+  const items: FeedItem[] = facts.map((f) => ({
+    id: f.id,
+    datetime_utc: f.datetime_utc,
+    place: f.place,
+    what: f.what,
+    deck: f.deck,
+    quote: f.quote,
+    context: f.context,
+    category: f.category,
+    economics_flag: f.economics_flag,
+    sources: f.sources.map((s) => ({ outlet: s.outlet, tier: s.tier })),
+  }));
 
   return (
     <div className="shell">
       <Masthead count={facts.length} activeNav="today" />
-      <Feed facts={window} />
+      <Feed items={items} />
       <Footer />
     </div>
   );

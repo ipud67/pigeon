@@ -184,6 +184,65 @@ a {
 .dispatch + .dispatch {
   border-top: 1px solid var(--rule-hairline);
 }
+/* the headline is a tap target that toggles the inline context dropdown (SPEC v2 §C) */
+.dispatch-head {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  color: inherit;
+  font-family: inherit;
+}
+.dispatch-head .chevron {
+  margin-left: auto;
+  color: var(--fg-faint);
+  font-size: 11px;
+}
+.dispatch.open .lede {
+  color: var(--accent-soft);
+}
+/* the inline context dropdown — tap it to navigate to the full long form */
+.dispatch-drop {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  background: var(--panel-fill);
+  border: 1px solid var(--rule-hairline);
+  border-left: 2px solid var(--accent-link);
+  border-radius: 8px;
+  padding: 14px 16px;
+  margin: 16px 0 4px;
+}
+.dispatch-drop .drop-label {
+  font-family: 'Inter', sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--label-tint);
+  margin-bottom: 8px;
+}
+.dispatch-drop .drop-body {
+  font-size: 16px;
+  line-height: 1.55;
+  color: var(--fg-primary);
+}
+.dispatch-drop .drop-cta {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  color: var(--accent-link);
+  margin-top: 12px;
+}
+.dispatch-drop:hover .drop-cta {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
 .dispatch .meta {
   font-family: 'Inter', sans-serif;
   font-variant: small-caps;
@@ -380,6 +439,92 @@ a {
   color: var(--fg-secondary);
   margin-top: 5px;
   display: block;
+}
+
+/* CONSTITUTIONAL ANALYSIS — within-bounds vs beyond-bounds, cited */
+.narr.constitutional {
+  border-left: 2px solid var(--accent-link);
+  padding-left: 18px;
+  margin-left: -20px;
+}
+.narr.constitutional .sec-label {
+  color: var(--accent-link);
+}
+.contrast {
+  margin: 0 0 22px;
+}
+.contrast .contrast-q {
+  font-size: 17px;
+  line-height: 1.5;
+  font-style: italic;
+  margin-bottom: 12px;
+}
+.contrast .within,
+.contrast .beyond {
+  font-size: 16px;
+  line-height: 1.58;
+  margin: 8px 0;
+  padding-left: 12px;
+}
+.contrast .within {
+  border-left: 2px solid var(--rule-strong);
+}
+.contrast .beyond {
+  border-left: 2px solid var(--accent-soft);
+}
+.contrast .side-label {
+  display: block;
+  font-family: 'Inter', sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: var(--fg-secondary);
+  margin-bottom: 4px;
+}
+.contrast .anchor {
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.3px;
+  color: var(--fg-secondary);
+  margin-top: 8px;
+}
+
+/* PREDICTIVE MODEL */
+.narr.predictive .horizon {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.4px;
+  color: var(--fg-secondary);
+  margin-top: 10px;
+  font-weight: 600;
+}
+.narr.predictive .indicators {
+  margin: 10px 0 0 18px;
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+/* a placeholder body reads as a quiet labeled note, never as a fact */
+.placeholder-body {
+  color: var(--fg-secondary);
+  font-style: italic;
+  font-size: 16px;
+}
+/* depth provenance tag — researched / cited framework / model-generated / pending */
+.depth-prov {
+  font-family: 'Inter', sans-serif;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: var(--fg-faint);
+  margin-top: 10px;
+}
+
+/* week review reuses the dispatch card (single tap -> story) */
+.week-dispatch .lede {
+  font-size: 20px;
 }
 
 /* sources panel */

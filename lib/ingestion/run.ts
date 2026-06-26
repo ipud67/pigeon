@@ -22,6 +22,8 @@ import { SOURCES } from './sources';
 import { clusterItems, stableId } from './dedup';
 import { categorize, economicsFlag, derivePlace, buildDeck } from './enrich';
 import { generateWeighIt } from '../weighit/generate';
+import { generateDepth } from '../depth/generate';
+import { scoreFact } from '../ranking/importance';
 import { SAMPLE_FORECASTS } from '../predict/sample';
 
 const DRY = process.env.PIGEON_INGEST_DRY === '1';
@@ -98,47 +100,58 @@ async function main() {
   // 3 — dedup / cluster
   const clusters = clusterItems(admitted);
 
-  // 4 + 5 — enrich + WEIGH-IT
+  // 4 + 5 + 6 — enrich + WEIGH-IT + DEPTH + importance score
   const now = new Date().toISOString();
-  const records: FactRecord[] = clusters.map((cluster) => {
-    const p = cluster.primary;
-    const combined = `${p.title} ${p.body}`;
-    const category = categorize(combined);
-    const place = derivePlace(p.place, p.outlet);
-    const economics = economicsFlag(combined, p.outlet);
-    const deck = buildDeck({ title: p.title, summary: p.body, outlet: p.outlet, datetime_utc: p.datetime_utc });
-    const quote = p.quote ?? extractQuote(p.body);
-    const context =
-      cluster.members.length > 1
-        ? `Reported by ${cluster.members.length} sources. ${p.body}`
-        : p.body;
-    const weigh = generateWeighIt({ what: p.title, context, category, outlet: p.outlet });
-    const meta = gateMeta.get(`${p.url}::${p.title}`) ?? { kind: 'event_report', confidence: 0.72 };
+  const nowMs = Date.now();
+  const records: FactRecord[] = await Promise.all(
+    clusters.map(async (cluster): Promise<FactRecord> => {
+      const p = cluster.primary;
+      const combined = `${p.title} ${p.body}`;
+      const category = categorize(combined);
+      const place = derivePlace(p.place, p.outlet);
+      const economics = economicsFlag(combined, p.outlet);
+      const deck = buildDeck({ title: p.title, summary: p.body, outlet: p.outlet, datetime_utc: p.datetime_utc });
+      const quote = p.quote ?? extractQuote(p.body);
+      const context =
+        cluster.members.length > 1
+          ? `Reported by ${cluster.members.length} sources. ${p.body}`
+          : p.body;
+      const weigh = generateWeighIt({ what: p.title, context, category, outlet: p.outlet });
+      const meta = gateMeta.get(`${p.url}::${p.title}`) ?? { kind: 'event_report', confidence: 0.72 };
 
-    const sources = cluster.members
-      .map((m) => ({ outlet: m.outlet, url: m.url, tier: m.tier, paywalled: m.paywalled }))
-      .filter((s, i, arr) => arr.findIndex((x) => x.url === s.url) === i);
+      const sources = cluster.members
+        .map((m) => ({ outlet: m.outlet, url: m.url, tier: m.tier, paywalled: m.paywalled }))
+        .filter((s, i, arr) => arr.findIndex((x) => x.url === s.url) === i);
 
-    return {
-      id: stableId(p.url, p.title),
-      datetime_utc: p.datetime_utc,
-      place,
-      what: p.title,
-      deck,
-      quote,
-      context,
-      sources,
-      category,
-      economics_flag: economics,
-      weigh_it_questions: weigh,
-      longform_url: p.longform_url ?? detectLongform(p),
-      classifier_kind: meta.kind,
-      classifier_confidence: meta.confidence,
-      ingested_at: now,
-    };
-  });
+      const partial: FactRecord = {
+        id: stableId(p.url, p.title),
+        datetime_utc: p.datetime_utc,
+        place,
+        what: p.title,
+        deck,
+        quote,
+        context,
+        sources,
+        category,
+        economics_flag: economics,
+        weigh_it_questions: weigh,
+        longform_url: p.longform_url ?? detectLongform(p),
+        classifier_kind: meta.kind,
+        classifier_confidence: meta.confidence,
+        ingested_at: now,
+      };
 
-  // sort newest first
+      // DEPTH: constitutional analysis is rule-based (real now); short_history + prediction
+      // are placeholders under mock, LLM under Grok. RED LINE-safe (no `complete` on mock).
+      const depth = await generateDepth(partial, provider);
+      // IMPORTANCE: 0-100 + tier; the home/week feeds rank by this and bury micro-noise.
+      const scored = scoreFact(partial, nowMs);
+
+      return { ...partial, depth, importance: scored.score, importance_tier: scored.tier };
+    }),
+  );
+
+  // sort newest first (the store re-sorts; render-time ranking re-orders for home/week)
   records.sort((a, b) => (a.datetime_utc < b.datetime_utc ? 1 : -1));
 
   // ---- report ----
@@ -148,8 +161,20 @@ async function main() {
     return m;
   }, {});
   console.log('  by category:', JSON.stringify(byCat));
+  const byTier = records.reduce<Record<string, number>>((m, r) => {
+    const k = r.importance_tier ?? 'NONE';
+    m[k] = (m[k] ?? 0) + 1;
+    return m;
+  }, {});
+  console.log('  by importance tier:', JSON.stringify(byTier));
+  console.log(`  buried (off default home/week): ${records.filter((r) => r.importance_tier === 'BURIED').length}`);
   console.log(`  economics-flagged: ${records.filter((r) => r.economics_flag).length}`);
   console.log(`  with WEIGH-IT prompts: ${records.filter((r) => r.weigh_it_questions.length > 0).length}`);
+  console.log(
+    `  with constitutional analysis (rule-based): ${
+      records.filter((r) => r.depth?.constitutional_analysis?.contrasts.length).length
+    }`,
+  );
   console.log(`  with long-form linkout: ${records.filter((r) => r.longform_url).length}`);
 
   if (DRY) {

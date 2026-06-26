@@ -16,6 +16,7 @@
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import type { FactRecord, Forecast } from './types';
+import { applyDepthOverride } from './depth/overrides';
 
 const DATA_DIR = join(process.cwd(), 'data');
 const FACTS_PATH = join(DATA_DIR, 'facts.json');
@@ -46,7 +47,12 @@ export function readFacts(): FactRecord[] {
 }
 
 export function readFactById(id: string): FactRecord | undefined {
-  return readFacts().find((f) => f.id === id);
+  const fact = readFacts().find((f) => f.id === id);
+  if (!fact) return undefined;
+  // Merge any hand-researched depth override (data/depth-overrides.json, keyed by id). The
+  // reader always sees the override when present; otherwise the ingest-produced depth
+  // (rule-based constitutional analysis + placeholder/LLM short-history + prediction).
+  return { ...fact, depth: applyDepthOverride(id, fact.depth) };
 }
 
 export function writeFacts(facts: FactRecord[]): void {

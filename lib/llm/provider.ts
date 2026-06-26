@@ -46,11 +46,22 @@ export type ClassifyOutput = {
   estCostUsd: number; // computed per-provider rate card
 };
 
+// A generic completion used by the DEPTH layer (short history + per-story prediction).
+// Optional on the interface: the mock adapter does NOT implement it, which is exactly how
+// the RED LINE is enforced — under mock there is no `complete`, so depth falls back to a
+// labeled placeholder and no paid call is ever made. Only the real (Grok) adapter wires it.
+export type CompletionInput = {
+  system: string;
+  user: string;
+  maxTokens?: number;
+};
+
 export interface LLMProvider {
   readonly name: string; // 'anthropic' | 'openai-compatible' | 'mock'
   readonly modelId: string; // the exact model in use
 
   classify(input: ClassifyInput): Promise<ClassifyOutput>;
+  complete?(input: CompletionInput): Promise<string>;
 }
 
 // ---- Shared helpers used by every adapter ----------------------------------
