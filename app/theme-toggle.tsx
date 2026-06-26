@@ -11,7 +11,14 @@ export function ThemeToggle() {
       | 'dark'
       | 'light'
       | null;
-    if (saved) setTheme(saved);
+    if (saved) {
+      setTheme(saved);
+      // Re-assert the attribute on the DOM after mount. The pre-paint bootstrap sets it,
+      // but React 19 hydration resets <html data-theme> to the server literal ("dark"), so
+      // the saved preference would otherwise be lost on reload. Make the client
+      // authoritative here. Idempotent.
+      document.documentElement.setAttribute('data-theme', saved);
+    }
   }, []);
 
   function toggle() {
