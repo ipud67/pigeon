@@ -155,8 +155,16 @@ async function run() {
     const hasConstitutional = labels.some((l) => /constitutional/.test(l));
     const hasPrediction = labels.some((l) => /predictive/.test(l));
     log('returning', 'long form has short-history + constitutional + predictive sections', hasHistory && hasConstitutional && hasPrediction);
-    const researched = (await page.locator('.depth-prov', { hasText: 'researched' }).count()) > 0;
-    log('returning', 'Clark depth override renders (researched)', researched);
+    // Clark depth override renders REAL substance (not a provenance tag, which we no longer
+    // show): the constitutional analysis opens with the founding argument itself.
+    const body = (await page.locator('.detail').innerText()).toLowerCase();
+    const hasSubstance = body.includes('whiskey rebellion') && body.includes('domestic tranquility');
+    log('returning', 'Clark depth override renders real substance', hasSubstance);
+    // Reader-facing = substance ONLY: no methodology meta leaks into the rendered story.
+    const noMeta =
+      (await page.locator('.lens-note, .depth-prov, .framing, .placeholder-body').count()) === 0 &&
+      !/pigeon weighs this against|value lens|api_key|pending key/.test(body);
+    log('returning', 'no internal-process meta leaks into reader view', noMeta);
     await page.screenshot({ path: `${SHOTS}/longform-detail.png`, fullPage: true });
     await ctx.close();
   }
