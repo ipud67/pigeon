@@ -29,11 +29,12 @@ import { buildConstitutionalAnalysis } from './constitutional';
 const VOICE =
   'VOICE: write plain and blue-collar — short sentences, concrete words, no academic jargon, no throat-clearing. Rich in meaning and history but easy and fast for a working person to read. Not dumbed-down — just clear.';
 
-const SHORT_HISTORY_PLACEHOLDER =
-  'Short history pending. Pigeon traces when this began and why using its model layer (Grok), which is not yet provisioned. No timeline has been fabricated — this section fills in once the model runs or a hand-researched override is supplied.';
+// Placeholder marker only — NEVER reader-facing. The renderer omits any section whose source
+// is 'placeholder' (no methodology text, no "what we would generate" explanation). These
+// strings exist solely so a section is unambiguously flagged as not-yet-real internally.
+const SHORT_HISTORY_PLACEHOLDER = 'Analysis coming.';
 
-const PREDICTION_PLACEHOLDER =
-  'Predictive model pending. Pigeon generates a neutral, indicator-based per-story forecast (how long this is likely to continue and where it may go next) with its model layer (Grok), which is not yet provisioned. No forecast has been fabricated — the value lens never enters a prediction, and this fills in once the model runs or a researched override is supplied.';
+const PREDICTION_PLACEHOLDER = 'Analysis coming.';
 
 function placeholderHistory(): ShortHistory {
   return { source: 'placeholder', text: SHORT_HISTORY_PLACEHOLDER };
@@ -119,7 +120,7 @@ export async function generateDepth(fact: FactRecord, provider: LLMProvider): Pr
         user: prompt,
         maxTokens: 700,
       });
-      if (c) constitutional_analysis = { source: 'llm', framing: ruleBased.framing, contrasts: [], prose: c };
+      if (c) constitutional_analysis = { source: 'llm', contrasts: [], prose: c };
     } catch {
       constitutional_analysis = ruleBased; // fall back to the cited rule-based contrast
     }

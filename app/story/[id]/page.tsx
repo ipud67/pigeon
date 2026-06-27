@@ -9,8 +9,13 @@
 //
 // Depth fields come from data/depth-overrides.json (Clark's research) when present, else the
 // ingest output: constitutional analysis is rule-based + cited (real now); short history +
-// prediction are clearly-labeled placeholders under mock and real under Grok — NEVER faked.
-// White-House advocacy phrasing is neutralized before render (Clark editorial must-fix).
+// prediction need the Grok path. Any depth section that has no real substance (source
+// 'placeholder') is OMITTED entirely — never shown as a methodology note.
+//
+// READER-FACING = SUBSTANCE ONLY (Timn 2026-06-26). No methodology preamble, no lens-note,
+// no "how we weigh/forecast/exclude" text, no provenance tag. The directional founding stance
+// is IMPLICIT in how the analysis is written. White-House advocacy phrasing is neutralized
+// before render (Clark editorial must-fix).
 
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
@@ -40,13 +45,6 @@ function fmtFull(dt: string): string {
     d.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', hour12: false, timeZone: 'UTC' }) +
     ' UTC'
   );
-}
-
-function srcTag(source: string): string {
-  if (source === 'override') return 'researched';
-  if (source === 'llm') return 'model-generated';
-  if (source === 'rule-based') return 'cited framework';
-  return 'pending';
 }
 
 export default async function Story({ params }: { params: Promise<{ id: string }> }) {
@@ -91,33 +89,26 @@ export default async function Story({ params }: { params: Promise<{ id: string }
           </section>
         ) : null}
 
-        <section className="narr">
-          <div className="sec-label">Short history</div>
-          {sh && sh.source !== 'placeholder' ? (
+        {/* SHORT HISTORY — only when real substance exists (no methodology placeholder) */}
+        {sh && sh.source !== 'placeholder' && sh.text && sh.text.trim() ? (
+          <section className="narr">
+            <div className="sec-label">Short history</div>
             <div className="body">{sh.text}</div>
-          ) : (
-            <div className="body placeholder-body">{sh?.text}</div>
-          )}
-          {sh ? <div className="depth-prov">{srcTag(sh.source)}</div> : null}
-        </section>
+          </section>
+        ) : null}
 
-        {/* CONSTITUTIONAL ANALYSIS — directional: the founding standard IS the measure */}
-        <section className="narr constitutional">
-          <div className="sec-label">Constitutional analysis</div>
-          <div className="lens-note">
-            The facts weighed against the American founding standard — the Constitution, the founders&rsquo;
-            ideals, and the founding tradition. That standard is the measure here, not modern jurisprudence.
-            A court ruling is reported as a fact and tracked as a forecast indicator; it is not treated as
-            the constitutional yardstick, and a modern-liberal ruling is never presented as a co-equal
-            opposing view.
-          </div>
-
-          {ca?.framing ? <div className="framing">{ca.framing}</div> : null}
-
-          {ca?.prose ? (
+        {/* CONSTITUTIONAL ANALYSIS — substance only; the founding stance is implicit in the
+            prose/contrast itself. No methodology preamble, no lens-note. Omitted when no real
+            analysis exists. */}
+        {ca?.prose && ca.prose.trim() ? (
+          <section className="narr constitutional">
+            <div className="sec-label">Constitutional analysis</div>
             <div className="body">{ca.prose}</div>
-          ) : ca && ca.contrasts.length > 0 ? (
-            ca.contrasts.map((c, i) => (
+          </section>
+        ) : ca && ca.contrasts.length > 0 ? (
+          <section className="narr constitutional">
+            <div className="sec-label">Constitutional analysis</div>
+            {ca.contrasts.map((c, i) => (
               <div className="contrast" key={c.tenet + i}>
                 <div className="contrast-q">{c.question}</div>
                 <div className="within">
@@ -130,40 +121,25 @@ export default async function Story({ params }: { params: Promise<{ id: string }
                 </div>
                 <div className="anchor">— {c.anchor}</div>
               </div>
-            ))
-          ) : (
-            <div className="body placeholder-body">
-              {ca?.note ??
-                'No constitutional question maps to this routine item — Pigeon shows the fact and its context only.'}
-            </div>
-          )}
-          {ca ? <div className="depth-prov">{srcTag(ca.source)}</div> : null}
-        </section>
+            ))}
+          </section>
+        ) : null}
 
-        {/* PREDICTIVE MODEL — neutral, indicator-based */}
-        <section className="narr predictive">
-          <div className="sec-label">Predictive model</div>
-          <div className="lens-note">
-            A neutral, indicator-based forecast — how long this is likely to continue and where it may
-            go next. Falsifiable, value-lens excluded.
-          </div>
-          {pred && pred.source !== 'placeholder' ? (
-            <>
-              <div className="body">{pred.forecast}</div>
-              {pred.horizon ? <div className="horizon">Horizon: {pred.horizon}</div> : null}
-              {pred.indicators && pred.indicators.length > 0 ? (
-                <ul className="indicators">
-                  {pred.indicators.map((ind, i) => (
-                    <li key={i}>{ind}</li>
-                  ))}
-                </ul>
-              ) : null}
-            </>
-          ) : (
-            <div className="body placeholder-body">{pred?.forecast}</div>
-          )}
-          {pred ? <div className="depth-prov">{srcTag(pred.source)}</div> : null}
-        </section>
+        {/* PREDICTIVE MODEL — substance only; omitted when no real forecast exists */}
+        {pred && pred.source !== 'placeholder' && pred.forecast && pred.forecast.trim() ? (
+          <section className="narr predictive">
+            <div className="sec-label">Predictive model</div>
+            <div className="body">{pred.forecast}</div>
+            {pred.horizon ? <div className="horizon">Horizon: {pred.horizon}</div> : null}
+            {pred.indicators && pred.indicators.length > 0 ? (
+              <ul className="indicators">
+                {pred.indicators.map((ind, i) => (
+                  <li key={i}>{ind}</li>
+                ))}
+              </ul>
+            ) : null}
+          </section>
+        ) : null}
 
         {/* PRIMARY SOURCES */}
         <div className="sources-panel">
