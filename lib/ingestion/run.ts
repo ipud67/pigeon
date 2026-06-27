@@ -17,8 +17,9 @@
 
 import { getProvider, resolveProviderName, shouldPublish, type ClassifyInput } from '../llm';
 import type { FactRecord, RawItem } from '../types';
-import { writeFacts, readForecasts, writeForecasts } from '../store';
+import { writeFacts, readForecasts, writeForecasts, writeMarketSnapshot } from '../store';
 import { SOURCES } from './sources';
+import { buildMarketSnapshot } from './markets';
 import { clusterItems, stableId } from './dedup';
 import { categorize, economicsFlag, derivePlace, buildDeck } from './enrich';
 import { generateWeighIt } from '../weighit/generate';
@@ -177,13 +178,34 @@ async function main() {
   );
   console.log(`  with long-form linkout: ${records.filter((r) => r.longform_url).length}`);
 
+  // MARKET SNAPSHOT (v2 scope expansion): keyless Treasury yields live; FRED/Finnhub gauges
+  // inert until keys present. Non-fatal — a market-source hiccup never stalls the ingest.
+  let snapshot: Awaited<ReturnType<typeof buildMarketSnapshot>> | null = null;
+  try {
+    snapshot = await buildMarketSnapshot();
+    console.log(
+      `\n  markets: live=[${snapshot.sources_live.join(', ') || 'none'}] · pending-key=[${
+        snapshot.sources_pending_key.join(', ') || 'none'
+      }]`,
+    );
+    const live = snapshot.indicators.filter((i) => i.status === 'live' && i.value != null);
+    console.log(`  market gauges live: ${live.map((i) => `${i.label} ${i.value}${i.unit === '%' ? '%' : ''}`).join(' · ') || 'none'}`);
+  } catch (e) {
+    console.log(`  markets: snapshot failed — ${(e as Error).message.slice(0, 80)}`);
+  }
+
   if (DRY) {
-    console.log('\n  [dry run] not writing data/facts.json\n');
+    console.log('\n  [dry run] not writing data/facts.json or data/markets.json\n');
     return;
   }
 
   writeFacts(records);
   console.log(`\n  → wrote data/facts.json (${records.length} records)`);
+
+  if (snapshot) {
+    writeMarketSnapshot(snapshot);
+    console.log(`  → wrote data/markets.json (${snapshot.indicators.length} gauges)`);
+  }
 
   // seed PREDICT sample forecasts if none exist yet (idempotent)
   const existing = readForecasts();

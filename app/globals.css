@@ -450,6 +450,16 @@ a {
 .narr.constitutional .sec-label {
   color: var(--accent-link);
 }
+/* DIRECTIONAL framing lead — the founding standard stated as the measure, ideals first */
+.narr.constitutional .framing {
+  font-size: 17px;
+  line-height: 1.6;
+  color: var(--fg-primary);
+  font-weight: 600;
+  margin: 0 0 20px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--rule-hairline);
+}
 .contrast {
   margin: 0 0 22px;
 }
@@ -525,6 +535,57 @@ a {
 /* week review reuses the dispatch card (single tap -> story) */
 .week-dispatch .lede {
   font-size: 20px;
+}
+
+/* MARKETS strip — the money tell (v2 scope expansion). Live gauges + honest pending-key. */
+.markets-strip {
+  margin: 6px 0 30px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid var(--rule-hairline);
+}
+.markets-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(108px, 1fr));
+  gap: 12px;
+  margin: 12px 0;
+}
+.mkt {
+  border: 1px solid var(--rule-hairline);
+  border-radius: 4px;
+  padding: 10px 12px;
+  background: var(--panel-fill);
+}
+.mkt-val {
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--fg-primary);
+  line-height: 1.1;
+}
+.mkt-label {
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.2px;
+  color: var(--fg-secondary);
+  margin-top: 4px;
+}
+.mkt.pending_key .mkt-val {
+  color: var(--fg-faint);
+}
+.mkt-pending {
+  font-family: 'Inter', sans-serif;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: var(--fg-faint);
+  margin-top: 4px;
+}
+.markets-note {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--fg-secondary);
 }
 
 /* sources panel */

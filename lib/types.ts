@@ -51,8 +51,11 @@ export type ConstitutionalContrast = {
 
 export type ConstitutionalAnalysis = {
   source: 'rule-based' | 'llm' | 'override' | 'placeholder';
+  // DIRECTIONAL framing (Timn 2026-06-26 LOCKED): the founding standard IS the measure. This
+  // lead names the founding ideal(s) at stake and states the yardstick before the contrast.
+  framing?: string;
   contrasts: ConstitutionalContrast[]; // one block per firing tenet (rule-based mode)
-  prose?: string; // override / LLM mode: a researched within-bounds-AND-beyond-bounds prose block
+  prose?: string; // override / LLM mode: a researched founding-standard prose block
   note?: string; // a labeled placeholder line when no substantive analysis is present
 };
 
@@ -119,6 +122,44 @@ export type RawItem = {
   paywalled?: boolean;
 };
 
+// ---- MARKETS (v2 scope expansion, Timn 2026-06-26) -------------------------
+// "Where money goes is always a big tell." The economics standing lens was missing Wall
+// Street entirely — no yields, indices, VIX, or oil. The MarketSnapshot is the structured
+// market signal the PREDICTIVE MODEL ingests: named, falsifiable gauges with a value when a
+// source is live, or null + a "pending key" note when the gauge is behind FRED/Finnhub keys
+// (inert until FRED_API_KEY / FINNHUB_API_KEY are present — same graceful pattern as Grok).
+
+export type MarketIndicatorKey =
+  | 'ust_2y'
+  | 'ust_10y'
+  | 'ust_30y'
+  | 'ust_3m'
+  | 'spread_2s10s'
+  | 'sp500'
+  | 'nasdaq'
+  | 'dow'
+  | 'vix'
+  | 'wti_oil'
+  | 'rate_expectation';
+
+export type MarketIndicator = {
+  key: MarketIndicatorKey;
+  label: string; // human label, e.g. "10-yr Treasury yield"
+  value: number | null; // the reading; null when the source is key-gated and inert
+  unit: string; // "%", "bps", "index", "$/bbl", "prob"
+  as_of: string | null; // ISO date of the reading
+  source: string; // "U.S. Treasury", "FRED", "Finnhub", "CME FedWatch"
+  status: 'live' | 'pending_key'; // live keyless reading vs inert-awaiting-key
+  note?: string; // the falsifiable tell, e.g. "inversion (2s10s < 0) flags recession risk"
+};
+
+export type MarketSnapshot = {
+  as_of: string; // ISO timestamp the snapshot was built
+  indicators: MarketIndicator[];
+  sources_live: string[]; // which market sources produced a reading this build
+  sources_pending_key: string[]; // which are wired but inert (no env key)
+};
+
 // ---- PREDICT (P1) ----------------------------------------------------------
 
 export type IndicatorCategory =
@@ -148,6 +189,7 @@ export type Forecast = {
   indicators: Indicator[];
   watch_items: string[]; // the 2-3 indicators that would most move it
   economics_note?: string; // economics is a first-look tell on every thread (v2)
+  market_inputs?: MarketIndicator[]; // live market gauges the model ingests (v2 scope expansion)
   resolved?: { outcome: boolean; brier: number; scored_at: string } | null;
   created_at: string;
 };

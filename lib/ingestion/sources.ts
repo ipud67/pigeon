@@ -296,7 +296,61 @@ export async function govInfo(): Promise<RawItem[]> {
     }));
 }
 
-// The registry. 10-source spine + economics primaries (Clark feed-registry-v1 corrected).
+// ---- 16. European Commission — press corner (RSS) — world (Clark scope-expansion P2) -------
+// World-government primary: official EU statements, matching the US-gov tier for another
+// balance-of-power player. Keyless, LIVE.
+export async function euCommission(): Promise<RawItem[]> {
+  const xml = await fetchText('https://ec.europa.eu/commission/presscorner/api/rss?language=en');
+  return parseFeed(xml)
+    .slice(0, MAX_PER_SOURCE)
+    .map((e) => ({
+      outlet: 'European Commission',
+      tier: 'T1_gov' as SourceTier,
+      url: e.link,
+      title: stripHtml(e.title),
+      body: stripHtml(e.summary) || stripHtml(e.title),
+      datetime_utc: toIso(e.published),
+    }));
+}
+
+// ---- 17. UK Government — news & communications (Atom) — world (Clark scope-expansion P2) ----
+// Official gov.uk announcements firehose; primary UK-government statements. Keyless, LIVE.
+export async function govUkNews(): Promise<RawItem[]> {
+  const xml = await fetchText('https://www.gov.uk/search/news-and-communications.atom');
+  return parseFeed(xml)
+    .slice(0, MAX_PER_SOURCE)
+    .map((e) => ({
+      outlet: 'UK Government',
+      tier: 'T1_gov' as SourceTier,
+      url: e.link.startsWith('http') ? e.link : `https://www.gov.uk${e.link}`,
+      title: stripHtml(e.title),
+      body: stripHtml(e.summary) || stripHtml(e.title),
+      datetime_utc: toIso(e.published),
+    }));
+}
+
+// ---- 18. AP Business wire (RSS) — markets / economics news (Clark scope-expansion P1) -------
+// Wire-grade market reporting (earnings, M&A, market moves) — carried per the editorial
+// standard (wire = fact). NOTE: AP's public feeds 401/403 programmatic clients from many
+// networks; wired per the registry but degrades to [] when blocked (honest: not load-bearing).
+export async function apBusiness(): Promise<RawItem[]> {
+  const xml = await fetchText('https://apnews.com/hub/business?outputType=rss');
+  return parseFeed(xml)
+    .slice(0, MAX_PER_SOURCE)
+    .map((e) => ({
+      outlet: 'AP',
+      tier: 'T1_wire' as SourceTier,
+      url: e.link,
+      title: stripHtml(e.title),
+      body: stripHtml(e.summary) || stripHtml(e.title),
+      datetime_utc: toIso(e.published),
+    }));
+}
+
+// The registry. 10-source spine + economics primaries (Clark feed-registry-v1 corrected) +
+// the v2 scope expansion: EU + UK gov primaries (world), AP Business (markets news). Market
+// PRICE data (yields, 2s10s, indices, VIX, oil) flows through the separate MarketSnapshot
+// (lib/ingestion/markets.ts), not this headline registry.
 // GDELT runs LAST (its 1-req/5s limit means giving it the most slack before the call).
 export const SOURCES: Array<{ name: string; fn: () => Promise<RawItem[]>; throttleMs?: number }> = [
   { name: 'Federal Register', fn: federalRegister },
@@ -313,5 +367,8 @@ export const SOURCES: Array<{ name: string; fn: () => Promise<RawItem[]>; thrott
   { name: 'CourtListener (SCOTUS)', fn: courtListener },
   { name: 'Bureau of Labor Statistics (CPI/PPI)', fn: bls },
   { name: 'Bureau of Labor Statistics (jobs)', fn: blsJobs },
+  { name: 'European Commission (press)', fn: euCommission },
+  { name: 'UK Government (gov.uk)', fn: govUkNews },
+  { name: 'AP Business (wire)', fn: apBusiness },
   { name: 'GDELT (radar)', fn: gdelt, throttleMs: 6000 },
 ];

@@ -101,14 +101,18 @@ export default async function Story({ params }: { params: Promise<{ id: string }
           {sh ? <div className="depth-prov">{srcTag(sh.source)}</div> : null}
         </section>
 
-        {/* CONSTITUTIONAL ANALYSIS — within-bounds vs beyond-bounds, cited */}
+        {/* CONSTITUTIONAL ANALYSIS — directional: the founding standard IS the measure */}
         <section className="narr constitutional">
           <div className="sec-label">Constitutional analysis</div>
           <div className="lens-note">
-            The facts set against the American founding framework — the case that the action is within
-            constitutional bounds and the case that it exceeds them, each anchored to a founding
-            document. Pigeon lays out both; it does not hand you a verdict.
+            The facts weighed against the American founding standard — the Constitution, the founders&rsquo;
+            ideals, and the founding tradition. That standard is the measure here, not modern jurisprudence.
+            A court ruling is reported as a fact and tracked as a forecast indicator; it is not treated as
+            the constitutional yardstick, and a modern-liberal ruling is never presented as a co-equal
+            opposing view.
           </div>
+
+          {ca?.framing ? <div className="framing">{ca.framing}</div> : null}
 
           {ca?.prose ? (
             <div className="body">{ca.prose}</div>
@@ -117,11 +121,11 @@ export default async function Story({ params }: { params: Promise<{ id: string }
               <div className="contrast" key={c.tenet + i}>
                 <div className="contrast-q">{c.question}</div>
                 <div className="within">
-                  <span className="side-label">Within bounds</span>
+                  <span className="side-label">By the founding standard</span>
                   {c.within_bounds}
                 </div>
                 <div className="beyond">
-                  <span className="side-label">Beyond bounds</span>
+                  <span className="side-label">The founding-based tension</span>
                   {c.beyond_bounds}
                 </div>
                 <div className="anchor">— {c.anchor}</div>

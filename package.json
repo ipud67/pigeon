@@ -13,7 +13,10 @@
     "start": "next start",
     "typecheck": "tsc --noEmit",
     "ingest": "node --import tsx lib/ingestion/run.ts",
-    "ingest:dry": "PIGEON_INGEST_DRY=1 node --import tsx lib/ingestion/run.ts"
+    "ingest:dry": "PIGEON_INGEST_DRY=1 node --import tsx lib/ingestion/run.ts",
+    "reenrich": "node --import tsx scripts/reenrich.ts",
+    "markets": "node --import tsx scripts/refresh-markets.ts",
+    "overrides": "node scripts/build-overrides.mjs"
   },
   "dependencies": {
     "fast-xml-parser": "4.5.1",

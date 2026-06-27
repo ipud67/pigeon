@@ -15,12 +15,13 @@
 
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
 import { dirname, join } from 'node:path';
-import type { FactRecord, Forecast } from './types';
+import type { FactRecord, Forecast, MarketSnapshot } from './types';
 import { applyDepthOverride } from './depth/overrides';
 
 const DATA_DIR = join(process.cwd(), 'data');
 const FACTS_PATH = join(DATA_DIR, 'facts.json');
 const PREDICT_PATH = join(DATA_DIR, 'predict.json');
+const MARKETS_PATH = join(DATA_DIR, 'markets.json');
 
 function ensureDir(path: string) {
   const dir = dirname(path);
@@ -73,4 +74,17 @@ export function readForecastById(id: string): Forecast | undefined {
 export function writeForecasts(forecasts: Forecast[]): void {
   ensureDir(PREDICT_PATH);
   writeFileSync(PREDICT_PATH, JSON.stringify(forecasts, null, 2) + '\n', 'utf8');
+}
+
+// ---- markets (v2 scope expansion) ------------------------------------------
+// The market snapshot the PREDICTIVE MODEL ingests. Built from free/keyless Treasury yields
+// now; FRED/Finnhub gauges fill in once their keys are present (inert until then).
+
+export function readMarketSnapshot(): MarketSnapshot | null {
+  return readJson<MarketSnapshot | null>(MARKETS_PATH, null);
+}
+
+export function writeMarketSnapshot(snapshot: MarketSnapshot): void {
+  ensureDir(MARKETS_PATH);
+  writeFileSync(MARKETS_PATH, JSON.stringify(snapshot, null, 2) + '\n', 'utf8');
 }

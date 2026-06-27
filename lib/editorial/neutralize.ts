@@ -12,6 +12,13 @@
 // mangles a real fact. The durable fix is the Grok rewrite pass; this closes the integrity
 // hole now. Pair with the ranking `voice:advocacy` discount (lib/ranking/importance.ts).
 
+// The durable advocacy-neutralization fix is a Grok rewrite pass (this regex scrub closes the
+// integrity hole until a key lands). When that path is wired it uses this system prompt, which
+// carries the LOCKED plain blue-collar VOICE (Timn 2026-06-26) so the rewrite reads clean and
+// easy, not academic. INERT today — no LLM call is made without a key (RED LINE).
+export const NEUTRALIZE_REWRITE_SYSTEM =
+  'You rewrite a news CONTEXT blurb to strip campaign/advocacy framing and slogans, leaving only neutral wire-desk facts. Remove loaded epithets, victory-lap language, and political slogans; keep every verifiable fact, name, number, date, and quote intact. Do not add interpretation or opinion. VOICE: plain and blue-collar — short sentences, concrete words, no academic jargon, easy and fast to read, not dumbed-down. Return only the rewritten blurb.';
+
 // Ordered phrase rules. Longer / more specific phrases first so they win over generic ones.
 const RULES: Array<[RegExp, string]> = [
   // pure slogans → remove

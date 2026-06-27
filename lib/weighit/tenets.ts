@@ -22,12 +22,15 @@ export type Tenet = {
   label: string;
   question: string; // {event} / {actor} / {eventRef} slots filled at generation time
   anchor: string;
-  // CONSTITUTIONAL ANALYSIS contrast (SPEC v2 §B). Neutral, cited, two-sided framings —
-  // NOT event-specific claims (no fabricated facts). They lay out the within-bounds and
-  // beyond-bounds case the reader can test the event against. {actor} is slotted at gen
-  // time. The verdict is deliberately withheld (calibration pending Timn's relevance chat).
-  within?: string; // the case the action sits inside constitutional limits
-  beyond?: string; // the case it reaches past them
+  // CONSTITUTIONAL ANALYSIS contrast (SPEC v2 §B + DIRECTIONAL rework, Timn 2026-06-26).
+  // The founding standard IS the measure. `within` = the case the action lines up with that
+  // standard; `beyond` = the founding-BASED tension or limit (critique comes FROM the founders
+  // — limited federal power, anti-standing-army, consent — never from modern-liberal courts).
+  // Both sides are anchored to PRIMARY founding documents only. Voice: plain, blue-collar —
+  // short sentences, concrete words, no academic jargon. {actor} is slotted at gen time.
+  ideal?: string; // the founding IDEAL at stake — foregrounded, hard (LOCKED rule 3)
+  within?: string; // the case the action lines up with the founding standard
+  beyond?: string; // the founding-based tension / limit
 };
 
 export const TENETS: Tenet[] = [
@@ -37,10 +40,12 @@ export const TENETS: Tenet[] = [
     question:
       'Does {event} keep {actor} inside the powers the Constitution enumerates (Art. I §8; 10th Amendment), or does it extend federal reach beyond them?',
     anchor: 'Federalist No. 45 (Madison); Constitution Art. I §8; Amendment X',
+    ideal:
+      'The federal government was built to have only a few, named jobs. Everything else stays with the states and the people.',
     within:
-      'If the action rests on a power actually enumerated in Article I §8, it sits inside the federal grant the founders ratified — Madison called those powers "few and defined" (Federalist 45).',
+      'If the action uses a power the Constitution actually lists in Article I §8, it stays inside the lines the founders drew. Madison called the federal powers "few and defined" (Federalist 45).',
     beyond:
-      'If it reaches into matters the 10th Amendment reserves to the states or the people, it extends federal reach past its enumerated limits — the powers left to the states were meant to be "numerous and indefinite" (Federalist 45).',
+      'If it reaches into matters the 10th Amendment leaves to the states or the people, it stretches past those lines. The founders meant the states\' powers to stay "numerous and indefinite" (Federalist 45).',
   },
   {
     id: 'federalism',
@@ -48,10 +53,12 @@ export const TENETS: Tenet[] = [
     question:
       'Does {event} centralize a decision the founders left to the states or the people (Federalist 45; 10th Amendment)?',
     anchor: 'Federalist No. 45 & No. 39 (Madison); Amendment X',
+    ideal:
+      'Most decisions were meant to be made close to home — by the states and the people, not run out of Washington.',
     within:
-      'If the matter is one the Constitution assigns to the national government, acting on it is the compound republic working as designed — "partly federal, partly national" (Federalist 39).',
+      'If the matter is one the Constitution hands to the national government, acting on it is the system working as built — "partly federal, partly national" (Federalist 39).',
     beyond:
-      'If it overrides or commandeers a choice the founders left to the states or localities, it centralizes power the 10th Amendment reserved below the national level.',
+      'If it overrides a choice the founders left to the states or towns, it pulls power up to Washington that the 10th Amendment kept below it.',
   },
   {
     id: 'separation-of-powers',
@@ -59,10 +66,12 @@ export const TENETS: Tenet[] = [
     question:
       'Is {actor} exercising its own constitutional power here, or absorbing one assigned to another branch (Federalist 51; for war, Art. I §8 cl. 11)?',
     anchor: 'Federalist No. 51 & No. 47 (Madison); Constitution Art. I §8 cl. 11',
+    ideal:
+      'No single branch was meant to hold too much power. The founders set each one against the others on purpose.',
     within:
-      'If {actor} is exercising a power the Constitution assigns to its own branch, the act respects the separation Madison built so "ambition counteract[s] ambition" (Federalist 51).',
+      'If {actor} is using a power that belongs to its own branch, it respects the split Madison built so "ambition counteract[s] ambition" (Federalist 51).',
     beyond:
-      'If {actor} is absorbing a power the Constitution gives another branch — the war-declaration power is Congress\'s (Art. I §8 cl. 11) — the accumulation of powers in one hand is "the very definition of tyranny" (Federalist 47).',
+      'If {actor} takes a power the Constitution gives another branch — only Congress can declare war (Art. I §8 cl. 11) — that piling-up of power in one hand is what Madison called "the very definition of tyranny" (Federalist 47).',
   },
   {
     id: 'natural-rights',
@@ -70,10 +79,12 @@ export const TENETS: Tenet[] = [
     question:
       'Does {event} secure or erode an unalienable right, and does it rest on the consent of the governed (Declaration; Federalist 10)?',
     anchor: 'Declaration of Independence (1776); Federalist No. 10 (Madison)',
+    ideal:
+      'Government exists to protect rights people already have — not to hand them out or take them away.',
     within:
-      'If the action secures an unalienable right and rests on the consent of the governed, it serves the end government exists for — "to secure these rights" (Declaration, 1776).',
+      'If the action protects a basic right and rests on the people\'s consent, it does the one job government is for — "to secure these rights" (Declaration, 1776).',
     beyond:
-      'If it erodes a right that precedes government or proceeds without consent, it inverts the founding premise that just powers derive "from the consent of the governed."',
+      'If it strips a right that comes before government, or acts without the people\'s consent, it flips the founding deal that just power comes "from the consent of the governed."',
   },
   {
     id: 'foreign-restraint',
@@ -82,10 +93,12 @@ export const TENETS: Tenet[] = [
       'Does {event} move American foreign policy toward permanent entanglement and standing-army interventionism, or toward the armed restraint Washington and Jefferson urged?',
     anchor:
       'Washington, Farewell Address (1796); Jefferson, First Inaugural (1801); Federalist No. 8 (Hamilton); Art. I §8 cl. 11',
+    ideal:
+      'Stay strong enough to defend the country, but stay out of permanent foreign fights.',
     within:
-      'If the move keeps a "respectable defensive posture" without a permanent entanglement, it tracks the founders\' armed restraint — Washington urged steering "clear of permanent alliances"; Jefferson, "entangling alliances with none."',
+      'If the move keeps a solid defense without a permanent entanglement, it follows the founders\' restraint — Washington warned against "permanent alliances"; Jefferson, "entangling alliances with none."',
     beyond:
-      'If it commits American force to a standing, open-ended entanglement, it runs toward the interventionism Hamilton warned "endanger[s]" liberty, where constant danger trades freedom for safety (Federalist 8).',
+      'If it locks American force into an open-ended foreign commitment, it runs toward the constant-war footing Hamilton warned trades freedom for safety (Federalist 8).',
   },
   {
     id: 'originalism',
@@ -93,10 +106,12 @@ export const TENETS: Tenet[] = [
     question:
       'Is this change being made through the text’s original meaning and the Article V amendment process, or by reinterpreting the words (Federalist 78)?',
     anchor: 'Constitution Art. V; Federalist No. 78 (Hamilton)',
+    ideal:
+      'The Constitution means what it meant when it was written. To change it, you amend it — you do not just reread it.',
     within:
-      'If the change applies the text\'s original meaning — or is made through the Article V amendment process — the courts exercise "merely judgment," not will (Federalist 78).',
+      'If the change sticks to the text\'s original meaning — or goes through the Article V amendment process — the court is using "merely judgment," not its own will (Federalist 78).',
     beyond:
-      'If the words are reinterpreted to reach a new result the amendment process never ratified, the change bypasses Article V, the only legitimate route to alter the Constitution\'s meaning.',
+      'If the words get reread to reach a new result the people never amended in, it skips Article V — the only honest way to change what the Constitution means.',
   },
   {
     id: 'virtue-covenant',
@@ -105,10 +120,12 @@ export const TENETS: Tenet[] = [
       'Does {event} strengthen or corrode the moral and religious preconditions the founders held a free people requires (Adams 1798; Farewell Address; Northwest Ordinance Art. 3)?',
     anchor:
       'John Adams to the Mass. Militia (1798); Washington, Farewell Address (1796); Northwest Ordinance (1787) Art. 3',
+    ideal:
+      'A free country only holds together if the people stay moral and self-governing. The founders treated that as a precondition, not an extra.',
     within:
-      'If it strengthens the moral and religious habits the founders held a republic depends on, it serves Adams\'s premise that the Constitution "was made only for a moral and religious People."',
+      'If it strengthens the moral and religious habits the founders said a republic needs, it backs Adams\'s point that the Constitution "was made only for a moral and religious People."',
     beyond:
-      'If it corrodes those preconditions, it weakens what Washington called the "indispensable supports" of political prosperity — religion and morality (Farewell Address).',
+      'If it eats away at those habits, it weakens what Washington called the "indispensable supports" of a free people — religion and morality (Farewell Address).',
   },
 ];
 

@@ -39,6 +39,10 @@ export const SAMPLE_FORECASTS: Forecast[] = [
     ],
     economics_note:
       'Follow the money first: a Russia-tilted energy/labor deal would be a leading economic tell, often moving before the political signaling.',
+    market_inputs: [
+      { key: 'wti_oil', label: 'WTI crude oil', value: null, unit: '$/bbl', as_of: null, source: 'FRED', status: 'pending_key', note: 'energy-revenue tell — sanctions-evading oil flows fund a Russia tilt' },
+      { key: 'rate_expectation', label: 'Fed funds rate', value: null, unit: '%', as_of: null, source: 'FRED', status: 'pending_key', note: 'global-liquidity backdrop for sanctioned-economy trade deals' },
+    ],
     resolved: null,
     created_at: now,
   },
@@ -68,6 +72,10 @@ export const SAMPLE_FORECASTS: Forecast[] = [
     ],
     economics_note:
       'War-risk insurance premiums and vessel re-routing are a market-priced leading indicator — they typically spike before a confirmed strike.',
+    market_inputs: [
+      { key: 'wti_oil', label: 'WTI crude oil', value: null, unit: '$/bbl', as_of: null, source: 'FRED', status: 'pending_key', note: 'oil spikes on Red Sea / Hormuz supply-route stress' },
+      { key: 'vix', label: 'VIX (volatility)', value: null, unit: 'index', as_of: null, source: 'FRED', status: 'pending_key', note: 'risk-off spike often accompanies a confirmed maritime escalation' },
+    ],
     resolved: null,
     created_at: now,
   },

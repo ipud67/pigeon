@@ -1,0 +1,116 @@
+{
+  "as_of": "2026-06-27T01:16:41.479Z",
+  "indicators": [
+    {
+      "key": "ust_3m",
+      "label": "3-mo Treasury bill",
+      "value": 3.83,
+      "unit": "%",
+      "as_of": "2026-06-26",
+      "source": "U.S. Treasury",
+      "status": "live"
+    },
+    {
+      "key": "ust_2y",
+      "label": "2-yr Treasury yield",
+      "value": 4.07,
+      "unit": "%",
+      "as_of": "2026-06-26",
+      "source": "U.S. Treasury",
+      "status": "live"
+    },
+    {
+      "key": "ust_10y",
+      "label": "10-yr Treasury yield",
+      "value": 4.38,
+      "unit": "%",
+      "as_of": "2026-06-26",
+      "source": "U.S. Treasury",
+      "status": "live"
+    },
+    {
+      "key": "ust_30y",
+      "label": "30-yr Treasury yield",
+      "value": 4.87,
+      "unit": "%",
+      "as_of": "2026-06-26",
+      "source": "U.S. Treasury",
+      "status": "live"
+    },
+    {
+      "key": "spread_2s10s",
+      "label": "2s10s spread",
+      "value": 31,
+      "unit": "bps",
+      "as_of": "2026-06-26",
+      "source": "U.S. Treasury",
+      "status": "live",
+      "note": "inversion (2s10s below zero) is the market’s classic recession tell"
+    },
+    {
+      "key": "sp500",
+      "label": "S&P 500",
+      "value": null,
+      "unit": "index",
+      "as_of": null,
+      "source": "FRED",
+      "status": "pending_key",
+      "note": "broad risk appetite"
+    },
+    {
+      "key": "nasdaq",
+      "label": "Nasdaq Composite",
+      "value": null,
+      "unit": "index",
+      "as_of": null,
+      "source": "FRED",
+      "status": "pending_key"
+    },
+    {
+      "key": "dow",
+      "label": "Dow (DIA proxy)",
+      "value": null,
+      "unit": "index",
+      "as_of": null,
+      "source": "Finnhub",
+      "status": "pending_key"
+    },
+    {
+      "key": "vix",
+      "label": "VIX (volatility)",
+      "value": null,
+      "unit": "index",
+      "as_of": null,
+      "source": "FRED",
+      "status": "pending_key",
+      "note": "spikes flag market stress on war / shock stories"
+    },
+    {
+      "key": "wti_oil",
+      "label": "WTI crude oil",
+      "value": null,
+      "unit": "$/bbl",
+      "as_of": null,
+      "source": "FRED",
+      "status": "pending_key",
+      "note": "moves on war / sanctions / supply shocks"
+    },
+    {
+      "key": "rate_expectation",
+      "label": "Fed funds rate",
+      "value": null,
+      "unit": "%",
+      "as_of": null,
+      "source": "FRED",
+      "status": "pending_key",
+      "note": "pairs with CME FedWatch implied-odds for the rate path"
+    }
+  ],
+  "sources_live": [
+    "U.S. Treasury"
+  ],
+  "sources_pending_key": [
+    "FRED",
+    "Finnhub"
+  ]
+}
