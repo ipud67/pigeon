@@ -22,6 +22,7 @@ import { notFound } from 'next/navigation';
 import { readFacts, readFactById } from '../../../lib/store';
 import { Masthead, Footer } from '../../components';
 import { neutralizeText } from '../../../lib/editorial/neutralize';
+import { plainHeadline } from '../../../lib/econ/plain';
 
 export const dynamic = 'force-static';
 
@@ -52,7 +53,7 @@ export default async function Story({ params }: { params: Promise<{ id: string }
   const fact = readFactById(id);
   if (!fact) notFound();
 
-  const headline = neutralizeText(fact.what) || fact.what;
+  const headline = plainHeadline(neutralizeText(fact.what) || fact.what);
   const context = neutralizeText(fact.context);
   const depth = fact.depth;
   const ca = depth?.constitutional_analysis;
@@ -70,10 +71,7 @@ export default async function Story({ params }: { params: Promise<{ id: string }
       </div>
 
       <article className="detail">
-        <div className="region">
-          {fact.place}
-          {fact.economics_flag ? <span className="econ-tag">economics</span> : null}
-        </div>
+        <div className="region">{fact.place}</div>
         <div className="datestamp">{fmtFull(fact.datetime_utc)}</div>
         <div className="rule" />
 

@@ -120,15 +120,18 @@ async function run() {
     log('fresh', 'terminator present (anti-doomscroll)', /caught up/i.test(term));
     const chips = await page.locator('.chip').count();
     log('fresh', 'Top Stories + category filter chips present', chips >= 6, `${chips} chips`);
-    // Economics is OPT-IN: clicking it surfaces the buried micro-noise (8-K reachable here)
+    // Economics is OPT-IN. Per Clark's Deliverable-3 rework the econ filter is the PLAIN-LANGUAGE
+    // money surface — NOT a raw 8-K/EDGAR dump (those are buried, deep-search only). It must
+    // surface comprehensible econ cards, each carrying a "what it means" wallet line.
     await page.locator('.chip', { hasText: 'Economics' }).click();
-    await page.waitForTimeout(200);
+    await page.waitForTimeout(250);
     const econActive = (await page.locator('.chip.active').innerText()).toLowerCase().includes('econ');
-    const firstHasEcon = (await page.locator('.dispatch').first().locator('.econ-tag').count()) > 0;
+    const econCards = await page.locator('.dispatch[data-category="economics"]').count();
+    const walletLines = await page.locator('[data-testid="econ-plain"]').count();
     const ledes = await page.locator('.dispatch .lede').allInnerTexts();
     const eightKReachable = ledes.some((t) => /\b8-?K\b/i.test(t));
-    log('fresh', 'economics filter surfaces econ items', econActive && firstHasEcon);
-    log('fresh', 'buried 8-K reachable via economics filter', eightKReachable);
+    log('fresh', 'economics filter surfaces plain-language econ cards', econActive && econCards > 0 && walletLines > 0, `${econCards} cards, ${walletLines} wallet lines`);
+    log('fresh', '8-K micro-filings buried off the econ filter (Clark rework)', !eightKReachable);
     await ctx.close();
   }
 

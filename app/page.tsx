@@ -6,7 +6,7 @@
 // passes a slim projection of every fact (the island ranks + filters in the browser, which
 // keeps it static-export-safe).
 
-import { readFacts } from '../lib/store';
+import { readFacts, readMarketSnapshot } from '../lib/store';
 import { Masthead, Footer } from './components';
 import { Feed, type FeedItem } from './feed';
 
@@ -24,13 +24,16 @@ export default function Home() {
     context: f.context,
     category: f.category,
     economics_flag: f.economics_flag,
-    sources: f.sources.map((s) => ({ outlet: s.outlet, tier: s.tier })),
+    // Beck: carry the real primary-source URL through to the card so sources render as clickable
+    // <a href> links, not dead <span>s.
+    sources: f.sources.map((s) => ({ outlet: s.outlet, url: s.url, tier: s.tier, paywalled: s.paywalled })),
   }));
+  const markets = readMarketSnapshot()?.indicators ?? [];
 
   return (
     <div className="shell">
       <Masthead count={facts.length} activeNav="today" />
-      <Feed items={items} />
+      <Feed items={items} markets={markets} />
       <Footer />
     </div>
   );
