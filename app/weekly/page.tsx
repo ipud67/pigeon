@@ -20,31 +20,27 @@ function fmtIndicator(i: MarketIndicator): string {
   return `${i.value}`;
 }
 
-// "Where money goes is always a big tell." The live market gauges the PREDICTIVE MODEL ingests
-// (v2 scope expansion). Keyless Treasury yields render live now; FRED/Finnhub gauges show
-// "pending key" until FRED_API_KEY / FINNHUB_API_KEY are provisioned — honest, never hidden.
+// "Where money goes is always a big tell." Reader-facing = substance ONLY (Timn 2026-06-26):
+// show the live market numbers, nothing about WHERE they come from or which API keys are
+// pending. Gauges that have no real value yet are omitted (never shown as "pending key"); if
+// none are live, the strip renders nothing.
 function MarketsStrip() {
   const snap = readMarketSnapshot();
   if (!snap) return null;
+  const live = snap.indicators.filter((i) => i.status === 'live' && i.value != null);
+  if (live.length === 0) return null;
   return (
     <section className="markets-strip">
       <div className="section-kicker" style={{ paddingTop: 4 }}>
         Markets — the money tell
       </div>
       <div className="markets-grid">
-        {snap.indicators.map((i) => (
-          <div className={`mkt ${i.status}`} key={i.key}>
+        {live.map((i) => (
+          <div className="mkt live" key={i.key}>
             <div className="mkt-val">{fmtIndicator(i)}</div>
             <div className="mkt-label">{i.label}</div>
-            {i.status === 'pending_key' ? <div className="mkt-pending">pending key</div> : null}
           </div>
         ))}
-      </div>
-      <div className="markets-note">
-        Live gauges feed the per-story predictive model. Live now: {snap.sources_live.join(', ') || 'none'}.
-        {snap.sources_pending_key.length
-          ? ` Inert until keyed: ${snap.sources_pending_key.join(', ')} (FRED_API_KEY / FINNHUB_API_KEY).`
-          : ''}
       </div>
     </section>
   );
