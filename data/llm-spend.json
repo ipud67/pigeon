@@ -1,0 +1,296 @@
+{
+  "version": 1,
+  "updated_at": "2026-07-14T04:50:19.288Z",
+  "calls": [
+    {
+      "ts": "2026-07-14T04:47:51.025Z",
+      "provider": "xai",
+      "model": "grok-4.20-0309-non-reasoning",
+      "purpose": "local-classify",
+      "area": "San Diego County, CA",
+      "tokens_in": 571,
+      "tokens_out": 76,
+      "cost_usd": 0.000152
+    },
+    {
+      "ts": "2026-07-14T04:47:51.738Z",
+      "provider": "xai",
+      "model": "grok-4.20-0309-non-reasoning",
+      "purpose": "local-classify",
+      "area": "San Diego County, CA",
+      "tokens_in": 574,
+      "tokens_out": 69,
+      "cost_usd": 0.000149
+    },
+    {
+      "ts": "2026-07-14T04:47:52.426Z",
+      "provider": "xai",
+      "model": "grok-4.20-0309-non-reasoning",
+      "purpose": "local-classify",
+      "area": "San Diego County, CA",
+      "tokens_in": 576,
+      "tokens_out": 61,
+      "cost_usd": 0.000146
+    },
+    {
+      "ts": "2026-07-14T04:47:52.987Z",
+      "provider": "xai",
+      "model": "grok-4.20-0309-non-reasoning",
+      "purpose": "local-classify",
+      "area": "San Diego County, CA",
+      "tokens_in": 575,
+      "tokens_out": 53,
+      "cost_usd": 0.000142
+    },
+    {
+      "ts": "2026-07-14T04:47:53.741Z",
+      "provider": "xai",
+      "model": "grok-4.20-0309-non-reasoning",
+      "purpose": "local-classify",
+      "area": "San Diego County, CA",
+      "tokens_in": 569,
+      "tokens_out": 70,
+      "cost_usd": 0.000149
+    },
+    {
+      "ts": "2026-07-14T04:47:54.248Z",
+      "provider": "xai",
+      "model": "grok-4.20-0309-non-reasoning",
+      "purpose": "local-weekly-summary",
+      "area": "San Diego County, CA",
+      "tokens_in": 434,
+      "tokens_out": 28,
+      "cost_usd": 0.000101
+    },
+    {
+      "ts": "2026-07-14T04:47:57.999Z",
+      "provider": "xai",
+      "model": "grok-4.20-0309-non-reasoning",
+      "purpose": "local-classify",
+      "area": "Virginia Beach, VA",
+      "tokens_in": 590,
+      "tokens_out": 53,
+      "cost_usd": 0.000145
+    },
+    {
+      "ts": "2026-07-14T04:47:58.821Z",
+      "provider": "xai",
+      "model": "grok-4.20-0309-non-reasoning",
+      "purpose": "local-classify",
+      "area": "Virginia Beach, VA",
+      "tokens_in": 607,
+      "tokens_out": 57,
+      "cost_usd": 0.00015
+    },
+    {
+      "ts": "2026-07-14T04:47:59.469Z",
+      "provider": "xai",
+      "model": "grok-4.20-0309-non-reasoning",
+      "purpose": "local-classify",
+      "area": "Virginia Beach, VA",
+      "tokens_in": 563,
+      "tokens_out": 58,
+      "cost_usd": 0.000142
+    },
+    {
+      "ts": "2026-07-14T04:48:00.092Z",
+      "provider": "xai",
+      "model": "grok-4.20-0309-non-reasoning",
+      "purpose": "local-classify",
+      "area": "Virginia Beach, VA",
+      "tokens_in": 554,
+      "tokens_out": 50,
+      "cost_usd": 0.000136
+    },
+    {
+      "ts": "2026-07-14T04:48:00.900Z",
+      "provider": "xai",
+      "model": "grok-4.20-0309-non-reasoning",
+      "purpose": "local-classify",
+      "area": "Virginia Beach, VA",
+      "tokens_in": 554,
+      "tokens_out": 71,
+      "cost_usd": 0.000146
+    },
+    {
+      "ts": "2026-07-14T04:48:01.546Z",
+      "provider": "xai",
+      "model": "grok-4.20-0309-non-reasoning",
+      "purpose": "local-classify",
+      "area": "Virginia Beach, VA",
+      "tokens_in": 546,
+      "tokens_out": 66,
+      "cost_usd": 0.000142
+    },
+    {
+      "ts": "2026-07-14T04:48:02.318Z",
+      "provider": "xai",
+      "model": "grok-4.20-0309-non-reasoning",
+      "purpose": "local-classify",
+      "area": "Virginia Beach, VA",
+      "tokens_in": 599,
+      "tokens_out": 70,
+      "cost_usd": 0.000155
+    },
+    {
+      "ts": "2026-07-14T04:48:03.004Z",
+      "provider": "xai",
+      "model": "grok-4.20-0309-non-reasoning",
+      "purpose": "local-classify",
+      "area": "Virginia Beach, VA",
+      "tokens_in": 546,
+      "tokens_out": 71,
+      "cost_usd": 0.000145
+    },
+    {
+      "ts": "2026-07-14T04:48:03.449Z",
+      "provider": "xai",
+      "model": "grok-4.20-0309-non-reasoning",
+      "purpose": "local-weekly-summary",
+      "area": "Virginia Beach, VA",
+      "tokens_in": 433,
+      "tokens_out": 20,
+      "cost_usd": 0.000097
+    },
+    {
+      "ts": "2026-07-14T04:50:06.943Z",
+      "provider": "xai",
+      "model": "grok-4.20-0309-non-reasoning",
+      "purpose": "local-classify",
+      "area": "San Diego County, CA",
+      "tokens_in": 666,
+      "tokens_out": 72,
+      "cost_usd": 0.000169
+    },
+    {
+      "ts": "2026-07-14T04:50:07.793Z",
+      "provider": "xai",
+      "model": "grok-4.20-0309-non-reasoning",
+      "purpose": "local-classify",
+      "area": "San Diego County, CA",
+      "tokens_in": 669,
+      "tokens_out": 67,
+      "cost_usd": 0.000167
+    },
+    {
+      "ts": "2026-07-14T04:50:08.687Z",
+      "provider": "xai",
+      "model": "grok-4.20-0309-non-reasoning",
+      "purpose": "local-classify",
+      "area": "San Diego County, CA",
+      "tokens_in": 671,
+      "tokens_out": 69,
+      "cost_usd": 0.000169
+    },
+    {
+      "ts": "2026-07-14T04:50:09.297Z",
+      "provider": "xai",
+      "model": "grok-4.20-0309-non-reasoning",
+      "purpose": "local-classify",
+      "area": "San Diego County, CA",
+      "tokens_in": 670,
+      "tokens_out": 57,
+      "cost_usd": 0.000163
+    },
+    {
+      "ts": "2026-07-14T04:50:10.200Z",
+      "provider": "xai",
+      "model": "grok-4.20-0309-non-reasoning",
+      "purpose": "local-classify",
+      "area": "San Diego County, CA",
+      "tokens_in": 664,
+      "tokens_out": 63,
+      "cost_usd": 0.000164
+    },
+    {
+      "ts": "2026-07-14T04:50:10.587Z",
+      "provider": "xai",
+      "model": "grok-4.20-0309-non-reasoning",
+      "purpose": "local-weekly-summary",
+      "area": "San Diego County, CA",
+      "tokens_in": 531,
+      "tokens_out": 16,
+      "cost_usd": 0.000114
+    },
+    {
+      "ts": "2026-07-14T04:50:13.566Z",
+      "provider": "xai",
+      "model": "grok-4.20-0309-non-reasoning",
+      "purpose": "local-classify",
+      "area": "Virginia Beach, VA",
+      "tokens_in": 685,
+      "tokens_out": 58,
+      "cost_usd": 0.000166
+    },
+    {
+      "ts": "2026-07-14T04:50:14.239Z",
+      "provider": "xai",
+      "model": "grok-4.20-0309-non-reasoning",
+      "purpose": "local-classify",
+      "area": "Virginia Beach, VA",
+      "tokens_in": 702,
+      "tokens_out": 58,
+      "cost_usd": 0.000169
+    },
+    {
+      "ts": "2026-07-14T04:50:14.982Z",
+      "provider": "xai",
+      "model": "grok-4.20-0309-non-reasoning",
+      "purpose": "local-classify",
+      "area": "Virginia Beach, VA",
+      "tokens_in": 658,
+      "tokens_out": 54,
+      "cost_usd": 0.000159
+    },
+    {
+      "ts": "2026-07-14T04:50:15.906Z",
+      "provider": "xai",
+      "model": "grok-4.20-0309-non-reasoning",
+      "purpose": "local-classify",
+      "area": "Virginia Beach, VA",
+      "tokens_in": 649,
+      "tokens_out": 61,
+      "cost_usd": 0.00016
+    },
+    {
+      "ts": "2026-07-14T04:50:16.845Z",
+      "provider": "xai",
+      "model": "grok-4.20-0309-non-reasoning",
+      "purpose": "local-classify",
+      "area": "Virginia Beach, VA",
+      "tokens_in": 649,
+      "tokens_out": 80,
+      "cost_usd": 0.00017
+    },
+    {
+      "ts": "2026-07-14T04:50:17.676Z",
+      "provider": "xai",
+      "model": "grok-4.20-0309-non-reasoning",
+      "purpose": "local-classify",
+      "area": "Virginia Beach, VA",
+      "tokens_in": 641,
+      "tokens_out": 63,
+      "cost_usd": 0.00016
+    },
+    {
+      "ts": "2026-07-14T04:50:18.475Z",
+      "provider": "xai",
+      "model": "grok-4.20-0309-non-reasoning",
+      "purpose": "local-classify",
+      "area": "Virginia Beach, VA",
+      "tokens_in": 694,
+      "tokens_out": 75,
+      "cost_usd": 0.000176
+    },
+    {
+      "ts": "2026-07-14T04:50:19.288Z",
+      "provider": "xai",
+      "model": "grok-4.20-0309-non-reasoning",
+      "purpose": "local-classify",
+      "area": "Virginia Beach, VA",
+      "tokens_in": 641,
+      "tokens_out": 55,
+      "cost_usd": 0.000156
+    }
+  ]
+}

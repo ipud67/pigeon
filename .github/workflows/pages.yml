@@ -1,0 +1,95 @@
+name: Deploy Pigeon to GitHub Pages
+
+# Publishes the static export of the Pigeon news app to GitHub Pages at
+# https://ipud67.github.io/pigeon/ . Public deploy mirror — the canonical source and internal
+# planning docs live in a private repo and are deliberately NOT mirrored here.
+#
+# This pulls the news itself, on a schedule. The job pulls the free primary-source feeds,
+# re-ranks, commits the refreshed fact store, and republishes — no manual step required to
+# keep the site current.
+#
+# RED LINE, enforced here: no paid model call. LLM_PROVIDER is pinned to `mock` on the
+# ingest step and no API key exists in this repo, so ingestion runs on the free offline
+# classifier. If a key is ever added as a secret it must not be wired here without an
+# explicit rate and budget decision.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    # Every six hours. Free for public repositories, and it means the edition a reader opens
+    # in the morning was assembled a few hours earlier rather than whenever someone last
+    # remembered to publish.
+    - cron: '0 */6 * * *'
+
+permissions:
+  contents: write # the scheduled run commits the refreshed fact store
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install deps
+        run: npm ci
+
+      # Only on the timer or a manual run. A plain code push publishes against the fact store
+      # already in the repo, so a deploy never silently swaps the news underneath a code
+      # change you are trying to verify.
+      - name: Pull the news and re-rank (free offline classifier — no paid call)
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        env:
+          LLM_PROVIDER: mock
+        run: npm run ingest
+
+      - name: Commit the refreshed edition
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: |
+          if [ -n "$(git status --porcelain data/)" ]; then
+            git config user.name  "Creatus LLC"
+            git config user.email "pigeon@creatusdesign.dev"
+            git add data/
+            git commit -m "edition: $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+          else
+            echo "No change in the fact store; nothing to commit."
+          fi
+
+      - name: Build static export
+        env:
+          PIGEON_BASE_PATH: /pigeon
+        run: npm run build
+
+      - name: Ensure Jekyll is disabled on the artifact
+        run: touch out/.nojekyll
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,40 @@
+# Dependencies / build
+node_modules/
+dist/
+build/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+
+# Secrets / env — never commit
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Deploy
+.vercel
+.netlify
+
+# Logs / temp
+*.log
+scratch/
+.cache/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+.vercel
+
+# persona scratch screenshots
+tests/shots-local/
+tests/shots/
+
+# pages export staging
+.serveroot/
+tests/shots-pages-local/
+tests/shots-pages-live/

@@ -1,0 +1,2954 @@
+/* ============================================================
+ PIGEON — DIRECTION B — NEWSPAPER OF RECORD
+ Reused verbatim from Design's locked design tokens
+ (docs/visual/_direction-B-shared.css). Lede/body: Source Serif 4.
+ Metadata: Inter small-caps. Ink-red link. Dark default.
+ Do not invent a new look — this is the ratified system ().
+ ============================================================ */
+
+[data-theme='light'] {
+ --bg-canvas: #fbfaf5;
+ --bg-raise: #ffffff;
+ --fg-primary: #1a1a1a;
+ --fg-secondary: #5f5f5f;
+ --fg-faint: #8a8678;
+ --accent-link: #7a0e14;
+ --accent-soft: #9a2a2f;
+ --rule-hairline: #d8d5cc;
+ --rule-strong: #c2beb2;
+ --label-tint: #7a0e14;
+ --panel-fill: #f4f2ea;
+ /* A2 map: muted hand-tinted survey wash (low-chroma antique-map color) */
+ --map-fill: #f5f3eb;
+ --t-sea: #7fa0aa;
+ --t-coast: #9fb39a;
+ --t-mtn: #7e9668;
+ --t-desert: #d8b36a;
+ /* city streets (from the atlas mockup palette) */
+ --t-road: #b7a98f;
+ --t-free: #c08a5a;
+}
+
+[data-theme='dark'] {
+ --bg-canvas: #161510;
+ --bg-raise: #1e1c16;
+ --fg-primary: #edeae0;
+ --fg-secondary: #a39e8e;
+ --fg-faint: #6e6a5c;
+ --accent-link: #e89a86;
+ --accent-soft: #efa793;
+ --rule-hairline: #2e2c24;
+ --rule-strong: #3d3a30;
+ --label-tint: #e89a86;
+ --panel-fill: #1c1a14;
+ /* A2 map: luminous deep-sage-to-amber night wash */
+ --map-fill: #1b190f;
+ --t-sea: #5c7e88;
+ --t-coast: #5a7256;
+ --t-mtn: #6e8452;
+ --t-desert: #b79154;
+ --t-road: #5a5340;
+ --t-free: #a5713c;
+}
+
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+html {
+ -webkit-font-smoothing: antialiased;
+ text-rendering: optimizeLegibility;
+}
+
+body {
+ background: var(--bg-canvas);
+ color: var(--fg-primary);
+ font-family: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+ font-size: 19px;
+ line-height: 1.5;
+ transition: background 0.2s ease, color 0.2s ease;
+}
+
+a {
+ color: inherit;
+}
+
+/* ---- app shell ---- */
+.shell {
+ width: 100%;
+ max-width: 560px;
+ margin: 0 auto;
+ padding: 0 26px 80px;
+}
+
+/* ---- masthead ---- */
+.masthead {
+ text-align: center;
+ padding: 34px 24px 8px;
+}
+.masthead .name {
+ font-weight: 700;
+ font-size: 40px;
+ letter-spacing: 0.5px;
+ line-height: 1;
+}
+.masthead .name a {
+ text-decoration: none;
+}
+.masthead .date {
+ font-family: 'Inter', sans-serif;
+ font-size: 12px;
+ letter-spacing: 1px;
+ color: var(--fg-secondary);
+ margin-top: 12px;
+ font-weight: 500;
+}
+.masthead-rule {
+ height: 1px;
+ background: var(--rule-strong);
+ margin: 20px 0 0;
+}
+
+/* ---- nav ---- */
+.nav {
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ gap: 4px 22px;
+ font-family: 'Inter', sans-serif;
+ font-size: 11px;
+ letter-spacing: 1.5px;
+ text-transform: uppercase;
+ padding: 12px 0 0;
+ font-weight: 600;
+}
+.nav a {
+ color: var(--accent-link);
+ text-decoration: none;
+}
+.nav a.muted {
+ color: var(--fg-secondary);
+}
+.nav a:hover {
+ text-decoration: underline;
+ text-underline-offset: 3px;
+}
+
+/* ---- the briefing ---- */
+.briefing {
+ padding: 28px 0 6px;
+}
+.briefing .kicker,
+.section-kicker {
+ font-family: 'Inter', sans-serif;
+ font-size: 11px;
+ letter-spacing: 2.2px;
+ text-transform: uppercase;
+ font-weight: 600;
+ color: var(--label-tint);
+ text-align: center;
+ margin-bottom: 18px;
+}
+.briefing .prose {
+ font-size: 19px;
+ line-height: 1.62;
+ font-weight: 400;
+ color: var(--fg-primary);
+ text-align: left;
+ hyphens: auto;
+}
+.briefing .prose::first-letter {
+ font-weight: 700;
+ font-size: 3.1em;
+ line-height: 0.82;
+ float: left;
+ padding: 4px 10px 0 0;
+ color: var(--accent-link);
+}
+.place {
+ font-variant: small-caps;
+ font-feature-settings: 'smcp' 1;
+ letter-spacing: 0.4px;
+ font-weight: 600;
+}
+.q {
+ font-style: italic;
+}
+.briefing-rule {
+ height: 1px;
+ background: var(--rule-strong);
+ margin: 30px 0 4px;
+}
+.feed-label {
+ font-family: 'Inter', sans-serif;
+ font-size: 11px;
+ letter-spacing: 2.2px;
+ text-transform: uppercase;
+ font-weight: 600;
+ color: var(--fg-secondary);
+ text-align: center;
+ padding: 22px 0 2px;
+}
+
+/* ---- dispatch (feed entries) ---- */
+.dispatch {
+ padding-top: 30px;
+ display: block;
+ text-decoration: none;
+ color: inherit;
+}
+.dispatch + .dispatch {
+ border-top: 1px solid var(--rule-hairline);
+}
+/* the headline is a tap target that toggles the inline context dropdown (spec §C) */
+.dispatch-head {
+ display: block;
+ width: 100%;
+ text-align: left;
+ background: transparent;
+ border: none;
+ padding: 0;
+ margin: 0;
+ cursor: pointer;
+ color: inherit;
+ font-family: inherit;
+}
+.dispatch-head .chevron {
+ margin-left: auto;
+ color: var(--fg-faint);
+ font-size: 11px;
+}
+.dispatch.open .lede {
+ color: var(--accent-soft);
+}
+/* the inline context dropdown — tap it to navigate to the full long form */
+.dispatch-drop {
+ display: block;
+ text-decoration: none;
+ color: inherit;
+ background: var(--panel-fill);
+ border: 1px solid var(--rule-hairline);
+ border-left: 2px solid var(--accent-link);
+ border-radius: 8px;
+ padding: 14px 16px;
+ margin: 16px 0 4px;
+}
+.dispatch-drop .drop-label {
+ font-family: 'Inter', sans-serif;
+ font-size: 10px;
+ font-weight: 700;
+ letter-spacing: 2px;
+ text-transform: uppercase;
+ color: var(--label-tint);
+ margin-bottom: 8px;
+}
+.dispatch-drop .drop-body {
+ font-size: 16px;
+ line-height: 1.55;
+ color: var(--fg-primary);
+}
+.dispatch-drop .drop-cta {
+ font-family: 'Inter', sans-serif;
+ font-size: 12px;
+ font-weight: 600;
+ letter-spacing: 0.4px;
+ color: var(--accent-link);
+ margin-top: 12px;
+}
+.dispatch-drop:hover .drop-cta {
+ text-decoration: underline;
+ text-underline-offset: 2px;
+}
+.dispatch .meta {
+ font-family: 'Inter', sans-serif;
+ font-variant: small-caps;
+ font-feature-settings: 'smcp' 1;
+ letter-spacing: 1.4px;
+ font-size: 13px;
+ font-weight: 600;
+ color: var(--fg-secondary);
+ text-transform: lowercase;
+ display: flex;
+ gap: 10px;
+ align-items: baseline;
+ flex-wrap: wrap;
+}
+.econ-tag {
+ font-family: 'Inter', sans-serif;
+ font-variant: normal;
+ text-transform: uppercase;
+ letter-spacing: 1.2px;
+ font-size: 9px;
+ font-weight: 700;
+ color: var(--accent-link);
+ border: 1px solid var(--accent-link);
+ border-radius: 3px;
+ padding: 1px 5px;
+}
+.dispatch .lede {
+ font-size: 21px;
+ font-weight: 600;
+ line-height: 1.32;
+ margin: 12px 0 0;
+}
+.dispatch:hover .lede {
+ color: var(--accent-soft);
+}
+.dispatch .quote {
+ font-size: 21px;
+ font-weight: 400;
+ font-style: italic;
+ line-height: 1.4;
+ margin: 12px 0 0;
+}
+.dispatch .deck {
+ font-size: 16px;
+ font-weight: 400;
+ color: var(--fg-secondary);
+ line-height: 1.5;
+ margin: 12px 0 0;
+}
+.dispatch .sources {
+ font-family: 'Inter', sans-serif;
+ font-size: 13px;
+ margin: 18px 0 0;
+ color: var(--fg-secondary);
+ letter-spacing: 0.3px;
+}
+.dispatch .sources .src {
+ color: var(--accent-link);
+ text-decoration: underline;
+ text-underline-offset: 2px;
+ text-decoration-thickness: 1px;
+}
+.dispatch .sources .sep {
+ color: var(--rule-strong);
+}
+.dispatch .sources a.src {
+ color: var(--accent-link);
+ text-decoration: underline;
+ text-underline-offset: 2px;
+ text-decoration-thickness: 1px;
+}
+.dispatch .sources a.src:hover {
+ color: var(--accent-soft);
+}
+.dispatch .sources .src-plain {
+ color: var(--fg-secondary);
+}
+.dispatch .sources .paywall {
+ font-family: 'Inter', sans-serif;
+ font-size: 10px;
+ font-weight: 700;
+ letter-spacing: 0.5px;
+ text-transform: uppercase;
+ color: var(--accent-soft);
+}
+
+/* ---- economics filter — the money tell in plain English (Research Deliverable-3) ---- */
+.econ-card {
+ padding-top: 22px;
+}
+.econ-card .lede {
+ font-size: 20px;
+ font-weight: 600;
+ line-height: 1.34;
+ margin: 0;
+}
+.econ-card .econ-plain {
+ font-family: 'Source Serif 4', Georgia, serif;
+ font-size: 16px;
+ line-height: 1.55;
+ color: var(--fg-secondary);
+ margin: 12px 0 0;
+}
+.econ-card .econ-why {
+ font-family: 'Inter', sans-serif;
+ font-size: 14px;
+ line-height: 1.5;
+ color: var(--fg-faint);
+ margin: 8px 0 0;
+}
+.mkt-plain {
+ font-family: 'Inter', sans-serif;
+ font-size: 11px;
+ line-height: 1.45;
+ color: var(--fg-secondary);
+ margin-top: 8px;
+}
+
+/* ---- terminator ---- */
+.terminator {
+ text-align: center;
+ font-family: 'Inter', sans-serif;
+ font-size: 13px;
+ letter-spacing: 0.5px;
+ color: var(--fg-secondary);
+ padding: 48px 0 8px;
+ border-top: 1px solid var(--rule-hairline);
+ margin-top: 30px;
+}
+.terminator strong {
+ color: var(--fg-primary);
+ font-weight: 600;
+}
+
+/* ---- detail view ---- */
+.back-bar {
+ font-family: 'Inter', sans-serif;
+ padding: 18px 0;
+ border-bottom: 1px solid var(--rule-hairline);
+ font-size: 13px;
+ color: var(--fg-secondary);
+ font-weight: 500;
+}
+.back-bar a {
+ text-decoration: none;
+}
+.back-bar .arrow {
+ color: var(--accent-link);
+}
+.detail .region {
+ font-family: 'Inter', sans-serif;
+ font-variant: small-caps;
+ font-feature-settings: 'smcp' 1;
+ letter-spacing: 1.6px;
+ font-size: 14px;
+ font-weight: 600;
+ color: var(--fg-primary);
+ margin-top: 32px;
+ text-transform: lowercase;
+ display: flex;
+ gap: 10px;
+ align-items: center;
+ flex-wrap: wrap;
+}
+.detail .datestamp {
+ font-family: 'Inter', sans-serif;
+ font-size: 12px;
+ letter-spacing: 0.5px;
+ color: var(--fg-secondary);
+ margin-top: 4px;
+ font-weight: 500;
+}
+.detail .rule {
+ height: 1px;
+ background: var(--rule-hairline);
+ margin: 22px 0;
+}
+.detail .lede {
+ font-size: 27px;
+ font-weight: 600;
+ line-height: 1.26;
+}
+.detail .quote {
+ font-size: 24px;
+ font-style: italic;
+ line-height: 1.36;
+ margin-top: 18px;
+}
+
+/* labeled narrative sections — FACT / CONTEXT / WEIGH-IT */
+.narr {
+ margin-top: 26px;
+}
+.narr .sec-label {
+ font-family: 'Inter', sans-serif;
+ font-size: 11px;
+ font-weight: 700;
+ letter-spacing: 2.2px;
+ text-transform: uppercase;
+ color: var(--label-tint);
+ display: flex;
+ align-items: center;
+ gap: 12px;
+ margin-bottom: 12px;
+}
+.narr .sec-label::after {
+ content: '';
+ flex: 1;
+ height: 1px;
+ background: var(--rule-hairline);
+}
+.narr .body {
+ font-size: 18px;
+ line-height: 1.6;
+ color: var(--fg-primary);
+}
+/* WEIGH-IT gets a left rule to mark it as the reflective-prompt block */
+.narr.weighit {
+ border-left: 2px solid var(--accent-link);
+ padding-left: 18px;
+ margin-left: -20px;
+}
+.narr.weighit .sec-label {
+ color: var(--accent-link);
+}
+.narr.weighit .lens-note {
+ font-family: 'Inter', sans-serif;
+ font-size: 12px;
+ color: var(--fg-secondary);
+ line-height: 1.5;
+ margin-bottom: 16px;
+}
+.weigh-q {
+ margin: 0 0 18px;
+}
+.weigh-q .q-text {
+ font-size: 18px;
+ line-height: 1.55;
+ font-style: italic;
+}
+.weigh-q .anchor {
+ font-family: 'Inter', sans-serif;
+ font-style: normal;
+ font-size: 11px;
+ letter-spacing: 0.3px;
+ color: var(--fg-secondary);
+ margin-top: 5px;
+ display: block;
+}
+
+/* CONSTITUTIONAL ANALYSIS — within-bounds vs beyond-bounds, cited */
+.narr.constitutional {
+ border-left: 2px solid var(--accent-link);
+ padding-left: 18px;
+ margin-left: -20px;
+}
+.narr.constitutional .sec-label {
+ color: var(--accent-link);
+}
+/* DIRECTIONAL framing lead — the founding standard stated as the measure, ideals first */
+.narr.constitutional .framing {
+ font-size: 17px;
+ line-height: 1.6;
+ color: var(--fg-primary);
+ font-weight: 600;
+ margin: 0 0 20px;
+ padding-bottom: 16px;
+ border-bottom: 1px solid var(--rule-hairline);
+}
+.contrast {
+ margin: 0 0 22px;
+}
+.contrast .contrast-q {
+ font-size: 17px;
+ line-height: 1.5;
+ font-style: italic;
+ margin-bottom: 12px;
+}
+.contrast .within,
+.contrast .beyond {
+ font-size: 16px;
+ line-height: 1.58;
+ margin: 8px 0;
+ padding-left: 12px;
+}
+.contrast .within {
+ border-left: 2px solid var(--rule-strong);
+}
+.contrast .beyond {
+ border-left: 2px solid var(--accent-soft);
+}
+.contrast .side-label {
+ display: block;
+ font-family: 'Inter', sans-serif;
+ font-size: 10px;
+ font-weight: 700;
+ letter-spacing: 1.2px;
+ text-transform: uppercase;
+ color: var(--fg-secondary);
+ margin-bottom: 4px;
+}
+.contrast .anchor {
+ font-family: 'Inter', sans-serif;
+ font-size: 11px;
+ letter-spacing: 0.3px;
+ color: var(--fg-secondary);
+ margin-top: 8px;
+}
+
+/* PREDICTIVE MODEL */
+.narr.predictive .horizon {
+ font-family: 'Inter', sans-serif;
+ font-size: 12px;
+ letter-spacing: 0.4px;
+ color: var(--fg-secondary);
+ margin-top: 10px;
+ font-weight: 600;
+}
+.narr.predictive .indicators {
+ margin: 10px 0 0 18px;
+ font-size: 15px;
+ line-height: 1.55;
+}
+
+/* a placeholder body reads as a quiet labeled note, never as a fact */
+.placeholder-body {
+ color: var(--fg-secondary);
+ font-style: italic;
+ font-size: 16px;
+}
+/* depth provenance tag — researched / cited framework / model-generated / pending */
+.depth-prov {
+ font-family: 'Inter', sans-serif;
+ font-size: 9px;
+ font-weight: 700;
+ letter-spacing: 1.4px;
+ text-transform: uppercase;
+ color: var(--fg-faint);
+ margin-top: 10px;
+}
+
+/* week review reuses the dispatch card (single tap -> story) */
+.week-dispatch .lede {
+ font-size: 20px;
+}
+
+/* MARKETS strip — the money tell (v2 scope expansion). Live gauges + honest pending-key. */
+.markets-strip {
+ margin: 6px 0 30px;
+ padding-bottom: 22px;
+ border-bottom: 1px solid var(--rule-hairline);
+}
+.markets-grid {
+ display: grid;
+ grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+ gap: 12px;
+ margin: 12px 0;
+}
+.mkt {
+ border: 1px solid var(--rule-hairline);
+ border-radius: 4px;
+ padding: 10px 12px;
+ background: var(--panel-fill);
+}
+.mkt-val {
+ font-family: 'Source Serif 4', Georgia, serif;
+ font-size: 22px;
+ font-weight: 600;
+ color: var(--fg-primary);
+ line-height: 1.1;
+}
+.mkt-label {
+ font-family: 'Inter', sans-serif;
+ font-size: 11px;
+ letter-spacing: 0.2px;
+ color: var(--fg-secondary);
+ margin-top: 4px;
+}
+.mkt.pending_key .mkt-val {
+ color: var(--fg-faint);
+}
+.mkt-pending {
+ font-family: 'Inter', sans-serif;
+ font-size: 9px;
+ font-weight: 700;
+ letter-spacing: 1.2px;
+ text-transform: uppercase;
+ color: var(--fg-faint);
+ margin-top: 4px;
+}
+.markets-note {
+ font-family: 'Inter', sans-serif;
+ font-size: 12px;
+ line-height: 1.5;
+ color: var(--fg-secondary);
+}
+
+/* sources panel */
+.sources-panel {
+ margin-top: 30px;
+ background: var(--panel-fill);
+ border: 1px solid var(--rule-hairline);
+ border-radius: 10px;
+ padding: 22px 24px;
+}
+.sources-panel .sp-label {
+ font-family: 'Inter', sans-serif;
+ font-size: 10px;
+ font-weight: 700;
+ letter-spacing: 2px;
+ text-transform: uppercase;
+ color: var(--fg-secondary);
+ margin-bottom: 10px;
+}
+.sources-panel .src-row {
+ font-size: 16px;
+ margin: 7px 0;
+ line-height: 1.4;
+}
+.sources-panel .src-row a {
+ color: var(--accent-link);
+ text-decoration: underline;
+ text-underline-offset: 2px;
+}
+.sources-panel .src-row .bullet {
+ color: var(--fg-faint);
+ margin-right: 6px;
+}
+.sources-panel .tierbadge {
+ font-family: 'Inter', sans-serif;
+ font-size: 10px;
+ letter-spacing: 0.5px;
+ color: var(--fg-faint);
+ margin-left: 6px;
+}
+.sources-panel .paywall {
+ font-family: 'Inter', sans-serif;
+ font-size: 10px;
+ letter-spacing: 0.5px;
+ color: var(--accent-soft);
+ margin-left: 6px;
+}
+
+/* longform linkout button */
+.longform-link {
+ display: inline-block;
+ font-family: 'Inter', sans-serif;
+ font-size: 13px;
+ font-weight: 600;
+ letter-spacing: 0.5px;
+ color: var(--accent-link);
+ border: 1px solid var(--accent-link);
+ border-radius: 999px;
+ padding: 8px 18px;
+ margin-top: 24px;
+ text-decoration: none;
+}
+
+/* FULL EVENT — in-story labeled linkout block . Prominent, never buried in sources. */
+.full-event {
+ margin-top: 22px;
+ padding: 14px 18px;
+ border-left: 2px solid var(--accent-link);
+ background: var(--panel-fill);
+ border-radius: 0 6px 6px 0;
+}
+.full-event .fe-label {
+ display: block;
+ font-family: 'Inter', sans-serif;
+ font-size: 10px;
+ font-weight: 700;
+ letter-spacing: 2px;
+ text-transform: uppercase;
+ color: var(--label-tint);
+ margin-bottom: 6px;
+}
+.full-event .fe-link {
+ font-family: 'Inter', sans-serif;
+ font-size: 15px;
+ font-weight: 600;
+ color: var(--accent-link);
+ text-decoration: underline;
+ text-underline-offset: 3px;
+ line-height: 1.5;
+}
+.full-event .fe-arrow {
+ text-decoration: none;
+}
+.full-event .paywall {
+ font-family: 'Inter', sans-serif;
+ font-size: 10px;
+ letter-spacing: 0.5px;
+ color: var(--accent-soft);
+ margin-left: 8px;
+ text-transform: uppercase;
+ font-weight: 700;
+}
+
+/* FULL EVENTS — standalone browsing page . Terse rows, newest first, no scroll bait. */
+.event-row {
+ padding: 24px 0;
+ border-bottom: 1px solid var(--rule-hairline);
+}
+.event-row .meta {
+ font-family: 'Inter', sans-serif;
+ font-variant: small-caps;
+ font-feature-settings: 'smcp' 1;
+ letter-spacing: 1.4px;
+ font-size: 13px;
+ font-weight: 600;
+ color: var(--fg-secondary);
+ text-transform: lowercase;
+}
+.event-row .event-title {
+ display: block;
+ font-size: 21px;
+ line-height: 1.35;
+ font-weight: 600;
+ color: var(--fg-primary);
+ text-decoration: none;
+ margin-top: 6px;
+}
+.event-row .event-title:hover {
+ color: var(--accent-link);
+}
+.event-row .event-title .ext {
+ color: var(--accent-link);
+ font-size: 16px;
+}
+.event-row .event-sub {
+ font-family: 'Inter', sans-serif;
+ font-size: 12px;
+ letter-spacing: 0.4px;
+ color: var(--fg-secondary);
+ margin-top: 8px;
+ display: flex;
+ align-items: baseline;
+ gap: 6px;
+ flex-wrap: wrap;
+}
+.event-row .event-kind {
+ font-weight: 700;
+ text-transform: uppercase;
+ font-size: 10px;
+ letter-spacing: 1.2px;
+ color: var(--label-tint);
+}
+.event-row .paywall {
+ font-size: 10px;
+ letter-spacing: 0.5px;
+ color: var(--accent-soft);
+ text-transform: uppercase;
+ font-weight: 700;
+}
+.event-row .event-story {
+ margin-left: auto;
+ color: var(--accent-link);
+ text-decoration: none;
+ font-weight: 600;
+}
+.event-row .event-story:hover {
+ text-decoration: underline;
+ text-underline-offset: 3px;
+}
+
+/* ---- predict surface ---- */
+.forecast {
+ padding-top: 30px;
+}
+.forecast + .forecast {
+ border-top: 1px solid var(--rule-hairline);
+ margin-top: 30px;
+}
+.forecast .thread {
+ font-size: 22px;
+ font-weight: 600;
+ line-height: 1.3;
+}
+.forecast .question {
+ font-size: 17px;
+ line-height: 1.5;
+ margin-top: 10px;
+ color: var(--fg-primary);
+}
+.prob-row {
+ display: flex;
+ align-items: baseline;
+ gap: 12px;
+ margin-top: 16px;
+}
+.prob-row .prob {
+ font-family: 'Inter', sans-serif;
+ font-size: 34px;
+ font-weight: 700;
+ color: var(--accent-link);
+}
+.prob-row .band {
+ font-family: 'Inter', sans-serif;
+ font-size: 13px;
+ color: var(--fg-secondary);
+}
+.meta-line {
+ font-family: 'Inter', sans-serif;
+ font-size: 12px;
+ color: var(--fg-secondary);
+ margin-top: 6px;
+ letter-spacing: 0.3px;
+}
+.indicator-grid {
+ margin-top: 16px;
+}
+.indicator {
+ font-size: 15px;
+ line-height: 1.5;
+ margin: 6px 0;
+ display: flex;
+ gap: 10px;
+}
+.indicator .dir {
+ font-family: 'Inter', sans-serif;
+ font-weight: 700;
+ width: 18px;
+ flex: none;
+}
+.indicator .dir.up {
+ color: #c0563f;
+}
+[data-theme='dark'] .indicator .dir.up {
+ color: var(--accent-soft);
+}
+.indicator .dir.down {
+ color: var(--fg-secondary);
+}
+.indicator .dir.neutral {
+ color: var(--fg-faint);
+}
+.indicator .cat {
+ font-family: 'Inter', sans-serif;
+ font-size: 10px;
+ text-transform: uppercase;
+ letter-spacing: 0.6px;
+ color: var(--fg-faint);
+}
+.predict-firewall {
+ font-family: 'Inter', sans-serif;
+ font-size: 11px;
+ color: var(--fg-secondary);
+ line-height: 1.5;
+ background: var(--panel-fill);
+ border: 1px solid var(--rule-hairline);
+ border-radius: 8px;
+ padding: 12px 14px;
+ margin-top: 20px;
+}
+
+/* ---- weekly digest ---- */
+.week-item {
+ padding: 22px 0;
+}
+.week-item + .week-item {
+ border-top: 1px solid var(--rule-hairline);
+}
+.week-item .w-cat {
+ font-family: 'Inter', sans-serif;
+ font-size: 10px;
+ text-transform: uppercase;
+ letter-spacing: 1.5px;
+ color: var(--label-tint);
+ font-weight: 700;
+}
+.week-item .w-what {
+ font-size: 19px;
+ font-weight: 600;
+ line-height: 1.35;
+ margin-top: 8px;
+}
+.week-item .w-what a {
+ text-decoration: none;
+}
+
+/* ---- curation controls ---- */
+.curate {
+ display: flex;
+ flex-wrap: wrap;
+ gap: 8px;
+ justify-content: center;
+ padding: 18px 0 0;
+}
+.chip {
+ font-family: 'Inter', sans-serif;
+ font-size: 11px;
+ letter-spacing: 0.6px;
+ text-transform: uppercase;
+ font-weight: 600;
+ color: var(--fg-secondary);
+ border: 1px solid var(--rule-hairline);
+ border-radius: 999px;
+ padding: 5px 13px;
+ cursor: pointer;
+ background: transparent;
+ text-decoration: none;
+}
+.chip.active {
+ color: var(--bg-canvas);
+ background: var(--accent-link);
+ border-color: var(--accent-link);
+}
+
+/* ---- theme toggle ---- */
+.toggle-bar {
+ text-align: center;
+ padding: 16px 0 0;
+}
+.toggle-btn {
+ font-family: 'Inter', sans-serif;
+ cursor: pointer;
+ background: transparent;
+ color: var(--fg-secondary);
+ border: 1px solid var(--rule-hairline);
+ border-radius: 999px;
+ padding: 6px 16px;
+ font-size: 12px;
+ letter-spacing: 1px;
+}
+/* Base pill — also used standalone on /profile, outside the section bar. */
+.profile-btn {
+ display: inline-flex;
+ align-items: center;
+ gap: 0.4rem;
+ text-decoration: none;
+ color: var(--fg-secondary);
+ border: 1px solid var(--rule-hairline);
+ border-radius: 999px;
+ padding: 6px 14px;
+ font-family: Inter, system-ui, sans-serif;
+ font-size: 12px;
+ letter-spacing: 0.06em;
+}
+.profile-btn:hover {
+ color: var(--fg-primary);
+ border-color: var(--accent-link);
+}
+button.profile-btn:disabled {
+ cursor: not-allowed;
+ opacity: 0.55;
+}
+
+/* Profile + theme toggle sit as a PAIR in the section bar, and they read as uneven because
+ they were never built to be a pair: the toggle's wrapper still carried a 16px top pad from
+ when it lived alone under the feed (pushing it down), and the two pills disagreed on
+ padding and letter-spacing (14px/0.06em vs 16px/1px). Pin both to one geometry. */
+.sec-tools .toggle-bar {
+ padding: 0;
+ display: flex;
+ align-items: center;
+}
+.flag-profile,
+.sec-tools .profile-btn,
+.sec-tools .toggle-btn {
+ display: inline-flex;
+ align-items: center;
+ justify-content: center;
+ gap: 0.4rem;
+ height: 30px;
+ padding: 0 14px;
+ border: 1px solid var(--rule-hairline);
+ border-radius: 999px;
+ background: transparent;
+ color: var(--fg-secondary);
+ font-family: Inter, system-ui, sans-serif;
+ font-size: 12px;
+ font-weight: 500;
+ letter-spacing: 0.06em;
+ line-height: 1;
+ white-space: nowrap;
+ text-decoration: none;
+ cursor: pointer;
+}
+.flag-profile:hover,
+.sec-tools .profile-btn:hover,
+.sec-tools .toggle-btn:hover {
+ color: var(--fg-primary);
+ border-color: var(--accent-link);
+}
+
+/* LOCKED placement (Timn, 2026-07-24 — chose this over the section-bar and dateline options):
+ account sits in the masthead corner. Out of flow so the centred nameplate stays centred. */
+.flag-profile {
+ position: absolute;
+ right: 0;
+ top: 50%;
+ transform: translateY(-50%);
+}
+
+/* Mobile: both masthead corners collapse to symmetric icon-only pills. The labelled theme
+ pill ran 26..101px while the brand mark started at 76px on a 320px screen (iPhone SE) —
+ a real overlap. Dropping both labels also makes the two corners mirror each other. */
+@media (max-width: 899px) {
+ .flag-profile,
+ .sec-tools .profile-btn,
+ .sec-tools .toggle-btn {
+ padding: 0 10px;
+ }
+ .profile-btn-label,
+ .toggle-btn-label {
+ display: none;
+ }
+}
+.profile-section {
+ padding: 1.1rem 0;
+ border-bottom: 1px solid var(--rule-hairline);
+}
+.profile-section-label {
+ font-family: Inter, system-ui, sans-serif;
+ font-size: 0.68rem;
+ font-weight: 700;
+ letter-spacing: 0.14em;
+ text-transform: uppercase;
+ color: var(--label-tint);
+ margin-bottom: 0.5rem;
+}
+.profile-row {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ gap: 1rem;
+}
+.profile-row-label {
+ color: var(--fg-secondary);
+ font-size: 0.9rem;
+}
+.profile-list {
+ list-style: none;
+}
+.profile-list-row {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 0.5rem 0;
+ border-bottom: 1px solid var(--rule-hairline);
+}
+.profile-list-row:last-child {
+ border-bottom: 0;
+}
+.profile-remove {
+ background: none;
+ border: 0;
+ color: var(--fg-faint);
+ font-family: Inter, system-ui, sans-serif;
+ font-size: 0.72rem;
+ text-decoration: underline;
+ cursor: pointer;
+}
+
+.empty {
+ text-align: center;
+ color: var(--fg-secondary);
+ font-family: 'Inter', sans-serif;
+ font-size: 14px;
+ padding: 40px 0;
+}
+.footer {
+ text-align: center;
+ font-family: 'Inter', sans-serif;
+ font-size: 11px;
+ color: var(--fg-faint);
+ letter-spacing: 0.4px;
+ padding: 40px 0 10px;
+ line-height: 1.6;
+}
+
+/* ============================================================
+ LOCAL LAYER (R31 pilot — San Diego County + Virginia Beach)
+ Reuses the Direction-B tokens. No new palette, no urgent-red,
+ no emoji. Type-driven, calm. Design polish pass is deferred.
+ ============================================================ */
+
+/* ---- local index ---- */
+.local-index {
+ padding-top: 8px;
+}
+.local-index-row {
+ display: flex;
+ align-items: baseline;
+ justify-content: space-between;
+ gap: 16px;
+ padding: 20px 0;
+ border-top: 1px solid var(--rule-hairline);
+ text-decoration: none;
+}
+.local-index-row:first-child {
+ border-top: none;
+}
+.local-index-row .lir-name {
+ font-size: 22px;
+ font-weight: 600;
+ color: var(--fg-primary);
+}
+.local-index-row:hover .lir-name {
+ color: var(--accent-link);
+}
+.local-index-row .lir-meta {
+ font-family: 'Inter', sans-serif;
+ font-size: 11px;
+ letter-spacing: 1px;
+ text-transform: uppercase;
+ color: var(--fg-secondary);
+ white-space: nowrap;
+}
+
+/* ---- area header ---- */
+.local-head {
+ padding: 22px 0 4px;
+}
+.local-head .local-kind {
+ font-family: 'Inter', sans-serif;
+ font-size: 11px;
+ letter-spacing: 2px;
+ text-transform: uppercase;
+ font-weight: 600;
+ color: var(--label-tint);
+}
+.local-head .local-name {
+ font-size: 38px;
+ line-height: 1.05;
+ font-weight: 700;
+ margin: 8px 0 6px;
+ letter-spacing: 0.3px;
+}
+.local-head .local-sub {
+ font-family: 'Inter', sans-serif;
+ font-size: 12px;
+ letter-spacing: 0.5px;
+ color: var(--fg-secondary);
+}
+
+/* ---- A2 engraved-relief map locator ---- */
+.local-map {
+ position: relative; /* anchor the zoom control overlay */
+ margin: 18px 0 8px;
+ background: var(--panel-fill);
+ border: 1px solid var(--rule-hairline);
+ border-radius: 6px;
+ padding: 10px 10px 8px;
+}
+.local-map svg {
+ display: block;
+}
+/* interactive zoom/pan surface: capture touch gestures (no page-scroll hijack of pinch/drag) */
+.local-map .lm-svg {
+ touch-action: none;
+ cursor: grab;
+}
+.local-map .lm-svg:active {
+ cursor: grabbing;
+}
+/* strokes stay crisp (constant width) as the viewport group scales */
+.local-map .lm-shape,
+.local-map .lm-contour,
+.local-map .lm-road,
+.local-map .lm-road-casing,
+.local-map .lm-sea,
+.local-map .lm-river,
+.local-map .lm-water-area,
+.local-map .lm-scale-line,
+.local-map .lm-north-arrow {
+ vector-effect: non-scaling-stroke;
+}
+/* zoom + pan control — small vertical stack over the top-left of the map */
+.local-map .lm-zoom {
+ position: absolute;
+ top: 16px;
+ left: 16px;
+ z-index: 2;
+ display: flex;
+ flex-direction: column;
+ gap: 4px;
+ width: 34px;
+}
+.local-map .lm-zoom-btn {
+ font-family: 'Inter', sans-serif;
+ font-size: 17px;
+ font-weight: 500;
+ line-height: 1;
+ height: 30px;
+ padding: 0;
+ color: var(--fg-primary);
+ background: var(--bg-canvas);
+ border: 1px solid var(--rule-hairline);
+ border-radius: 5px;
+ cursor: pointer;
+ box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+ transition: background 0.12s ease, border-color 0.12s ease;
+}
+.local-map .lm-zoom-btn:hover:not(:disabled) {
+ background: var(--panel-fill);
+ border-color: var(--fg-faint);
+}
+.local-map .lm-zoom-btn:focus-visible {
+ outline: 2px solid var(--accent-link);
+ outline-offset: 1px;
+}
+.local-map .lm-zoom-btn:disabled {
+ opacity: 0.4;
+ cursor: default;
+}
+.local-map .lm-zoom-reset {
+ font-size: 10px;
+ font-weight: 600;
+ letter-spacing: 0.4px;
+ height: 24px;
+ text-transform: uppercase;
+ color: var(--fg-secondary);
+}
+/* land base fill (the survey-sheet paper) */
+.local-map .lm-fill {
+ fill: var(--map-fill);
+ stroke: none;
+}
+/* county outline — the engraved edge */
+.local-map .lm-shape {
+ fill: none;
+ stroke: var(--fg-primary);
+ stroke-width: 1.8;
+ stroke-linejoin: round;
+ stroke-linecap: round;
+}
+/* engraved contour lines (over the baked relief raster — subtle engraving) */
+.local-map .lm-contour {
+ fill: none;
+ stroke: var(--fg-primary);
+ stroke-width: 0.6;
+ opacity: 0.16;
+ stroke-linejoin: round;
+ stroke-linecap: round;
+}
+/* baked hillshade x hypsometric relief raster (one per theme; toggled by data-theme) */
+.local-map .lm-relief-img {
+ opacity: 0.96;
+}
+.local-map .lm-relief-dark {
+ display: none;
+}
+[data-theme='dark'] .local-map .lm-relief-dark {
+ display: inline;
+}
+[data-theme='dark'] .local-map .lm-relief-light {
+ display: none;
+}
+/* named natural-feature labels — italic serif, atlas convention */
+.local-map .lm-feat {
+ font-family: 'Source Serif 4', Georgia, serif;
+ font-style: italic;
+ font-size: 12.5px;
+ fill: var(--fg-secondary);
+ paint-order: stroke;
+ stroke: var(--map-fill);
+ stroke-width: 2.6px;
+ stroke-linejoin: round;
+ letter-spacing: 0.2px;
+}
+.local-map .lm-feat-water {
+ fill: var(--t-sea);
+}
+.local-map .lm-feat-desert {
+ text-transform: uppercase;
+ letter-spacing: 1.4px;
+ font-style: italic;
+ font-size: 11px;
+ fill: var(--t-desert);
+}
+.local-map .lm-feat-park {
+ fill: var(--t-coast);
+}
+/* non-scaling label overlay (Fix 1): all text labels + point-marks live in this group, which is
+ NOT inside the zoomed viewport transform — so their type holds a constant on-screen size at every
+ zoom. pointer-events:none so labels never block dragging/panning the map underneath. */
+.local-map .lm-labels {
+ pointer-events: none;
+}
+/* progressive place-labels (labels-LOD, Fix 2) — finer real place names revealed as you zoom in.
+ Natural/physical features -> italic serif; cultural places -> Inter (house style). A short fade
+ softens the reveal. */
+.local-map .lm-lod {
+ paint-order: stroke;
+ stroke: var(--map-fill);
+ stroke-width: 2.4px;
+ stroke-linejoin: round;
+ fill: var(--fg-secondary);
+ opacity: 0.9;
+ animation: lm-lod-in 180ms ease-out both;
+}
+.local-map .lm-lod-natural {
+ font-family: 'Source Serif 4', Georgia, serif;
+ font-style: italic;
+ font-size: 11.5px;
+ letter-spacing: 0.2px;
+}
+.local-map .lm-lod-place {
+ font-family: 'Inter', sans-serif;
+ font-size: 11px;
+ font-weight: 500;
+ letter-spacing: 0.2px;
+}
+@keyframes lm-lod-in {
+ from {
+ opacity: 0;
+ }
+ to {
+ opacity: 0.9;
+ }
+}
+/* city streets */
+.local-map .lm-water-area {
+ fill: var(--t-sea);
+ opacity: 0.34;
+ stroke: var(--t-sea);
+ stroke-width: 0.5;
+}
+.local-map .lm-road {
+ fill: none;
+ stroke-linecap: round;
+ stroke-linejoin: round;
+}
+.local-map .lm-road-arterial {
+ stroke: var(--t-road);
+ stroke-width: 1.1;
+ opacity: 0.85;
+}
+.local-map .lm-road-interstate {
+ stroke: var(--t-free);
+ stroke-width: 2.2;
+}
+.local-map .lm-road-casing {
+ fill: none;
+ stroke: var(--map-fill);
+ stroke-width: 3.6;
+ stroke-linecap: round;
+ stroke-linejoin: round;
+}
+/* fine local-street mesh (S1400) — revealed on zoom-in; thin + quiet so arteries still read */
+.local-map .lm-road-minor {
+ fill: none;
+ stroke: var(--t-road);
+ stroke-width: 0.55;
+ opacity: 0.5;
+ stroke-linecap: round;
+ stroke-linejoin: round;
+}
+/* offshore ripple lines */
+.local-map .lm-sea {
+ fill: none;
+ stroke: var(--t-sea);
+ stroke-width: 1;
+ stroke-linecap: round;
+}
+/* major river */
+.local-map .lm-river {
+ fill: none;
+ stroke: var(--t-sea);
+ stroke-width: 1.5;
+ opacity: 0.7;
+ stroke-linecap: round;
+ stroke-linejoin: round;
+}
+/* quiet tap-through town */
+.local-map .lm-town-dot {
+ fill: var(--bg-canvas);
+ stroke: var(--fg-primary);
+ stroke-width: 1.5;
+}
+.local-map .lm-town-label {
+ font-family: 'Inter', sans-serif;
+ font-size: 12px;
+ font-weight: 500;
+ letter-spacing: 0.2px;
+ fill: var(--fg-secondary);
+ paint-order: stroke;
+ stroke: var(--map-fill);
+ stroke-width: 2.4px;
+ stroke-linejoin: round;
+}
+.local-map .lm-town {
+ cursor: default;
+}
+.local-map .lm-town:hover .lm-town-dot {
+ fill: var(--fg-secondary);
+}
+/* current-view (ink-red) mark */
+.local-map .lm-sel-halo {
+ fill: var(--accent-link);
+ opacity: 0.1;
+}
+.local-map .lm-sel-ring {
+ fill: none;
+ stroke: var(--accent-link);
+ stroke-width: 1.7;
+}
+.local-map .lm-marker,
+.local-map .lm-sel-dot {
+ fill: var(--accent-link);
+ stroke: var(--bg-canvas);
+ stroke-width: 1.3;
+}
+.local-map .lm-sel-label {
+ font-family: 'Inter', sans-serif;
+ font-size: 14px;
+ font-weight: 700;
+ letter-spacing: 1px;
+ fill: var(--accent-link);
+ paint-order: stroke;
+ stroke: var(--map-fill);
+ stroke-width: 3px;
+ stroke-linejoin: round;
+}
+.local-map .lm-sel-sub {
+ font-family: 'Inter', sans-serif;
+ font-size: 8px;
+ font-weight: 600;
+ letter-spacing: 2.4px;
+ fill: var(--accent-link);
+ opacity: 0.82;
+}
+/* water label */
+.local-map .lm-water-label {
+ font-family: 'Inter', sans-serif;
+ font-size: 12px;
+ font-weight: 600;
+ letter-spacing: 5px;
+ fill: var(--t-sea);
+ opacity: 0.6;
+}
+/* scale bar + north arrow */
+.local-map .lm-scale-line,
+.local-map .lm-north-arrow {
+ stroke: var(--fg-secondary);
+ stroke-width: 1.2;
+ fill: none;
+ opacity: 0.75;
+ stroke-linecap: round;
+ stroke-linejoin: round;
+}
+.local-map .lm-scale-lab,
+.local-map .lm-north-lab {
+ font-family: 'Inter', sans-serif;
+ font-size: 9px;
+ font-weight: 500;
+ letter-spacing: 0.5px;
+ fill: var(--fg-secondary);
+}
+.local-map .lm-north-lab {
+ font-weight: 700;
+ font-size: 10px;
+}
+/* one-line legend */
+.local-map .lm-legend {
+ display: flex;
+ flex-wrap: wrap;
+ gap: 8px 16px;
+ padding: 8px 2px 2px;
+ font-family: 'Inter', sans-serif;
+ font-size: 11px;
+ letter-spacing: 0.3px;
+ color: var(--fg-secondary);
+}
+.local-map .lm-legend span {
+ display: inline-flex;
+ align-items: center;
+ gap: 6px;
+ white-space: nowrap;
+}
+.local-map .lm-legend i {
+ width: 14px;
+ height: 12px;
+ flex: none;
+ border-radius: 2px;
+}
+.local-map .lm-legend .lg-sel {
+ background: var(--accent-link);
+ border-radius: 50%;
+ width: 10px;
+ height: 10px;
+}
+.local-map .lm-legend .lg-town {
+ background: var(--bg-canvas);
+ border: 1.5px solid var(--fg-primary);
+ border-radius: 50%;
+ width: 10px;
+ height: 10px;
+}
+.local-map .lm-legend .lg-relief {
+ background: linear-gradient(var(--fg-primary), var(--fg-primary)) no-repeat center / 100% 1px,
+ linear-gradient(var(--fg-primary), var(--fg-primary)) no-repeat center 4px / 100% 1px;
+ background-color: transparent;
+ opacity: 0.7;
+}
+.local-map .lm-legend .lg-river {
+ background: var(--t-sea);
+ opacity: 0.8;
+}
+.local-map .lm-legend .lg-sea {
+ background: var(--t-sea);
+ opacity: 0.5;
+}
+.local-map .lm-legend .lg-interstate {
+ background: var(--t-free);
+ height: 3px;
+ border-radius: 2px;
+}
+.local-map .lm-legend .lg-arterial {
+ background: var(--t-road);
+ height: 2px;
+ border-radius: 2px;
+ opacity: 0.85;
+}
+.local-map .lm-legend .lg-minor {
+ background: var(--t-road);
+ height: 1px;
+ border-radius: 2px;
+ opacity: 0.5;
+}
+.local-map .lm-legend .lg-water {
+ background: var(--t-sea);
+ opacity: 0.4;
+}
+/* elevation (hypsometric) legend — atlas ramp swatch */
+.local-map .lm-hypso {
+ display: flex;
+ align-items: center;
+ gap: 8px;
+ padding: 8px 2px 0;
+ font-family: 'Inter', sans-serif;
+ font-size: 10.5px;
+ letter-spacing: 0.4px;
+ color: var(--fg-secondary);
+}
+.local-map .lm-hypso-cap {
+ text-transform: uppercase;
+ letter-spacing: 1.2px;
+ font-size: 9.5px;
+ color: var(--fg-faint);
+}
+.local-map .lm-hypso-bar {
+ flex: 1;
+ max-width: 180px;
+ height: 8px;
+ border-radius: 2px;
+ border: 1px solid var(--rule-hairline);
+ background: linear-gradient(to right, #b7c6ad, #c9cda2, #dbc99a, #c7a374, #b08758, #8e6c42);
+}
+[data-theme='dark'] .local-map .lm-hypso-bar {
+ background: linear-gradient(to right, #3e5238, #4c5638, #5c5230, #6a4e2a, #795730, #835f2a);
+}
+.local-map .lm-caption {
+ font-family: 'Inter', sans-serif;
+ font-size: 10px;
+ letter-spacing: 0.6px;
+ color: var(--fg-faint);
+ text-align: center;
+ padding: 4px 0 2px;
+}
+
+/* ---- heritage blocks ---- */
+.local-block {
+ padding: 18px 0 4px;
+ border-top: 1px solid var(--rule-hairline);
+ margin-top: 18px;
+}
+.local-block:first-of-type {
+ border-top: none;
+ margin-top: 4px;
+}
+.local-block-label {
+ font-family: 'Inter', sans-serif;
+ font-size: 11px;
+ letter-spacing: 1.6px;
+ text-transform: uppercase;
+ font-weight: 600;
+ color: var(--label-tint);
+ margin-bottom: 10px;
+}
+.local-body {
+ font-size: 18px;
+ line-height: 1.6;
+ color: var(--fg-primary);
+}
+.local-note {
+ font-family: 'Inter', sans-serif;
+ font-size: 12px;
+ line-height: 1.5;
+ color: var(--fg-secondary);
+ margin-top: 8px;
+}
+.local-empty {
+ font-family: 'Inter', sans-serif;
+ font-size: 14px;
+ line-height: 1.55;
+ color: var(--fg-secondary);
+ padding: 6px 0 4px;
+}
+
+/* ---- sources line ---- */
+.local-src {
+ margin-top: 10px;
+ display: flex;
+ flex-wrap: wrap;
+ gap: 6px 14px;
+}
+.local-src-item {
+ font-family: 'Inter', sans-serif;
+ font-size: 12px;
+ letter-spacing: 0.2px;
+}
+.local-src-item a {
+ color: var(--accent-link);
+ text-decoration: none;
+}
+.local-src-item a:hover {
+ text-decoration: underline;
+ text-underline-offset: 2px;
+}
+.local-src-item .tierbadge {
+ font-size: 9px;
+ letter-spacing: 0.6px;
+ text-transform: uppercase;
+ color: var(--fg-faint);
+ margin-left: 5px;
+}
+
+/* ---- collapsible dropdowns (one outer <details> per section; sub-groups nested INSIDE) ----
+ Used by Notable figures, Historic sites, Worth exploring, and Local government . One click
+ opens the whole thing; categories are headers/groups inside, never separate top-level dropdowns. */
+.local-dropdown {
+ border: 1px solid var(--rule-hairline);
+ border-radius: 5px;
+ background: var(--panel-fill);
+}
+.local-dropdown > summary {
+ cursor: pointer;
+ list-style: none;
+ display: flex;
+ align-items: baseline;
+ gap: 10px;
+ padding: 11px 14px;
+ font-weight: 600;
+ font-size: 17px;
+ color: var(--accent-link);
+}
+.local-dropdown > summary::-webkit-details-marker {
+ display: none;
+}
+.local-dropdown > summary::after {
+ content: '+';
+ margin-left: auto;
+ color: var(--fg-faint);
+ font-weight: 400;
+}
+.local-dropdown[open] > summary::after {
+ content: '\2013'; /* en dash */
+}
+.local-dropdown .ld-count {
+ font-family: 'Inter', sans-serif;
+ font-size: 12px;
+ font-weight: 600;
+ color: var(--fg-faint);
+}
+.local-dropdown .ld-body {
+ padding: 2px 14px 14px;
+ display: flex;
+ flex-direction: column;
+ gap: 16px;
+}
+/* a sub-category inside the dropdown (astronauts, athletes, National parks, School board, ...) */
+.local-dropdown .ld-subgroup {
+ border-top: 1px solid var(--rule-hairline);
+ padding-top: 12px;
+}
+.local-dropdown .ld-subgroup:first-child {
+ border-top: none;
+ padding-top: 4px;
+}
+.local-dropdown .ld-subhead {
+ font-family: 'Inter', sans-serif;
+ font-size: 11px;
+ letter-spacing: 1.2px;
+ text-transform: uppercase;
+ font-weight: 600;
+ color: var(--label-tint);
+ margin-bottom: 8px;
+}
+.local-dropdown .ld-subcount {
+ letter-spacing: 0;
+ color: var(--fg-faint);
+ margin-left: 4px;
+}
+/* two-column name grid inside a figure/company sub-group */
+.local-dropdown .lfg-items {
+ columns: 160px 2;
+ column-gap: 22px;
+}
+.local-dropdown .lfg-item {
+ display: block;
+ break-inside: avoid;
+ padding: 3px 0;
+ font-size: 15px;
+ line-height: 1.35;
+ color: var(--fg-primary);
+}
+/* figures: single-column list where each entry is tappable to a one-sentence explanation
+ (build-out B). Name-only entries (no clean description) sit in the same rhythm, un-tappable. */
+.local-dropdown .lfg-list {
+ display: flex;
+ flex-direction: column;
+}
+.local-dropdown .lfg-row {
+ border-top: 1px solid var(--rule-hairline);
+}
+.local-dropdown .lfg-row:first-child {
+ border-top: none;
+}
+.local-dropdown details.lfg-row > summary {
+ cursor: pointer;
+ list-style: none;
+ display: flex;
+ align-items: baseline;
+ gap: 8px;
+ padding: 7px 0;
+ font-size: 15px;
+ line-height: 1.35;
+ color: var(--fg-primary);
+}
+.local-dropdown details.lfg-row > summary::-webkit-details-marker {
+ display: none;
+}
+.local-dropdown details.lfg-row > summary::after {
+ content: '+';
+ margin-left: auto;
+ color: var(--fg-faint);
+ font-weight: 400;
+}
+.local-dropdown details.lfg-row[open] > summary::after {
+ content: '\2013'; /* en dash */
+}
+.local-dropdown details.lfg-row > summary:hover {
+ color: var(--accent-link);
+}
+.local-dropdown .lfg-row-plain {
+ padding: 7px 0;
+ font-size: 15px;
+ line-height: 1.35;
+ color: var(--fg-primary);
+}
+.local-dropdown .lfg-blurb {
+ padding: 0 18px 9px 0;
+ font-family: 'Inter', sans-serif;
+ font-size: 13px;
+ line-height: 1.5;
+ color: var(--fg-secondary);
+}
+/* historic sites: tappable to a one-sentence explanation, NPS linkout inside the expansion */
+details.site-entry > summary {
+ cursor: pointer;
+ list-style: none;
+ display: flex;
+ align-items: baseline;
+ gap: 8px;
+ color: var(--fg-primary);
+}
+details.site-entry > summary::-webkit-details-marker {
+ display: none;
+}
+details.site-entry > summary::after {
+ content: '+';
+ margin-left: auto;
+ color: var(--fg-faint);
+ font-weight: 400;
+}
+details.site-entry[open] > summary::after {
+ content: '\2013';
+}
+details.site-entry > summary:hover {
+ color: var(--accent-link);
+}
+.site-blurb {
+ padding-top: 5px;
+ font-family: 'Inter', sans-serif;
+ font-size: 13px;
+ line-height: 1.5;
+ color: var(--fg-secondary);
+}
+.site-link,
+.park-link {
+ display: inline-block;
+ margin-top: 5px;
+ font-family: 'Inter', sans-serif;
+ font-size: 12px;
+ color: var(--accent-link);
+ text-decoration: none;
+}
+.site-link:hover,
+.park-link:hover {
+ text-decoration: underline;
+}
+/* parks / public lands: tappable to a one-line explanation, managing-agency linkout inside */
+details.park-entry > summary {
+ cursor: pointer;
+ list-style: none;
+ display: flex;
+ align-items: baseline;
+ gap: 8px;
+ color: var(--fg-primary);
+}
+details.park-entry > summary::-webkit-details-marker {
+ display: none;
+}
+details.park-entry > summary::after {
+ content: '+';
+ margin-left: auto;
+ color: var(--fg-faint);
+ font-weight: 400;
+}
+details.park-entry[open] > summary::after {
+ content: '\2013';
+}
+details.park-entry > summary:hover {
+ color: var(--accent-link);
+}
+/* sites list inside its dropdown loses the top border of the first row (the sub-group owns it) */
+.local-dropdown .local-sites li:first-child {
+ border-top: 1px solid var(--rule-hairline);
+}
+/* linkout rows (parks + government): title link, a plain note line, optional facts-only lines */
+.linkout-list li {
+ padding: 9px 0;
+}
+.linkout-list .ll-note {
+ font-family: 'Inter', sans-serif;
+ font-size: 13px;
+ line-height: 1.5;
+ color: var(--fg-secondary);
+ margin-top: 3px;
+}
+.linkout-list .ll-fact {
+ font-family: 'Inter', sans-serif;
+ font-size: 13px;
+ line-height: 1.5;
+ color: var(--fg-primary);
+ margin-top: 2px;
+}
+
+/* ---- sites + links lists ---- */
+.local-sites,
+.local-links {
+ list-style: none;
+ padding: 0;
+ margin: 0;
+}
+.local-sites li,
+.local-links li {
+ padding: 8px 0;
+ border-top: 1px solid var(--rule-hairline);
+ font-size: 16px;
+ line-height: 1.4;
+}
+.local-sites li:first-child,
+.local-links li:first-child {
+ border-top: none;
+}
+.local-sites a,
+.local-links a {
+ color: var(--fg-primary);
+ text-decoration: none;
+}
+.local-sites a:hover,
+.local-links a:hover {
+ color: var(--accent-link);
+}
+.local-sites .ls-ref,
+.local-links .ls-ref {
+ font-family: 'Inter', sans-serif;
+ font-size: 10px;
+ letter-spacing: 0.5px;
+ text-transform: uppercase;
+ color: var(--fg-faint);
+ margin-left: 8px;
+}
+.ext {
+ font-size: 0.8em;
+ color: var(--fg-faint);
+}
+
+/* ---- vocab (tappable) ---- */
+.local-vocab {
+ display: flex;
+ flex-direction: column;
+ gap: 8px;
+}
+.vocab-word {
+ border: 1px solid var(--rule-hairline);
+ border-radius: 5px;
+ background: var(--panel-fill);
+}
+.vocab-word > summary {
+ cursor: pointer;
+ list-style: none;
+ padding: 10px 14px;
+ font-weight: 600;
+ font-size: 17px;
+ color: var(--accent-link);
+}
+.vocab-word > summary::-webkit-details-marker {
+ display: none;
+}
+.vocab-word > summary::after {
+ content: ' +';
+ color: var(--fg-faint);
+ font-weight: 400;
+}
+.vocab-word[open] > summary::after {
+ content: ' –';
+}
+.vocab-word .vocab-def {
+ padding: 0 14px 12px;
+ font-size: 16px;
+ line-height: 1.5;
+ color: var(--fg-primary);
+}
+
+/* ---- local government records ---- */
+.local-gov {
+ display: flex;
+ flex-direction: column;
+ gap: 14px;
+}
+.local-gov-row {
+ padding-bottom: 2px;
+}
+.local-gov-row .lgr-date {
+ font-family: 'Inter', sans-serif;
+ font-size: 11px;
+ letter-spacing: 0.6px;
+ text-transform: uppercase;
+ color: var(--fg-secondary);
+}
+.local-gov-row .lgr-what {
+ font-size: 18px;
+ font-weight: 600;
+ margin: 3px 0 2px;
+}
+
+/* ---- FREE civic-news roundup (build-out C1) ---- */
+/* "This week" — the AI-distilled weekly civic summary (build-out D). Type-driven, calm, reads as
+ body prose (same measure/weight as heritage text); the provenance caption is quiet and muted. */
+.local-week-summary {
+ font-size: 18px;
+ line-height: 1.6;
+ color: var(--fg-primary);
+ margin: 2px 0 0;
+}
+.local-week-provenance {
+ font-family: 'Inter', sans-serif;
+ font-size: 12px;
+ line-height: 1.5;
+ letter-spacing: 0.2px;
+ color: var(--fg-secondary);
+ margin-top: 8px;
+}
+
+.local-news {
+ display: flex;
+ flex-direction: column;
+}
+.local-news-row {
+ padding: 12px 0;
+ border-top: 1px solid var(--rule-hairline);
+}
+.local-news-row:first-child {
+ border-top: none;
+ padding-top: 4px;
+}
+.local-news-row .lnr-date {
+ font-family: 'Inter', sans-serif;
+ font-size: 11px;
+ letter-spacing: 0.6px;
+ text-transform: uppercase;
+ color: var(--fg-secondary);
+}
+.local-news-row .lnr-title {
+ display: inline-block;
+ font-size: 18px;
+ line-height: 1.32;
+ font-weight: 600;
+ margin: 4px 0 3px;
+ color: var(--accent-link);
+ text-decoration: none;
+}
+.local-news-row .lnr-title:hover {
+ text-decoration: underline;
+}
+.local-news-row .lnr-title .ext {
+ font-size: 0.72em;
+ color: var(--accent-soft);
+}
+.local-news-row .lnr-outlet {
+ font-family: 'Inter', sans-serif;
+ font-size: 12px;
+ letter-spacing: 0.3px;
+ color: var(--fg-secondary);
+}
+
+/* ---- FREE civic calendar (build-out C1) ---- */
+.local-cal {
+ display: flex;
+ flex-direction: column;
+ margin-bottom: 2px;
+}
+.local-cal-row {
+ display: flex;
+ align-items: baseline;
+ gap: 12px;
+ padding: 8px 0;
+ border-top: 1px solid var(--rule-hairline);
+}
+.local-cal-row:first-child {
+ border-top: none;
+ padding-top: 4px;
+}
+.local-cal-row .lcr-date {
+ flex: 0 0 auto;
+ font-family: 'Inter', sans-serif;
+ font-size: 12px;
+ font-weight: 600;
+ letter-spacing: 0.3px;
+ color: var(--fg-primary);
+ min-width: 120px;
+}
+.local-cal-row .lcr-title {
+ font-size: 15px;
+ color: var(--accent-link);
+ text-decoration: none;
+}
+.local-cal-row .lcr-title:hover {
+ text-decoration: underline;
+}
+.local-cal-row .lcr-title .ext {
+ font-size: 0.72em;
+ color: var(--accent-soft);
+}
+
+/* ==== build-out C2: "my local areas" (add button + Today headline + local feed + manager) ==== */
+
+/* "+ Add [area] to my feed" — the mockup's restrained ink-red affordance (Direction B): a bordered
+ accent button, never an urgent-red CTA. Real tap target for mobile-first. */
+.add-area-btn {
+ display: inline-flex;
+ align-items: center;
+ gap: 6px;
+ margin-top: 14px;
+ padding: 10px 15px;
+ font-family: 'Inter', sans-serif;
+ font-size: 13px;
+ font-weight: 600;
+ letter-spacing: 0.3px;
+ color: var(--accent-link);
+ background: transparent;
+ border: 1px solid var(--accent-link);
+ border-radius: 7px;
+ cursor: pointer;
+ transition: background-color 0.14s ease, color 0.14s ease;
+ -webkit-tap-highlight-color: transparent;
+}
+.add-area-btn:hover {
+ background: var(--panel-fill);
+}
+.add-area-btn.added {
+ color: var(--accent-soft);
+ border-color: var(--rule-strong);
+ background: var(--panel-fill);
+ font-weight: 500;
+}
+.add-area-btn .aab-mark {
+ font-weight: 700;
+ color: var(--accent-link);
+}
+.add-area-btn .aab-remove {
+ color: var(--fg-secondary);
+ font-weight: 500;
+}
+
+/* Today "Local news" headline — a quiet panel box near the top of the feed, only shown when the
+ reader has added >=1 area (rendered client-side). Matches the mockup's .localhead. */
+.local-headline {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ gap: 14px;
+ margin: 8px 0 18px;
+ padding: 12px 15px;
+ background: var(--panel-fill);
+ border: 1px solid var(--rule-hairline);
+ border-radius: 8px;
+ text-decoration: none;
+ color: inherit;
+}
+.local-headline:hover {
+ border-color: var(--rule-strong);
+}
+.local-headline .lh-main {
+ display: flex;
+ flex-direction: column;
+ gap: 2px;
+ min-width: 0;
+}
+.local-headline .lh-kicker {
+ font-family: 'Inter', sans-serif;
+ font-size: 10px;
+ font-weight: 700;
+ letter-spacing: 1.6px;
+ text-transform: uppercase;
+ color: var(--label-tint);
+}
+.local-headline .lh-value {
+ font-size: 16px;
+ font-weight: 600;
+ line-height: 1.3;
+ color: var(--fg-primary);
+}
+.local-headline .lh-new {
+ color: var(--accent-soft);
+ font-weight: 600;
+}
+.local-headline .lh-manage {
+ flex: 0 0 auto;
+ font-family: 'Inter', sans-serif;
+ font-size: 12px;
+ font-weight: 600;
+ letter-spacing: 0.3px;
+ color: var(--accent-link);
+ white-space: nowrap;
+}
+
+/* "Since your last visit" kicker — a quiet catch-up line shown ONLY to a lapsed reader (3+ days
+ away) on Top Stories, rendered client-side after mount. The count is honest (real unseen-HIGH-
+ in-window from the ranking layer), never fabricated. Matches the .local-headline panel register. */
+.since-last {
+ display: flex;
+ flex-direction: column;
+ gap: 2px;
+ margin: 8px 0 16px;
+ padding: 11px 15px;
+ background: var(--panel-fill);
+ border: 1px solid var(--rule-hairline);
+ border-radius: 8px;
+}
+.since-last .sl-kicker {
+ font-family: 'Inter', sans-serif;
+ font-size: 10px;
+ font-weight: 700;
+ letter-spacing: 1.6px;
+ text-transform: uppercase;
+ color: var(--label-tint);
+}
+.since-last .sl-value {
+ font-size: 15px;
+ font-weight: 600;
+ line-height: 1.3;
+ color: var(--fg-primary);
+}
+
+/* "My local areas" manager — chips with a remove control, on the local feed page. */
+.local-areas-manager {
+ display: flex;
+ flex-wrap: wrap;
+ gap: 8px 10px;
+ padding: 4px 0 14px;
+}
+.area-chip {
+ display: inline-flex;
+ align-items: center;
+ gap: 6px;
+ padding: 6px 6px 6px 12px;
+ font-family: 'Inter', sans-serif;
+ font-size: 13px;
+ font-weight: 500;
+ border: 1px solid var(--rule-hairline);
+ border-radius: 999px;
+ background: var(--panel-fill);
+ color: var(--fg-primary);
+}
+.area-chip .area-chip-name {
+ color: var(--fg-primary);
+ text-decoration: none;
+}
+.area-chip .area-chip-name:hover {
+ color: var(--accent-link);
+}
+.area-chip .area-chip-remove {
+ display: inline-flex;
+ align-items: center;
+ justify-content: center;
+ width: 20px;
+ height: 20px;
+ padding: 0;
+ font-size: 15px;
+ line-height: 1;
+ color: var(--fg-secondary);
+ background: transparent;
+ border: none;
+ border-radius: 999px;
+ cursor: pointer;
+}
+.area-chip .area-chip-remove:hover {
+ color: var(--accent-link);
+ background: var(--bg-raise);
+}
+.area-chip.area-chip-add {
+ padding: 6px 12px;
+ color: var(--accent-link);
+ border-style: dashed;
+ border-color: var(--rule-strong);
+ background: transparent;
+ text-decoration: none;
+}
+.area-chip.area-chip-add:hover {
+ background: var(--panel-fill);
+}
+
+/* Aggregated local feed — reuses .local-news / .local-news-row; adds the per-row area tag +
+ honest per-area empty notes. */
+.local-news-row .lnr-area {
+ color: var(--accent-soft);
+ font-weight: 600;
+}
+.local-feed-empty {
+ padding: 2px 0 10px;
+}
+.local-feed-browse,
+.local-feed-none + .local-feed-browse {
+ display: inline-block;
+ margin-top: 6px;
+ font-family: 'Inter', sans-serif;
+ font-size: 13px;
+ font-weight: 600;
+ color: var(--accent-link);
+ text-decoration: none;
+}
+.local-feed-browse:hover {
+ text-decoration: underline;
+}
+.local-feed-notes {
+ margin-top: 16px;
+ padding-top: 12px;
+ border-top: 1px solid var(--rule-hairline);
+}
+.local-feed-notes .lfn-row {
+ font-family: 'Inter', sans-serif;
+ font-size: 13px;
+ line-height: 1.6;
+ color: var(--fg-secondary);
+}
+.local-feed-notes .lfn-row strong {
+ color: var(--fg-primary);
+ font-weight: 600;
+}
+
+/* ============================================================
+ THE FRONT PAGE — newspaper structure (approved: Option A)
+ ------------------------------------------------------------
+ The ruling: "I want the desktop model to be a modern design FROM a
+ traditional newspaper. Let's be creative so the MENU is built into this
+ as well." So the navigation is not a navbar bolted above the content —
+ it is the section rule that runs under the flag on a broadsheet.
+
+ Colour stays on the ratified Direction B tokens (dark default, ).
+ The approved mockups were explicitly LOW-FIDELITY for layout and
+ navigation review, so they set STRUCTURE here, not palette.
+ ============================================================ */
+
+/* ---- 1. the flag ---- */
+.paper-head {
+ border-bottom: 2px solid var(--rule-strong);
+ margin-bottom: 1.6rem;
+}
+.flag {
+ position: relative; /* anchor for the masthead-corner account button */
+ display: flex;
+ justify-content: center;
+ padding: 1.5rem 0 0.9rem;
+ border-bottom: 1px solid var(--rule-hairline);
+}
+.flag-lockup {
+ display: inline-flex;
+ align-items: center;
+ gap: 0.6rem;
+ text-decoration: none;
+ color: var(--fg-primary);
+}
+/* The mark is TALLER than it is wide (viewBox 588x659). Forcing it into a square box made
+ the browser letterbox the glyph — the drawn bird only ever filled ~89% of the width and
+ sat in dead space, which is a large part of why it read as small. Drive it off height and
+ let width follow the real aspect, sized to sit against the nameplate rather than under it. */
+.flag-mark {
+ height: clamp(2.6rem, 7.6vw, 4.3rem);
+ width: auto;
+ flex: none;
+}
+.flag-name {
+ font-family: 'Source Serif 4', Georgia, serif;
+ font-weight: 700;
+ font-size: clamp(2rem, 6vw, 3.4rem);
+ letter-spacing: -0.02em;
+ line-height: 1;
+}
+
+/* ---- 2. the dateline rule ---- */
+.dateline {
+ display: grid;
+ grid-template-columns: 1fr auto 1fr;
+ align-items: center;
+ gap: 1rem;
+ padding: 0.5rem 0;
+ border-bottom: 1px solid var(--rule-hairline);
+ font-family: Inter, system-ui, sans-serif;
+ font-size: 0.62rem;
+ letter-spacing: 0.14em;
+ text-transform: uppercase;
+ color: var(--fg-faint);
+}
+.dl-mid {
+ text-align: center;
+ color: var(--fg-secondary);
+}
+.dl-right {
+ text-align: right;
+}
+
+/* ---- 3. the section bar: the menu, built into the paper ---- */
+.sections {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ gap: 1rem;
+ padding: 0.55rem 0;
+}
+.sec-list {
+ display: flex;
+ gap: 1.5rem;
+ list-style: none;
+ flex-wrap: wrap;
+}
+.sec {
+ font-family: Inter, system-ui, sans-serif;
+ font-size: 0.72rem;
+ font-weight: 600;
+ letter-spacing: 0.13em;
+ text-transform: uppercase;
+ text-decoration: none;
+ color: var(--fg-secondary);
+ padding-bottom: 3px;
+ border-bottom: 2px solid transparent;
+}
+.sec:hover {
+ color: var(--fg-primary);
+}
+.sec-active {
+ color: var(--fg-primary);
+ border-bottom-color: var(--accent-link);
+}
+.sec-tools {
+ display: flex;
+ align-items: center;
+ gap: 0.75rem;
+}
+
+/* ---- the front page grid: lead + ranked rail ---- */
+.frontpage {
+ display: grid;
+ grid-template-columns: 1fr;
+ gap: 1.75rem;
+ padding-bottom: 1.5rem;
+ border-bottom: 2px solid var(--rule-strong);
+ margin-bottom: 1.5rem;
+}
+
+/* ---- the lead story ---- */
+.lead-kicker {
+ font-family: Inter, system-ui, sans-serif;
+ font-size: 0.66rem;
+ letter-spacing: 0.13em;
+ text-transform: uppercase;
+ color: var(--fg-faint);
+ margin-bottom: 0.5rem;
+}
+.lead-head {
+ display: block;
+ width: 100%;
+ text-align: left;
+ background: none;
+ border: 0;
+ padding: 0;
+ cursor: pointer;
+ color: inherit;
+}
+.lead-hed {
+ font-family: 'Source Serif 4', Georgia, serif;
+ font-weight: 700;
+ font-size: clamp(1.75rem, 5.2vw, 3.1rem);
+ line-height: 1.08;
+ letter-spacing: -0.015em;
+ color: var(--fg-primary);
+}
+.lead-head:hover .lead-hed {
+ color: var(--accent-link);
+}
+.lead-quote {
+ font-style: italic;
+ color: var(--fg-secondary);
+ margin-top: 0.7rem;
+ padding-left: 0.9rem;
+ border-left: 2px solid var(--rule-strong);
+}
+.lead-teaser {
+ margin-top: 0.75rem;
+ color: var(--fg-secondary);
+ font-size: 1.02rem;
+ line-height: 1.55;
+ max-width: 62ch;
+}
+.lead-drop {
+ display: block;
+ margin-top: 0.9rem;
+ padding: 0.9rem 1rem;
+ background: var(--panel-fill);
+ border-left: 3px solid var(--accent-link);
+ text-decoration: none;
+ color: inherit;
+}
+
+/* ---- the rundown rail ---- */
+.rundown {
+ border-top: 2px solid var(--rule-strong);
+ padding-top: 0.9rem;
+}
+.rail-label {
+ font-family: Inter, system-ui, sans-serif;
+ font-size: 0.68rem;
+ font-weight: 700;
+ letter-spacing: 0.16em;
+ text-transform: uppercase;
+ color: var(--label-tint);
+ margin-bottom: 0.75rem;
+}
+.rail-list {
+ list-style: none;
+}
+.rail-item {
+ display: flex;
+ gap: 0.7rem;
+ padding: 0.7rem 0;
+ border-bottom: 1px solid var(--rule-hairline);
+}
+.rail-item:last-child {
+ border-bottom: 0;
+}
+.rail-num {
+ font-family: Inter, system-ui, sans-serif;
+ font-size: 0.72rem;
+ font-weight: 700;
+ color: var(--accent-link);
+ line-height: 1.5;
+ flex: none;
+ width: 1rem;
+}
+.rail-link {
+ text-decoration: none;
+ color: inherit;
+ display: block;
+}
+.rail-kicker {
+ display: block;
+ font-family: Inter, system-ui, sans-serif;
+ font-size: 0.6rem;
+ letter-spacing: 0.12em;
+ text-transform: uppercase;
+ color: var(--fg-faint);
+ margin-bottom: 0.15rem;
+}
+.rail-hed {
+ display: block;
+ font-family: 'Source Serif 4', Georgia, serif;
+ font-size: 0.98rem;
+ font-weight: 600;
+ line-height: 1.25;
+}
+.rail-link:hover .rail-hed {
+ color: var(--accent-link);
+}
+
+/* ---- desktop: two columns, the broadsheet proper ---- */
+@media (min-width: 900px) {
+ .frontpage {
+ grid-template-columns: minmax(0, 2.1fr) minmax(240px, 0.9fr);
+ gap: 2.5rem;
+ }
+ .rundown {
+ border-top: 0;
+ border-left: 1px solid var(--rule-hairline);
+ padding-top: 0;
+ padding-left: 1.6rem;
+ }
+}
+
+/* ---- mobile: drop the chrome, maximise the feed ----
+ The ruling was explicit — drop the nameplate, the date/edition line and the
+ descriptor from mobile chrome because they ate the screen. The flag collapses
+ to a small centred wordmark; the dateline and the desktop section bar go away
+ entirely and navigation moves to the bottom tab bar. */
+@media (max-width: 899px) {
+ .flag {
+ padding: 0.7rem 0 0.55rem;
+ }
+ .flag-name {
+ font-size: 1.35rem;
+ }
+ .flag-mark {
+ height: 2rem;
+ width: auto;
+ }
+ .dateline,
+ .sec-list {
+ display: none;
+ }
+ /* With the account button moved into the masthead corner, the section row held nothing
+ but the theme pill — a near-empty band eating vertical space on the one screen where
+ the ruling is to maximise the feed. Pull the theme pill into the opposite masthead
+ corner so the two controls flank the nameplate, and let the band collapse. */
+ .paper-head {
+ position: relative;
+ }
+ .sections {
+ justify-content: flex-end;
+ padding: 0;
+ }
+ .sec-tools {
+ position: absolute;
+ left: 0;
+ top: 11px;
+ }
+ .paper-head {
+ margin-bottom: 1rem;
+ }
+ body {
+ padding-bottom: 4.2rem; /* clear the fixed tab bar */
+ }
+}
+
+/* ---- mobile bottom tabs ---- */
+.tabbar {
+ display: none;
+}
+@media (max-width: 899px) {
+ .tabbar {
+ position: fixed;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ z-index: 40;
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+ background: var(--bg-raise);
+ border-top: 1px solid var(--rule-strong);
+ padding-bottom: env(safe-area-inset-bottom, 0);
+ }
+ .tab {
+ text-align: center;
+ padding: 0.7rem 0.25rem;
+ font-family: Inter, system-ui, sans-serif;
+ font-size: 0.68rem;
+ font-weight: 600;
+ letter-spacing: 0.08em;
+ text-transform: uppercase;
+ text-decoration: none;
+ color: var(--fg-secondary);
+ border-top: 2px solid transparent;
+ margin-top: -1px;
+ }
+ .tab-active {
+ color: var(--fg-primary);
+ border-top-color: var(--accent-link);
+ }
+ /* "More" is a button, not a link — reset the UA button styling so it matches its siblings. */
+ .tab-more {
+ background: none;
+ border: 0;
+ border-top: 2px solid transparent;
+ cursor: pointer;
+ font-family: inherit;
+ }
+}
+
+/* ---- Local: search bar + results ----
+ Mobile: pinned above the tab bar, in thumb reach, hiding as you read down and returning when
+ you scroll up. Desktop: static at the top of the page, where reach is not a problem and a
+ moving element would only be noise. */
+.local-search {
+ position: fixed;
+ left: 0;
+ right: 0;
+ bottom: calc(3.4rem + env(safe-area-inset-bottom, 0));
+ z-index: 30;
+ display: flex;
+ align-items: center;
+ gap: 0.5rem;
+ padding: 0.6rem 1.15rem;
+ background: var(--bg-raise);
+ border-top: 1px solid var(--rule-hairline);
+ transform: translateY(0);
+ transition: transform 0.22s ease, opacity 0.22s ease;
+}
+.local-search.is-hidden {
+ transform: translateY(140%);
+ opacity: 0;
+ pointer-events: none;
+}
+.ls-input {
+ flex: 1;
+ min-width: 0;
+ background: var(--panel-fill);
+ border: 1px solid var(--rule-hairline);
+ border-radius: 999px;
+ padding: 0.6rem 1rem;
+ color: var(--fg-primary);
+ font-family: Inter, system-ui, sans-serif;
+ font-size: 0.9rem;
+}
+.ls-input::placeholder {
+ color: var(--fg-faint);
+}
+.ls-input:focus {
+ outline: none;
+ border-color: var(--accent-link);
+}
+.ls-clear {
+ flex: none;
+ width: 34px;
+ height: 34px;
+ border-radius: 999px;
+ background: transparent;
+ border: 1px solid var(--rule-hairline);
+ color: var(--fg-secondary);
+ font-size: 1.1rem;
+ line-height: 1;
+ cursor: pointer;
+}
+.local-result {
+ display: flex;
+ justify-content: space-between;
+ align-items: baseline;
+ gap: 1rem;
+ padding: 0.85rem 0;
+ border-bottom: 1px solid var(--rule-hairline);
+ text-decoration: none;
+ color: inherit;
+}
+.lr-name {
+ font-family: 'Source Serif 4', Georgia, serif;
+ font-size: 1.1rem;
+ font-weight: 600;
+}
+.lr-meta {
+ font-family: Inter, system-ui, sans-serif;
+ font-size: 0.62rem;
+ letter-spacing: 0.12em;
+ text-transform: uppercase;
+ color: var(--fg-faint);
+ text-align: right;
+}
+.local-empty {
+ padding: 1.4rem 0 0.6rem;
+ border-top: 1px solid var(--rule-hairline);
+}
+.local-empty strong {
+ display: block;
+ font-family: 'Source Serif 4', Georgia, serif;
+ font-size: 1.12rem;
+ font-weight: 600;
+ margin-bottom: 0.4rem;
+}
+.local-empty span {
+ display: block;
+ color: var(--fg-secondary);
+ font-size: 0.92rem;
+ line-height: 1.55;
+ max-width: 56ch;
+}
+/* clear the fixed bar so the last dispatch is never trapped under it */
+.local-search ~ * {
+ scroll-margin-bottom: 6rem;
+}
+@media (min-width: 900px) {
+ .local-search {
+ position: static;
+ padding: 0 0 1.1rem;
+ background: none;
+ border-top: 0;
+ border-bottom: 1px solid var(--rule-hairline);
+ margin-bottom: 1.2rem;
+ transform: none;
+ opacity: 1;
+ pointer-events: auto;
+ }
+}
+
+/* ---- the "More" sheet ---- */
+.sheet-scrim {
+ position: fixed;
+ inset: 0;
+ z-index: 50;
+ background: rgba(0, 0, 0, 0.55);
+}
+.sheet {
+ position: fixed;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ z-index: 51;
+ max-height: 82vh;
+ overflow-y: auto;
+ background: var(--bg-raise);
+ border-top: 2px solid var(--rule-strong);
+ border-radius: 18px 18px 0 0;
+ padding: 0.6rem 1.15rem calc(1.1rem + env(safe-area-inset-bottom, 0));
+}
+.sheet-grip {
+ width: 38px;
+ height: 4px;
+ border-radius: 999px;
+ background: var(--rule-strong);
+ margin: 0 auto 0.9rem;
+}
+.sheet-label {
+ font-family: Inter, system-ui, sans-serif;
+ font-size: 0.64rem;
+ font-weight: 700;
+ letter-spacing: 0.16em;
+ text-transform: uppercase;
+ color: var(--label-tint);
+ margin: 0.5rem 0 0.6rem;
+}
+.sheet-chips {
+ display: flex;
+ flex-wrap: wrap;
+ gap: 0.45rem;
+ padding-bottom: 0.4rem;
+}
+.sheet-links {
+ list-style: none;
+}
+.sheet-link {
+ display: block;
+ padding: 0.7rem 0;
+ border-bottom: 1px solid var(--rule-hairline);
+ text-decoration: none;
+ color: inherit;
+}
+.sheet-links li:last-child .sheet-link {
+ border-bottom: 0;
+}
+.sl-t {
+ display: block;
+ font-family: 'Source Serif 4', Georgia, serif;
+ font-size: 1.02rem;
+ font-weight: 600;
+}
+.sl-s {
+ display: block;
+ margin-top: 0.1rem;
+ font-size: 0.78rem;
+ color: var(--fg-secondary);
+}
+.sheet-close {
+ width: 100%;
+ margin-top: 0.9rem;
+ padding: 0.7rem;
+ background: transparent;
+ border: 1px solid var(--rule-hairline);
+ border-radius: 999px;
+ color: var(--fg-secondary);
+ font-family: Inter, system-ui, sans-serif;
+ font-size: 0.75rem;
+ letter-spacing: 0.08em;
+ text-transform: uppercase;
+ cursor: pointer;
+}
+/* The sheet is a mobile affordance only — desktop has the inline chip row and the section bar. */
+@media (min-width: 900px) {
+ .sheet,
+ .sheet-scrim {
+ display: none;
+ }
+}
+
+/* ---- broadsheet measure ----
+ The shell was fixed at 560px — a single phone-width column, correct for the old
+ stacked list and far too narrow for a front page. At 1440px the lead headline was
+ breaking one word per line. Desktop opens to a broadsheet measure; the reading
+ column stays narrow where it should, inside the grid. */
+@media (min-width: 900px) {
+ .shell {
+ max-width: 1180px;
+ padding: 0 40px 90px;
+ }
+ /* SINGLE column below the fold (Timn, 2026-07-24). The two-column version was a CSS
+ multi-column text flow, so stories ran down the left column and then jumped back up to
+ the top of the right one — a reading order nobody asked for and a scan pattern that
+ fights the ranked feed. One column, held to the lead's measure so the whole page reads
+ down a single spine. */
+ .below-fold {
+ column-count: 1;
+ max-width: 720px;
+ }
+}
+
+/* The category chips are opt-in filters, not sections — the sections live in the flag.
+ Set them as a quiet index line so they stop competing with the newspaper nav. */
+@media (min-width: 900px) {
+ .curate {
+ justify-content: flex-start;
+ gap: 0.4rem;
+ padding-bottom: 0.9rem;
+ margin-bottom: 1.1rem;
+ border-bottom: 1px solid var(--rule-hairline);
+ }
+ .curate .chip {
+ font-size: 0.62rem;
+ letter-spacing: 0.1em;
+ padding: 0.28rem 0.6rem;
+ }
+ .feed-label {
+ text-align: left;
+ }
+}
+
+/* ---- mobile: HEADLINE-ONLY feed (the ruling) ----
+ "The main newsfeed shows HEADLINE ONLY — no context, no summary, no deck under the
+ headline. Tap headline → reveals the CONTEXT/SUMMARY. Tap the context/summary → loads
+ the FULL PAGE." The lead was rendering its opening paragraph inline, which is the deck
+ the ruling removed. Desktop keeps a newspaper headline+deck hierarchy; mobile does not. */
+@media (max-width: 899px) {
+ .lead-teaser {
+ display: none;
+ }
+ /* The filters moved into the bottom bar's "More" sheet (2026-07-24). Even as a swipe strip
+ they cost ~70px above the first headline, and filtering is an occasional action while
+ headlines are the whole point of the screen. Desktop keeps the inline chip row. */
+ .curate {
+ display: none;
+ }
+ .curate .chip {
+ flex: none;
+ font-size: 0.62rem;
+ padding: 0.32rem 0.7rem;
+ }
+ .feed-label {
+ font-size: 0.6rem;
+ text-align: left;
+ margin-bottom: 0.35rem;
+ }
+ /* the theme toggle should not own a whole row */
+ .sec-tools .theme-toggle,
+ .sec-tools button {
+ font-size: 0.62rem;
+ padding: 0.25rem 0.6rem;
+ }
+}
+
+/* ---- reorder-flash hold (2026-07-23) --------------------------------------------------------
+ A returning reader's feed order can only be computed in the browser (the profile lives in
+ localStorage), so the static page necessarily ships a different order first. Rather than let
+ the reader watch it swap, hold the story list for the ~100ms the ranking layer needs.
+
+ `visibility` and NOT `display` on purpose: layout is already correct, so holding costs no
+ reflow and the page does not jump when it releases. Only the story list is held — the flag,
+ nav, chips and section label stay on screen the whole time.
+
+ The attribute is set by an inline bootstrap in app/layout.tsx ONLY when a reader profile
+ exists, so a first-time reader (whose static order IS their final order) never waits, and is
+ cleared before paint by the layout effect in app/feed.tsx. A 1200ms failsafe in the bootstrap
+ clears it even if the JS bundle never loads. */
+html[data-personalizing='1'] .feed-body {
+ visibility: hidden;
+}
