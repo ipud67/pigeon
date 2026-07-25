@@ -48,6 +48,18 @@ jobs:
       - name: Install deps
         run: npm ci
 
+      # Semantic dedup (lib/ingestion/embeddings.ts) loads a pinned local sentence-embedding
+      # model (Xenova/all-MiniLM-L6-v2, revision main) from the Hugging Face Hub on first use —
+      # a one-time ~23MB weight download, not an LLM call, no key, no charge. Cache it so the
+      # 6-hourly scheduled run doesn't re-download the same weights every time. Keyed on the
+      # pinned model id + revision so a deliberate bump in embeddings.ts naturally busts the
+      # cache instead of silently reusing stale weights.
+      - name: Cache embedding model weights
+        uses: actions/cache@v4
+        with:
+          path: .cache/transformers/
+          key: transformers-Xenova-all-MiniLM-L6-v2-main
+
       # Only on the timer or a manual run. A plain code push publishes against the fact store
       # already in the repo, so a deploy never silently swaps the news underneath a code
       # change you are trying to verify.

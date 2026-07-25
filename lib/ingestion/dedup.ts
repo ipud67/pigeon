@@ -8,52 +8,58 @@ import { createHash } from 'node:crypto';
 import type { RawItem } from '../types';
 
 export function stableId(url: string, title: string): string {
- return createHash('sha1').update(`${url}::${title}`).digest('hex').slice(0, 12);
+  return createHash('sha1').update(`${url}::${title}`).digest('hex').slice(0, 12);
 }
 
 function normalizeTitle(t: string): string {
- return t.toLowerCase().replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim();
+  return t.toLowerCase().replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim();
 }
 
 function tokenSet(t: string): Set<string> {
- return new Set(normalizeTitle(t).split(' ').filter((w) => w.length > 3));
+  return new Set(normalizeTitle(t).split(' ').filter((w) => w.length > 3));
 }
 
 // Jaccard similarity over title token sets.
 function similar(a: string, b: string): boolean {
- const sa = tokenSet(a);
- const sb = tokenSet(b);
- if (sa.size === 0 || sb.size === 0) return false;
- let inter = 0;
- for (const w of sa) if (sb.has(w)) inter++;
- const union = sa.size + sb.size - inter;
- return inter / union >= 0.6;
+  const sa = tokenSet(a);
+  const sb = tokenSet(b);
+  if (sa.size === 0 || sb.size === 0) return false;
+  let inter = 0;
+  for (const w of sa) if (sb.has(w)) inter++;
+  const union = sa.size + sb.size - inter;
+  return inter / union >= 0.6;
 }
 
 export type Cluster = { primary: RawItem; members: RawItem[] };
 
+// Prefer the higher-tier (lower-number) source as the primary linkout. Shared with the
+// semantic clustering layer (semantic-cluster.ts) so both layers pick a primary the same way
+// rather than each inventing its own tie-break.
+const TIER_RANK: Record<string, number> = {
+  T1_wire: 0,
+  T1_gov: 1,
+  T2_indie: 2,
+  T3_factslice: 3,
+};
+export function preferPrimary(a: RawItem, b: RawItem): RawItem {
+  return TIER_RANK[b.tier] < TIER_RANK[a.tier] ? b : a;
+}
+
 export function clusterItems(items: RawItem[]): Cluster[] {
- const clusters: Cluster[] = [];
- const seenUrls = new Set<string>();
+  const clusters: Cluster[] = [];
+  const seenUrls = new Set<string>();
 
- for (const item of items) {
- if (item.url && seenUrls.has(item.url)) continue;
- if (item.url) seenUrls.add(item.url);
+  for (const item of items) {
+    if (item.url && seenUrls.has(item.url)) continue;
+    if (item.url) seenUrls.add(item.url);
 
- const existing = clusters.find((c) => similar(c.primary.title, item.title));
- if (existing) {
- existing.members.push(item);
- // Prefer the higher-tier (lower-number) source as the primary linkout.
- const tierRank: Record<string, number> = {
- T1_wire: 0,
- T1_gov: 1,
- T2_indie: 2,
- T3_factslice: 3,
- };
- if (tierRank[item.tier] < tierRank[existing.primary.tier]) existing.primary = item;
- } else {
- clusters.push({ primary: item, members: [item] });
- }
- }
- return clusters;
+    const existing = clusters.find((c) => similar(c.primary.title, item.title));
+    if (existing) {
+      existing.members.push(item);
+      existing.primary = preferPrimary(existing.primary, item);
+    } else {
+      clusters.push({ primary: item, members: [item] });
+    }
+  }
+  return clusters;
 }
