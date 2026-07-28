@@ -18,7 +18,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -38,25 +38,25 @@
     "importance_tier": "BURIED"
   },
   {
-    "id": "ea8e11d6c58a",
-    "datetime_utc": "2026-07-27T21:35:21.000Z",
+    "id": "eb5824b55e6a",
+    "datetime_utc": "2026-07-28T01:46:38.000Z",
     "place": "WORLD",
-    "what": "Delays expected on flights to, from Israel due to European air traffic control issues, IAA says",
-    "deck": "The announcement follows an air traffic control outage in Greece on Sunday, during which thousands of passengers were delayed as flights across Greece were grounded for several hours.",
-    "context": "The announcement follows an air traffic control outage in Greece on Sunday, during which thousands of passengers were delayed as flights across Greece were grounded for several hours.",
+    "what": "Just one in three Americans support Iran war, most unsure of Trump's goals - poll",
+    "deck": "Approval of the conflict has been below 40% since the US and Israel launched strikes on February 28, a stark contrast to the opening months of other recent conflicts.",
+    "context": "Approval of the conflict has been below 40% since the US and Israel launched strikes on February 28, a stark contrast to the opening months of other recent conflicts.",
     "sources": [
       {
         "outlet": "Jerusalem Post",
-        "url": "https://www.jpost.com/israel-news/article-903834",
+        "url": "https://www.jpost.com/american-politics/article-903846",
         "tier": "T2_indie"
       }
     ],
-    "category": "other",
+    "category": "war",
     "economics_flag": false,
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
-    "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "classifier_confidence": 0.91,
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -72,25 +72,140 @@
         "forecast": "Analysis coming."
       }
     },
-    "importance": 22,
+    "importance": 75,
+    "importance_tier": "HIGH"
+  },
+  {
+    "id": "5727976fb079",
+    "datetime_utc": "2026-07-28T00:39:18.000Z",
+    "place": "WORLD",
+    "what": "Minnesota prediction market ban paused by federal judge days before rollout",
+    "deck": "A federal judge on Monday halted a prediction market ban in Minnesota days before it was set to roll out.",
+    "quote": "likely to succeed on the merits",
+    "context": "A federal judge on Monday halted a prediction market ban in Minnesota days before it was set to roll out. District Judge Katherine Menendez wrote that the Trump administration, Kalshi and Polymarket are “likely to succeed on the merits” in the case arguing that the state ban is pre-empted by federal law. “Specifically, it appears…",
+    "sources": [
+      {
+        "outlet": "The Hill",
+        "url": "https://thehill.com/policy/technology/5993164-federal-judge-halts-minnesota-prediction-market-ban/",
+        "tier": "T2_indie"
+      }
+    ],
+    "category": "economics",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.86,
+    "ingested_at": "2026-07-28T01:43:24.056Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 35,
     "importance_tier": "LOW"
   },
   {
-    "id": "38a7ceefff73",
-    "datetime_utc": "2026-07-27T21:17:37.000Z",
+    "id": "71b674713ef1",
+    "datetime_utc": "2026-07-27T23:37:25.000Z",
     "place": "WORLD",
-    "what": "Trump administration backs phased IDF withdrawal from Lebanon under Hezbollah disarmament deal",
-    "deck": "Netanyahu departed from Israel earlier on Monday for the talks with Trump in Washington, where the two are expected to discuss the situation with Iran, alongside other issues.",
-    "context": "Reported by 2 sources. Netanyahu departed from Israel earlier on Monday for the talks with Trump in Washington, where the two are expected to discuss the situation with Iran, alongside other issues.",
+    "what": "Academics call on Congress to restore agency independence after Trump v. Slaughter",
+    "deck": "A group of more than 50 academics on Monday wrote a letter to congressional leaders urging them to restore agency independence following last month’s Supreme Court ruling, which granted President Trump the authority t…",
+    "context": "A group of more than 50 academics on Monday wrote a letter to congressional leaders urging them to restore agency independence following last month’s Supreme Court ruling, which granted President Trump the authority to fire commissioners of independent agencies without cause. The professors argue that the ruling stalled business for the Consumer Product Safety Commission,…",
     "sources": [
       {
-        "outlet": "Jerusalem Post",
-        "url": "https://www.jpost.com/middle-east/article-903832",
+        "outlet": "The Hill",
+        "url": "https://thehill.com/homenews/5993085-scotus-ruling-stalls-commissions/",
         "tier": "T2_indie"
+      }
+    ],
+    "category": "courts",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.93,
+    "ingested_at": "2026-07-28T01:43:24.056Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 60,
+    "importance_tier": "HIGH"
+  },
+  {
+    "id": "672735700f20",
+    "datetime_utc": "2026-07-27T22:51:46.000Z",
+    "place": "WASHINGTON",
+    "what": "Presidential Message on National Korean War Veterans Armistice Day",
+    "deck": "Today, our Nation marks the 82nd anniversary of the American liberation of Guam—the day the United States shattered a brutal occupation and carried freedom back to an island that had endured more than 2 years of suffe…",
+    "context": "Reported by 2 sources. Today, our Nation marks the 82nd anniversary of the American liberation of Guam—the day the United States shattered a brutal occupation and carried freedom back to an island that had endured more than 2 years of suffering As our Nation observes National Korean War Veterans Armistice Day, we honor the extraordinary courage and devotion of",
+    "sources": [
+      {
+        "outlet": "White House",
+        "url": "https://www.whitehouse.gov/briefings-statements/2026/07/presidential-message-on-national-korean-war-veterans-armistice-day-3cd7/",
+        "tier": "T1_gov"
       },
       {
-        "outlet": "Jerusalem Post",
-        "url": "https://www.jpost.com/middle-east/iran-news/article-903821",
+        "outlet": "White House",
+        "url": "https://www.whitehouse.gov/briefings-statements/2026/07/presidential-message-on-the-anniversary-of-the-liberation-of-guam/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "war",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.93,
+    "ingested_at": "2026-07-28T01:43:24.056Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 24,
+    "importance_tier": "LOW"
+  },
+  {
+    "id": "9a33f56dc1b0",
+    "datetime_utc": "2026-07-27T22:28:18.000Z",
+    "place": "WORLD",
+    "what": "Senate tees up final vote on Jay Clayton intel chief nomination",
+    "deck": "The Senate cleared a final procedural hurdle Monday night on President Trump’s nominee to lead the Office of the Director of National Intelligence (ODNI), teeing up Jay Clayton for a final vote this week.",
+    "context": "The Senate cleared a final procedural hurdle Monday night on President Trump’s nominee to lead the Office of the Director of National Intelligence (ODNI), teeing up Jay Clayton for a final vote this week. The 51-43 vote to advance the nomination means the Senate could confirm Clayton as early as Tuesday night to be the…",
+    "sources": [
+      {
+        "outlet": "The Hill",
+        "url": "https://thehill.com/homenews/senate/5992931-clayton-dni-confirmation-senate/",
         "tier": "T2_indie"
       }
     ],
@@ -98,8 +213,8 @@
     "economics_flag": false,
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
-    "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "classifier_confidence": 0.93,
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -115,21 +230,310 @@
         "forecast": "Analysis coming."
       }
     },
-    "importance": 46,
+    "importance": 41,
     "importance_tier": "MED"
   },
   {
-    "id": "bbbfa1b65c84",
-    "datetime_utc": "2026-07-27T19:59:42.000Z",
+    "id": "93a2c5ca6969",
+    "datetime_utc": "2026-07-27T22:19:10.000Z",
     "place": "WORLD",
-    "what": "Boy George releases pro-Israel anthem ‘We Will Dance Again’ honoring Oct. 7 victims",
-    "deck": "The 1980s pop icon released \"We Will Dance Again,\" featuring Hebrew lyrics and a message of support for Israel and Jews following the Oct.",
-    "quote": "We Will Dance Again,",
-    "context": "The 1980s pop icon released \"We Will Dance Again,\" featuring Hebrew lyrics and a message of support for Israel and Jews following the Oct. 7 Hamas attack.",
+    "what": "Yemen says ready for Houthi escalation after rebels target Saudi Arabia",
+    "deck": "The warning comes as the Houthis step up attacks on Saudi oil infrastructure and impose a maritime blockade, raising fears that the Iran-backed group's campaign could open a new front in the wider regional conflict an…",
+    "context": "Reported by 2 sources. The warning comes as the Houthis step up attacks on Saudi oil infrastructure and impose a maritime blockade, raising fears that the Iran-backed group's campaign could open a new front in the wider regional conflict and threaten shipping through the Red Sea.",
     "sources": [
       {
+        "outlet": "France 24",
+        "url": "https://www.france24.com/en/middle-east/20260727-yemen-says-ready-for-houthi-escalation-after-rebels-target-saudi-arabia",
+        "tier": "T1_wire"
+      },
+      {
         "outlet": "Jerusalem Post",
-        "url": "https://www.jpost.com/israel-news/culture/article-903827",
+        "url": "https://www.jpost.com/middle-east/article-903842",
+        "tier": "T2_indie"
+      }
+    ],
+    "category": "other",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.77,
+    "ingested_at": "2026-07-28T01:43:24.056Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 27,
+    "importance_tier": "LOW"
+  },
+  {
+    "id": "c48be4f757cc",
+    "datetime_utc": "2026-07-27T21:44:01.000Z",
+    "place": "WORLD",
+    "what": "40 percent report buying less produce amid cyclospora outbreak: Poll",
+    "deck": "A poll released Sunday shows that 40 percent of U.S.",
+    "context": "A poll released Sunday shows that 40 percent of U.S. adults are buying or eating less produce after the cyclospora outbreak. Comparatively, according to survey results from CBS/YouGov, 4 percent of people said they are eating more produce. Among respondents, 56 percent said there has been no change in their diet. Earlier this month, the…",
+    "sources": [
+      {
+        "outlet": "The Hill",
+        "url": "https://thehill.com/business/5992862-cyclospora-outbreak-produce-fda-survey/",
+        "tier": "T2_indie"
+      }
+    ],
+    "category": "health",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.93,
+    "ingested_at": "2026-07-28T01:43:24.056Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 40,
+    "importance_tier": "MED"
+  },
+  {
+    "id": "8435dacac4b0",
+    "datetime_utc": "2026-07-27T21:44:00.000Z",
+    "place": "WORLD",
+    "what": "Federal panel votes to propose changes to historic preservation rules that Trump administration says holds up projects",
+    "deck": "A federal panel on Friday voted to advance a revamp of the nation’s historic preservation rules that Trump administration officials say slow down projects.",
+    "context": "A federal panel on Friday voted to advance a revamp of the nation’s historic preservation rules that Trump administration officials say slow down projects. The Advisory Council on Historic Preservation, which is made up primarily of Trump appointees, voted to propose to rewrite requirements to consult with the public if a project may impact historic…",
+    "sources": [
+      {
+        "outlet": "The Hill",
+        "url": "https://thehill.com/policy/energy-environment/5992963-donald-trump-dc-arch-historic-preservation/",
+        "tier": "T2_indie"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.86,
+    "ingested_at": "2026-07-28T01:43:24.056Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 41,
+    "importance_tier": "MED"
+  },
+  {
+    "id": "648d32d806c6",
+    "datetime_utc": "2026-07-27T21:41:39.000Z",
+    "place": "NEW YORK",
+    "what": "Invest More in Traditional Midwives, Health Centred on Human Rights, Secretary-General Urges Governments in Observance Message for World’s Indigenous Peoples",
+    "deck": "Following is UN Secretary-General António Guterres’ message for the International Day of the World’s Indigenous Peoples, observed on 9 August:",
+    "context": "Following is UN Secretary-General António Guterres’ message for the International Day of the World’s Indigenous Peoples, observed on 9 August:",
+    "sources": [
+      {
+        "outlet": "UN Press",
+        "url": "https://press.un.org/en/2026/sgsm23231.doc.htm",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.91,
+    "ingested_at": "2026-07-28T01:43:24.056Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 30,
+    "importance_tier": "LOW"
+  },
+  {
+    "id": "980d5bb7ab43",
+    "datetime_utc": "2026-07-27T21:30:07.000Z",
+    "place": "WORLD",
+    "what": "PM: ‘From today Britain will value the hard hat as much as the graduation cap’",
+    "deck": "Under the Prime Minister’s fundamental changes to the education system, 14-year-olds will be able to get early access to technical education, skills training, work experience and connections with employers.",
+    "context": "Under the Prime Minister’s fundamental changes to the education system, 14-year-olds will be able to get early access to technical education, skills training, work experience and connections with employers.",
+    "sources": [
+      {
+        "outlet": "UK Government",
+        "url": "https://www.gov.uk/government/news/pm-from-today-britain-will-value-the-hard-hat-as-much-as-the-graduation-cap",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.86,
+    "ingested_at": "2026-07-28T01:43:24.056Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 24,
+    "importance_tier": "LOW"
+  },
+  {
+    "id": "c492d3c21f9c",
+    "datetime_utc": "2026-07-27T21:17:50.000Z",
+    "place": "WORLD",
+    "what": "Top Democrat calls on Taylor Farms to provide information on Trump administration cyclospora communications",
+    "deck": "Rep.",
+    "context": "Rep. Robert Garcia (D-Calif.), the ranking member of the House Oversight and Government Reform Committee, on Monday called on Taylor Farms to provide information about its connections with the White House amid a parasitic outbreak potentially linked to the company’s lettuce supply. Garcia wrote a letter to Taylor Farms CEO Bruce Taylor questioning whether the…",
+    "sources": [
+      {
+        "outlet": "The Hill",
+        "url": "https://thehill.com/homenews/house/5992816-lettuce-outbreak-white-house-influence/",
+        "tier": "T2_indie"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.86,
+    "ingested_at": "2026-07-28T01:43:24.056Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 41,
+    "importance_tier": "MED"
+  },
+  {
+    "id": "2a58e7b3a6f1",
+    "datetime_utc": "2026-07-27T20:41:09.000Z",
+    "place": "WORLD",
+    "what": "US walks out of UN Security Council meeting as France condemns rights vote",
+    "deck": "The United States walked out of a UN Security Council meeting on Monday during France's remarks on Ukraine, escalating a public dispute between the longtime allies over human rights.",
+    "context": "The United States walked out of a UN Security Council meeting on Monday during France's remarks on Ukraine, escalating a public dispute between the longtime allies over human rights. The move followed a clash over Washington's vote against extending the mandate of the UN human rights chief, after France likened the US position to that of Russia, North Korea and other authoritarian states.",
+    "sources": [
+      {
+        "outlet": "France 24",
+        "url": "https://www.france24.com/en/france/20260727-us-walks-out-of-un-security-council-meeting-as-france-condemns-rights-vote",
+        "tier": "T1_wire"
+      }
+    ],
+    "category": "world",
+    "economics_flag": false,
+    "weigh_it_questions": [
+      {
+        "tenet": "power-scope",
+        "question": "Does US walks out of UN Security Council meeting as France condemns rights vote keep the federal actor inside the powers the Constitution enumerates (Art. I §8; 10th Amendment), or does it extend federal reach beyond them?",
+        "anchor": "Federalist No. 45 (Madison); Constitution Art. I §8; Amendment X"
+      },
+      {
+        "tenet": "historical-contrast",
+        "question": "Set against the founders’ framework and the presidents who best embodied it, is this action a step toward that tradition or away from it?",
+        "anchor": "The founding canon, taken as a whole"
+      }
+    ],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.86,
+    "ingested_at": "2026-07-28T01:43:24.056Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "rule-based",
+        "contrasts": [
+          {
+            "tenet": "power-scope",
+            "label": "Enumerated & limited federal power",
+            "question": "Does US walks out of UN Security Council meeting as France condemns rights vote keep the federal actor inside the powers the Constitution enumerates (Art. I §8; 10th Amendment), or does it extend federal reach beyond them?",
+            "within_bounds": "If the action uses a power the Constitution actually lists in Article I §8, it stays inside the lines the founders drew. Madison called the federal powers \"few and defined\" (Federalist 45).",
+            "beyond_bounds": "If it reaches into matters the 10th Amendment leaves to the states or the people, it stretches past those lines. The founders meant the states' powers to stay \"numerous and indefinite\" (Federalist 45).",
+            "anchor": "Federalist No. 45 (Madison); Constitution Art. I §8; Amendment X"
+          }
+        ]
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 59,
+    "importance_tier": "HIGH"
+  },
+  {
+    "id": "2cd0f5f8e258",
+    "datetime_utc": "2026-07-27T20:34:30.000Z",
+    "place": "WORLD",
+    "what": "House map roughly as favorable to GOP as 2018’s, despite redistricting: Analysis",
+    "deck": "A new analysis released Monday says that GOP-led mid-decade redistricting efforts have resulted in a map that resembles 2018’s, when Democrats won the majority in the House.",
+    "context": "A new analysis released Monday says that GOP-led mid-decade redistricting efforts have resulted in a map that resembles 2018’s, when Democrats won the majority in the House. “There’s no question that 2025-2026 mid-cycle redistricting made the overall U.S. House map more Republican-leaning than it was in 2024. The median House seat based on presidential performance,…",
+    "sources": [
+      {
+        "outlet": "The Hill",
+        "url": "https://thehill.com/homenews/campaign/5992787-gop-redistricting-map-comparison/",
         "tier": "T2_indie"
       }
     ],
@@ -137,8 +541,8 @@
     "economics_flag": false,
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
-    "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "classifier_confidence": 0.93,
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -158,16 +562,168 @@
     "importance_tier": "LOW"
   },
   {
-    "id": "ae90a33bd5f3",
-    "datetime_utc": "2026-07-27T19:21:21.000Z",
+    "id": "e5c6102b7909",
+    "datetime_utc": "2026-07-27T20:27:24.000Z",
     "place": "WORLD",
-    "what": "Israel Police search Jerusalem for mother suspected of abducting her two children",
-    "deck": "Jerusalem District investigators believe the 20-year-old mother and her children, ages three and one, may be in the Jerusalem area.",
-    "context": "Jerusalem District investigators believe the 20-year-old mother and her children, ages three and one, may be in the Jerusalem area.",
+    "what": "Trump sounds communism alarm in Michigan but doesn’t mention El-Sayed",
+    "deck": "President Trump sounded the alarm over communism during a campaign-style stop in Michigan on Monday ahead of the state’s Democratic Senate primary next week.",
+    "context": "President Trump sounded the alarm over communism during a campaign-style stop in Michigan on Monday ahead of the state’s Democratic Senate primary next week. Trump did not name Senate candidates Rep. Haley Stevens (D-Mich.) and Abdul El-Sayed during his rally in Milford, Mich., but he sought to paint Democrats broadly as “communists.” The president referred…",
     "sources": [
       {
-        "outlet": "Jerusalem Post",
-        "url": "https://www.jpost.com/israel-news/crime-in-israel/article-903823",
+        "outlet": "The Hill",
+        "url": "https://thehill.com/homenews/administration/5992819-trump-communism-threat-michigan-el-sayed-stevens/",
+        "tier": "T2_indie"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.86,
+    "ingested_at": "2026-07-28T01:43:24.056Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 41,
+    "importance_tier": "MED"
+  },
+  {
+    "id": "81f78b8f36fc",
+    "datetime_utc": "2026-07-27T20:12:47.000Z",
+    "place": "WORLD",
+    "what": "Thune cool to Trump’s demand to cancel August recess for SAVE America Act",
+    "deck": "Senate Majority Leader John Thune (R-S.D.) on Monday reacted coolly to President Trump’s demand for the chamber to cancel its five-week August recess to debate the SAVE America Act, telling reporters he’s willing to d…",
+    "context": "Senate Majority Leader John Thune (R-S.D.) on Monday reacted coolly to President Trump’s demand for the chamber to cancel its five-week August recess to debate the SAVE America Act, telling reporters he’s willing to do so if there’s a chance of a successful outcome but warning of wasting senators’ time with unproductive procedural votes. Thune…",
+    "sources": [
+      {
+        "outlet": "The Hill",
+        "url": "https://thehill.com/homenews/senate/5992759-thune-trump-save-america-act-recess/",
+        "tier": "T2_indie"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.86,
+    "ingested_at": "2026-07-28T01:43:24.056Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 41,
+    "importance_tier": "MED"
+  },
+  {
+    "id": "c8a757db7331",
+    "datetime_utc": "2026-07-27T20:12:09.000Z",
+    "place": "WORLD",
+    "what": "2026 Women's Africa Cup of Nations is underway",
+    "deck": "In tonight's edition, Sudan's army says it has broken the siege of El Obeid after regaining control of a key supply route following intense fighting with the RSF.",
+    "context": "In tonight's edition, Sudan's army says it has broken the siege of El Obeid after regaining control of a key supply route following intense fighting with the RSF. Also, Chad is carrying out its first national census in nearly two decades. And the 2026 Women's Africa Cup of Nations is underway, with early matches already delivering excitement and surprises.",
+    "sources": [
+      {
+        "outlet": "France 24",
+        "url": "https://www.france24.com/en/2026-women-s-africa-cup-of-nations-is-underway",
+        "tier": "T1_wire"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.93,
+    "ingested_at": "2026-07-28T01:43:24.056Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 24,
+    "importance_tier": "LOW"
+  },
+  {
+    "id": "cd983c681d7a",
+    "datetime_utc": "2026-07-27T20:05:36.000Z",
+    "place": "WORLD",
+    "what": "DOJ asks Supreme Court to restore Trump’s mail-in voting executive order",
+    "deck": "The Justice Department asked the Supreme Court on Monday to lift a judge’s block on President Trump’s executive order that seeks to restrict mail-in voting, calling the halt premature.",
+    "context": "The Justice Department asked the Supreme Court on Monday to lift a judge’s block on President Trump’s executive order that seeks to restrict mail-in voting, calling the halt premature. Solicitor General D. John Sauer said the courts have no power to intervene yet because the U.S. Postal Service (USPS) and other involved agencies are still…",
+    "sources": [
+      {
+        "outlet": "The Hill",
+        "url": "https://thehill.com/homenews/campaign/5992732-supreme-court-mail-in-voting-trump-justice-department/",
+        "tier": "T2_indie"
+      }
+    ],
+    "category": "courts",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.86,
+    "ingested_at": "2026-07-28T01:43:24.056Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 76,
+    "importance_tier": "HIGH"
+  },
+  {
+    "id": "feed5c4ef046",
+    "datetime_utc": "2026-07-27T20:01:20.000Z",
+    "place": "WORLD",
+    "what": "ICE launching operation in New York City",
+    "deck": "Immigration and Customs Enforcement (ICE) is launching operations in New York City, according to The Hill’s sister network, NewsNation.",
+    "context": "Immigration and Customs Enforcement (ICE) is launching operations in New York City, according to The Hill’s sister network, NewsNation. NewsNation’s Ali Bradley reported Monday that sources in ICE had told her New York City-based enforcement operations began Monday morning in Queens and will move to Long Island on Tuesday. The operations will target people who…",
+    "sources": [
+      {
+        "outlet": "The Hill",
+        "url": "https://thehill.com/policy/national-security/5992642-ice-queens-long-island-raids/",
         "tier": "T2_indie"
       }
     ],
@@ -175,8 +731,160 @@
     "economics_flag": false,
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
-    "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "classifier_confidence": 0.86,
+    "ingested_at": "2026-07-28T01:43:24.056Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 31,
+    "importance_tier": "LOW"
+  },
+  {
+    "id": "12e3c8f996fd",
+    "datetime_utc": "2026-07-27T19:43:11.000Z",
+    "place": "WORLD",
+    "what": "EPA exempts data center power plants from pollution limits seeking to prevent acid rain",
+    "deck": "The Trump administration announced Monday that it is exempting power plants that only serve data centers and do not connect to the broader grid from pollution limits that seek to prevent acid rain.",
+    "context": "The Trump administration announced Monday that it is exempting power plants that only serve data centers and do not connect to the broader grid from pollution limits that seek to prevent acid rain. The administration announced new guidance on Monday clarifying that these “islanded” power plants do not have to be part of the Clean Air Act’s…",
+    "sources": [
+      {
+        "outlet": "The Hill",
+        "url": "https://thehill.com/policy/energy-environment/5992657-epa-data-center-power-plants-acid-rain/",
+        "tier": "T2_indie"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.86,
+    "ingested_at": "2026-07-28T01:43:24.056Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 41,
+    "importance_tier": "MED"
+  },
+  {
+    "id": "9b7163514609",
+    "datetime_utc": "2026-07-27T19:36:34.000Z",
+    "place": "WORLD",
+    "what": "Haiti schedules December presidential election despite security concerns",
+    "deck": "Haiti's electoral council has scheduled the country's first presidential election in a decade for December 13, with a runoff planned for late February, after postponing an earlier timetable due to security fears.",
+    "context": "Haiti's electoral council has scheduled the country's first presidential election in a decade for December 13, with a runoff planned for late February, after postponing an earlier timetable due to security fears. The vote remains contingent on improved security and funding, as widespread gang violence continues to cast doubt over whether the long-delayed electoral process can proceed as planned.",
+    "sources": [
+      {
+        "outlet": "France 24",
+        "url": "https://www.france24.com/en/americas/20260727-haiti-sets-december-presidential-election-despite-security-concerns",
+        "tier": "T1_wire"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.93,
+    "ingested_at": "2026-07-28T01:43:24.056Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 24,
+    "importance_tier": "LOW"
+  },
+  {
+    "id": "321cca198693",
+    "datetime_utc": "2026-07-27T19:35:26.000Z",
+    "place": "WORLD",
+    "what": "Obama to headline redistricting fundraiser",
+    "deck": "Former President Obama is set to headline a redistricting fundraiser for the National Democratic Redistricting Committee (NDRC) at the end of the month as the party looks to strike back on Republican efforts to redraw…",
+    "context": "Former President Obama is set to headline a redistricting fundraiser for the National Democratic Redistricting Committee (NDRC) at the end of the month as the party looks to strike back on Republican efforts to redraw maps nationwide. The event is on Aug. 31 and will include a dinner and discussion, per the invitation obtained by…",
+    "sources": [
+      {
+        "outlet": "The Hill",
+        "url": "https://thehill.com/homenews/campaign/5992589-obama-ndrc-redistricting-fundraiser/",
+        "tier": "T2_indie"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.86,
+    "ingested_at": "2026-07-28T01:43:24.056Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 53,
+    "importance_tier": "MED"
+  },
+  {
+    "id": "d154ddf97fc9",
+    "datetime_utc": "2026-07-27T19:26:09.000Z",
+    "place": "WORLD",
+    "what": "House Ethics Committee says it is investigating Texas Republican",
+    "deck": "The House Ethics Committee announced Monday that it is investigating Rep.",
+    "context": "The House Ethics Committee announced Monday that it is investigating Rep. Lance Gooden (R-Texas), though it did not disclose the nature of the probe. The panel said in a statement that it had received a referral from the Office of Congressional Conduct (OCC) on the matter regarding Gooden. “The Committee notes that the mere fact…",
+    "sources": [
+      {
+        "outlet": "The Hill",
+        "url": "https://thehill.com/homenews/house/5992624-house-ethics-committee-lance-gooden/",
+        "tier": "T2_indie"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.86,
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -193,6 +901,151 @@
       }
     },
     "importance": 22,
+    "importance_tier": "LOW"
+  },
+  {
+    "id": "446094b5346f",
+    "datetime_utc": "2026-07-27T19:25:03.000Z",
+    "place": "NEW YORK",
+    "what": "Daily Press Briefing by the Office of the Spokesperson for the Secretary-General",
+    "deck": "In the Democratic Republic of the Congo, where as of 25 July, confirmed Ebola cases reportedly reached 3,200, the UN and partners continue to assist authorities on surveillance, contact tracing, laboratory testing and…",
+    "context": "Reported by 2 sources. In the Democratic Republic of the Congo, where as of 25 July, confirmed Ebola cases reportedly reached 3,200, the UN and partners continue to assist authorities on surveillance, contact tracing, laboratory testing and patient care. The World Food Programme has provided over 140,000 meals and food to vulnerable people.",
+    "sources": [
+      {
+        "outlet": "UN Press",
+        "url": "https://press.un.org/en/2026/db260727.doc.htm",
+        "tier": "T1_gov"
+      },
+      {
+        "outlet": "UN Press",
+        "url": "https://press.un.org/en/2026/db260724.doc.htm",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "longform_url": "https://press.un.org/en/2026/db260727.doc.htm",
+    "full_event": {
+      "kind": "press_briefing",
+      "label": "Press briefing — full record",
+      "url": "https://press.un.org/en/2026/db260727.doc.htm",
+      "outlet": "UN Press"
+    },
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.93,
+    "ingested_at": "2026-07-28T01:43:24.056Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 18,
+    "importance_tier": "BURIED"
+  },
+  {
+    "id": "36c4fdfe0017",
+    "datetime_utc": "2026-07-27T19:10:10.000Z",
+    "place": "WORLD",
+    "what": "All senators invited to Zelensky meeting as Congress weighs Russia sanctions bill",
+    "deck": "All 100 senators have been invited to a meeting with Ukrainian President Volodymyr Zelensky Tuesday evening at 6 p.m.",
+    "context": "All 100 senators have been invited to a meeting with Ukrainian President Volodymyr Zelensky Tuesday evening at 6 p.m. in the U.S. Capitol, multiple sources confirmed to The Hill. The meeting was originally reported by Punchbowl News. The gathering comes as the Senate considers a bill that would impose harsher sanctions on Russia and its trading…",
+    "sources": [
+      {
+        "outlet": "The Hill",
+        "url": "https://thehill.com/homenews/senate/5992588-all-senators-to-meet-with-zelensky-as-congress-weighs-russia-sanctions-bill/",
+        "tier": "T2_indie"
+      }
+    ],
+    "category": "world",
+    "economics_flag": true,
+    "weigh_it_questions": [
+      {
+        "tenet": "power-scope",
+        "question": "Does All senators invited to Zelensky meeting as Congress weighs Russia sanctions bill keep Congress inside the powers the Constitution enumerates (Art. I §8; 10th Amendment), or does it extend federal reach beyond them?",
+        "anchor": "Federalist No. 45 (Madison); Constitution Art. I §8; Amendment X"
+      },
+      {
+        "tenet": "historical-contrast",
+        "question": "Set against the founders’ framework and the presidents who best embodied it, is this act of Congress a step toward that tradition or away from it?",
+        "anchor": "The founding canon, taken as a whole"
+      }
+    ],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.93,
+    "ingested_at": "2026-07-28T01:43:24.056Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "rule-based",
+        "contrasts": [
+          {
+            "tenet": "power-scope",
+            "label": "Enumerated & limited federal power",
+            "question": "Does All senators invited to Zelensky meeting as Congress weighs Russia sanctions bill keep Congress inside the powers the Constitution enumerates (Art. I §8; 10th Amendment), or does it extend federal reach beyond them?",
+            "within_bounds": "If the action uses a power the Constitution actually lists in Article I §8, it stays inside the lines the founders drew. Madison called the federal powers \"few and defined\" (Federalist 45).",
+            "beyond_bounds": "If it reaches into matters the 10th Amendment leaves to the states or the people, it stretches past those lines. The founders meant the states' powers to stay \"numerous and indefinite\" (Federalist 45).",
+            "anchor": "Federalist No. 45 (Madison); Constitution Art. I §8; Amendment X"
+          }
+        ]
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 64,
+    "importance_tier": "HIGH"
+  },
+  {
+    "id": "338cec85b88d",
+    "datetime_utc": "2026-07-27T19:09:09.000Z",
+    "place": "WORLD",
+    "what": "Homan: ICE officer in Maine shooting shouldn’t have cleared vetting if allegations true",
+    "deck": "Border czar Tom Homan on Sunday said the immigration officer accused of fatally shooting a man in Maine should not have cleared the vetting process if allegations of a violent past are true.",
+    "context": "Border czar Tom Homan on Sunday said the immigration officer accused of fatally shooting a man in Maine should not have cleared the vetting process if allegations of a violent past are true. Family members said Immigration and Customs Enforcement (ICE) officer David Brouillette had severe mental health challenges, a history violent behavior and a…",
+    "sources": [
+      {
+        "outlet": "The Hill",
+        "url": "https://thehill.com/homenews/state-watch/5992457-homan-ices-vetting-shooting/",
+        "tier": "T2_indie"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.86,
+    "ingested_at": "2026-07-28T01:43:24.056Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 31,
     "importance_tier": "LOW"
   },
   {
@@ -201,7 +1054,7 @@
     "place": "WORLD",
     "what": "Judge dismisses challenge to Trump’s Religious Liberty Commission",
     "deck": "A federal judge rejected claims that President Trump’s Religious Liberty Commission improperly left out certain faiths, dismissing a challenge Monday that sought to declare it illegal.",
-    "context": "A federal judge rejected claims that President Trump’s Religious Liberty Commission improperly left out certain faiths, dismissing a challenge Monday that sought to declare it illegal. An interfaith coalition argued the commission excluded non-Judeo-Christian religions in violation of legal requirements that it be “fairly balanced.” “Its members include workers in the public, private, and nonprofit sectors, have widely…",
+    "context": "A federal judge rejected claims that President Trump’s Religious Liberty Commission improperly left out certain faiths, dismissing a challenge Monday that sought to declare it illegal. An interfaith coalition argued the commission excluded non-Judeo Christian religions in violation of legal requirements that it be “fairly balanced.” “Its members include workers in the public, private, and nonprofit sectors, have…",
     "sources": [
       {
         "outlet": "The Hill",
@@ -225,7 +1078,7 @@
     ],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -272,7 +1125,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -315,7 +1168,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -353,7 +1206,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -371,6 +1224,44 @@
     },
     "importance": 61,
     "importance_tier": "HIGH"
+  },
+  {
+    "id": "16ac59ead822",
+    "datetime_utc": "2026-07-27T18:13:32.000Z",
+    "place": "WORLD",
+    "what": "'Unprecedented but unsurprising': Climate change & lack of prevention behind wildfires, extreme heat",
+    "deck": "Eve Irvine is pleased to welcome Alexander Held, Senior Expert of the Resilience Programme for Integrated Fire Management.",
+    "context": "Eve Irvine is pleased to welcome Alexander Held, Senior Expert of the Resilience Programme for Integrated Fire Management. He reframes Europe's wildfire crisis by arguing that the flames themselves are not the central problem but rather ecological and governance failures. Held asserts that fires are not unforeseeable natural disasters, there have been decades of scientific warnings about the devastating effects of climate change. He ultimately presents the wildfire crisis not only as an opportunity to fundamentally rethink our relationship with forests and landscapes.",
+    "sources": [
+      {
+        "outlet": "France 24",
+        "url": "https://www.france24.com/en/unprecedented-but-unsurprising-climate-change-lack-of-prevention-behind-wildfires-extreme-heat",
+        "tier": "T1_wire"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.77,
+    "ingested_at": "2026-07-28T01:43:24.056Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 24,
+    "importance_tier": "LOW"
   },
   {
     "id": "834294c5ee9d",
@@ -391,7 +1282,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -429,7 +1320,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -467,7 +1358,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -485,44 +1376,6 @@
     },
     "importance": 42,
     "importance_tier": "MED"
-  },
-  {
-    "id": "6cf1f4d5937a",
-    "datetime_utc": "2026-07-27T17:15:17.000Z",
-    "place": "WORLD",
-    "what": "Carville: Hogg should take over ‘dysfunctional’ DNC",
-    "deck": "Democratic political strategist James Carville on Sunday said David Hogg, former Democratic National Committee (DNC) vice chair, should succeed current chair Ken Martin, calling the DNC “dysfunctional.” Carville, who…",
-    "context": "Democratic political strategist James Carville on Sunday said David Hogg, former Democratic National Committee (DNC) vice chair, should succeed current chair Ken Martin, calling the DNC “dysfunctional.” Carville, who explained he was recovering from hernia surgery, said in a video posted to YouTube that he wanted to weigh in on The New York Times’s reporting…",
-    "sources": [
-      {
-        "outlet": "The Hill",
-        "url": "https://thehill.com/homenews/campaign/5992223-carville-calls-dnc-dysfunctional/",
-        "tier": "T2_indie"
-      }
-    ],
-    "category": "other",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 22,
-    "importance_tier": "LOW"
   },
   {
     "id": "10f7df5a9cd6",
@@ -543,7 +1396,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -561,44 +1414,6 @@
     },
     "importance": 75,
     "importance_tier": "HIGH"
-  },
-  {
-    "id": "a30b8de6294d",
-    "datetime_utc": "2026-07-27T16:08:49.000Z",
-    "place": "WORLD",
-    "what": "McConnell to skip Fancy Farm picnic; physician says he’s not cleared to return to Senate",
-    "deck": "Sen.",
-    "context": "Sen. Mitch McConnell (R-Ky.) announced Monday that he will miss the annual picnic in Fancy Farm, Ky., the state’s premier political event that he has attended for more than 40 years, as he recovers from a serious fall at his Washington home last month. McConnell has been discharged from hospital care but continues to recover…",
-    "sources": [
-      {
-        "outlet": "The Hill",
-        "url": "https://thehill.com/homenews/senate/5992202-mitch-mcconnell-rehab-update-fancy-farm/",
-        "tier": "T2_indie"
-      }
-    ],
-    "category": "government",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 41,
-    "importance_tier": "MED"
   },
   {
     "id": "5ea8ed7218e5",
@@ -619,7 +1434,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -657,7 +1472,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -675,44 +1490,6 @@
     },
     "importance": 34,
     "importance_tier": "LOW"
-  },
-  {
-    "id": "de5a89756c58",
-    "datetime_utc": "2026-07-27T15:59:05.000Z",
-    "place": "WORLD",
-    "what": "Comey moves to dismiss seashell case as ’86 47′ message was not a ‘true threat’",
-    "deck": "Former FBI Director James Comey on Monday asked the court to toss the case accusing him of threatening President Trump’s life, arguing that posting a picture of seashells spelling out “86 47” could not be considered a…",
-    "context": "Former FBI Director James Comey on Monday asked the court to toss the case accusing him of threatening President Trump’s life, arguing that posting a picture of seashells spelling out “86 47” could not be considered a “true threat.” The filing was made in the Eastern District of North Carolina where Comey visited the beach…",
-    "sources": [
-      {
-        "outlet": "The Hill",
-        "url": "https://thehill.com/regulation/court-battles/5992177-comey-trump-seashell-case-threat/",
-        "tier": "T2_indie"
-      }
-    ],
-    "category": "courts",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 42,
-    "importance_tier": "MED"
   },
   {
     "id": "991c05374c9b",
@@ -733,7 +1510,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -786,7 +1563,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.91,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -804,44 +1581,6 @@
     },
     "importance": 18,
     "importance_tier": "BURIED"
-  },
-  {
-    "id": "fc86c0580b1b",
-    "datetime_utc": "2026-07-27T15:44:57.000Z",
-    "place": "WORLD",
-    "what": "Pentagon’s Iran war casualty count tops 600 amid transparency questions",
-    "deck": "The Pentagon’s Iran war casualty count topped 600 over the weekend following a quiet update as the department faces questions about the absence of transparency around the number of service members killed or wounded in…",
-    "context": "The Pentagon’s Iran war casualty count topped 600 over the weekend following a quiet update as the department faces questions about the absence of transparency around the number of service members killed or wounded in the fighting. The Department of Defense (DOD) restored the death of the four service members killed by Iranian strikes last…",
-    "sources": [
-      {
-        "outlet": "The Hill",
-        "url": "https://thehill.com/policy/defense/5992132-pentagon-iran-war-casualties-top-600/",
-        "tier": "T2_indie"
-      }
-    ],
-    "category": "war",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 81,
-    "importance_tier": "HIGH"
   },
   {
     "id": "5c11e37ec35b",
@@ -867,7 +1606,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -884,44 +1623,6 @@
       }
     },
     "importance": 33,
-    "importance_tier": "LOW"
-  },
-  {
-    "id": "20f098fdf3bb",
-    "datetime_utc": "2026-07-27T15:36:35.000Z",
-    "place": "WORLD",
-    "what": "Wife of Kansas City Chiefs offensive coordinator Eric Bieniemy shot in Virginia",
-    "deck": "The wife of Kansas City Chiefs offensive coordinator Eric Bieniemy was shot Sunday at their home in the Northern Virginia suburb of Ashburn, police said.",
-    "context": "The wife of Kansas City Chiefs offensive coordinator Eric Bieniemy was shot Sunday at their home in the Northern Virginia suburb of Ashburn, police said. The shooting, which was first reported by ESPN, occurred on the 20000 block of Northpark Drive, where police said they were called just after 7:30 p.m. ESPN reported that Mia…",
-    "sources": [
-      {
-        "outlet": "The Hill",
-        "url": "https://thehill.com/policy/sports-gaming/5992045-eric-bieniemy-kansas-city-chiefs/",
-        "tier": "T2_indie"
-      }
-    ],
-    "category": "other",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 22,
     "importance_tier": "LOW"
   },
   {
@@ -948,7 +1649,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.91,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -966,82 +1667,6 @@
     },
     "importance": 27,
     "importance_tier": "LOW"
-  },
-  {
-    "id": "d5c06c20ccd0",
-    "datetime_utc": "2026-07-27T15:31:14.000Z",
-    "place": "WORLD",
-    "what": "Fauci diary entries: ‘Press is going wild with me’",
-    "deck": "Former chief White House medical adviser Anthony Fauci was keenly aware of the media’s interest in him early on in the COVID-19 pandemic, and considered some of the attention “flattering,” according to diary entries r…",
-    "context": "Former chief White House medical adviser Anthony Fauci was keenly aware of the media’s interest in him early on in the COVID-19 pandemic, and considered some of the attention “flattering,” according to diary entries released by Sen. Rand Paul (R-Ky.). Over the weekend, Paul published more than a thousand pages of Fauci’s diary entries as…",
-    "sources": [
-      {
-        "outlet": "The Hill",
-        "url": "https://thehill.com/homenews/5992015-fauci-diary-entries-released/",
-        "tier": "T2_indie"
-      }
-    ],
-    "category": "government",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 41,
-    "importance_tier": "MED"
-  },
-  {
-    "id": "4dc80d6bd995",
-    "datetime_utc": "2026-07-27T15:03:28.000Z",
-    "place": "WORLD",
-    "what": "Nvidia launches new open-source AI security alliance",
-    "deck": "Nvidia is launching a new alliance focused on building and sharing open-source AI tools to boost cybersecurity defenses, as the push for open-source technologies ramps up in the U.S.",
-    "context": "Nvidia is launching a new alliance focused on building and sharing open-source AI tools to boost cybersecurity defenses, as the push for open-source technologies ramps up in the U.S. Nvidia announced Monday that the Open Secure AI Alliance will use open-source tools to identify, patch and disclose security vulnerabilities across infrastructure. Open models, according to…",
-    "sources": [
-      {
-        "outlet": "The Hill",
-        "url": "https://thehill.com/policy/technology/5991875-nvidia-launches-open-secure-ai-alliance/",
-        "tier": "T2_indie"
-      }
-    ],
-    "category": "world",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 64,
-    "importance_tier": "HIGH"
   },
   {
     "id": "ce1df6274c1a",
@@ -1062,7 +1687,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.73,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1087,36 +1712,11 @@
     "place": "WORLD",
     "what": "'I spent the night coughing': Wildfire smoke leaves Bordeaux residents struggling to breathe",
     "deck": "A dense blanket of smoke has hung over Bordeaux since last Friday as a massive wildfire burns its way through southwestern France.",
-    "context": "Reported by 6 sources. A dense blanket of smoke has hung over Bordeaux since last Friday as a massive wildfire burns its way through southwestern France. As the flames creep closer to the city, FRANCE 24 met residents stunned by the scale of the disaster and fearful of what comes next.",
+    "context": "A dense blanket of smoke has hung over Bordeaux since last Friday as a massive wildfire burns its way through southwestern France. As the flames creep closer to the city, FRANCE 24 met residents stunned by the scale of the disaster and fearful of what comes next.",
     "sources": [
       {
         "outlet": "France 24",
         "url": "https://www.france24.com/en/france/20260727-i-spent-the-night-coughing-wildfire-smoke-leaves-bordeaux-residents-struggling-to-breathe",
-        "tier": "T1_wire"
-      },
-      {
-        "outlet": "France 24",
-        "url": "https://www.france24.com/en/video/20260727-france-spain-wildfires-climate-change-increasing-frequency-intensity-of-extreme-weather-events",
-        "tier": "T1_wire"
-      },
-      {
-        "outlet": "France 24",
-        "url": "https://www.france24.com/en/video/20260727-blaze-battle-rages-in-france-as-wildfire-stable-but-not-contained",
-        "tier": "T1_wire"
-      },
-      {
-        "outlet": "France 24",
-        "url": "https://www.france24.com/en/video/20260727-raging-wildfires-force-evacuation-of-over-220-000-in-southwestern-france",
-        "tier": "T1_wire"
-      },
-      {
-        "outlet": "France 24",
-        "url": "https://www.france24.com/en/video/20260727-france-wildfire-local-economy-faces-huge-rebuilding-and-reforestation-bill",
-        "tier": "T1_wire"
-      },
-      {
-        "outlet": "France 24",
-        "url": "https://www.france24.com/en/video/20260727-wildfire-threatens-french-defence-sites-arianegroup-dassault-and-thales",
         "tier": "T1_wire"
       }
     ],
@@ -1125,7 +1725,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1141,7 +1741,7 @@
         "forecast": "Analysis coming."
       }
     },
-    "importance": 30,
+    "importance": 24,
     "importance_tier": "LOW"
   },
   {
@@ -1163,7 +1763,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.91,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1181,82 +1781,6 @@
     },
     "importance": 22,
     "importance_tier": "LOW"
-  },
-  {
-    "id": "bdc02e86338d",
-    "datetime_utc": "2026-07-27T14:52:11.000Z",
-    "place": "WORLD",
-    "what": "Senate Republican: McConnell visitor said he’s ‘clear-minded’",
-    "deck": "Sen.",
-    "context": "Sen. Shelley Moore Capito (R-W.Va.) said a person who recently visited Sen. Mitch McConnell (R-Ky.) while he has been in a rehabilitation center described the former leader as “clear-minded.” Capito told independent journalist Nicholas Ballasy in a video posted Saturday that she knew what had been reported, that McConnell “is recovering and is healing and…",
-    "sources": [
-      {
-        "outlet": "The Hill",
-        "url": "https://thehill.com/homenews/senate/5991866-mitch-mcconnell-rehab-update-shelley-moore-capito/",
-        "tier": "T2_indie"
-      }
-    ],
-    "category": "government",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 41,
-    "importance_tier": "MED"
-  },
-  {
-    "id": "d7aaed3d07da",
-    "datetime_utc": "2026-07-27T14:48:57.000Z",
-    "place": "WORLD",
-    "what": "Dozens sickened across 17 states in salmonella outbreak linked to recalled eggs: What to know",
-    "deck": "The eggs were only distributed in a handful of states, while the salmonella cases have been reported in more than a dozen.",
-    "context": "The eggs were only distributed in a handful of states, while the salmonella cases have been reported in more than a dozen.",
-    "sources": [
-      {
-        "outlet": "The Hill",
-        "url": "https://thehill.com/policy/healthcare/5991874-dozens-sickened-across-17-states-in-salmonella-outbreak-linked-to-recalled-eggs-what-to-know/",
-        "tier": "T2_indie"
-      }
-    ],
-    "category": "health",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 40,
-    "importance_tier": "MED"
   },
   {
     "id": "2423e20df6d1",
@@ -1277,7 +1801,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1303,7 +1827,7 @@
     "what": "Spain races to contain blazes before new heatwave",
     "deck": "Spain has two crucial days in front of it to bring wildfires under control before weather conditions worsen, authorities said Monday, as Prime Minister Pedro Sanchez called on citizens to \"exercise extreme caution\" ah…",
     "quote": "exercise extreme caution",
-    "context": "Reported by 5 sources. Spain has two crucial days in front of it to bring wildfires under control before weather conditions worsen, authorities said Monday, as Prime Minister Pedro Sanchez called on citizens to \"exercise extreme caution\" ahead of a new heatwave. FRANCE 24's Sarah Morris reports.",
+    "context": "Reported by 2 sources. Spain has two crucial days in front of it to bring wildfires under control before weather conditions worsen, authorities said Monday, as Prime Minister Pedro Sanchez called on citizens to \"exercise extreme caution\" ahead of a new heatwave. FRANCE 24's Sarah Morris reports.",
     "sources": [
       {
         "outlet": "France 24",
@@ -1314,21 +1838,6 @@
         "outlet": "France 24",
         "url": "https://www.france24.com/en/video/20260727-spain-races-to-contain-monster-fires-ahead-of-new-heatwave",
         "tier": "T1_wire"
-      },
-      {
-        "outlet": "France 24",
-        "url": "https://www.france24.com/en/video/20260727-france-spain-race-to-contain-monster-fires-ahead-of-new-heatwave",
-        "tier": "T1_wire"
-      },
-      {
-        "outlet": "France 24",
-        "url": "https://www.france24.com/en/video/20260727-spain-to-start-first-return-of-fire-evacuees-as-wildfires-advance-has-slowed",
-        "tier": "T1_wire"
-      },
-      {
-        "outlet": "France 24",
-        "url": "https://www.france24.com/en/video/20260727-apocalyptic-scenes-as-firefighters-battle-raging-blaze-in-spain",
-        "tier": "T1_wire"
       }
     ],
     "category": "other",
@@ -1336,7 +1845,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1352,7 +1861,7 @@
         "forecast": "Analysis coming."
       }
     },
-    "importance": 30,
+    "importance": 27,
     "importance_tier": "LOW"
   },
   {
@@ -1374,7 +1883,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1412,7 +1921,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1429,6 +1938,69 @@
       }
     },
     "importance": 22,
+    "importance_tier": "LOW"
+  },
+  {
+    "id": "92c4c465ea3f",
+    "datetime_utc": "2026-07-27T13:34:28.000Z",
+    "place": "WORLD",
+    "what": "France wildfire: Local economy faces huge rebuilding and reforestation bill",
+    "deck": "While the focus still remains containing the forest fires blazing through the Gironde department, the challenge of rebuilding and replanting has already begun.",
+    "context": "Reported by 6 sources. While the focus still remains containing the forest fires blazing through the Gironde department, the challenge of rebuilding and replanting has already begun. And it is likely to be a costly one coming in, according to the government, at between 5 and 10 thousand euros a hectare.",
+    "sources": [
+      {
+        "outlet": "France 24",
+        "url": "https://www.france24.com/en/video/20260727-france-wildfire-local-economy-faces-huge-rebuilding-and-reforestation-bill",
+        "tier": "T1_wire"
+      },
+      {
+        "outlet": "France 24",
+        "url": "https://www.france24.com/en/video/20260727-blaze-battle-rages-in-france-as-wildfire-stable-but-not-contained",
+        "tier": "T1_wire"
+      },
+      {
+        "outlet": "France 24",
+        "url": "https://www.france24.com/en/video/20260727-raging-wildfires-force-evacuation-of-over-220-000-in-southwestern-france",
+        "tier": "T1_wire"
+      },
+      {
+        "outlet": "France 24",
+        "url": "https://www.france24.com/en/video/20260728-france-races-to-contain-fires-before-new-heatwave",
+        "tier": "T1_wire"
+      },
+      {
+        "outlet": "France 24",
+        "url": "https://www.france24.com/en/video/20260727-france-s-interior-minister-says-monster-wildfire-has-stopped-growing",
+        "tier": "T1_wire"
+      },
+      {
+        "outlet": "France 24",
+        "url": "https://www.france24.com/en/video/20260727-replay-unprecedented-fire-stable-but-not-fully-contained-says-french-interior-minister",
+        "tier": "T1_wire"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.77,
+    "ingested_at": "2026-07-28T01:43:24.056Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 30,
     "importance_tier": "LOW"
   },
   {
@@ -1450,7 +2022,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1488,7 +2060,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1526,7 +2098,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.73,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1551,17 +2123,12 @@
     "place": "WASHINGTON",
     "what": "First Lady Melania Trump Announces Opening of Christmas Volunteer & Performer Applications",
     "deck": "Christmas planning is underway at the White House, and President Donald J.",
-    "context": "Reported by 2 sources. Christmas planning is underway at the White House, and President Donald J. Trump and First Lady Melania Trump are excited to continue the cherished tradition of welcoming volunteers to help celebrate the holiday season at the People’s House. Starting today, applications are open for those interested in volunteering for 2026 Christmas at the White House.",
+    "context": "Christmas planning is underway at the White House, and President Donald J. Trump and First Lady Melania Trump are excited to continue the cherished tradition of welcoming volunteers to help celebrate the holiday season at the People’s House. Starting today, applications are open for those interested in volunteering for 2026 Christmas at the White House.",
     "sources": [
       {
         "outlet": "White House",
         "url": "https://www.whitehouse.gov/briefings-statements/2026/07/first-lady-melania-trump-announces-opening-of-christmas-volunteer-performer-applications-be30/",
         "tier": "T1_gov"
-      },
-      {
-        "outlet": "The Hill",
-        "url": "https://thehill.com/blogs/in-the-know/5991918-melania-trump-white-house-holiday-volunteers/",
-        "tier": "T2_indie"
       }
     ],
     "category": "government",
@@ -1569,7 +2136,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1607,7 +2174,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.91,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1645,7 +2212,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1683,7 +2250,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.91,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1721,7 +2288,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.73,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1759,7 +2326,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1797,7 +2364,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1840,7 +2407,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1883,7 +2450,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1901,566 +2468,6 @@
     },
     "importance": 54,
     "importance_tier": "MED"
-  },
-  {
-    "id": "f499c2dc7af9",
-    "datetime_utc": "2026-07-27T08:57:12.000Z",
-    "place": "WORLD",
-    "what": "Macron calls crisis meeting as monster wildfires drive 250,000 from their homes",
-    "deck": "French President Emmanuel Macron called a crisis meeting Monday focusing on monster, uncontrolled wildfires that have forced more than 250,000 people to flee their homes, amid a first glimmer of hope that the spread o…",
-    "context": "Reported by 3 sources. French President Emmanuel Macron called a crisis meeting Monday focusing on monster, uncontrolled wildfires that have forced more than 250,000 people to flee their homes, amid a first glimmer of hope that the spread of the largest blaze may have slowed. FRANCE 24's James André reports.",
-    "sources": [
-      {
-        "outlet": "France 24",
-        "url": "https://www.france24.com/en/video/20260727-macron-calls-crisis-meeting-as-monster-wildfires-drive-250-000-from-their-homes",
-        "tier": "T1_wire"
-      },
-      {
-        "outlet": "France 24",
-        "url": "https://www.france24.com/en/video/20260727-france-s-interior-minister-says-monster-wildfire-has-stopped-growing",
-        "tier": "T1_wire"
-      },
-      {
-        "outlet": "France 24",
-        "url": "https://www.france24.com/en/video/20260727-replay-unprecedented-fire-stable-but-not-fully-contained-says-french-interior-minister",
-        "tier": "T1_wire"
-      }
-    ],
-    "category": "other",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 27,
-    "importance_tier": "LOW"
-  },
-  {
-    "id": "0da23901a34c",
-    "datetime_utc": "2026-07-27T08:54:12.000Z",
-    "place": "WORLD",
-    "what": "US pauses attacks on Iran for a second straight day, Tehran does too",
-    "deck": "The United States paused its attacks on Iran for a second straight day Sunday and Tehran said it had done so too, as efforts continued to bring the countries back to negotiations on an interim ceasefire deal largely u…",
-    "context": "The United States paused its attacks on Iran for a second straight day Sunday and Tehran said it had done so too, as efforts continued to bring the countries back to negotiations on an interim ceasefire deal largely undermined by recent exchanges of fire. It was not clear why the US has paused after targeting Iranian coastal areas and infrastructure in a nearly two-week escalation sparked by Iran’s firing at ships trying to transit the Strait of Hormuz.",
-    "sources": [
-      {
-        "outlet": "France 24",
-        "url": "https://www.france24.com/en/video/20260727-us-pauses-attacks-on-iran-for-a-second-straight-day-tehran-does-too",
-        "tier": "T1_wire"
-      }
-    ],
-    "category": "war",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 79,
-    "importance_tier": "HIGH"
-  },
-  {
-    "id": "ed104a1b0cd2",
-    "datetime_utc": "2026-07-27T08:52:14.000Z",
-    "place": "WORLD",
-    "what": "India protesters celebrate as education minister resigns, Modi announces exam system reform",
-    "deck": "For five weeks, New Delhi saw one of the biggest protests in recent history led by the Cockroach Janata Party, founded by 30 year old Abhijeet Dipke.",
-    "context": "For five weeks, New Delhi saw one of the biggest protests in recent history led by the Cockroach Janata Party, founded by 30 year old Abhijeet Dipke. He was joined by students from across the country in his sit-in protest. Protesters kept pouring in at Jantar Mantar even after a brutal crackdown by police and security forces in which dozens were injured. But nothing moved them out of the protest site. And it was this collective determination of India’s Gen Z that forced the education minister to resign. On Saturday, celebrations were in full swing. FRANCE 24’s Navodita Kumari, Jeanne Hutin and Fantine Dantzer report.",
-    "sources": [
-      {
-        "outlet": "France 24",
-        "url": "https://www.france24.com/en/video/20260727-india-protesters-celebrate-as-education-minister-resigns-modi-announces-exam-system-reform",
-        "tier": "T1_wire"
-      }
-    ],
-    "category": "other",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 34,
-    "importance_tier": "LOW"
-  },
-  {
-    "id": "7f30836f7567",
-    "datetime_utc": "2026-07-27T00:00:00.000Z",
-    "place": "WASHINGTON",
-    "what": "Information Collection Being Reviewed by the Federal Communications Commission",
-    "deck": "Notice.",
-    "context": "Reported by 5 sources. Notice. As part of its continuing effort to reduce paperwork burdens, and as required by the Paperwork Reduction Act of 1995 (PRA), the Federal Communications Commission (FCC or Commission) invites the general public and other Federal agencies to take this opportunity to comment on the following information collections. Comments are requested concerning: whether the proposed collection of information is necessary for the proper performance of the functions of the Commission, including whether the information shall have practical utility; the accuracy of the Commission's burden estimate; ways to enhance the quality, utility, and clarity of the information collected; ways to minimize the burden of the collection of information on the respondents, including the use of automated collection techniques or other forms of information technology; and ways to further reduce the information collection burden on small business concerns with fewer than 25 employees. The FCC may not conduct or sponsor a collection of information unless it displays a currently valid Office of Management and Budget (OMB) control number. No person shall be subject to any penalty for failing to comply with a collection of information subject to the PRA that does not display a valid OMB control number. (Federal Communications Commission)",
-    "sources": [
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/07/27/2026-15127/information-collection-being-reviewed-by-the-federal-communications-commission",
-        "tier": "T1_gov"
-      },
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/07/27/2026-15125/information-collection-being-reviewed-by-the-federal-communications-commission-delegated-authority",
-        "tier": "T1_gov"
-      },
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/07/27/2026-15126/information-collections-being-reviewed-by-the-federal-communications-commission-under-delegated",
-        "tier": "T1_gov"
-      },
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/07/27/2026-15142/agency-information-collection-activities-comment-request-information-collections-employee-polygraph",
-        "tier": "T1_gov"
-      },
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/07/27/2026-15131/agency-information-collection-activities-comment-request-information-collection-housing-occupancy",
-        "tier": "T1_gov"
-      }
-    ],
-    "category": "government",
-    "economics_flag": true,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 10,
-    "importance_tier": "BURIED"
-  },
-  {
-    "id": "232ef503af3a",
-    "datetime_utc": "2026-07-27T00:00:00.000Z",
-    "place": "WASHINGTON",
-    "what": "Agency Information Collection Activities; Submission for OMB Review; Comment Request; Susan Harwood Training Grant Program Grantee Quarterly Progress Report",
-    "deck": "Notice.",
-    "context": "Reported by 11 sources. Notice. The Grantee Quarterly Progress Report is used to collect information concerning activities conducted during the quarter by grantees under OSHA's Susan Harwood training grants. The information is used by OSHA to monitor progress and the use of Federal grant funds. The Department of Labor (DOL) is submitting this Occupational Safety & Health Administration (OSHA)-sponsored information collection request (ICR) to the Office of Management and Budget (OMB) for review and approval in accordance with the Paperwork Reduction Act of 1995 (PRA). Public comments on the ICR are invited. (Labor Department)",
-    "sources": [
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/07/27/2026-15129/agency-information-collection-activities-submission-for-omb-review-comment-request-susan-harwood",
-        "tier": "T1_gov"
-      },
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/07/27/2026-15138/proposed-extension-of-information-collection-hazard-communication-hazcom-30-cfr-part-47",
-        "tier": "T1_gov"
-      },
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/07/27/2026-15134/proposed-extension-of-information-collection-hoist-operators-physical-fitness",
-        "tier": "T1_gov"
-      },
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/07/27/2026-15139/proposed-extension-of-information-collection-safety-standards-for-underground-coal-mine",
-        "tier": "T1_gov"
-      },
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/07/27/2026-15136/proposed-extension-of-information-collection-rock-burst-control-plan-pertains-to-underground",
-        "tier": "T1_gov"
-      },
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/07/27/2026-15132/proposed-extension-of-information-collection-mine-accident-injury-and-illness-report-and-quarterly",
-        "tier": "T1_gov"
-      },
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/07/27/2026-15140/proposed-extension-of-information-collection-sealing-of-abandoned-areas",
-        "tier": "T1_gov"
-      },
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/07/27/2026-15133/proposed-extension-of-information-collection-escape-and-evacuation-plans",
-        "tier": "T1_gov"
-      },
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/07/27/2026-15141/proposed-extension-of-information-collection-safety-program-for-surface-mobile-equipment",
-        "tier": "T1_gov"
-      },
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/07/27/2026-15137/proposed-extension-of-information-collection-examinations-and-testing-of-electric-equipment",
-        "tier": "T1_gov"
-      },
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/07/27/2026-15135/proposed-extension-of-information-collection-safety-defects-examination-correction-and-records",
-        "tier": "T1_gov"
-      }
-    ],
-    "category": "government",
-    "economics_flag": true,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 10,
-    "importance_tier": "BURIED"
-  },
-  {
-    "id": "5ee91d9c3539",
-    "datetime_utc": "2026-07-27T00:00:00.000Z",
-    "place": "WASHINGTON",
-    "what": "Agency Information Collection Activities; Proposed Collection; Comment Request; Extension: Rule 15c1-6",
-    "deck": "Notice.",
-    "context": "Reported by 2 sources. Notice. Agency Information Collection Activities; Proposed Collection; Comment Request; Extension: Rule 15c1-6 (Securities and Exchange Commission)",
-    "sources": [
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/07/27/2026-15144/agency-information-collection-activities-proposed-collection-comment-request-extension-rule-15c1-6",
-        "tier": "T1_gov"
-      },
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/07/27/2026-15143/agency-information-collection-activities-proposed-collection-comment-request-extension-rule",
-        "tier": "T1_gov"
-      }
-    ],
-    "category": "government",
-    "economics_flag": true,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 10,
-    "importance_tier": "BURIED"
-  },
-  {
-    "id": "658f0a1d315c",
-    "datetime_utc": "2026-07-27T00:00:00.000Z",
-    "place": "WASHINGTON",
-    "what": "Review of Submarine Cable Landing License Rules and Procedures To Assess Evolving National Security, Law Enforcement, Foreign Policy, and Trade Policy Risks",
-    "deck": "Rule.",
-    "context": "Rule. In this document, the Federal Communications Commission (Commission or FCC) adopted a Second Report and Order that promotes the deployment of submarine cables while strengthening national security interests in connection with their modern capabilities. The Second Report and Order establishes a regulatory regime for licensing owners and/or operators of submarine line terminal equipment (SLTE), including granting a blanket license to certain current and future SLTE owners and/or operators that are not currently a licensee. The Second Report and Order adopts certain routine conditions and outlines reporting requirements for SLTE owners and operators. The Second Report and Order also adopts further national security-related routine conditions and certification requirements. Finally, the Second Report and Order adopts an approach to expedite submarine cable deployment by presumptively exempting applications that meet ten national security standards from Commission referral to the Executive Branch agencies. (Federal Communications Commission)",
-    "sources": [
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/07/27/2026-15123/review-of-submarine-cable-landing-license-rules-and-procedures-to-assess-evolving-national-security",
-        "tier": "T1_gov"
-      }
-    ],
-    "category": "economics",
-    "economics_flag": true,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.77,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 53,
-    "importance_tier": "MED"
-  },
-  {
-    "id": "be06ae9963d2",
-    "datetime_utc": "2026-07-27T00:00:00.000Z",
-    "place": "WASHINGTON",
-    "what": "Medicare and Medicaid Programs; Quarterly Listing of Program Issuances-April Through June 2026",
-    "deck": "Notice.",
-    "context": "Notice. This quarterly notice lists Centers for Medicare & Medicaid Services (CMS) manual instructions, substantive and interpretive regulations, and other Federal Register notices that were published in the 3-month period, relating to the Medicare and Medicaid programs and other programs administered by CMS. (Health and Human Services Department, Centers for Medicare & Medicaid Services)",
-    "sources": [
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/07/27/2026-15124/medicare-and-medicaid-programs-quarterly-listing-of-program-issuances-april-through-june-2026",
-        "tier": "T1_gov"
-      }
-    ],
-    "category": "government",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 49,
-    "importance_tier": "MED"
-  },
-  {
-    "id": "a145d4ebb62e",
-    "datetime_utc": "2026-07-27T00:00:00.000Z",
-    "place": "WASHINGTON",
-    "what": "Notice of Change",
-    "deck": "Notice.",
-    "context": "Notice. The Department of Labor (DOL) is issuing this notice to clarify the status of OMB Control Number 1205-0521, DOL-Only Performance Accountability, Information, and Reporting System. Following publication notice dated January 7, 2026, which concluded on February 19, 2026, in RegInfo.gov, the Department determined that the approved revisions should have been processed through the standard Paperwork Reduction Act notice and comment process. As a result, the Department does not intend to implement the revision reflected in the January 7, 2026, approval. Instead, the Department will continue to use the collection materials and reporting requirements in effect prior to that approval, dated December 2, 2025, which concluded on December 11, 2025, while it develops and submits a revision package through the standard PRA process, including publication of the applicable Federal Register notices. (Labor Department)",
-    "sources": [
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/07/27/2026-15128/notice-of-change",
-        "tier": "T1_gov"
-      }
-    ],
-    "category": "government",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 49,
-    "importance_tier": "MED"
-  },
-  {
-    "id": "52c40f6f7fb4",
-    "datetime_utc": "2026-07-27T00:00:00.000Z",
-    "place": "WASHINGTON",
-    "what": "Radiant Nuclear, LLC; Radiant's Special Nuclear Material License; License Application",
-    "deck": "Notice.",
-    "context": "Notice. The U.S. Nuclear Regulatory Commission (NRC) received a license application, by letters dated February 25, 2026, March 15, 2026, and April 17, 2026, from Radiant Nuclear, LLC (Radiant) to possess special nuclear material at its R-50 microreactor facility, to be located in Oak Ridge, Tennessee. Radiant requests a special nuclear material license to possess fuel, consisting of coated uranium particles enriched to less than 20 weight percent uranium-235 (U-235), and load the fuel into assemblies intended for use in commercial microreactors. Because the license application contains Sensitive Unclassified Non-Safeguards Information (SUNSI), an order imposes procedures to obtain access to SUNSI for contention preparation. (Nuclear Regulatory Commission)",
-    "sources": [
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/07/27/2026-15130/radiant-nuclear-llc-radiants-special-nuclear-material-license-license-application",
-        "tier": "T1_gov"
-      }
-    ],
-    "category": "government",
-    "economics_flag": false,
-    "weigh_it_questions": [
-      {
-        "tenet": "power-scope",
-        "question": "Does Radiant Nuclear, LLC; Radiant's Special Nuclear Material License; License Application keep the federal actor inside the powers the Constitution enumerates (Art. I §8; 10th Amendment), or does it extend federal reach beyond them?",
-        "anchor": "Federalist No. 45 (Madison); Constitution Art. I §8; Amendment X"
-      },
-      {
-        "tenet": "historical-contrast",
-        "question": "Set against the founders’ framework and the presidents who best embodied it, is this action a step toward that tradition or away from it?",
-        "anchor": "The founding canon, taken as a whole"
-      }
-    ],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "rule-based",
-        "contrasts": [
-          {
-            "tenet": "power-scope",
-            "label": "Enumerated & limited federal power",
-            "question": "Does Radiant Nuclear, LLC; Radiant's Special Nuclear Material License; License Application keep the federal actor inside the powers the Constitution enumerates (Art. I §8; 10th Amendment), or does it extend federal reach beyond them?",
-            "within_bounds": "If the action uses a power the Constitution actually lists in Article I §8, it stays inside the lines the founders drew. Madison called the federal powers \"few and defined\" (Federalist 45).",
-            "beyond_bounds": "If it reaches into matters the 10th Amendment leaves to the states or the people, it stretches past those lines. The founders meant the states' powers to stay \"numerous and indefinite\" (Federalist 45).",
-            "anchor": "Federalist No. 45 (Madison); Constitution Art. I §8; Amendment X"
-          }
-        ]
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 72,
-    "importance_tier": "HIGH"
-  },
-  {
-    "id": "811cc8fb1be4",
-    "datetime_utc": "2026-07-27T00:00:00.000Z",
-    "place": "WASHINGTON",
-    "what": "Modernizing Reactor Licensing, Safety Oversight, and Siting Practices; Correction",
-    "deck": "Proposed Rule.",
-    "context": "Proposed Rule. The U.S. Nuclear Regulatory Commission (NRC) is correcting a notice published in the Federal Register on July 16, 2026, regarding the modernization of reactor licensing, safety oversight, and siting practices to address sections 5(f), 5(h), and 5(i) of Executive Order 14300, and additional items that contribute to adding additional generation to the electrical grid. This action is necessary to withdraw a guidance document containing outdated and incorrect information. (Nuclear Regulatory Commission)",
-    "sources": [
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/07/27/2026-15145/modernizing-reactor-licensing-safety-oversight-and-siting-practices-correction",
-        "tier": "T1_gov"
-      }
-    ],
-    "category": "government",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 85,
-    "importance_tier": "HIGH"
-  },
-  {
-    "id": "53cba91c371a",
-    "datetime_utc": "2026-07-27T00:00:00.000Z",
-    "place": "WASHINGTON",
-    "what": "Privacy Act of 1974; Matching Program",
-    "deck": "Notice.",
-    "context": "Notice. In accordance with subsection (e)(12) of the Privacy Act of 1974, as amended, the Department of Health and Human Services (HHS), Administration for Children and Families (ACF), ACF Tech, is providing notice of a re-established matching program between the Department of Veterans Affairs (VA) and State Public Assistance Agencies (SPAAs) participating in the Public Assistance Reporting Information System (PARIS) Program. The matching program provides the SPAAs with VA's compensation and pension data on a periodic basis to use in determining public assistance applicants' and recipients' eligibility for certain public assistance benefits. ACF Tech facilitates the matching program, and the Department of Treasury, Bureau of Fiscal Services, Do Not Pay (DNP) conducts the matches of SPAA and VA data and provides associated support. (Health and Human Services Department, Children and Families Administration)",
-    "sources": [
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/07/27/2026-15146/privacy-act-of-1974-matching-program",
-        "tier": "T1_gov"
-      }
-    ],
-    "category": "economics",
-    "economics_flag": true,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 10,
-    "importance_tier": "BURIED"
   },
   {
     "id": "c5e73ae5fb5d",
@@ -2486,7 +2493,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -2502,7 +2509,7 @@
         "forecast": "Analysis coming."
       }
     },
-    "importance": 46,
+    "importance": 42,
     "importance_tier": "MED"
   },
   {
@@ -2524,7 +2531,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.73,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -2562,7 +2569,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -2578,7 +2585,7 @@
         "forecast": "Analysis coming."
       }
     },
-    "importance": 48,
+    "importance": 42,
     "importance_tier": "MED"
   },
   {
@@ -2587,16 +2594,11 @@
     "place": "NEW YORK",
     "what": "After Heated Debate, General Assembly Reappoints UN High Commission for Human Rights, Adopts Drafts on Sustainable Development, Peace, International Law",
     "deck": "Following fraught deliberations on its reappointment of the standing UN High Commissioner for Human Rights for another four-year term, the General Assembly today also adopted several draft texts concerning sustainable…",
-    "context": "Reported by 2 sources. Following fraught deliberations on its reappointment of the standing UN High Commissioner for Human Rights for another four-year term, the General Assembly today also adopted several draft texts concerning sustainable development, peace and international law.",
+    "context": "Following fraught deliberations on its reappointment of the standing UN High Commissioner for Human Rights for another four-year term, the General Assembly today also adopted several draft texts concerning sustainable development, peace and international law.",
     "sources": [
       {
         "outlet": "UN Press",
         "url": "https://press.un.org/en/2026/ga12773.doc.htm",
-        "tier": "T1_gov"
-      },
-      {
-        "outlet": "UN Press",
-        "url": "https://press.un.org/en/blog/ga12773",
         "tier": "T1_gov"
       }
     ],
@@ -2605,7 +2607,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -2621,58 +2623,8 @@
         "forecast": "Analysis coming."
       }
     },
-    "importance": 44,
-    "importance_tier": "MED"
-  },
-  {
-    "id": "fc66cc90e3d2",
-    "datetime_utc": "2026-07-24T21:45:49.000Z",
-    "place": "NEW YORK",
-    "what": "Daily Press Briefing by the Office of the Spokesperson for the Secretary-General",
-    "deck": "The World Food Programme (WFP) warns that food assistance for more than 130,000 refugees in Burundi risks drawing down unless funding is received.",
-    "context": "Reported by 2 sources. The World Food Programme (WFP) warns that food assistance for more than 130,000 refugees in Burundi risks drawing down unless funding is received. WFP urgently needs $35 million to sustain food and nutrition support for refugees through August 2027. Without new resources, life-saving food distributions will end in October.",
-    "sources": [
-      {
-        "outlet": "UN Press",
-        "url": "https://press.un.org/en/2026/db260724.doc.htm",
-        "tier": "T1_gov"
-      },
-      {
-        "outlet": "UN Press",
-        "url": "https://press.un.org/en/2026/db260723.doc.htm",
-        "tier": "T1_gov"
-      }
-    ],
-    "category": "other",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "longform_url": "https://press.un.org/en/2026/db260724.doc.htm",
-    "full_event": {
-      "kind": "press_briefing",
-      "label": "Press briefing — full record",
-      "url": "https://press.un.org/en/2026/db260724.doc.htm",
-      "outlet": "UN Press"
-    },
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 18,
-    "importance_tier": "BURIED"
+    "importance": 36,
+    "importance_tier": "LOW"
   },
   {
     "id": "6bcf4a2ca1a5",
@@ -2693,7 +2645,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -2709,7 +2661,7 @@
         "forecast": "Analysis coming."
       }
     },
-    "importance": 28,
+    "importance": 24,
     "importance_tier": "LOW"
   },
   {
@@ -2747,7 +2699,7 @@
     ],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -2771,7 +2723,7 @@
         "forecast": "Analysis coming."
       }
     },
-    "importance": 81,
+    "importance": 70,
     "importance_tier": "HIGH"
   },
   {
@@ -2793,7 +2745,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -2831,7 +2783,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -2869,7 +2821,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -2907,7 +2859,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -2945,7 +2897,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -2983,7 +2935,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3021,7 +2973,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3059,7 +3011,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3097,7 +3049,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3135,7 +3087,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3173,7 +3125,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3211,7 +3163,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.73,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3249,7 +3201,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.73,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3287,7 +3239,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3325,7 +3277,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3363,7 +3315,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3401,7 +3353,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.73,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3419,44 +3371,6 @@
     },
     "importance": 18,
     "importance_tier": "BURIED"
-  },
-  {
-    "id": "8ac56ee1cd44",
-    "datetime_utc": "2026-07-21T21:30:51.000Z",
-    "place": "WASHINGTON",
-    "what": "Presidential Message on the Anniversary of the Liberation of Guam",
-    "deck": "Today, our Nation marks the 82nd anniversary of the American liberation of Guam—the day the United States shattered a brutal occupation and carried freedom back to an island that had endured more than 2 years of suffe…",
-    "context": "Today, our Nation marks the 82nd anniversary of the American liberation of Guam—the day the United States shattered a brutal occupation and carried freedom back to an island that had endured more than 2 years of suffering under Imperial Japan. That hard-won triumph stands among the defining victories of the Second World War and endures",
-    "sources": [
-      {
-        "outlet": "White House",
-        "url": "https://www.whitehouse.gov/briefings-statements/2026/07/presidential-message-on-the-anniversary-of-the-liberation-of-guam/",
-        "tier": "T1_gov"
-      }
-    ],
-    "category": "war",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 24,
-    "importance_tier": "LOW"
   },
   {
     "id": "35e77b2b3eb0",
@@ -3477,7 +3391,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3515,7 +3429,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3558,7 +3472,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3596,7 +3510,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3649,7 +3563,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3703,7 +3617,7 @@
     ],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3727,7 +3641,7 @@
         "forecast": "Analysis coming."
       }
     },
-    "importance": 70,
+    "importance": 60,
     "importance_tier": "HIGH"
   },
   {
@@ -3749,7 +3663,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3787,7 +3701,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3825,7 +3739,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.73,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3863,7 +3777,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3906,7 +3820,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3949,7 +3863,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4017,7 +3931,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4055,7 +3969,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4093,7 +4007,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4109,8 +4023,8 @@
         "forecast": "Analysis coming."
       }
     },
-    "importance": 53,
-    "importance_tier": "MED"
+    "importance": 35,
+    "importance_tier": "LOW"
   },
   {
     "id": "5ff25cadc42a",
@@ -4136,7 +4050,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4152,8 +4066,8 @@
         "forecast": "Analysis coming."
       }
     },
-    "importance": 55,
-    "importance_tier": "MED"
+    "importance": 36,
+    "importance_tier": "LOW"
   },
   {
     "id": "8c8ffb5d3536",
@@ -4174,7 +4088,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4222,7 +4136,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4260,7 +4174,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.73,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4298,7 +4212,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4336,7 +4250,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4409,7 +4323,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4447,7 +4361,83 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 10,
+    "importance_tier": "BURIED"
+  },
+  {
+    "id": "ff3f714d2b74",
+    "datetime_utc": "2026-07-01T18:36:01.000Z",
+    "place": "WORLD",
+    "what": "DCPD-202600187 - Remarks Prior to a Meeting With Prime Minister Takaichi Sanae of Japan and an Exchange With Reporters",
+    "deck": "Content Files PDF TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
+    "context": "Content Files PDF TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
+    "sources": [
+      {
+        "outlet": "GovInfo (GPO)",
+        "url": "https://www.govinfo.gov/app/details/DCPD-202600187",
+        "tier": "T2_indie"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.82,
+    "ingested_at": "2026-07-28T01:43:24.056Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 10,
+    "importance_tier": "BURIED"
+  },
+  {
+    "id": "3bee34307a1c",
+    "datetime_utc": "2026-07-01T18:36:01.000Z",
+    "place": "WORLD",
+    "what": "DCPD-202200620 - Joint Statement by President Biden, Prime Minister Narendra Modi of India, Prime Minister Yair Lapid of Israel, and President Mohammed bin Zayed Al Nahyan of the United Arab Emirates",
+    "deck": "Content Files PDF TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
+    "context": "Content Files PDF TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
+    "sources": [
+      {
+        "outlet": "GovInfo (GPO)",
+        "url": "https://www.govinfo.gov/app/details/DCPD-202200620",
+        "tier": "T2_indie"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.82,
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4485,7 +4475,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4539,7 +4529,7 @@
     },
     "classifier_kind": "event_report",
     "classifier_confidence": 0.91,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4556,6 +4546,82 @@
       }
     },
     "importance": 15,
+    "importance_tier": "BURIED"
+  },
+  {
+    "id": "117870a908d2",
+    "datetime_utc": "2026-06-30T18:43:03.000Z",
+    "place": "WORLD",
+    "what": "DCPD-202600345 - Message on Armed Forces Day",
+    "deck": "Content Files PDF TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
+    "context": "Content Files PDF TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
+    "sources": [
+      {
+        "outlet": "GovInfo (GPO)",
+        "url": "https://www.govinfo.gov/app/details/DCPD-202600345",
+        "tier": "T2_indie"
+      }
+    ],
+    "category": "war",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.82,
+    "ingested_at": "2026-07-28T01:43:24.056Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 20,
+    "importance_tier": "LOW"
+  },
+  {
+    "id": "4622bedd63d9",
+    "datetime_utc": "2026-06-30T18:43:03.000Z",
+    "place": "WORLD",
+    "what": "DCPD-202600341 - Remarks at a State Banquet With President Xi Jinping of China in Beijing, China",
+    "deck": "Content Files PDF TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
+    "context": "Content Files PDF TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
+    "sources": [
+      {
+        "outlet": "GovInfo (GPO)",
+        "url": "https://www.govinfo.gov/app/details/DCPD-202600341",
+        "tier": "T2_indie"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.82,
+    "ingested_at": "2026-07-28T01:43:24.056Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 10,
     "importance_tier": "BURIED"
   },
   {
@@ -4577,7 +4643,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4615,7 +4681,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4653,7 +4719,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4691,7 +4757,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4729,7 +4795,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4772,7 +4838,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4810,7 +4876,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4859,7 +4925,7 @@
     ],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4905,7 +4971,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4930,11 +4996,16 @@
     "place": "WORLD",
     "what": "DCPD-202600338 - Remarks Prior to a Meeting With President Xi Jinping of China in Beijing, China",
     "deck": "Content Files PDF TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
-    "context": "Content Files PDF TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
+    "context": "Reported by 2 sources. Content Files PDF TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
     "sources": [
       {
         "outlet": "GovInfo (GPO)",
         "url": "https://www.govinfo.gov/app/details/DCPD-202600338",
+        "tier": "T2_indie"
+      },
+      {
+        "outlet": "GovInfo (GPO)",
+        "url": "https://www.govinfo.gov/app/details/DCPD-202600342",
         "tier": "T2_indie"
       }
     ],
@@ -4943,7 +5014,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4959,7 +5030,7 @@
         "forecast": "Analysis coming."
       }
     },
-    "importance": 10,
+    "importance": 12,
     "importance_tier": "BURIED"
   },
   {
@@ -4986,7 +5057,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5024,7 +5095,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5062,7 +5133,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5100,7 +5171,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5138,7 +5209,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5176,7 +5247,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5214,7 +5285,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5252,7 +5323,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5290,7 +5361,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5328,7 +5399,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.91,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5366,7 +5437,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5404,7 +5475,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5442,7 +5513,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5480,7 +5551,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5518,7 +5589,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5567,7 +5638,7 @@
     ],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5613,7 +5684,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5651,7 +5722,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5689,7 +5760,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5727,7 +5798,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5765,7 +5836,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5803,7 +5874,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5841,7 +5912,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5879,7 +5950,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5917,7 +5988,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5955,7 +6026,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5993,7 +6064,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6031,7 +6102,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.91,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6069,7 +6140,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6107,7 +6178,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.91,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6145,197 +6216,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 8,
-    "importance_tier": "BURIED"
-  },
-  {
-    "id": "70a1b60770d6",
-    "datetime_utc": "2026-06-23T18:38:00.000Z",
-    "place": "WORLD",
-    "what": "DCPD-202600320 - Message on National Nurses Day",
-    "deck": "Content Files PDF TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
-    "context": "Content Files PDF TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
-    "sources": [
-      {
-        "outlet": "GovInfo (GPO)",
-        "url": "https://www.govinfo.gov/app/details/DCPD-202600320",
-        "tier": "T2_indie"
-      }
-    ],
-    "category": "other",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 8,
-    "importance_tier": "BURIED"
-  },
-  {
-    "id": "ac7fe0f4baab",
-    "datetime_utc": "2026-06-23T18:38:00.000Z",
-    "place": "WORLD",
-    "what": "DCPD-202600326 - Presidential Determination Pursuant to Section 1245(d)(4)(B) and (C) of the National Defense Authorization Act for Fiscal Year 2012",
-    "deck": "Content Files PDF TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
-    "context": "Content Files PDF TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
-    "sources": [
-      {
-        "outlet": "GovInfo (GPO)",
-        "url": "https://www.govinfo.gov/app/details/DCPD-202600326",
-        "tier": "T2_indie"
-      }
-    ],
-    "category": "economics",
-    "economics_flag": true,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.91,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 10,
-    "importance_tier": "BURIED"
-  },
-  {
-    "id": "b87d12cf6ca8",
-    "datetime_utc": "2026-06-23T18:38:00.000Z",
-    "place": "WORLD",
-    "what": "DCPD-202600318 - Remarks During an Ultimate Fighting Championship Freedom 250 Event and an Exchange With Reporters",
-    "deck": "Content Files PDF TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
-    "context": "Content Files PDF TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
-    "sources": [
-      {
-        "outlet": "GovInfo (GPO)",
-        "url": "https://www.govinfo.gov/app/details/DCPD-202600318",
-        "tier": "T2_indie"
-      }
-    ],
-    "category": "other",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 8,
-    "importance_tier": "BURIED"
-  },
-  {
-    "id": "d24eea6bc0d9",
-    "datetime_utc": "2026-06-23T18:38:00.000Z",
-    "place": "WORLD",
-    "what": "DCPD-202600319 - Message on National Day of Prayer",
-    "deck": "Content Files PDF TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
-    "context": "Content Files PDF TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
-    "sources": [
-      {
-        "outlet": "GovInfo (GPO)",
-        "url": "https://www.govinfo.gov/app/details/DCPD-202600319",
-        "tier": "T2_indie"
-      }
-    ],
-    "category": "other",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 8,
-    "importance_tier": "BURIED"
-  },
-  {
-    "id": "80392e994b62",
-    "datetime_utc": "2026-06-23T18:38:00.000Z",
-    "place": "WORLD",
-    "what": "DCPD-202600325 - Notice—Continuation of the National Emergency With Respect to Yemen",
-    "deck": "Content Files PDF TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
-    "context": "Content Files PDF TEXT Metadata download Descriptive Metadata (MODS) Preservation Metadata (PREMIS) All Content and Metadata files, including granules ZIP",
-    "sources": [
-      {
-        "outlet": "GovInfo (GPO)",
-        "url": "https://www.govinfo.gov/app/details/DCPD-202600325",
-        "tier": "T2_indie"
-      }
-    ],
-    "category": "other",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6374,7 +6255,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6412,7 +6293,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6450,7 +6331,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6488,7 +6369,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6526,7 +6407,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6564,7 +6445,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6602,7 +6483,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6665,7 +6546,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.73,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6703,7 +6584,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6741,7 +6622,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6779,7 +6660,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6817,7 +6698,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6855,7 +6736,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6893,7 +6774,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6931,7 +6812,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6969,7 +6850,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-27T19:14:25.925Z",
+    "ingested_at": "2026-07-28T01:43:24.056Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
