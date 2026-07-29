@@ -18,7 +18,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -38,25 +38,25 @@
     "importance_tier": "BURIED"
   },
   {
-    "id": "e9e30d60f48b",
-    "datetime_utc": "2026-07-29T03:39:33.000Z",
+    "id": "ebf3b53104a3",
+    "datetime_utc": "2026-07-29T09:36:25.000Z",
     "place": "WORLD",
-    "what": "Tel Aviv municipal parking fees to rise 20% starting August 1",
-    "deck": "Tel Aviv residents will retain discounted parking, but hourly and evening rates will rise, and some resident benefits will be scaled back.",
-    "context": "Tel Aviv residents will retain discounted parking, but hourly and evening rates will rise, and some resident benefits will be scaled back.",
+    "what": "Russia charges Telegram founder Pavel Durov with terrorism, issues arrest warrant",
+    "deck": "Telegram, an encrypted messenger app founded in 2013, says it has more than 1 billion users and is widely used on both sides of the Russia-Ukraine war.",
+    "context": "Telegram, an encrypted messenger app founded in 2013, says it has more than 1 billion users and is widely used on both sides of the Russia-Ukraine war.",
     "sources": [
       {
         "outlet": "Jerusalem Post",
-        "url": "https://www.jpost.com/israel-news/article-903956",
+        "url": "https://www.jpost.com/international/internationalrussia-ukraine-war/article-903968",
         "tier": "T2_indie"
       }
     ],
-    "category": "other",
+    "category": "war",
     "economics_flag": false,
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.91,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -72,67 +72,29 @@
         "forecast": "Analysis coming."
       }
     },
-    "importance": 22,
-    "importance_tier": "LOW"
+    "importance": 52,
+    "importance_tier": "MED"
   },
   {
-    "id": "49744d611946",
-    "datetime_utc": "2026-07-29T01:44:31.827Z",
+    "id": "78a318515bec",
+    "datetime_utc": "2026-07-29T07:54:22.000Z",
     "place": "WORLD",
-    "what": "Greeley Arts Legacy names three to 2026 Hall of Fame Class",
-    "deck": "greeleytribune.com · July 29, 2026.",
-    "context": "Greeley Arts Legacy names three to 2026 Hall of Fame Class",
-    "sources": [
-      {
-        "outlet": "greeleytribune.com",
-        "url": "https://www.greeleytribune.com/2026/07/28/2-local-musicians-artist-co-op-named-to-greeley-arts-legacy-2026-hall-of-fame/",
-        "tier": "T3_factslice"
-      }
-    ],
-    "category": "other",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.91,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 22,
-    "importance_tier": "LOW"
-  },
-  {
-    "id": "a90519d3da07",
-    "datetime_utc": "2026-07-29T01:34:52.000Z",
-    "place": "WORLD",
-    "what": "Netanyahu, Lapid court US support in Washington as Israeli election campaign heats up",
-    "deck": "Netanyahu and Lapid used visits to Washington to court Trump and American support, while sharpening their rivalry ahead of Israel’s October 27 election.",
-    "context": "Netanyahu and Lapid used visits to Washington to court Trump and American support, while sharpening their rivalry ahead of Israel’s October 27 election.",
+    "what": "Iran to receive hundreds of Chinese shoulder-launched missiles systems in weeks",
+    "deck": "The contract covers the purchase of between 300 and 400 man-portable air defense systems (MANPADS), including Chinese-made QW-12 and FN-16 missiles.",
+    "context": "The contract covers the purchase of between 300 and 400 man-portable air defense systems (MANPADS), including Chinese-made QW-12 and FN-16 missiles.",
     "sources": [
       {
         "outlet": "Jerusalem Post",
-        "url": "https://www.jpost.com/israel-news/article-903952",
+        "url": "https://www.jpost.com/middle-east/iran-news/article-903963",
         "tier": "T2_indie"
       }
     ],
-    "category": "courts",
+    "category": "war",
     "economics_flag": false,
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -148,8 +110,426 @@
         "forecast": "Analysis coming."
       }
     },
-    "importance": 34,
+    "importance": 44,
+    "importance_tier": "MED"
+  },
+  {
+    "id": "293973007b95",
+    "datetime_utc": "2026-07-29T07:47:00.000Z",
+    "place": "WORLD",
+    "what": "General Staff: Ukrainian forces strike Ryazan refinery and Russian Black Sea Fleet boat base",
+    "deck": "Ukraine's General Staff has confirmed that Ukrainian defence forces struck the Ryazan Oil Refinery on the night of 28-29 July.",
+    "context": "Ukraine's General Staff has confirmed that Ukrainian defence forces struck the Ryazan Oil Refinery on the night of 28-29 July.",
+    "sources": [
+      {
+        "outlet": "Ukrainska Pravda",
+        "url": "https://www.pravda.com.ua/eng/news/2026/07/29/8046364/",
+        "tier": "T2_indie"
+      }
+    ],
+    "category": "other",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.91,
+    "ingested_at": "2026-07-29T08:22:09.985Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 22,
     "importance_tier": "LOW"
+  },
+  {
+    "id": "749c78ad63e3",
+    "datetime_utc": "2026-07-29T07:43:11.000Z",
+    "place": "WORLD",
+    "what": "Khalida Boufedeche elected as Algeria's first woman parliamentary speaker",
+    "deck": "Khalida Boufedeche, a trained allergist who represents the Algerian capital Algiers, was elected as the country's first-ever woman parliament speaker Wednesday.",
+    "context": "Khalida Boufedeche, a trained allergist who represents the Algerian capital Algiers, was elected as the country's first-ever woman parliament speaker Wednesday. Boufedeche is a member of the ruling National Liberation Front's central committee – and now the fourth highest-ranking official in the country.",
+    "sources": [
+      {
+        "outlet": "France 24",
+        "url": "https://www.france24.com/en/africa/20260729-khalida-boufedeche-elected-as-algeria-first-woman-parliamentary-speaker",
+        "tier": "T1_wire"
+      }
+    ],
+    "category": "economics",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.77,
+    "ingested_at": "2026-07-29T08:22:09.985Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 30,
+    "importance_tier": "LOW"
+  },
+  {
+    "id": "161227ea7136",
+    "datetime_utc": "2026-07-29T06:55:20.000Z",
+    "place": "WORLD",
+    "what": "Deadliest year in decades as antisemitism becomes ‘new normal’ in West, Jewish watchdog finds",
+    "deck": "Jewish communities across the US, UK, Europe, Canada, Australia, and Argentina reported rising violence and online abuse, as the J7 urged governments to act before further attacks.",
+    "context": "Jewish communities across the US, UK, Europe, Canada, Australia, and Argentina reported rising violence and online abuse, as the J7 urged governments to act before further attacks.",
+    "sources": [
+      {
+        "outlet": "Jerusalem Post",
+        "url": "https://www.jpost.com/diaspora/antisemitism/article-903961",
+        "tier": "T2_indie"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.82,
+    "ingested_at": "2026-07-29T08:22:09.985Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 22,
+    "importance_tier": "LOW"
+  },
+  {
+    "id": "4955fd556bcf",
+    "datetime_utc": "2026-07-29T06:36:53.000Z",
+    "place": "WORLD",
+    "what": "Live: Massive wildfire in southwest France 'remains under control'",
+    "deck": "A massive wildfire that has burned some 42,000 hectares in southwest France over the past week \"remains under control\" after a second quiet night, regional authorities said Wednesday.",
+    "quote": "remains under control",
+    "context": "Reported by 5 sources. A massive wildfire that has burned some 42,000 hectares in southwest France over the past week \"remains under control\" after a second quiet night, regional authorities said Wednesday. But the regional prefecture warned that hot and dry weather conditions remained \"unfavourable\". Follow our liveblog for all the latest updates.",
+    "sources": [
+      {
+        "outlet": "France 24",
+        "url": "https://www.france24.com/en/europe/20260729-live-massive-wildfire-in-southwest-france-remains-under-control",
+        "tier": "T1_wire"
+      },
+      {
+        "outlet": "France 24",
+        "url": "https://www.france24.com/en/europe/20260728-live-massive-wildfires-near-bordeaux-still-under-control-after-calm-night-local-authorities-say",
+        "tier": "T1_wire"
+      },
+      {
+        "outlet": "France 24",
+        "url": "https://www.france24.com/en/europe/20260728-wildfires-in-france-volunteers-put-smiles-back-on-evacuees-faces-in-bordeaux",
+        "tier": "T1_wire"
+      },
+      {
+        "outlet": "France 24",
+        "url": "https://www.france24.com/en/france/20260728-france-braces-for-fresh-evacuations-as-spain-eases-wildfire-restrictions",
+        "tier": "T1_wire"
+      },
+      {
+        "outlet": "France 24",
+        "url": "https://www.france24.com/en/heatwave-threatens-firefighting-mission-in-france-s-southwest",
+        "tier": "T1_wire"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.93,
+    "ingested_at": "2026-07-29T08:22:09.985Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 30,
+    "importance_tier": "LOW"
+  },
+  {
+    "id": "6d19653492ff",
+    "datetime_utc": "2026-07-29T06:28:00.000Z",
+    "place": "WORLD",
+    "what": "Man dies in hospital after being injured in Russian drone attack on Kherson",
+    "deck": "A 58-year-old man has died after being injured in a Russian drone attack on Kherson on 29 July",
+    "context": "A 58-year-old man has died after being injured in a Russian drone attack on Kherson on 29 July",
+    "sources": [
+      {
+        "outlet": "Ukrainska Pravda",
+        "url": "https://www.pravda.com.ua/eng/news/2026/07/29/8046353/",
+        "tier": "T2_indie"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.91,
+    "ingested_at": "2026-07-29T08:22:09.985Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 75,
+    "importance_tier": "HIGH"
+  },
+  {
+    "id": "f10568ce1669",
+    "datetime_utc": "2026-07-29T05:20:00.000Z",
+    "place": "WORLD",
+    "what": "Russia attacks Ukraine with 80 drones: Air Force reports results of overnight air defence operation",
+    "deck": "Russia launched 80 attack drones against Ukraine overnight.",
+    "context": "Reported by 2 sources. Russia launched 80 attack drones against Ukraine overnight. Ukrainian air defences destroyed 65 of them, while drone strikes and falling debris were recorded at multiple locations.",
+    "sources": [
+      {
+        "outlet": "Ukrainska Pravda",
+        "url": "https://www.pravda.com.ua/eng/news/2026/07/29/8046345/",
+        "tier": "T2_indie"
+      },
+      {
+        "outlet": "Ukrainska Pravda",
+        "url": "https://www.pravda.com.ua/eng/news/2026/07/29/8046333/",
+        "tier": "T2_indie"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.91,
+    "ingested_at": "2026-07-29T08:22:09.985Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 27,
+    "importance_tier": "LOW"
+  },
+  {
+    "id": "07bf0be5c6df",
+    "datetime_utc": "2026-07-29T03:44:00.000Z",
+    "place": "WORLD",
+    "what": "Russia loses 1,310 soldiers over past day",
+    "deck": "Ukraine's General Staff has updated data on Russian losses: Russia lost 1,310 soldiers killed and wounded over the past day.",
+    "context": "Ukraine's General Staff has updated data on Russian losses: Russia lost 1,310 soldiers killed and wounded over the past day.",
+    "sources": [
+      {
+        "outlet": "Ukrainska Pravda",
+        "url": "https://www.pravda.com.ua/eng/news/2026/07/29/8046340/",
+        "tier": "T2_indie"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.82,
+    "ingested_at": "2026-07-29T08:22:09.985Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 22,
+    "importance_tier": "LOW"
+  },
+  {
+    "id": "5f70d3df89f4",
+    "datetime_utc": "2026-07-29T02:51:49.000Z",
+    "place": "WORLD",
+    "what": "Middle East live: US and Saudi Arabia launch strikes on Iraq, target Iran allies",
+    "deck": "US and Saudi warplanes carried out strikes on Tuesday against Iran-backed militants in Iraq who launched more than two dozen drone attacks in recent days, the US military said.",
+    "context": "Reported by 2 sources. US and Saudi warplanes carried out strikes on Tuesday against Iran-backed militants in Iraq who launched more than two dozen drone attacks in recent days, the US military said. Meanwhile, Iran's Revolutionary Guards said they struck and halted three oil tankers in the Strait of Hormuz early Wednesday. Follow our liveblog for the latest developments.",
+    "sources": [
+      {
+        "outlet": "France 24",
+        "url": "https://www.france24.com/en/middle-east/20260729-live-us-and-saudi-arabia-launch-strikes-on-iraq-target-iran-allies",
+        "tier": "T1_wire"
+      },
+      {
+        "outlet": "The Hill",
+        "url": "https://thehill.com/policy/defense/5995522-iran-missile-attack-us-base/",
+        "tier": "T2_indie"
+      }
+    ],
+    "category": "war",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.86,
+    "ingested_at": "2026-07-29T08:22:09.985Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 80,
+    "importance_tier": "HIGH"
+  },
+  {
+    "id": "5a37d515f91f",
+    "datetime_utc": "2026-07-29T02:43:09.000Z",
+    "place": "WORLD",
+    "what": "Collins says State Department will reinstate funding for global humanitarian vaccine alliance",
+    "deck": "Sen.",
+    "quote": "It is welcome news that following our recent outreach, the State Department has committed to contributing the full $600 million for GAVI, the Vaccine Alliance,",
+    "context": "Sen. Susan Collins (R-Maine) said Tuesday that the State Department is set to reinstate funding for a global humanitarian vaccine program after the Trump administration previously paused the program. “It is welcome news that following our recent outreach, the State Department has committed to contributing the full $600 million for GAVI, the Vaccine Alliance,” Collins…",
+    "sources": [
+      {
+        "outlet": "The Hill",
+        "url": "https://thehill.com/policy/healthcare/5995754-collins-says-gavi-funding-reinstated/",
+        "tier": "T2_indie"
+      }
+    ],
+    "category": "world",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.93,
+    "ingested_at": "2026-07-29T08:22:09.985Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 72,
+    "importance_tier": "HIGH"
+  },
+  {
+    "id": "bd8647d2b7dc",
+    "datetime_utc": "2026-07-29T01:39:35.000Z",
+    "place": "WORLD",
+    "what": "Ex-Trump health official shocked by Fauci’s ‘unabashed narcissism’ from diaries",
+    "deck": "A former Trump health official on Tuesday slammed Dr.",
+    "quote": "I’d like to see honesty and transparency and I’d like Tony to come clean with all the things that he’s really been caught in contradictions,",
+    "context": "Reported by 2 sources. A former Trump health official on Tuesday slammed Dr. Anthony Fauci over his recently-released journal entries. “I’d like to see honesty and transparency and I’d like Tony to come clean with all the things that he’s really been caught in contradictions,” Dr. Brett Giroir, a former assistant secretary for health at the Department of Health…",
+    "sources": [
+      {
+        "outlet": "The Hill",
+        "url": "https://thehill.com/policy/healthcare/5995694-giroir-slams-fauci-diary/",
+        "tier": "T2_indie"
+      },
+      {
+        "outlet": "The Hill",
+        "url": "https://thehill.com/policy/healthcare/5995285-fauci-diary-senate-hearing-rand-paul/",
+        "tier": "T2_indie"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.86,
+    "ingested_at": "2026-07-29T08:22:09.985Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 52,
+    "importance_tier": "MED"
   },
   {
     "id": "9f5460cd5994",
@@ -175,7 +555,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -218,7 +598,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -267,7 +647,7 @@
     ],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -293,6 +673,596 @@
     },
     "importance": 64,
     "importance_tier": "HIGH"
+  },
+  {
+    "id": "5a3032c0a902",
+    "datetime_utc": "2026-07-29T00:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Agency Information Collection Activities: Proposed Renewal; Comment Request; Renewal Without Change of the Generic Clearance for the Collection of Qualitative Feedback on Agency Service Delivery",
+    "deck": "Notice.",
+    "context": "Reported by 3 sources. Notice. As part of its continuing effort to reduce paperwork and respondent burden, FinCEN invites comments on a renewal, without change, of a generic clearance for the collection of qualitative feedback on agency service delivery. This request for comments is being made pursuant to the Paperwork Reduction Act of 1995. (Treasury Department, Financial Crimes Enforcement Network)",
+    "sources": [
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/07/29/2026-15318/agency-information-collection-activities-proposed-renewal-comment-request-renewal-without-change-of",
+        "tier": "T1_gov"
+      },
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/07/29/2026-15314/60-day-notice-of-proposed-information-collection-generic-clearance-for-the-collection-of-qualitative",
+        "tier": "T1_gov"
+      },
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/07/29/2026-15304/information-collection-regulatory-issue-summary-importance-of-giving-the-nrc-advance-notice-of",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "economics",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.86,
+    "ingested_at": "2026-07-29T08:22:09.985Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 10,
+    "importance_tier": "BURIED"
+  },
+  {
+    "id": "6c81d346f0a9",
+    "datetime_utc": "2026-07-29T00:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Agency Information Collection Activity Under OMB Review: Healthcare Advancement and Partnerships (HAP) Recognition Application",
+    "deck": "Notice.",
+    "context": "Reported by 3 sources. Notice. In compliance with the Paperwork Reduction Act (PRA) of 1995, this notice announces that the Veterans Health Administration (VHA), Department of Veterans Affairs (VA), will submit the collection of information abstracted below to the Office of Management and Budget (OMB) for review and comment. The PRA submission describes the nature of the information collection and its expected cost and burden, and it includes the actual data collection instrument. (Veterans Affairs Department)",
+    "sources": [
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/07/29/2026-15313/agency-information-collection-activity-under-omb-review-healthcare-advancement-and-partnerships-hap",
+        "tier": "T1_gov"
+      },
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/07/29/2026-15317/agency-information-collection-activities-proposed-ecollection-ecomments-requested-proposed-new",
+        "tier": "T1_gov"
+      },
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/07/29/2026-15305/agency-information-collection-activities-proposed-ecollection-ecomments-requested-title-medical",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.93,
+    "ingested_at": "2026-07-29T08:22:09.985Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 10,
+    "importance_tier": "BURIED"
+  },
+  {
+    "id": "df1efd894ba4",
+    "datetime_utc": "2026-07-29T00:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Endangered and Threatened Wildlife and Plants; Revised Designation of Critical Habitat for the Contiguous U.S. Distinct Population Segment of the Canada Lynx; Correction",
+    "deck": "Rule.",
+    "context": "Rule. We, the U.S. Fish and Wildlife Service (Service), are correcting one amendatory instruction in the final rule that published in the Federal Register on June 16, 2026. That rule finalized the revised critical habitat designation for the contiguous U.S. distinct population segment (DPS) of the Canada lynx (Lynx canadensis) under the Endangered Species Act of 1973, as amended (Act). (Interior Department, Fish and Wildlife Service)",
+    "sources": [
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/07/29/2026-15298/endangered-and-threatened-wildlife-and-plants-revised-designation-of-critical-habitat-for-the",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.93,
+    "ingested_at": "2026-07-29T08:22:09.985Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 49,
+    "importance_tier": "MED"
+  },
+  {
+    "id": "cabfa032b31c",
+    "datetime_utc": "2026-07-29T00:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Endangered and Threatened Wildlife and Plants; Endangered Species Status for Florida Keys Mole Skink; Correction",
+    "deck": "Rule.",
+    "context": "Rule. We, the U.S. Fish and Wildlife Service (Service), are correcting a final rule that appeared in the Federal Register on July 21, 2026. The rule added the Florida Keys mole skink (Plestiodon egregius egregius), a lizard subspecies from the Florida Keys, Florida, to the List of Endangered and Threatened Wildlife. (Interior Department, Fish and Wildlife Service)",
+    "sources": [
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/07/29/2026-15299/endangered-and-threatened-wildlife-and-plants-endangered-species-status-for-florida-keys-mole-skink",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.93,
+    "ingested_at": "2026-07-29T08:22:09.985Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 49,
+    "importance_tier": "MED"
+  },
+  {
+    "id": "d2e14048d3db",
+    "datetime_utc": "2026-07-29T00:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Safety Zone; Lake Ontario, Olcott, NY",
+    "deck": "Rule.",
+    "context": "Rule. The Coast Guard is establishing a temporary safety zone for navigable waters on Lake Ontario, Olcott, NY. The safety zone is needed to protect personnel, vessels, and the marine environment from potential hazards associated with an over water fireworks display. Entry of vessels or persons into this zone is prohibited unless specifically authorized by the Captain of the Port, Sector Eastern Great Lakes, or their designated representative. (Homeland Security Department, Coast Guard)",
+    "sources": [
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/07/29/2026-15300/safety-zone-lake-ontario-olcott-ny",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.77,
+    "ingested_at": "2026-07-29T08:22:09.985Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 15,
+    "importance_tier": "BURIED"
+  },
+  {
+    "id": "e2a6c076ce03",
+    "datetime_utc": "2026-07-29T00:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Implementation of Section 403 of the Senator Elizabeth Dole 21st Century Veterans Healthcare and Benefits Improvement Act",
+    "deck": "Notice.",
+    "context": "Notice. The Department of Veterans Affairs (VA) is announcing its implementation plan for section 403 of the Senator Elizabeth Dole 21st Century Veterans Healthcare and Benefits Improvement Act, which authorizes VA to provide food, shelter, transportation, and other items to homeless Veterans when necessary. (Veterans Affairs Department)",
+    "sources": [
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/07/29/2026-15301/implementation-of-section-403-of-the-senator-elizabeth-dole-21st-century-veterans-healthcare-and",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.77,
+    "ingested_at": "2026-07-29T08:22:09.985Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 49,
+    "importance_tier": "MED"
+  },
+  {
+    "id": "353967b74497",
+    "datetime_utc": "2026-07-29T00:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Public Meeting of the National Geospatial Advisory Committee",
+    "deck": "Notice.",
+    "context": "Notice. In accordance with the Federal Advisory Committee Act (FACA) of 1972, the U.S. Geological Survey (USGS) is publishing this notice to announce that a Federal Advisory Committee meeting of the National Geospatial Advisory Committee (NGAC) will take place and is open to members of the public. (Interior Department, Geological Survey)",
+    "sources": [
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/07/29/2026-15302/public-meeting-of-the-national-geospatial-advisory-committee",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.93,
+    "ingested_at": "2026-07-29T08:22:09.985Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 30,
+    "importance_tier": "LOW"
+  },
+  {
+    "id": "f78cbd7497ec",
+    "datetime_utc": "2026-07-29T00:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Medical Devices; Radiology Devices; Classification of the Phase-Changing Fiducial Marker for Radiation Therapy",
+    "deck": "Rule.",
+    "context": "Rule. The Food and Drug Administration (FDA) is classifying the phase-changing fiducial marker for radiation therapy into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the phase-changing fiducial marker for radiation therapy. We are taking this action because we have determined that classifying the device into class II will provide a reasonable assurance of safety and effectiveness of the device. We believe this action will also enhance patients' access to beneficial innovative devices, in part by reducing regulatory burdens. (Health and Human Services Department, Food and Drug Administration)",
+    "sources": [
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/07/29/2026-15303/medical-devices-radiology-devices-classification-of-the-phase-changing-fiducial-marker-for-radiation",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.77,
+    "ingested_at": "2026-07-29T08:22:09.985Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 49,
+    "importance_tier": "MED"
+  },
+  {
+    "id": "4ee94f8146d6",
+    "datetime_utc": "2026-07-29T00:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Filing of Plats of Survey: Oregon/Washington",
+    "deck": "Notice.",
+    "context": "Notice. The plats of survey of the following described lands are scheduled to be officially filed in the Bureau of Land Management (BLM), Oregon State Office, Portland, Oregon, 30 calendar days from the date of this publication. The surveys announced in this notice, which were executed at the request of the BLM, are necessary for the management of these lands. (Interior Department, Land Management Bureau)",
+    "sources": [
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/07/29/2026-15306/filing-of-plats-of-survey-oregonwashington",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.86,
+    "ingested_at": "2026-07-29T08:22:09.985Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 30,
+    "importance_tier": "LOW"
+  },
+  {
+    "id": "c5cb7eb49fe2",
+    "datetime_utc": "2026-07-29T00:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Airworthiness Directives; Airbus SAS Airplanes",
+    "deck": "Rule.",
+    "context": "Rule. The FAA is superseding Airworthiness Directive (AD) 2025-16- 12, which applied to all Airbus SAS Model A319-151N, -153N, -171N, and -173N airplanes; Model A320-251N, -252N, -253N, -271N, -272N, and -273N airplanes; and Model A321-251N, -252N, -253N, -271N, -272N, -251NX, - 252NX, -253NX, -271NX, -272NX, -253NY, and -271NY airplanes. AD 2025- 16-12 required revising the existing airplane flight manual (AFM) and the existing FAA-approved minimum equipment list (MEL), allowed replacement of each affected high-pressure bleed valve (HPV) as an optional terminating action, and prohibited the installation of affected parts. Since the FAA issued AD 2025-16-12, the FAA has determined that repetitive replacement of the HPV clips is necessary to address the unsafe condition. This AD continues to require the actions in AD 2025-16-12 and requires repetitive replacement of each affected HPV clip. The FAA is issuing this AD to address the unsafe condition on these products. (Transportation Department, Federal Aviation Administration)",
+    "sources": [
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/07/29/2026-15308/airworthiness-directives-airbus-sas-airplanes",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.93,
+    "ingested_at": "2026-07-29T08:22:09.985Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 49,
+    "importance_tier": "MED"
+  },
+  {
+    "id": "871e0a752a23",
+    "datetime_utc": "2026-07-29T00:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Air Declaration Zone Test: Extension",
+    "deck": "Notice.",
+    "context": "Notice. This notice announces that U.S. Customs and Border Protection (CBP) is extending the Air Declaration Zone Test for an additional two years. Current CBP regulations require each traveler to provide a CBP officer with an oral or written declaration of all articles brought into the United States. The Air Declaration Zone Test streamlines the processing of travelers who enter the United States at air ports of entry by allowing a demonstrative initial declaration to separate travelers who do not have items to declare from those who have items to declare and, in some cases, replace the provision of oral or written declarations. (Homeland Security Department, U.S. Customs and Border Protection)",
+    "sources": [
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/07/29/2026-15310/air-declaration-zone-test-extension",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.77,
+    "ingested_at": "2026-07-29T08:22:09.985Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 30,
+    "importance_tier": "LOW"
+  },
+  {
+    "id": "1b6748f46148",
+    "datetime_utc": "2026-07-29T00:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Notice of Award of a Sole Source Cooperative Agreement To Fund the Public Health Foundation",
+    "deck": "Notice.",
+    "context": "Notice. The Centers for Disease Control and Prevention (CDC), located within the Department of Health and Human Services (HHS), announces the award of approximately $1.5 million for Year 1 funding to the Public Health Foundation. The award will support the modernization and enhancement of CDC TRAIN and the TRAIN Learning Network overall; capacity building and training to improve the skills and competence of the public health workforce; performance management, quality improvement, and innovation in governmental public health; and expanded collaborations between health departments and academic institutions. Funding amounts for years 2-5 will be set at continuation. (Health and Human Services Department, Centers for Disease Control and Prevention)",
+    "sources": [
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/07/29/2026-15315/notice-of-award-of-a-sole-source-cooperative-agreement-to-fund-the-public-health-foundation",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.86,
+    "ingested_at": "2026-07-29T08:22:09.985Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 57,
+    "importance_tier": "MED"
+  },
+  {
+    "id": "1e2f9f84ca27",
+    "datetime_utc": "2026-07-29T00:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Fiscal Year (FY) 2026 Bus Safety, Accessibility, and Innovation Research Program",
+    "deck": "Notice.",
+    "context": "Notice. The Federal Transit Administration (FTA) announces the opportunity to apply for $10 million in competitive funds for the Fiscal Year (FY) 2026 Bus Safety, Accessibility, and Innovation Research Program. (Transportation Department, Federal Transit Administration)",
+    "sources": [
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/07/29/2026-15316/fiscal-year-fy-2026-bus-safety-accessibility-and-innovation-research-program",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "economics",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.93,
+    "ingested_at": "2026-07-29T08:22:09.985Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 44,
+    "importance_tier": "MED"
+  },
+  {
+    "id": "c489d1ef15c1",
+    "datetime_utc": "2026-07-29T00:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Amendment of Jet Routes J-190 and J-584 and Very High Frequency Omnidirectional Range Federal Airways V-170 and V-188 in the Vicinity of Slate Run, Pennsylvania",
+    "deck": "Proposed Rule.",
+    "context": "Proposed Rule. This action corrects a notice of proposed rulemaking (NPRM) that the FAA published in the Federal Register on July 20, 2026, proposing to amend Jet Routes J-190 and J-584 and Very High Frequency Omnidirectional Range (VOR) Federal Airways V-170 and V-188 in the vicinity of Slate Run, Pennsylvania. Specifically, this action corrects the docket number associated with the NPRM. (Transportation Department, Federal Aviation Administration)",
+    "sources": [
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/07/29/2026-15321/amendment-of-jet-routes-j-190-and-j-584-and-very-high-frequency-omnidirectional-range-federal",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.93,
+    "ingested_at": "2026-07-29T08:22:09.985Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 56,
+    "importance_tier": "MED"
+  },
+  {
+    "id": "8a30e0dbfa9d",
+    "datetime_utc": "2026-07-29T00:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Allocation of Assets in Single-Employer Plans; Interest Assumptions for Valuing Benefits",
+    "deck": "Rule.",
+    "context": "Rule. Allocation of Assets in Single-Employer Plans; Interest Assumptions for Valuing Benefits (Pension Benefit Guaranty Corporation)",
+    "sources": [
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/07/29/C1-2026-13124/allocation-of-assets-in-single-employer-plans-interest-assumptions-for-valuing-benefits",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.73,
+    "ingested_at": "2026-07-29T08:22:09.985Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 49,
+    "importance_tier": "MED"
   },
   {
     "id": "1f61926c1fd3",
@@ -329,7 +1299,7 @@
     ],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -383,7 +1353,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.91,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -421,7 +1391,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -459,7 +1429,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.73,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -484,16 +1454,11 @@
     "place": "WORLD",
     "what": "Comer warns Fauci: Biden’s pardon doesn’t cover testimony this week",
     "deck": "House Oversight Committee Chairman James Comer (R-Ky.) warned Dr.",
-    "context": "Reported by 2 sources. House Oversight Committee Chairman James Comer (R-Ky.) warned Dr. Anthony Fauci that the presidential pardon he received does not extend to his awaited hearing at Capitol Hill. The former director of the National Institute of Allergy and Infectious Diseases is set to testify before a Senate panel Wednesday, following Sen. Rand Paul’s (R-Ky.) release of…",
+    "context": "House Oversight Committee Chairman James Comer (R-Ky.) warned Dr. Anthony Fauci that the presidential pardon he received does not extend to his awaited hearing at Capitol Hill. The former director of the National Institute of Allergy and Infectious Diseases is set to testify before a Senate panel Wednesday, following Sen. Rand Paul’s (R-Ky.) release of…",
     "sources": [
       {
         "outlet": "The Hill",
         "url": "https://thehill.com/homenews/5995368-comer-warns-fauci-congress/",
-        "tier": "T2_indie"
-      },
-      {
-        "outlet": "The Hill",
-        "url": "https://thehill.com/policy/healthcare/5995285-fauci-diary-senate-hearing-rand-paul/",
         "tier": "T2_indie"
       }
     ],
@@ -502,7 +1467,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -518,7 +1483,7 @@
         "forecast": "Analysis coming."
       }
     },
-    "importance": 46,
+    "importance": 41,
     "importance_tier": "MED"
   },
   {
@@ -540,7 +1505,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -578,7 +1543,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -598,10 +1563,10 @@
     "importance_tier": "LOW"
   },
   {
-    "id": "2ba566e25605",
+    "id": "5735328692ae",
     "datetime_utc": "2026-07-28T22:03:16.000Z",
     "place": "WORLD",
-    "what": "Netanyahu flew secretly to US after intelligence warned of threat of Iranian attack- report",
+    "what": "Fearing an Iranian attack, Netanyahu discreetly departed for the US from Air Force base - report",
     "deck": "According to N12, Israeli security forces recommended that Netanyahu's flight leave under secretive conditions after reports that Iran was escalating its efforts to attack Israeli officials.",
     "context": "According to N12, Israeli security forces recommended that Netanyahu's flight leave under secretive conditions after reports that Iran was escalating its efforts to attack Israeli officials.",
     "sources": [
@@ -616,7 +1581,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -659,7 +1624,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -676,44 +1641,6 @@
       }
     },
     "importance": 64,
-    "importance_tier": "HIGH"
-  },
-  {
-    "id": "7a3856c12101",
-    "datetime_utc": "2026-07-28T21:33:21.000Z",
-    "place": "WORLD",
-    "what": "IDF withdrew from Palestinian-American citizen's West Bank home after US embassy pressure -report",
-    "deck": "According to KAN, IDF troops operating in the village of Turmus Aiya near Ramallah on Monday attempted to turn a Palestinian doctor's home into a forward base.",
-    "context": "According to KAN, IDF troops operating in the village of Turmus Aiya near Ramallah on Monday attempted to turn a Palestinian doctor's home into a forward base.",
-    "sources": [
-      {
-        "outlet": "Jerusalem Post",
-        "url": "https://www.jpost.com/israel-news/defense-news/article-903942",
-        "tier": "T2_indie"
-      }
-    ],
-    "category": "war",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 77,
     "importance_tier": "HIGH"
   },
   {
@@ -735,7 +1662,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -773,7 +1700,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -823,7 +1750,7 @@
     ],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -869,7 +1796,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -907,7 +1834,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -946,7 +1873,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -984,7 +1911,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1022,7 +1949,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1061,7 +1988,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1099,7 +2026,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1124,16 +2051,11 @@
     "place": "WORLD",
     "what": "Americans support Netanyahu arrest by 22-point margin: Survey",
     "deck": "Nearly half of Americans believer the U.S.",
-    "context": "Reported by 2 sources. Nearly half of Americans believer the U.S. should arrest Israeli Prime Minister Benjamin Netanyahu over his actions in Israel’s war in Gaza, according to a new poll from The Economist/YouGov. When asked if the U.S. should enforce an International Criminal Court (ICC) arrest warrant for Netanyahu, 49 percent of respondents in the poll said “yes,”…",
+    "context": "Nearly half of Americans believer the U.S. should arrest Israeli Prime Minister Benjamin Netanyahu over his actions in Israel’s war in Gaza, according to a new poll from The Economist/YouGov. When asked if the U.S. should enforce an International Criminal Court (ICC) arrest warrant for Netanyahu, 49 percent of respondents in the poll said “yes,”…",
     "sources": [
       {
         "outlet": "The Hill",
         "url": "https://thehill.com/policy/international/5995104-americans-back-netanyahu-icc-arrest/",
-        "tier": "T2_indie"
-      },
-      {
-        "outlet": "Jerusalem Post",
-        "url": "https://www.jpost.com/middle-east/iran-news/article-903934",
         "tier": "T2_indie"
       }
     ],
@@ -1153,7 +2075,7 @@
     ],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1177,7 +2099,7 @@
         "forecast": "Analysis coming."
       }
     },
-    "importance": 49,
+    "importance": 44,
     "importance_tier": "MED"
   },
   {
@@ -1211,7 +2133,7 @@
     },
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1249,7 +2171,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1287,7 +2209,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1330,7 +2252,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1379,7 +2301,7 @@
     ],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1407,44 +2329,6 @@
     "importance_tier": "MED"
   },
   {
-    "id": "400ea34532c1",
-    "datetime_utc": "2026-07-28T19:38:29.000Z",
-    "place": "WORLD",
-    "what": "Former aide shares details of decades-old affair with Newsom in Vanity Fair essay",
-    "deck": "A former aide to California Gov.",
-    "context": "A former aide to California Gov. Gavin Newsom (D) is revisiting their decades-old affair that rocked San Francisco politics, sharing details of the relationship in a Vanity Fair essay published Tuesday. The essay by Ruby Rippey, who worked as Newsom’s appointments secretary when he was mayor of San Francisco, brought to light details of their…",
-    "sources": [
-      {
-        "outlet": "The Hill",
-        "url": "https://thehill.com/homenews/state-watch/5995023-gavin-newsom-ruby-rippey-affair-vanity-fair/",
-        "tier": "T2_indie"
-      }
-    ],
-    "category": "other",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 28,
-    "importance_tier": "LOW"
-  },
-  {
     "id": "345937e9ee41",
     "datetime_utc": "2026-07-28T19:14:04.000Z",
     "place": "WORLD",
@@ -1463,7 +2347,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1480,82 +2364,6 @@
       }
     },
     "importance": 24,
-    "importance_tier": "LOW"
-  },
-  {
-    "id": "97172e575c32",
-    "datetime_utc": "2026-07-28T19:09:07.000Z",
-    "place": "WORLD",
-    "what": "INSS: Israelis as concerned about violence between social groups as Iran acquiring nuclear weapons",
-    "deck": "There also appears to be a growing fear of a prolonged war on one of Israel’s fronts, with 27% ranking this as among their top concerns in July, a 4% increase from February.",
-    "context": "There also appears to be a growing fear of a prolonged war on one of Israel’s fronts, with 27% ranking this as among their top concerns in July, a 4% increase from February.",
-    "sources": [
-      {
-        "outlet": "Jerusalem Post",
-        "url": "https://www.jpost.com/israel-news/article-903936",
-        "tier": "T2_indie"
-      }
-    ],
-    "category": "war",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 51,
-    "importance_tier": "MED"
-  },
-  {
-    "id": "451d72e77084",
-    "datetime_utc": "2026-07-28T19:08:00.000Z",
-    "place": "WORLD",
-    "what": "Car explodes on Odesa road, killing driver and injuring passenger",
-    "deck": "A car exploded while in motion in Odesa on 28 July, killing the driver at the scene and leaving a female passenger hospitalised.",
-    "context": "A car exploded while in motion in Odesa on 28 July, killing the driver at the scene and leaving a female passenger hospitalised.",
-    "sources": [
-      {
-        "outlet": "Ukrainska Pravda",
-        "url": "https://www.pravda.com.ua/eng/news/2026/07/28/8046317/",
-        "tier": "T2_indie"
-      }
-    ],
-    "category": "other",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 22,
     "importance_tier": "LOW"
   },
   {
@@ -1578,7 +2386,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1603,7 +2411,7 @@
     "place": "WORLD",
     "what": "'Pressure is high': Football legend Zinedine Zidane inherits a France squad with 'everything to win'",
     "deck": "Monte Francis is pleased to welcome Karim Baldé, Sports Journalist and Founder of \"Bal des Productions\" News Agency.",
-    "context": "Reported by 4 sources. Monte Francis is pleased to welcome Karim Baldé, Sports Journalist and Founder of \"Bal des Productions\" News Agency. According to Baldé, Zinedine Zidane, as France's new football manager, one of the world's richest and most successful squads, heightening the expectations created by Didier Deschamps' sustained excellence and by a generation of players widely regarded as capable of dominating international football. Bladé suggests that while Zidane's persona and football legacy provides him with immediate credibility, lasting success will depend on translating personal prestige into collective resilience, tactical adaptation, and the cultivation of genuine leadership within the squad.",
+    "context": "Reported by 3 sources. Monte Francis is pleased to welcome Karim Baldé, Sports Journalist and Founder of \"Bal des Productions\" News Agency. According to Baldé, Zinedine Zidane, as France's new football manager, one of the world's richest and most successful squads, heightening the expectations created by Didier Deschamps' sustained excellence and by a generation of players widely regarded as capable of dominating international football. Bladé suggests that while Zidane's persona and football legacy provides him with immediate credibility, lasting success will depend on translating personal prestige into collective resilience, tactical adaptation, and the cultivation of genuine leadership within the squad.",
     "sources": [
       {
         "outlet": "France 24",
@@ -1612,17 +2420,12 @@
       },
       {
         "outlet": "France 24",
-        "url": "https://www.france24.com/en/a-look-back-at-zinedine-zidane-s-career-as-he-becomes-france-s-new-coach",
+        "url": "https://www.france24.com/en/tv-shows/sports/20260729-new-era-for-france-as-zin%C3%A9dine-zidane-takes-charge-of-national-team",
         "tier": "T1_wire"
       },
       {
         "outlet": "France 24",
         "url": "https://www.france24.com/en/the-only-thing-i-wanted-to-do-zidane-returns-to-coach-les-bleus",
-        "tier": "T1_wire"
-      },
-      {
-        "outlet": "France 24",
-        "url": "https://www.france24.com/en/the-only-job-i-wanted-zidane-s-first-words-as-france-head-coach",
         "tier": "T1_wire"
       }
     ],
@@ -1631,7 +2434,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1649,44 +2452,6 @@
     },
     "importance": 34,
     "importance_tier": "LOW"
-  },
-  {
-    "id": "819af0fd7d7f",
-    "datetime_utc": "2026-07-28T17:58:00.000Z",
-    "place": "WORLD",
-    "what": "Zelenskyy meets ATACMS, HIMARS and Patriot missile manufacturer in US",
-    "deck": "Ukrainian President Volodymyr Zelenskyy has met representatives of the defence company Lockheed Martin in the US.",
-    "context": "Ukrainian President Volodymyr Zelenskyy has met representatives of the defence company Lockheed Martin in the US. The company produces ATACMS, HIMARS, F-16 fighter jets and missiles for Patriot systems.",
-    "sources": [
-      {
-        "outlet": "Ukrainska Pravda",
-        "url": "https://www.pravda.com.ua/eng/news/2026/07/28/8046318/",
-        "tier": "T2_indie"
-      }
-    ],
-    "category": "war",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 44,
-    "importance_tier": "MED"
   },
   {
     "id": "f00b6270a747",
@@ -1707,7 +2472,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1724,44 +2489,6 @@
       }
     },
     "importance": 34,
-    "importance_tier": "LOW"
-  },
-  {
-    "id": "fff82d152bfc",
-    "datetime_utc": "2026-07-28T17:23:32.000Z",
-    "place": "WORLD",
-    "what": "Oxfam accuses Israel of genocide, pushes for $71.4B Gaza reconstruction plan",
-    "deck": "The Oxfam reconstruction blueprint calls for Palestinian leadership in Gaza’s recovery but faces questions over Hamas, terrorism, and future security arrangements.",
-    "context": "The Oxfam reconstruction blueprint calls for Palestinian leadership in Gaza’s recovery but faces questions over Hamas, terrorism, and future security arrangements.",
-    "sources": [
-      {
-        "outlet": "Jerusalem Post",
-        "url": "https://www.jpost.com/middle-east/article-903920",
-        "tier": "T2_indie"
-      }
-    ],
-    "category": "other",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 22,
     "importance_tier": "LOW"
   },
   {
@@ -1788,7 +2515,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.91,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1826,7 +2553,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.73,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1864,7 +2591,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1897,9 +2624,9 @@
         "tier": "T1_wire"
       },
       {
-        "outlet": "France 24",
-        "url": "https://www.france24.com/en/japan-hit-by-7-1-magnitude-earthquake",
-        "tier": "T1_wire"
+        "outlet": "Jerusalem Post",
+        "url": "https://www.jpost.com/environment-and-climate-change/article-903876",
+        "tier": "T2_indie"
       }
     ],
     "category": "other",
@@ -1907,7 +2634,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1945,7 +2672,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.91,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1965,59 +2692,6 @@
     "importance_tier": "MED"
   },
   {
-    "id": "7dd2d41fe70e",
-    "datetime_utc": "2026-07-28T15:01:07.000Z",
-    "place": "WORLD",
-    "what": "🔴 Live: French wildfires flare up again as authorities evacuate 4,000 more from tourist sites",
-    "deck": "France 24 · July 28, 2026.",
-    "context": "Reported by 4 sources. 🔴 Live: French wildfires flare up again as authorities evacuate 4,000 more from tourist sites",
-    "sources": [
-      {
-        "outlet": "France 24",
-        "url": "https://www.france24.com/en/europe/20260728-live-massive-wildfires-near-bordeaux-still-under-control-after-calm-night-local-authorities-say",
-        "tier": "T1_wire"
-      },
-      {
-        "outlet": "France 24",
-        "url": "https://www.france24.com/en/europe/20260728-wildfires-in-france-volunteers-put-smiles-back-on-evacuees-faces-in-bordeaux",
-        "tier": "T1_wire"
-      },
-      {
-        "outlet": "France 24",
-        "url": "https://www.france24.com/en/france/20260728-france-braces-for-fresh-evacuations-as-spain-eases-wildfire-restrictions",
-        "tier": "T1_wire"
-      },
-      {
-        "outlet": "France 24",
-        "url": "https://www.france24.com/en/heatwave-threatens-firefighting-mission-in-france-s-southwest",
-        "tier": "T1_wire"
-      }
-    ],
-    "category": "other",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.73,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 30,
-    "importance_tier": "LOW"
-  },
-  {
     "id": "9de635fea33e",
     "datetime_utc": "2026-07-28T14:33:15.000Z",
     "place": "WORLD",
@@ -2026,14 +2700,14 @@
     "context": "Reported by 2 sources. Ukrainian President Volodymyr Zelensky is expected at the White House on July 28 for talks with US counterpart Donald Trump, as Kyiv seeks to win fresh diplomatic and military support in its fight against Russia. Zelensky is also in the US to attend US senator Lindsey Graham's funeral, an important support of Ukraine inside the Republican party. FRANCE 24's Fraser Jackson tells us more from Washington.",
     "sources": [
       {
-        "outlet": "UK Government",
-        "url": "https://www.gov.uk/government/news/pm-meeting-with-president-zelenskyy-27-july-2026",
-        "tier": "T1_gov"
-      },
-      {
         "outlet": "France 24",
         "url": "https://www.france24.com/en/zelensky-visit-white-house-in-test-to-maga-s-significant-shift-towards-kyiv",
         "tier": "T1_wire"
+      },
+      {
+        "outlet": "Ukrainska Pravda",
+        "url": "https://www.pravda.com.ua/eng/news/2026/07/29/8046336/",
+        "tier": "T2_indie"
       }
     ],
     "category": "war",
@@ -2041,7 +2715,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -2079,7 +2753,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.91,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -2117,7 +2791,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -2137,26 +2811,25 @@
     "importance_tier": "LOW"
   },
   {
-    "id": "00fdfa5553de",
-    "datetime_utc": "2026-07-28T13:20:46.000Z",
+    "id": "4ab0f0dea918",
+    "datetime_utc": "2026-07-28T11:39:19.000Z",
     "place": "WORLD",
-    "what": "Spain is seeing 'the light at the end of the tunnel' in its fight against fires",
-    "deck": "Firefighters are starting to see \"light at the end of the tunnel\" in their battle against some of the worst forest fires in Spanish history, according to the country's prime minister.",
-    "quote": "light at the end of the tunnel",
-    "context": "Firefighters are starting to see \"light at the end of the tunnel\" in their battle against some of the worst forest fires in Spanish history, according to the country's prime minister. In Avila, near Madrid, over 50,000 hectares were burned. FRANCE 24's Sarah Morris tells us more about the latest on the situation.",
+    "what": "PM meeting with President Zelenskyy: 27 July 2026",
+    "deck": "The Prime Minister hosted the President of Ukraine, Volodymyr Zelenskyy, at His Majesty's Naval Base, Portsmouth.",
+    "context": "The Prime Minister hosted the President of Ukraine, Volodymyr Zelenskyy, at His Majesty's Naval Base, Portsmouth.",
     "sources": [
       {
-        "outlet": "France 24",
-        "url": "https://www.france24.com/en/spain-is-seeing-the-light-at-the-end-of-the-tunnel-in-its-fight-against-fires",
-        "tier": "T1_wire"
+        "outlet": "UK Government",
+        "url": "https://www.gov.uk/government/news/pm-meeting-with-president-zelenskyy-27-july-2026",
+        "tier": "T1_gov"
       }
     ],
-    "category": "other",
+    "category": "war",
     "economics_flag": false,
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
-    "classifier_confidence": 0.77,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "classifier_confidence": 0.82,
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -2172,84 +2845,8 @@
         "forecast": "Analysis coming."
       }
     },
-    "importance": 24,
-    "importance_tier": "LOW"
-  },
-  {
-    "id": "d3e8d8857086",
-    "datetime_utc": "2026-07-28T13:08:00.000Z",
-    "place": "WORLD",
-    "what": "Ukraine names two Russian soldiers as suspects in rape and murder of woman in Bucha",
-    "deck": "Two Russian servicemen have been formally notified of suspicion for the rape and murder of a civilian woman during the occupation of Bucha in 2022.",
-    "context": "Two Russian servicemen have been formally notified of suspicion for the rape and murder of a civilian woman during the occupation of Bucha in 2022.",
-    "sources": [
-      {
-        "outlet": "Ukrainska Pravda",
-        "url": "https://www.pravda.com.ua/eng/news/2026/07/28/8046261/",
-        "tier": "T2_indie"
-      }
-    ],
-    "category": "other",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.91,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 22,
-    "importance_tier": "LOW"
-  },
-  {
-    "id": "c018e16ce340",
-    "datetime_utc": "2026-07-28T12:46:00.000Z",
-    "place": "WORLD",
-    "what": "Protests in support of ex-defence minister Fedorov: Kyiv march for dialogue and reforms announced",
-    "deck": "Dmytro Koziatynskyi, the veteran who called on Ukrainians to protest against the dismissal of former defence minister Mykhailo Fedorov, has announced that a protest march in support of dialogue and defence reforms is…",
-    "context": "Dmytro Koziatynskyi, the veteran who called on Ukrainians to protest against the dismissal of former defence minister Mykhailo Fedorov, has announced that a protest march in support of dialogue and defence reforms is to be held in Kyiv on the evening of 31 July and urged other cities to join in.",
-    "sources": [
-      {
-        "outlet": "Ukrainska Pravda",
-        "url": "https://www.pravda.com.ua/eng/news/2026/07/28/8046236/",
-        "tier": "T2_indie"
-      }
-    ],
-    "category": "other",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 22,
-    "importance_tier": "LOW"
+    "importance": 46,
+    "importance_tier": "MED"
   },
   {
     "id": "ab6443629afc",
@@ -2270,7 +2867,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -2308,7 +2905,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.73,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -2346,7 +2943,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.73,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -2384,7 +2981,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.91,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -2422,7 +3019,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.73,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -2470,7 +3067,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -2508,7 +3105,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.73,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -2546,7 +3143,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -2564,710 +3161,6 @@
     },
     "importance": 24,
     "importance_tier": "LOW"
-  },
-  {
-    "id": "8cf8adf7fc6b",
-    "datetime_utc": "2026-07-28T00:00:00.000Z",
-    "place": "WASHINGTON",
-    "what": "Olympic Peninsula Resource Advisory Committee",
-    "deck": "Notice.",
-    "context": "Reported by 2 sources. Notice. The Olympic Peninsula Resource Advisory Committee (RAC) will hold a public meeting according to the details shown below. The committee is authorized under the Secure Rural Schools and Community Self-Determination Act (the Act) and operates in compliance with the Federal Advisory Committee Act (FACA). The purpose of the committee is to improve collaborative relationships and to provide advice and recommendations to the Forest Service concerning projects and funding consistent with Title II of the Act as well as make recommendations on recreation fee proposals for sites on the Olympic National Forest consistent with the Federal Lands Recreation Enhancement Act. (Agriculture Department, Forest Service)",
-    "sources": [
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/07/28/2026-15218/olympic-peninsula-resource-advisory-committee",
-        "tier": "T1_gov"
-      },
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/07/28/2026-15217/deschutes-ochoco-srs-resource-advisory-committee",
-        "tier": "T1_gov"
-      }
-    ],
-    "category": "other",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.77,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 30,
-    "importance_tier": "LOW"
-  },
-  {
-    "id": "0869f5bc284e",
-    "datetime_utc": "2026-07-28T00:00:00.000Z",
-    "place": "WASHINGTON",
-    "what": "Agency Information Collection Activities; Comment Request; Eligible Career Pathway Program",
-    "deck": "Notice.",
-    "context": "Reported by 2 sources. Notice. In accordance with the Paperwork Reduction Act (PRA) of 1995, the Department is proposing an extension without change of a currently approved information collection request (ICR). (Education Department)",
-    "sources": [
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/07/28/2026-15226/agency-information-collection-activities-comment-request-eligible-career-pathway-program",
-        "tier": "T1_gov"
-      },
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/07/28/2026-15221/agency-information-collection-activities-proposed-collection-public-comment-request-information",
-        "tier": "T1_gov"
-      }
-    ],
-    "category": "government",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 10,
-    "importance_tier": "BURIED"
-  },
-  {
-    "id": "8d4f3b5756c5",
-    "datetime_utc": "2026-07-28T00:00:00.000Z",
-    "place": "WASHINGTON",
-    "what": "National Wildlife Refuge System; Request for Information on Implementation of Drain Tile Setbacks; Correction",
-    "deck": "Notice.",
-    "context": "Notice. The U.S. Fish and Wildlife Service (Service) published a document in the Federal Register on July 24, 2026, regarding the Service's process for calculating setbacks for the placement of drain tile by landowners on property where the Service owns wetland easements. The document contained incorrect docket number information. (Interior Department, Fish and Wildlife Service)",
-    "sources": [
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/07/28/2026-15209/national-wildlife-refuge-system-request-for-information-on-implementation-of-drain-tile-setbacks",
-        "tier": "T1_gov"
-      }
-    ],
-    "category": "government",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 45,
-    "importance_tier": "MED"
-  },
-  {
-    "id": "ed3f313deaf9",
-    "datetime_utc": "2026-07-28T00:00:00.000Z",
-    "place": "WASHINGTON",
-    "what": "Rescission of Outdated Veterans Choice Program Regulations",
-    "deck": "Rule.",
-    "context": "Rule. The Department of Veterans Affairs (VA) is rescinding obsolete regulations that were previously implemented for the Veterans Choice Program, which has been replaced by the Veterans Community Care Program as of June 6, 2019. (Veterans Affairs Department)",
-    "sources": [
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/07/28/2026-15210/rescission-of-outdated-veterans-choice-program-regulations",
-        "tier": "T1_gov"
-      }
-    ],
-    "category": "government",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 45,
-    "importance_tier": "MED"
-  },
-  {
-    "id": "759048e221f1",
-    "datetime_utc": "2026-07-28T00:00:00.000Z",
-    "place": "WASHINGTON",
-    "what": "Energy Conservation Program: Procedures, Interpretations, and Policies for Consideration of New or Revised Energy Conservation Standards and Test Procedures for Consumer Products and Certain Commercial/Industrial Equipment; Extension of Public Comment Period",
-    "deck": "Proposed Rule.",
-    "quote": ") published in the Federal Register a notice of proposed rulemaking (",
-    "context": "Proposed Rule. On July 7, 2026, the U.S. Department of Energy (\"DOE\") published in the Federal Register a notice of proposed rulemaking (\"NOPR\") and announcement of webinar proposing to update the Department's current rulemaking methodology titled, \"Procedures, Interpretations, and Policies for Consideration of New or Revised Energy Conservation Standards and Test Procedures for Consumer Products and Certain Commercial/Industrial Equipment.\" The notice provided an opportunity for submitting written comments by August 6, 2026. On July 13, 2026, DOE received a joint request from multiple trade organizations to extend the public comment period to September 8, 2026. DOE has reviewed this request and is granting a 15-day extension of the public comment period so as to allow public comments to be submitted until August 21, 2026. (Energy Department)",
-    "sources": [
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/07/28/2026-15211/energy-conservation-program-procedures-interpretations-and-policies-for-consideration-of-new-or",
-        "tier": "T1_gov"
-      }
-    ],
-    "category": "economics",
-    "economics_flag": true,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 33,
-    "importance_tier": "LOW"
-  },
-  {
-    "id": "ab1305b4e98d",
-    "datetime_utc": "2026-07-28T00:00:00.000Z",
-    "place": "WASHINGTON",
-    "what": "2026 Quarterly Listings; Second Quarter; Safety Zones, Security Zones, and Special Local Regulations",
-    "deck": "Rule.",
-    "context": "Rule. This document provides notification of substantive rules issued by the Coast Guard that were made temporarily effective but expired before they could be published in the Federal Register. This document lists temporary safety zones, security zones, and special local regulations, all of limited duration and for which timely publication in the Federal Register was not possible. This document also announces notifications of enforcement for existing reoccurring regulations that we issued but were unable to be published before the enforcement period ended. (Homeland Security Department, Coast Guard)",
-    "sources": [
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/07/28/2026-15212/2026-quarterly-listings-second-quarter-safety-zones-security-zones-and-special-local-regulations",
-        "tier": "T1_gov"
-      }
-    ],
-    "category": "government",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 45,
-    "importance_tier": "MED"
-  },
-  {
-    "id": "6abb36aacade",
-    "datetime_utc": "2026-07-28T00:00:00.000Z",
-    "place": "WASHINGTON",
-    "what": "Risk-Informed, Technology-Inclusive Regulatory Framework for Advanced Reactors; Correction",
-    "deck": "Rule.",
-    "quote": "Safeguards On Nuclear Material--Implementation Of Safeguards Agreements Between The United States And The International Atomic Energy Agency.",
-    "context": "Rule. The U.S. Nuclear Regulatory Commission (NRC) published a final rule in the Federal Register on March 30, 2026, to add a risk-informed, performance-based, and technology-inclusive regulatory framework for commercial nuclear plants. The final rule contained an error in the amendatory instruction for the definition, \"Facilities\" in part 75, \"Safeguards On Nuclear Material--Implementation Of Safeguards Agreements Between The United States And The International Atomic Energy Agency.\" This document corrects the final rule by revising the section that contains the error. (Nuclear Regulatory Commission)",
-    "sources": [
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/07/28/2026-15213/risk-informed-technology-inclusive-regulatory-framework-for-advanced-reactors-correction",
-        "tier": "T1_gov"
-      }
-    ],
-    "category": "government",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 66,
-    "importance_tier": "HIGH"
-  },
-  {
-    "id": "560d7e42c078",
-    "datetime_utc": "2026-07-28T00:00:00.000Z",
-    "place": "WASHINGTON",
-    "what": "Request for Comment on the Extension of Standard Futures Contracts to 24/7 Trading and on Perpetual Contracts Referencing Physically Delivered or Storable Energy Commodities",
-    "deck": "Proposed Rule.",
-    "quote": ") published in the Federal Register a request for comment (",
-    "context": "Proposed Rule. On June 25, 2026, the Commodity Futures Trading Commission (\"Commission\" or \"CFTC\") published in the Federal Register a request for comment (\"RFC\") titled \"Request for Comment on the Extension of Standard Futures Contracts to 24/7 Trading and on Perpetual Contracts Referencing Physically Delivered or Storable Energy Commodities.\" The comment period for the RFC was set to close on July 27, 2026. The Commission is extending the comment period for this RFC by an additional thirty days. In addition to the questions set forth in the RFC, the Commission is further requesting comment on the self- certified 24/7 oil contract listed by Chicago Mercantile Exchange's (\"CME's\") New York Mercantile Exchange, Inc. (\"NYMEX\") on July 8, 2026 and that the Commission stayed on July 9, 2026. (Commodity Futures Trading Commission)",
-    "sources": [
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/07/28/2026-15216/request-for-comment-on-the-extension-of-standard-futures-contracts-to-247-trading-and-on-perpetual",
-        "tier": "T1_gov"
-      }
-    ],
-    "category": "government",
-    "economics_flag": true,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 45,
-    "importance_tier": "MED"
-  },
-  {
-    "id": "a465513d8d7f",
-    "datetime_utc": "2026-07-28T00:00:00.000Z",
-    "place": "WASHINGTON",
-    "what": "Notice of Data Availability: Analysis of HFC Allocation Program Data for 2022-2025",
-    "deck": "Notice.",
-    "context": "Notice. This notice of data availability (NODA) is to alert stakeholders of information from the U.S. Environmental Protection Agency (EPA) regarding the Hydrofluorocarbon (HFC) Allocation Program and to solicit stakeholder input. The EPA is providing this information in preparation for an upcoming regulatory action which the Agency intends to propose under the American Innovation and Manufacturing Act of 2020 (AIM Act). The notice identifies possible data gaps and requests comment on areas in which additional data could improve the Agency's information on the United States' HFC production and consumption. (Environmental Protection Agency)",
-    "sources": [
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/07/28/2026-15219/notice-of-data-availability-analysis-of-hfc-allocation-program-data-for-2022-2025",
-        "tier": "T1_gov"
-      }
-    ],
-    "category": "government",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 45,
-    "importance_tier": "MED"
-  },
-  {
-    "id": "dfa9342f49b8",
-    "datetime_utc": "2026-07-28T00:00:00.000Z",
-    "place": "WASHINGTON",
-    "what": "Certain Monomers and Oligomers From the Republic of Korea: Antidumping Duty Order",
-    "deck": "Notice.",
-    "context": "Notice. Based on affirmative final determinations by the U.S. Department of Commerce (Commerce) and the U.S. International Trade Commission (ITC), Commerce is issuing an antidumping duty (AD) order on certain monomers and oligomers (monomers and oligomers) from the Republic of Korea (Korea). (Commerce Department, International Trade Administration)",
-    "sources": [
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/07/28/2026-15220/certain-monomers-and-oligomers-from-the-republic-of-korea-antidumping-duty-order",
-        "tier": "T1_gov"
-      }
-    ],
-    "category": "economics",
-    "economics_flag": true,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.77,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 37,
-    "importance_tier": "LOW"
-  },
-  {
-    "id": "d46e3382f975",
-    "datetime_utc": "2026-07-28T00:00:00.000Z",
-    "place": "WASHINGTON",
-    "what": "Notice of Determinations; Culturally Significant Objects Being Imported for Exhibition-Determinations: “Juste-Aurèle Meissonnier: Rococo Goldsmith in Focus” Exhibition",
-    "deck": "Notice.",
-    "quote": "Juste-Aur[egrave]le Meissonnier: Rococo Goldsmith in Focus",
-    "context": "Notice. Notice is hereby given of the following determinations: I hereby determine that certain objects being imported from abroad pursuant to agreements with their foreign owners or custodians for temporary display in the exhibition \"Juste-Aur[egrave]le Meissonnier: Rococo Goldsmith in Focus\" at The Cleveland Museum of Art, Cleveland, Ohio, and at possible additional exhibitions or venues yet to be determined, are of cultural significance, and, further, that their temporary exhibition or display within the United States as aforementioned is in the national interest. I have ordered that Public Notice of these determinations be published in the Federal Register. (State Department)",
-    "sources": [
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/07/28/2026-15224/notice-of-determinations-culturally-significant-objects-being-imported-for-exhibition-determinations",
-        "tier": "T1_gov"
-      }
-    ],
-    "category": "government",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.77,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 45,
-    "importance_tier": "MED"
-  },
-  {
-    "id": "ce7b70fc67b4",
-    "datetime_utc": "2026-07-28T00:00:00.000Z",
-    "place": "WASHINGTON",
-    "what": "Name of Information Collection: Automated Technology Licensing Application System (ATLAS)",
-    "deck": "Notice.",
-    "context": "Notice. The National Aeronautics and Space Administration, as part of its continuing effort to reduce paperwork and respondent burden, invites the general public and other Federal agencies to take this opportunity to comment on proposed and/or continuing information collections. (National Aeronautics and Space Administration)",
-    "sources": [
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/07/28/2026-15225/name-of-information-collection-automated-technology-licensing-application-system-atlas",
-        "tier": "T1_gov"
-      }
-    ],
-    "category": "government",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.77,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 10,
-    "importance_tier": "BURIED"
-  },
-  {
-    "id": "bef4594e0d20",
-    "datetime_utc": "2026-07-28T00:00:00.000Z",
-    "place": "WASHINGTON",
-    "what": "Benzene",
-    "deck": "Proposed Rule.",
-    "context": "Proposed Rule. OSHA is providing an additional comment period to allow interested persons to comment on OSHA's proposal to revise the Benzene standard. Following consideration of the rulemaking by OSHA's Advisory Committee on Construction Safety and Health (ACCSH), OSHA is re-opening the record for this rulemaking to provide an additional 30 days for public comment. (Labor Department, Occupational Safety and Health Administration)",
-    "sources": [
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/07/28/2026-15227/benzene",
-        "tier": "T1_gov"
-      }
-    ],
-    "category": "government",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 45,
-    "importance_tier": "MED"
-  },
-  {
-    "id": "c754ea714e58",
-    "datetime_utc": "2026-07-28T00:00:00.000Z",
-    "place": "WASHINGTON",
-    "what": "Modification of Class E Airspace, Samaritan North Lincoln Hospital Heliport, Lincoln, OR",
-    "deck": "Proposed Rule.",
-    "context": "Proposed Rule. This action proposes to modify Class E airspace extending upward from 700 feet above the surface at Samaritan North Lincoln Hospital Heliport, Lincoln, OR. This action would support the safety and management of instrument flight rules (IFR) operations at the airport. (Transportation Department, Federal Aviation Administration)",
-    "sources": [
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/07/28/2026-15229/modification-of-class-e-airspace-samaritan-north-lincoln-hospital-heliport-lincoln-or",
-        "tier": "T1_gov"
-      }
-    ],
-    "category": "government",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 45,
-    "importance_tier": "MED"
-  },
-  {
-    "id": "aa4a0bd1e3d2",
-    "datetime_utc": "2026-07-28T00:00:00.000Z",
-    "place": "WASHINGTON",
-    "what": "Civil Penalties Adjustment for 2026",
-    "deck": "Rule.",
-    "context": "Rule. The National Endowment for the Arts (NEA) is notifying the public that its civil monetary penalty amounts will not increase for the 2026 calendar year. The NEA is generally required by statute to amend its regulations annually to adjust for inflation the maximum civil monetary penalties (CMPs) that may be imposed for violations of the Program Fraud Civil Remedies Act (PFCRA) and the NEA's Restrictions on Lobbying. In accordance with guidance from the Office of Management and Budget (OMB), the NEA will continue to use the 2025 civil monetary penalty levels because there will be no cost-of-living adjustment for 2026. (National Foundation on the Arts and the Humanities, National Endowment for the Arts)",
-    "sources": [
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/07/28/2026-15230/civil-penalties-adjustment-for-2026",
-        "tier": "T1_gov"
-      }
-    ],
-    "category": "economics",
-    "economics_flag": true,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 33,
-    "importance_tier": "LOW"
-  },
-  {
-    "id": "358b636cfcea",
-    "datetime_utc": "2026-07-28T00:00:00.000Z",
-    "place": "WASHINGTON",
-    "what": "Federal Motor Vehicle Safety Standards; Modernization of FMVSS No. 135 To Accommodate ADS-Equipped Vehicles; Extension of Comment Period",
-    "deck": "Proposed Rule.",
-    "quote": "Light vehicle brake systems.",
-    "context": "Proposed Rule. In response to a request from Varnum LLP (Varnum), NHTSA is announcing a 30-day extension of the public comment period for the notice of proposed rulemaking (NPRM) published on June 26, 2026 proposing to amend Federal Motor Vehicle Safety Standard (FMVSS) No. 135, \"Light vehicle brake systems.\" The proposed modifications would distinguish how regulations apply to vehicles with and without manually operated driving controls. The comment period for the NPRM was originally scheduled to end on July 27, 2026. It will now end on August 26, 2026. (Transportation Department, National Highway Traffic Safety Administration)",
-    "sources": [
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/07/28/2026-15231/federal-motor-vehicle-safety-standards-modernization-of-fmvss-no-135-to-accommodate-ads-equipped",
-        "tier": "T1_gov"
-      }
-    ],
-    "category": "government",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 45,
-    "importance_tier": "MED"
-  },
-  {
-    "id": "4598ac51e2e3",
-    "datetime_utc": "2026-07-28T00:00:00.000Z",
-    "place": "WASHINGTON",
-    "what": "Airworthiness Directives; The Boeing Company Airplanes",
-    "deck": "Rule.",
-    "context": "Rule. The FAA is superseding Airworthiness Directive (AD) 2024-19- 14, which applied to certain The Boeing Company Model 777-200, 777- 200LR, 777-300ER, and 777F series airplanes. AD 2024-19-14 required repetitive inspections and bond resistance measurement of the bonding jumpers on the first fuel feed tube installed immediately forward of the wing front spar at the left and right main fuel tank penetrations and applicable corrective actions. This AD was prompted by a determination that additional inspections are required to address the unsafe condition. This AD requires repetitive detailed inspections (DETs), repetitive bond resistance measurement, and applicable on- condition actions. This AD also expands the applicability and requires revising the existing maintenance or inspection program, as applicable, to incorporate a certain airworthiness limitation. The FAA is issuing this AD to address the unsafe condition on these products. (Transportation Department, Federal Aviation Administration)",
-    "sources": [
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/07/28/2026-15239/airworthiness-directives-the-boeing-company-airplanes",
-        "tier": "T1_gov"
-      }
-    ],
-    "category": "economics",
-    "economics_flag": true,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 33,
-    "importance_tier": "LOW"
-  },
-  {
-    "id": "45bd295b7b0a",
-    "datetime_utc": "2026-07-28T00:00:00.000Z",
-    "place": "WASHINGTON",
-    "what": "Actions by the United States in the Investigations Under Section 301 of the Trade Act of 1974 of the Acts, Policies, and Practices of 60 Economies Related to the Failure of Each Economy To Impose and Effectively Enforce a Prohibition on the Importation of Goods Produced With Forced Labor",
-    "deck": "Presidential Document.",
-    "context": "Reported by 2 sources. Presidential Document. Actions by the United States in the Investigations Under Section 301 of the Trade Act of 1974 of the Acts, Policies, and Practices of 60 Economies Related to the Failure of Each Economy To Impose and Effectively Enforce a Prohibition on the Importation of Goods Produced With Forced Labor (Executive Office of the President)",
-    "sources": [
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/07/28/2026-15274/actions-by-the-united-states-in-the-investigations-under-section-301-of-the-trade-act-of-1974-of-the",
-        "tier": "T1_gov"
-      },
-      {
-        "outlet": "White House",
-        "url": "https://www.whitehouse.gov/presidential-actions/2026/07/actions-by-the-united-states-in-the-investigations-under-section-301-of-the-trade-act-of-1974-of-the-acts-policies-and-practices-of-60-economies-related-to-the-failure-of-each-economy-to-impose-and/",
-        "tier": "T1_gov"
-      }
-    ],
-    "category": "economics",
-    "economics_flag": true,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 69,
-    "importance_tier": "HIGH"
   },
   {
     "id": "672735700f20",
@@ -3293,7 +3186,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3336,7 +3229,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3374,7 +3267,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3412,7 +3305,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.91,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3450,7 +3343,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.73,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3488,7 +3381,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3526,7 +3419,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.73,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3564,7 +3457,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3602,7 +3495,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3640,7 +3533,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3678,7 +3571,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3721,7 +3614,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3759,7 +3652,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3813,7 +3706,7 @@
     ],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3860,7 +3753,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3898,7 +3791,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3923,13 +3816,8 @@
     "place": "WASHINGTON",
     "what": "U.S. Concludes 13th Night of Strikes on Iranian Military Targets",
     "deck": "U.S.",
-    "context": "Reported by 3 sources. U.S. Central Command forces successfully completed the 13th consecutive night of strikes against Iran.",
+    "context": "Reported by 2 sources. U.S. Central Command forces successfully completed the 13th consecutive night of strikes against Iran.",
     "sources": [
-      {
-        "outlet": "The Hill",
-        "url": "https://thehill.com/policy/defense/5995522-iran-missile-attack-us-base/",
-        "tier": "T2_indie"
-      },
       {
         "outlet": "U.S. Dept. of Defense",
         "url": "https://www.war.gov/News/News-Stories/Article/Article/4554671/us-concludes-13th-night-of-strikes-on-iranian-military-targets/",
@@ -3946,7 +3834,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3962,7 +3850,7 @@
         "forecast": "Analysis coming."
       }
     },
-    "importance": 64,
+    "importance": 63,
     "importance_tier": "HIGH"
   },
   {
@@ -3984,7 +3872,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4022,7 +3910,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4040,6 +3928,44 @@
     },
     "importance": 53,
     "importance_tier": "MED"
+  },
+  {
+    "id": "9aad0eb146d6",
+    "datetime_utc": "2026-07-23T22:48:44.000Z",
+    "place": "WASHINGTON",
+    "what": "Actions by the United States in the Investigations under Section 301 of the Trade Act of 1974 of the Acts, Policies, and Practices of 60 Economies Related to the Failure of Each Economy to Impose and Effectively Enforce a Prohibition on the Importation of Goods Produced with Forced Labor",
+    "deck": "MEMORANDUM FOR THE UNITED STATES TRADE REPRESENTATIVE Subject: Actions by the United States in the Investigations under Section 301 of the Trade Act of 1974 of the Acts, Policies, and Practices of 60 Economies Related…",
+    "context": "MEMORANDUM FOR THE UNITED STATES TRADE REPRESENTATIVE Subject: Actions by the United States in the Investigations under Section 301 of the Trade Act of 1974 of the Acts, Policies, and Practices of 60 Economies Related to the Failure of Each Economy to Impose and Effectively Enforce a Prohibition on the Importation of Goods Produced with",
+    "sources": [
+      {
+        "outlet": "White House",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/07/actions-by-the-united-states-in-the-investigations-under-section-301-of-the-trade-act-of-1974-of-the-acts-policies-and-practices-of-60-economies-related-to-the-failure-of-each-economy-to-impose-and/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "economics",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.93,
+    "ingested_at": "2026-07-29T08:22:09.985Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 61,
+    "importance_tier": "HIGH"
   },
   {
     "id": "17f8b49e4eb9",
@@ -4060,7 +3986,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4098,7 +4024,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4141,7 +4067,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4179,7 +4105,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4217,7 +4143,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4255,7 +4181,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4293,7 +4219,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4331,7 +4257,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4369,7 +4295,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4407,7 +4333,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4450,7 +4376,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4488,7 +4414,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4541,7 +4467,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4595,7 +4521,7 @@
     ],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4641,7 +4567,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4679,7 +4605,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4717,7 +4643,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.73,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4755,7 +4681,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4798,7 +4724,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4841,7 +4767,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4909,7 +4835,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4947,7 +4873,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4985,7 +4911,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5028,7 +4954,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5066,7 +4992,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5114,7 +5040,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5152,7 +5078,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.73,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5190,7 +5116,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5233,7 +5159,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5271,7 +5197,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5309,7 +5235,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5347,7 +5273,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5385,7 +5311,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5423,7 +5349,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5461,7 +5387,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5499,7 +5425,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5537,7 +5463,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5575,7 +5501,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.91,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5613,7 +5539,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5651,7 +5577,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5724,7 +5650,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5762,7 +5688,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5800,7 +5726,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5838,7 +5764,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5876,7 +5802,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5930,7 +5856,7 @@
     },
     "classifier_kind": "event_report",
     "classifier_confidence": 0.91,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5968,7 +5894,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6006,7 +5932,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6044,7 +5970,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6082,7 +6008,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6120,7 +6046,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6158,7 +6084,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6196,7 +6122,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6239,7 +6165,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6277,7 +6203,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6326,7 +6252,7 @@
     ],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6372,7 +6298,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6415,7 +6341,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6458,7 +6384,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6496,7 +6422,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6512,7 +6438,7 @@
         "forecast": "Analysis coming."
       }
     },
-    "importance": 29,
+    "importance": 22,
     "importance_tier": "LOW"
   },
   {
@@ -6534,7 +6460,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6550,8 +6476,8 @@
         "forecast": "Analysis coming."
       }
     },
-    "importance": 22,
-    "importance_tier": "LOW"
+    "importance": 17,
+    "importance_tier": "BURIED"
   },
   {
     "id": "b7eb71b117aa",
@@ -6572,7 +6498,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6588,8 +6514,8 @@
         "forecast": "Analysis coming."
       }
     },
-    "importance": 22,
-    "importance_tier": "LOW"
+    "importance": 17,
+    "importance_tier": "BURIED"
   },
   {
     "id": "ed1a2f069286",
@@ -6610,7 +6536,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6626,8 +6552,8 @@
         "forecast": "Analysis coming."
       }
     },
-    "importance": 22,
-    "importance_tier": "LOW"
+    "importance": 17,
+    "importance_tier": "BURIED"
   },
   {
     "id": "1fbd3c5dde3b",
@@ -6648,7 +6574,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6664,8 +6590,8 @@
         "forecast": "Analysis coming."
       }
     },
-    "importance": 22,
-    "importance_tier": "LOW"
+    "importance": 17,
+    "importance_tier": "BURIED"
   },
   {
     "id": "7c68cb946d9e",
@@ -6686,7 +6612,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6702,7 +6628,7 @@
         "forecast": "Analysis coming."
       }
     },
-    "importance": 29,
+    "importance": 22,
     "importance_tier": "LOW"
   },
   {
@@ -6724,7 +6650,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6740,7 +6666,7 @@
         "forecast": "Analysis coming."
       }
     },
-    "importance": 29,
+    "importance": 22,
     "importance_tier": "LOW"
   },
   {
@@ -6762,7 +6688,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6800,7 +6726,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.91,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6838,7 +6764,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6876,7 +6802,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6914,7 +6840,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6952,7 +6878,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7001,7 +6927,7 @@
     ],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7047,7 +6973,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7085,7 +7011,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7123,7 +7049,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7161,7 +7087,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7200,7 +7126,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7238,7 +7164,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7276,7 +7202,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7314,7 +7240,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7352,7 +7278,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7390,7 +7316,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7428,7 +7354,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7491,7 +7417,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.73,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7529,7 +7455,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7567,7 +7493,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7605,7 +7531,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7643,7 +7569,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7681,7 +7607,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7719,7 +7645,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7757,7 +7683,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7795,7 +7721,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-07-29T01:44:40.244Z",
+    "ingested_at": "2026-07-29T08:22:09.985Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
