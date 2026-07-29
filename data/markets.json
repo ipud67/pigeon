@@ -1,48 +1,48 @@
 {
-  "as_of": "2026-07-28T19:09:08.255Z",
+  "as_of": "2026-07-29T01:44:40.357Z",
   "indicators": [
     {
       "key": "ust_3m",
       "label": "3-mo Treasury bill",
-      "value": 3.96,
+      "value": 3.9,
       "unit": "%",
-      "as_of": "2026-07-27",
+      "as_of": "2026-07-28",
       "source": "U.S. Treasury",
       "status": "live"
     },
     {
       "key": "ust_2y",
       "label": "2-yr Treasury yield",
-      "value": 4.31,
+      "value": 4.26,
       "unit": "%",
-      "as_of": "2026-07-27",
+      "as_of": "2026-07-28",
       "source": "U.S. Treasury",
       "status": "live"
     },
     {
       "key": "ust_10y",
       "label": "10-yr Treasury yield",
-      "value": 4.65,
+      "value": 4.61,
       "unit": "%",
-      "as_of": "2026-07-27",
+      "as_of": "2026-07-28",
       "source": "U.S. Treasury",
       "status": "live"
     },
     {
       "key": "ust_30y",
       "label": "30-yr Treasury yield",
-      "value": 5.12,
+      "value": 5.09,
       "unit": "%",
-      "as_of": "2026-07-27",
+      "as_of": "2026-07-28",
       "source": "U.S. Treasury",
       "status": "live"
     },
     {
       "key": "spread_2s10s",
       "label": "2s10s spread",
-      "value": 34,
+      "value": 35,
       "unit": "bps",
-      "as_of": "2026-07-27",
+      "as_of": "2026-07-28",
       "source": "U.S. Treasury",
       "status": "live",
       "note": "inversion (2s10s below zero) is the market’s classic recession tell"
