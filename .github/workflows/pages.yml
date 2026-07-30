@@ -84,7 +84,7 @@ jobs:
 
       - name: Build static export
         env:
-          PIGEON_BASE_PATH: /pigeon
+          PIGEON_BASE_PATH: ""
         run: npm run build
 
       - name: Ensure Jekyll is disabled on the artifact
