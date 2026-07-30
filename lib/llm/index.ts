@@ -43,14 +43,21 @@ export function getProvider(): LLMProvider {
  return new OpenAICompatibleAdapter({
  apiKey,
  baseURL: 'https://api.x.ai/v1',
- // Verified live via GET /v1/models 2026-07-13 (budget, non-flagship, non-reasoning model).
  modelId: process.env.LLM_MODEL_ID ?? 'grok-4.20-non-reasoning-latest',
  providerName: 'xai',
- // Budget-tier rate card ($0.20/1M in, $0.50/1M out). NOTE: this TS path (main-feed classify)
- // is still INERT this pass — the main feed runs on mock. The LOCAL pipeline uses the
- // cost-capped Grok path in scripts/lib. When the main-feed cutover happens, route this
- // adapter through the same SpendGuard before enabling.
- rates: { inPerM: 0.2, outPerM: 0.5 },
+ // Rate card CORRECTED 2026-07-29. The previous 0.20/0.50 was the CACHED-input price with a 10x
+ // unit mis-scale, not the standard rate, and it under-counted real spend ~6x. There is no
+ // "budget tier": this model bills 1.25 in / 2.50 out per 1M, same as grok-4.3. Verified against
+ // live GET /v1/language-models (12500 / 2000 / 25000, units of 1e-10 USD per token) and the
+ // published table at https://docs.x.ai/docs/models. Sub-200k-prompt rates; xAI doubles every
+ // rate once a prompt reaches 200k tokens.
+ //
+ // THIS FILE IS THE ONE THAT MATTERS FOR COST. The scheduled publish job lives in THIS repo
+ // (.github/workflows/pages.yml, cron every 6h) and calls npm run ingest -> generateDepth. There
+ // is no scripts/ directory here, so scripts/lib/spend-guard.mjs does NOT exist on this side —
+ // these constants are the only cost accounting the cron has. Do not arm a paid provider here
+ // until a guard exists in lib/.
+ rates: { inPerM: 1.25, outPerM: 2.5 },
  });
  }
  case 'openai': {
