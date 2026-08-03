@@ -18,7 +18,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -38,16 +38,16 @@
     "importance_tier": "BURIED"
   },
   {
-    "id": "045450043b3f",
-    "datetime_utc": "2026-08-03T03:28:00.000Z",
+    "id": "e7e2601b60a3",
+    "datetime_utc": "2026-08-03T11:29:20.000Z",
     "place": "WORLD",
-    "what": "Tremors felt in southern Israel after magnitude 5.4 earthquake strikes Egypt",
-    "deck": "The earthquake had a magnitude of 5.4 and hit at a depth of 6 miles, according to the German Research Centre for Geosciences.",
-    "context": "The earthquake had a magnitude of 5.4 and hit at a depth of 6 miles, according to the German Research Centre for Geosciences.",
+    "what": "Israeli OnlyFans model Adva Lavi denied bail in Los Angeles after removing ankle monitor",
+    "deck": "The hearing followed Lavi's third arrest in just a few months.",
+    "context": "The hearing followed Lavi's third arrest in just a few months. On Tuesday evening, she was arrested by Beverly Hills police as she left the upscale Azul restaurant near Rodeo Drive.",
     "sources": [
       {
         "outlet": "Jerusalem Post",
-        "url": "https://www.jpost.com/middle-east/article-904384",
+        "url": "https://www.jpost.com/international/article-904412",
         "tier": "T2_indie"
       }
     ],
@@ -56,7 +56,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -76,26 +76,25 @@
     "importance_tier": "LOW"
   },
   {
-    "id": "fa9974c098f7",
-    "datetime_utc": "2026-08-03T03:01:29.000Z",
+    "id": "7b09a505186c",
+    "datetime_utc": "2026-08-03T11:27:25.000Z",
     "place": "WORLD",
-    "what": "US CENTCOM appears to have dropped 900kg bomb on civilian house in southern Iran - report",
-    "deck": "A US official told The Post that the scale of the US strikes on Iran on Thursday was \"about twice the size of the previous night,\" adding that the strikes were \"wide, extensive, and impactful.\"",
-    "quote": "about twice the size of the previous night,",
-    "context": "A US official told The Post that the scale of the US strikes on Iran on Thursday was \"about twice the size of the previous night,\" adding that the strikes were \"wide, extensive, and impactful.\"",
+    "what": "Traffic halted on Highway 1 as vehicle goes up in flames, emergency responders arrive on scene",
+    "deck": "Emergency responders, including the Israel Fire and Rescue Authority, arrived on the scene shortly after it began.",
+    "context": "Emergency responders, including the Israel Fire and Rescue Authority, arrived on the scene shortly after it began.",
     "sources": [
       {
         "outlet": "Jerusalem Post",
-        "url": "https://www.jpost.com/middle-east/iran-news/article-904383",
+        "url": "https://www.jpost.com/israel-news/article-904411",
         "tier": "T2_indie"
       }
     ],
-    "category": "war",
+    "category": "other",
     "economics_flag": false,
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
-    "classifier_confidence": 0.91,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "classifier_confidence": 0.82,
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -111,16 +110,650 @@
         "forecast": "Analysis coming."
       }
     },
-    "importance": 75,
+    "importance": 22,
+    "importance_tier": "LOW"
+  },
+  {
+    "id": "35750be96f2f",
+    "datetime_utc": "2026-08-03T09:49:28.000Z",
+    "place": "WORLD",
+    "what": "Record Korean peninsula heatwave sets 122-year high temperature of 42.5°C",
+    "deck": "South Korea's weather agency warned temperatures could rise further in western regions this week.",
+    "context": "South Korea's weather agency warned temperatures could rise further in western regions this week.",
+    "sources": [
+      {
+        "outlet": "Jerusalem Post",
+        "url": "https://www.jpost.com/international/article-904400",
+        "tier": "T2_indie"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.82,
+    "ingested_at": "2026-08-03T09:23:14.089Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 41,
+    "importance_tier": "MED"
+  },
+  {
+    "id": "1e590aee9bd6",
+    "datetime_utc": "2026-08-03T09:00:03.000Z",
+    "place": "WORLD",
+    "what": "Grenfell Tower site: noise, dust and vibration monitoring reports - June 2026",
+    "deck": "Publication of the latest noise, dust and vibration monitoring reports on the Grenfell Tower site.",
+    "context": "Publication of the latest noise, dust and vibration monitoring reports on the Grenfell Tower site.",
+    "sources": [
+      {
+        "outlet": "UK Government",
+        "url": "https://www.gov.uk/government/publications/grenfell-tower-site-noise-dust-and-vibration-monitoring-reports-june-2026",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.91,
+    "ingested_at": "2026-08-03T09:23:14.089Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 24,
+    "importance_tier": "LOW"
+  },
+  {
+    "id": "4a8af2a689ea",
+    "datetime_utc": "2026-08-03T08:37:42.000Z",
+    "place": "WORLD",
+    "what": "'Pure political theatre': Ceuta migrant crisis 'used politically' to portray Europe as under attack",
+    "deck": "Stuart Norval is pleased to welcome Camille Le Coz, Director at Migration Policy Institute Europe.",
+    "context": "Stuart Norval is pleased to welcome Camille Le Coz, Director at Migration Policy Institute Europe. Le Coz offers a nuanced interpretation of the recent events in Ceuta that challenges the dominant political narratives emerging across Europe. She shifts attention away from emotionally charged images toward the structural forces shaping migration: demographic pressures in North Africa, labour shortages in Europe, the role of smuggling networks amplified by social media, and the enduring tendency of migration crises to become instruments of domestic political competition. In doing so, she offers a reminder that Europe's migration debate is often driven less by the movement of people itself than by competing political narratives about what those movements represent.",
+    "sources": [
+      {
+        "outlet": "France 24",
+        "url": "https://www.france24.com/en/video/20260803-pure-political-theatre-ceuta-migrant-crisis-used-politically-to-make-europe-seem-under-attack-1",
+        "tier": "T1_wire"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.77,
+    "ingested_at": "2026-08-03T09:23:14.089Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 33,
+    "importance_tier": "LOW"
+  },
+  {
+    "id": "fa7996d5ae66",
+    "datetime_utc": "2026-08-03T08:09:00.000Z",
+    "place": "WORLD",
+    "what": "Ambassadors in Ukraine have begun meeting focused on restoring peace, acting foreign minister says",
+    "deck": "A meeting of Ukrainian diplomats focusing on the priorities of peace and leadership has begun.",
+    "context": "A meeting of Ukrainian diplomats focusing on the priorities of peace and leadership has begun. It will run until 7 August.",
+    "sources": [
+      {
+        "outlet": "Ukrainska Pravda",
+        "url": "https://www.pravda.com.ua/eng/news/2026/08/03/8046987/",
+        "tier": "T2_indie"
+      }
+    ],
+    "category": "world",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.91,
+    "ingested_at": "2026-08-03T09:23:14.089Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 42,
+    "importance_tier": "MED"
+  },
+  {
+    "id": "79a33ec9381e",
+    "datetime_utc": "2026-08-03T08:00:05.000Z",
+    "place": "WORLD",
+    "what": "Change of British High Commissioner to Brunei: Mel Barlow",
+    "deck": "Ms Mel Barlow has been appointed British High Commissioner to Brunei Darussalam.",
+    "context": "Ms Mel Barlow has been appointed British High Commissioner to Brunei Darussalam.",
+    "sources": [
+      {
+        "outlet": "UK Government",
+        "url": "https://www.gov.uk/government/news/change-of-british-high-commissioner-to-brunei-mel-barlow",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.73,
+    "ingested_at": "2026-08-03T09:23:14.089Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 24,
+    "importance_tier": "LOW"
+  },
+  {
+    "id": "d02ed316bbe1",
+    "datetime_utc": "2026-08-03T07:38:58.000Z",
+    "place": "WORLD",
+    "what": "Katz vows 'revolution in settlement' to strengthen Galilee security, Jewish presence in North",
+    "deck": "The conference convened with the aim of establishing a 10-year plan for encouraging Jewish settlement in the Galilee focused on demographics, land, quality of life, and law enforcement.",
+    "context": "The conference convened with the aim of establishing a 10-year plan for encouraging Jewish settlement in the Galilee focused on demographics, land, quality of life, and law enforcement.",
+    "sources": [
+      {
+        "outlet": "Jerusalem Post",
+        "url": "https://www.jpost.com/israel-news/article-904385",
+        "tier": "T2_indie"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.82,
+    "ingested_at": "2026-08-03T09:23:14.089Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 22,
+    "importance_tier": "LOW"
+  },
+  {
+    "id": "5e54a2c74444",
+    "datetime_utc": "2026-08-03T06:41:24.000Z",
+    "place": "WORLD",
+    "what": "Infantino under growing pressure after FIFA scraps World Cup investor proposal",
+    "deck": "FIFA President Gianni Infantino is under pressure after abandoning plans to sell a stake in the World Cup to private ​investors.",
+    "context": "FIFA President Gianni Infantino is under pressure after abandoning plans to sell a stake in the World Cup to private ​investors. Infantino's plans fell apart after UEFA's 55-member nations agreed to boycott the World Cup and all other FIFA competitions. CONCACAF and the Asian Football Confederation also said they opposed the plan.",
+    "sources": [
+      {
+        "outlet": "France 24",
+        "url": "https://www.france24.com/en/tv-shows/sports/20260803-infantino-under-growing-pressure-after-fifa-scraps-world-cup-investor-proposal",
+        "tier": "T1_wire"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.86,
+    "ingested_at": "2026-08-03T09:23:14.089Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 24,
+    "importance_tier": "LOW"
+  },
+  {
+    "id": "1b6ded1bddf5",
+    "datetime_utc": "2026-08-03T06:38:35.000Z",
+    "place": "WORLD",
+    "what": "Russia's online retailer Wildberries says warehouse on fire after Ukrainian drone attack",
+    "deck": "Russian ​top online retailer Wildberries said on Monday that a Ukrainian drone attack on ​one of ‌its warehouses ⁠in the Vladimir region had caused ‌a fire to break out.",
+    "context": "Russian ​top online retailer Wildberries said on Monday that a Ukrainian drone attack on ​one of ‌its warehouses ⁠in the Vladimir region had caused ‌a fire to break out. The company, known as the country's Amazon, has been targeted several times by Ukrainian drones over the last few weeks.",
+    "sources": [
+      {
+        "outlet": "France 24",
+        "url": "https://www.france24.com/en/europe/20260803-russia-online-retailer-wildberries-says-warehouse-on-fire-after-ukrainian-drone-attack",
+        "tier": "T1_wire"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.86,
+    "ingested_at": "2026-08-03T09:23:14.089Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 77,
     "importance_tier": "HIGH"
   },
   {
-    "id": "3dca828a3c41",
+    "id": "745b4e1577b0",
+    "datetime_utc": "2026-08-03T05:56:26.000Z",
+    "place": "WORLD",
+    "what": "Morocco blames Ceuta migrant rush on 'misleading information' on social media",
+    "deck": "Morocco on Sunday said 11 people died trying to reach Spain's North African exclave of Ceuta this week as the country's interior ministry blamed the sudden surge on the \"spread of misleading information\" on social media.",
+    "quote": "spread of misleading information",
+    "context": "Reported by 3 sources. Morocco on Sunday said 11 people died trying to reach Spain's North African exclave of Ceuta this week as the country's interior ministry blamed the sudden surge on the \"spread of misleading information\" on social media. Morocco’s figure is significantly lower than the death toll issued by Spain, which says at least 72 people died.",
+    "sources": [
+      {
+        "outlet": "France 24",
+        "url": "https://www.france24.com/en/europe/20260803-morocco-blames-ceuta-migrant-rush-on-misleading-information-on-social-media",
+        "tier": "T1_wire"
+      },
+      {
+        "outlet": "France 24",
+        "url": "https://www.france24.com/en/as-ceuta-returns-to-normal-far-right-vilifies-spain-s-immigration-policy",
+        "tier": "T1_wire"
+      },
+      {
+        "outlet": "France 24",
+        "url": "https://www.france24.com/en/europe/20260802-spain-ceuta-navigates-aftermath-border-surge-after-most-migrants-return-morocco",
+        "tier": "T1_wire"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.93,
+    "ingested_at": "2026-08-03T09:23:14.089Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 32,
+    "importance_tier": "LOW"
+  },
+  {
+    "id": "ae4aa6f1e08e",
+    "datetime_utc": "2026-08-03T04:44:00.000Z",
+    "place": "WORLD",
+    "what": "Ukraine's air defences intercept 163 drones, strikes recorded at 13 locations",
+    "deck": "Russia launched 181 attack drones overnight.",
+    "context": "Reported by 4 sources. Russia launched 181 attack drones overnight. Ukrainian air defences intercepted 163 of them, but drone strikes were recorded at 13 locations.",
+    "sources": [
+      {
+        "outlet": "Ukrainska Pravda",
+        "url": "https://www.pravda.com.ua/eng/news/2026/08/03/8046962/",
+        "tier": "T2_indie"
+      },
+      {
+        "outlet": "Ukrainska Pravda",
+        "url": "https://www.pravda.com.ua/eng/news/2026/08/03/8046957/",
+        "tier": "T2_indie"
+      },
+      {
+        "outlet": "Ukrainska Pravda",
+        "url": "https://www.pravda.com.ua/eng/news/2026/08/03/8046985/",
+        "tier": "T2_indie"
+      },
+      {
+        "outlet": "Ukrainska Pravda",
+        "url": "https://www.pravda.com.ua/eng/news/2026/08/03/8046982/",
+        "tier": "T2_indie"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.82,
+    "ingested_at": "2026-08-03T09:23:14.089Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 30,
+    "importance_tier": "LOW"
+  },
+  {
+    "id": "8dad523da9e4",
+    "datetime_utc": "2026-08-03T04:33:00.000Z",
+    "place": "WORLD",
+    "what": "Russia destroys 37 Naftogaz petrol stations in 2026",
+    "deck": "Russian attacks have destroyed 37 filling stations belonging to the Naftogaz Group in the first seven months of 2026.",
+    "context": "Russian attacks have destroyed 37 filling stations belonging to the Naftogaz Group in the first seven months of 2026. Some facilities have been repaired, while others remain destroyed and out of operation.",
+    "sources": [
+      {
+        "outlet": "Ukrainska Pravda",
+        "url": "https://www.pravda.com.ua/eng/news/2026/08/03/8046961/",
+        "tier": "T2_indie"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.86,
+    "ingested_at": "2026-08-03T09:23:14.089Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 22,
+    "importance_tier": "LOW"
+  },
+  {
+    "id": "bb4e20b021c4",
+    "datetime_utc": "2026-08-03T04:19:15.000Z",
+    "place": "WORLD",
+    "what": "Cuba plunges into darkness as state energy firm reports new nationwide blackout",
+    "deck": "Cuba's ​electricity grid collapsed late on Sunday, the state-owned ​grid operator said, plunging the island into darkness.",
+    "context": "Cuba's ​electricity grid collapsed late on Sunday, the state-owned ​grid operator said, plunging the island into darkness. The country has faced a series of total collapses of its electricity grid since the US imposed an energy embargo that halted regular deliveries of fuel for power stations.",
+    "sources": [
+      {
+        "outlet": "France 24",
+        "url": "https://www.france24.com/en/americas/20260803-cuba-plunges-into-darkness-as-state-energy-firm-reports-new-nationwide-blackout",
+        "tier": "T1_wire"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.86,
+    "ingested_at": "2026-08-03T09:23:14.089Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 59,
+    "importance_tier": "HIGH"
+  },
+  {
+    "id": "214ef174ada4",
+    "datetime_utc": "2026-08-03T04:00:35.000Z",
+    "place": "WORLD",
+    "what": "Bar Asraf found deceased in apparent suicide at grave of girlfriend killed in October 7 massacre",
+    "deck": "Liron Barda worked as the bar manager at the Nova music festival in Re'im.",
+    "context": "Liron Barda worked as the bar manager at the Nova music festival in Re'im. During the October 7 massacre, she administered first aid to the wounded until she was killed.",
+    "sources": [
+      {
+        "outlet": "Jerusalem Post",
+        "url": "https://www.jpost.com/israel-news/article-904382",
+        "tier": "T2_indie"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.91,
+    "ingested_at": "2026-08-03T09:23:14.089Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 22,
+    "importance_tier": "LOW"
+  },
+  {
+    "id": "4c95ccb199d8",
+    "datetime_utc": "2026-08-03T03:21:53.000Z",
+    "place": "WORLD",
+    "what": "California Democratic Party backs billionaire tax despite internal opposition",
+    "deck": "The California Democratic (CADEM) Party on Sunday announced that it backs a ballot measure to charge the state’s 200 billionaires with a one-time, five-percent tax on their net worth, a measure that has faced oppositi…",
+    "context": "The California Democratic (CADEM) Party on Sunday announced that it backs a ballot measure to charge the state’s 200 billionaires with a one-time, five-percent tax on their net worth, a measure that has faced opposition from California Democrats, including the state’s governor. The state party’s executive board narrowly voted to back Proposition 40, known as…",
+    "sources": [
+      {
+        "outlet": "The Hill",
+        "url": "https://thehill.com/homenews/campaign/6004926-california-democrats-prop-40-endorse/",
+        "tier": "T2_indie"
+      }
+    ],
+    "category": "other",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.93,
+    "ingested_at": "2026-08-03T09:23:14.089Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 22,
+    "importance_tier": "LOW"
+  },
+  {
+    "id": "12ec55d72bb6",
+    "datetime_utc": "2026-08-03T02:54:34.000Z",
+    "place": "WORLD",
+    "what": "Fast moving wildfires raze neighborhoods in US northwest city of Spokane",
+    "deck": "Wildfires in eastern Washington state forced about 60,000 people to evacuate the Spokane area and destroyed at least 600 homes, businesses and other structures, authorities said on Sunday.",
+    "context": "Wildfires in eastern Washington state forced about 60,000 people to evacuate the Spokane area and destroyed at least 600 homes, businesses and other structures, authorities said on Sunday. Three separate fires erupted in and around the city as strong winds and exceptionally dry conditions fueled rapid fire spread.",
+    "sources": [
+      {
+        "outlet": "France 24",
+        "url": "https://www.france24.com/en/americas/20260803-wildfires-us-northwest-city-spokane",
+        "tier": "T1_wire"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.93,
+    "ingested_at": "2026-08-03T09:23:14.089Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 24,
+    "importance_tier": "LOW"
+  },
+  {
+    "id": "5056bd58e592",
+    "datetime_utc": "2026-08-03T02:28:02.000Z",
+    "place": "WORLD",
+    "what": "Senate appropriators reach funding deal to avoid shutdown",
+    "deck": "Senators on the Appropriations Committee on Sunday agreed to a funding bill that would prevent a government shutdown at the end of September and fund the government through part of December.",
+    "context": "Senators on the Appropriations Committee on Sunday agreed to a funding bill that would prevent a government shutdown at the end of September and fund the government through part of December. An initial procedural vote is scheduled for Monday night, with Senate leaders eyeing to pass the bill before going on recess. The bill will…",
+    "sources": [
+      {
+        "outlet": "The Hill",
+        "url": "https://thehill.com/homenews/senate/6004900-senate-agrees-funding-bill/",
+        "tier": "T2_indie"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.86,
+    "ingested_at": "2026-08-03T09:23:14.089Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 70,
+    "importance_tier": "HIGH"
+  },
+  {
+    "id": "91969c3d5bd9",
     "datetime_utc": "2026-08-03T01:30:16.000Z",
     "place": "WORLD",
-    "what": "Sudanese army drone strike kills 35 at Darfur court, rights group says",
+    "what": "Sudan army drone strike kills 35 at Darfur court, rights group says",
     "deck": "The Sudanese army struck a traditional court in a Rapid Support Forces-held village in North Darfur with drones on Sunday, killing 35 people, a rights group said.",
-    "context": "The Sudanese army struck a traditional court in a Rapid Support Forces-held village in North Darfur with drones on Sunday, killing 35 people, a rights group said. Emergency Lawyers said the attack hit Garra al-Zawaya as civilians gathered for local court hearings, wounding several others during the afternoon strike.",
+    "context": "The Sudanese army struck a traditional court in a Rapid Support Forces-held village in North Darfur with drones on Sunday, killing 35 people, a rights group said. Emergency Lawyers said the attack hit Garra al Zawaya as civilians gathered for local court hearings, wounding several others during the afternoon strike.",
     "sources": [
       {
         "outlet": "France 24",
@@ -133,7 +766,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -172,7 +805,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -215,7 +848,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -288,7 +921,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -326,7 +959,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -365,7 +998,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -403,7 +1036,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -441,7 +1074,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.73,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -480,7 +1113,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -518,7 +1151,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -556,7 +1189,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -594,7 +1227,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -632,7 +1265,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -671,7 +1304,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -691,68 +1324,30 @@
     "importance_tier": "LOW"
   },
   {
-    "id": "702f70f3bc15",
-    "datetime_utc": "2026-08-02T22:30:34.000Z",
-    "place": "WORLD",
-    "what": "Beersheba residents now eligible for firearm licenses under expanded reform",
-    "deck": "In 2026 alone, the number of communities eligible for firearm licenses has risen by 126, while gun owners have doubled since before the start of the Israel-Hamas War.",
-    "context": "In 2026 alone, the number of communities eligible for firearm licenses has risen by 126, while gun owners have doubled since before the start of the Israel-Hamas War.",
-    "sources": [
-      {
-        "outlet": "Jerusalem Post",
-        "url": "https://www.jpost.com/israel-news/article-904366",
-        "tier": "T2_indie"
-      }
-    ],
-    "category": "war",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 44,
-    "importance_tier": "MED"
-  },
-  {
-    "id": "4f8f79a675a0",
+    "id": "16113f48f027",
     "datetime_utc": "2026-08-02T22:11:19.000Z",
     "place": "WORLD",
-    "what": "Live: Trump says new talks with Iran to begin Monday after calling off strikes",
-    "deck": "US President Donald Trump said that negotiations with Iran will begin Monday after he decided to hold off on new strikes against the Islamic republic to pursue a deal.",
-    "context": "Reported by 2 sources. US President Donald Trump said that negotiations with Iran will begin Monday after he decided to hold off on new strikes against the Islamic republic to pursue a deal. Read our live blog to see how events unfolded.",
+    "what": "Middle East live: Israel conveys 'concerns' to US on Gaza plan",
+    "deck": "Israel has conveyed concerns to the United States on a Gaza plan hailed by President Donald Trump after Hamas said it had agreed on disarmament, Prime Minister Benjamin Netanyahu's office said Monday.",
+    "context": "Reported by 2 sources. Israel has conveyed concerns to the United States on a Gaza plan hailed by President Donald Trump after Hamas said it had agreed on disarmament, Prime Minister Benjamin Netanyahu's office said Monday. Israel's official reaction comes after it killed at least 18 Palestinians over the weekend in the Gaza Strip, including two couples and children, according to local medics. Follow our liveblog for all the latest.",
     "sources": [
+      {
+        "outlet": "UN Press",
+        "url": "https://press.un.org/en/2026/sc16423.doc.htm",
+        "tier": "T1_gov"
+      },
       {
         "outlet": "France 24",
         "url": "https://www.france24.com/en/middle-east/20260802-live-trump-says-new-talks-with-iran-to-begin-monday-after-calling-off-strikes",
         "tier": "T1_wire"
-      },
-      {
-        "outlet": "France 24",
-        "url": "https://www.france24.com/en/us-israel-to-hold-off-on-iran-strikes",
-        "tier": "T1_wire"
       }
     ],
-    "category": "war",
+    "category": "other",
     "economics_flag": false,
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
-    "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "classifier_confidence": 0.93,
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -768,8 +1363,8 @@
         "forecast": "Analysis coming."
       }
     },
-    "importance": 80,
-    "importance_tier": "HIGH"
+    "importance": 29,
+    "importance_tier": "LOW"
   },
   {
     "id": "93e09f5d0be2",
@@ -791,7 +1386,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -840,7 +1435,7 @@
     ],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -886,7 +1481,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.91,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -924,7 +1519,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -963,45 +1558,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 22,
-    "importance_tier": "LOW"
-  },
-  {
-    "id": "e4182b1e7756",
-    "datetime_utc": "2026-08-02T20:40:47.000Z",
-    "place": "WORLD",
-    "what": "Students to receive personalized AI English lessons in upcoming year, Education Ministry says",
-    "deck": "The ministry initially announced the plan in June as part of \"Project 720\" to rebuild the Israeli education system with widespread use of AI and personalized lesson plans.",
-    "context": "The ministry initially announced the plan in June as part of \"Project 720\" to rebuild the Israeli education system with widespread use of AI and personalized lesson plans.",
-    "sources": [
-      {
-        "outlet": "Jerusalem Post",
-        "url": "https://www.jpost.com/israel-news/article-904365",
-        "tier": "T2_indie"
-      }
-    ],
-    "category": "other",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.91,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1044,7 +1601,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1083,7 +1640,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1121,7 +1678,45 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.91,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 22,
+    "importance_tier": "LOW"
+  },
+  {
+    "id": "5f7cf8dd5ddf",
+    "datetime_utc": "2026-08-02T18:58:00.000Z",
+    "place": "WORLD",
+    "what": "Russians captured more territory in July than Ukraine's defence forces liberated – DeepState",
+    "deck": "Russia occupied more Ukrainian territory than the defence forces reclaimed in July.",
+    "context": "Russia occupied more Ukrainian territory than the defence forces reclaimed in July. The net gain was 36 sq km although DeepState says Ukrainian advances continue to be recorded.",
+    "sources": [
+      {
+        "outlet": "Ukrainska Pravda",
+        "url": "https://www.pravda.com.ua/eng/news/2026/08/02/8046947/",
+        "tier": "T2_indie"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.91,
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1160,7 +1755,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1180,12 +1775,12 @@
     "importance_tier": "LOW"
   },
   {
-    "id": "dcb0482fe9f1",
+    "id": "a1af95765280",
     "datetime_utc": "2026-08-02T17:26:01.000Z",
     "place": "WORLD",
-    "what": "Brazil's Lula, 80, says he is 'in great shape' as he launches fourth term bid",
-    "deck": "Brazil's Workers' Party on Sunday formally endorsed President Luiz Inácio Lula da Silva for what is expected to be his final reelection bid, setting up an October election increasingly shaped by concerns over foreign…",
-    "context": "Brazil's Workers' Party on Sunday formally endorsed President Luiz Inácio Lula da Silva for what is expected to be his final reelection bid, setting up an October election increasingly shaped by concerns over foreign influence and an unusually internationalized campaign.",
+    "what": "Brazil's Lula says he is 'in great shape' as he launches fourth term bid",
+    "deck": "Brazil's Workers' Party on Sunday formally endorsed President Luiz Inacio Lula da Silva, setting up his candidacy for the October elections as the 80-year-old faces increasing pressure from foreign leaders.",
+    "context": "Brazil's Workers' Party on Sunday formally endorsed President Luiz Inacio Lula da Silva, setting up his candidacy for the October elections as the 80-year-old faces increasing pressure from foreign leaders.",
     "sources": [
       {
         "outlet": "France 24",
@@ -1198,7 +1793,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1236,7 +1831,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1256,12 +1851,12 @@
     "importance_tier": "MED"
   },
   {
-    "id": "b0d5c0b92a6d",
+    "id": "e2d2b4ec90d4",
     "datetime_utc": "2026-08-02T16:34:20.000Z",
     "place": "WORLD",
-    "what": "Wiebes wins second consecutive Tour de France Femmes stage",
-    "deck": "Lorena Wiebes underlined her dominance at the Tour de France Femmes on Sunday, powering to a second straight sprint victory in Geneva to tighten her grip on the race leader's yellow jersey.",
-    "context": "Lorena Wiebes underlined her dominance at the Tour de France Femmes on Sunday, powering to a second straight sprint victory in Geneva to tighten her grip on the race leader's yellow jersey.",
+    "what": "Lorena Wiebes takes second win at Women's Tour de France",
+    "deck": "Lorena Wiebes again sprinted to victory in the second stage of the Women’s Tour de France on Sunday.",
+    "context": "Lorena Wiebes again sprinted to victory in the second stage of the Women’s Tour de France on Sunday. The Dutch rider won the flat 147.9km stage from Aigle to Geneva, the second on Swiss territory, in 3 hours, 42 minutes, 8 seconds.",
     "sources": [
       {
         "outlet": "France 24",
@@ -1273,8 +1868,8 @@
     "economics_flag": false,
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
-    "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "classifier_confidence": 0.93,
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1292,6 +1887,49 @@
     },
     "importance": 24,
     "importance_tier": "LOW"
+  },
+  {
+    "id": "4dbf894a5149",
+    "datetime_utc": "2026-08-02T16:18:00.000Z",
+    "place": "WORLD",
+    "what": "Two killed and three injured in Russian attacks on Dnipropetrovsk Oblast",
+    "deck": "Two people have been killed and three others injured in Dnipropetrovsk Oblast as a result of Russian strikes on Sunday.",
+    "context": "Reported by 2 sources. Two people have been killed and three others injured in Dnipropetrovsk Oblast as a result of Russian strikes on Sunday.",
+    "sources": [
+      {
+        "outlet": "Ukrainska Pravda",
+        "url": "https://www.pravda.com.ua/eng/news/2026/08/02/8046940/",
+        "tier": "T2_indie"
+      },
+      {
+        "outlet": "Ukrainska Pravda",
+        "url": "https://www.pravda.com.ua/eng/news/2026/08/02/8046928/",
+        "tier": "T2_indie"
+      }
+    ],
+    "category": "war",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.82,
+    "ingested_at": "2026-08-03T09:23:14.089Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 80,
+    "importance_tier": "HIGH"
   },
   {
     "id": "0fd50a1c1d40",
@@ -1312,7 +1950,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1336,8 +1974,8 @@
     "datetime_utc": "2026-08-02T16:06:04.000Z",
     "place": "WORLD",
     "what": "At least 14 dead as Ukraine and Russia exchange strikes",
-    "deck": "Ukrainian attacks killed at least nine people across Russia on Sunday, while Russian strikes left at least five dead in Ukraine, officials said.",
-    "context": "Reported by 5 sources. Ukrainian attacks killed at least nine people across Russia on Sunday, while Russian strikes left at least five dead in Ukraine, officials said. Both sides intensified long-range attacks despite stalled efforts to negotiate an end to the war.",
+    "deck": "At least nine people were killed in Russia and five in Ukraine on Sunday as Kyiv and Moscow intensified long-range attacks on each other.",
+    "context": "Reported by 2 sources. At least nine people were killed in Russia and five in Ukraine on Sunday as Kyiv and Moscow intensified long-range attacks on each other. US-led talks on ending the war in Ukraine have been effectively frozen since February, when the United States and Israel launched joint strikes on Iran.",
     "sources": [
       {
         "outlet": "France 24",
@@ -1345,23 +1983,8 @@
         "tier": "T1_wire"
       },
       {
-        "outlet": "France 24",
-        "url": "https://www.france24.com/en/three-people-killed-in-moscow-bombing",
-        "tier": "T1_wire"
-      },
-      {
-        "outlet": "France 24",
-        "url": "https://www.france24.com/en/europe/20260802-at-least-three-killed-in-moscow-restaurant-bombing-russian-officials-say",
-        "tier": "T1_wire"
-      },
-      {
         "outlet": "Ukrainska Pravda",
-        "url": "https://www.pravda.com.ua/eng/news/2026/08/02/8046940/",
-        "tier": "T2_indie"
-      },
-      {
-        "outlet": "Ukrainska Pravda",
-        "url": "https://www.pravda.com.ua/eng/news/2026/08/02/8046928/",
+        "url": "https://www.pravda.com.ua/eng/news/2026/08/03/8046960/",
         "tier": "T2_indie"
       }
     ],
@@ -1370,7 +1993,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1386,8 +2009,8 @@
         "forecast": "Analysis coming."
       }
     },
-    "importance": 52,
-    "importance_tier": "MED"
+    "importance": 80,
+    "importance_tier": "HIGH"
   },
   {
     "id": "20647878246b",
@@ -1409,7 +2032,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1452,7 +2075,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1470,6 +2093,45 @@
     },
     "importance": 27,
     "importance_tier": "LOW"
+  },
+  {
+    "id": "f9bb8c40c0e1",
+    "datetime_utc": "2026-08-02T15:11:30.000Z",
+    "place": "WORLD",
+    "what": "US, Israel to hold off on Iran strikes",
+    "deck": "US President Donald Trump has pulled back from plans for major new strikes on Iran, in his latest climbdown after weeks of threatening to hit Tehran hard.",
+    "quote": "joined him in this commitment",
+    "context": "US President Donald Trump has pulled back from plans for major new strikes on Iran, in his latest climbdown after weeks of threatening to hit Tehran hard. The president said late Saturday that the US would hold off, provided a deal can be reached quickly. It follows a phone call with Saudi Crown Prince Mohammed bin Salman, who reportedly urged de-escalation, amid fears that Iran could retaliate against the Kingdom and other Gulf states. In announcing that he was calling off the strikes, Trump said Israel had “joined him in this commitment”. But Israeli Prime Minister Benjamin Netanyahu has yet to comment. Matthew-Mary Caruchet, from France 24 international affair desk, shares further insights.",
+    "sources": [
+      {
+        "outlet": "France 24",
+        "url": "https://www.france24.com/en/us-israel-to-hold-off-on-iran-strikes",
+        "tier": "T1_wire"
+      }
+    ],
+    "category": "war",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.93,
+    "ingested_at": "2026-08-03T09:23:14.089Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 46,
+    "importance_tier": "MED"
   },
   {
     "id": "024c306ef13b",
@@ -1491,7 +2153,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1529,7 +2191,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1567,7 +2229,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.73,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1587,60 +2249,17 @@
     "importance_tier": "LOW"
   },
   {
-    "id": "ffdf5cb1ae64",
-    "datetime_utc": "2026-08-02T14:23:00.000Z",
-    "place": "WORLD",
-    "what": "Italian-led EU mission has boarded Russian shadow fleet tanker, says Reuters",
-    "deck": "An EU mission led by Italy boarded a tanker belonging to Russia's so-called shadow fleet on Sunday to verify its nationality and flag registration, the Italian Ministry of Defence has said.",
-    "context": "An EU mission led by Italy boarded a tanker belonging to Russia's so-called shadow fleet on Sunday to verify its nationality and flag registration, the Italian Ministry of Defence has said.",
-    "sources": [
-      {
-        "outlet": "Ukrainska Pravda",
-        "url": "https://www.pravda.com.ua/eng/news/2026/08/02/8046929/",
-        "tier": "T2_indie"
-      }
-    ],
-    "category": "other",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 22,
-    "importance_tier": "LOW"
-  },
-  {
     "id": "5f77b60abdef",
     "datetime_utc": "2026-08-02T14:21:34.000Z",
     "place": "WORLD",
     "what": "Gironde megafire contained: Nearly 3,000 firefighters remain deployed",
     "deck": "Meanwhile, France’s vast wildfire near Bordeaux remains contained.",
-    "context": "Reported by 2 sources. Meanwhile, France’s vast wildfire near Bordeaux remains contained. Most of the 200,000 people who were told to evacuate have now returned home, although parts of the fire are still burning. The blaze has scorched an area four times the size of Paris. James Andre has the latest.",
+    "context": "Meanwhile, France’s vast wildfire near Bordeaux remains contained. Most of the 200,000 people who were told to evacuate have now returned home, although parts of the fire are still burning. The blaze has scorched an area four times the size of Paris. James Andre has the latest.",
     "sources": [
       {
         "outlet": "France 24",
         "url": "https://www.france24.com/en/gironde-megafire-contained-nearly-3-000-firefighters-remain-deployed",
         "tier": "T1_wire"
-      },
-      {
-        "outlet": "France 24",
-        "url": "https://www.france24.com/en/france-most-of-224-000-evacuees-allowed-to-return-home-after-devastating-fires",
-        "tier": "T1_wire"
       }
     ],
     "category": "other",
@@ -1648,7 +2267,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1664,164 +2283,7 @@
         "forecast": "Analysis coming."
       }
     },
-    "importance": 27,
-    "importance_tier": "LOW"
-  },
-  {
-    "id": "0918493d1f73",
-    "datetime_utc": "2026-08-02T14:03:00.000Z",
-    "place": "WORLD",
-    "what": "Russian Shahed drones strike ports in Mykolaiv Oblast, damaging civilian vessels",
-    "deck": "Russian forces launched two Shahed drone attacks on port infrastructure facilities in Mykolaiv Oblast on Sunday afternoon, damaging two civilian vessels.",
-    "context": "Reported by 2 sources. Russian forces launched two Shahed drone attacks on port infrastructure facilities in Mykolaiv Oblast on Sunday afternoon, damaging two civilian vessels.",
-    "sources": [
-      {
-        "outlet": "Ukrainska Pravda",
-        "url": "https://www.pravda.com.ua/eng/news/2026/08/02/8046927/",
-        "tier": "T2_indie"
-      },
-      {
-        "outlet": "Ukrainska Pravda",
-        "url": "https://www.pravda.com.ua/eng/news/2026/08/02/8046900/",
-        "tier": "T2_indie"
-      }
-    ],
-    "category": "other",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 27,
-    "importance_tier": "LOW"
-  },
-  {
-    "id": "7d01bee4dfbe",
-    "datetime_utc": "2026-08-02T13:16:00.000Z",
-    "place": "WORLD",
-    "what": "Ukrainian drones have hit 177 energy assets in occupied territories in a month – video",
-    "deck": "Ukraine's Unmanned Systems Forces have struck 13 more energy infrastructure facilities in the temporarily occupied territories, bringing the total number of energy targets hit over the past month to 177.",
-    "context": "Ukraine's Unmanned Systems Forces have struck 13 more energy infrastructure facilities in the temporarily occupied territories, bringing the total number of energy targets hit over the past month to 177.",
-    "sources": [
-      {
-        "outlet": "Ukrainska Pravda",
-        "url": "https://www.pravda.com.ua/eng/news/2026/08/02/8046922/",
-        "tier": "T2_indie"
-      }
-    ],
-    "category": "other",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 22,
-    "importance_tier": "LOW"
-  },
-  {
-    "id": "42c0e2b34602",
-    "datetime_utc": "2026-08-02T13:04:05.000Z",
-    "place": "WORLD",
-    "what": "Spain's Ceuta navigates aftermath of border surge as most migrants return home",
-    "deck": "Ceuta was returning to normal over the weekend after an unprecedented migrant surge that saw up to 60,000 people enter the tiny Spanish exclave from Morocco in just two days.",
-    "context": "Ceuta was returning to normal over the weekend after an unprecedented migrant surge that saw up to 60,000 people enter the tiny Spanish exclave from Morocco in just two days. But with at least 72 migrants dead and most arrivals having already returned to Morocco, residents were still grappling with the humanitarian, political and social fallout.",
-    "sources": [
-      {
-        "outlet": "France 24",
-        "url": "https://www.france24.com/en/europe/20260802-spain-ceuta-navigates-aftermath-border-surge-after-most-migrants-return-morocco",
-        "tier": "T1_wire"
-      }
-    ],
-    "category": "other",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 29,
-    "importance_tier": "LOW"
-  },
-  {
-    "id": "baf93346033b",
-    "datetime_utc": "2026-08-02T10:53:00.000Z",
-    "place": "WORLD",
-    "what": "Russians strike largest warehouse of Ukrainian online marketplace for second time in a day – photo",
-    "deck": "Two Shahed drones hit the largest warehouse of Rozetka, a Ukrainian online marketplace, in the city of Brovary in Kyiv Oblast on the night of 1-2 August, marking the second attack in a single day.",
-    "context": "Two Shahed drones hit the largest warehouse of Rozetka, a Ukrainian online marketplace, in the city of Brovary in Kyiv Oblast on the night of 1-2 August, marking the second attack in a single day.",
-    "sources": [
-      {
-        "outlet": "Ukrainska Pravda",
-        "url": "https://www.pravda.com.ua/eng/news/2026/08/02/8046908/",
-        "tier": "T2_indie"
-      }
-    ],
-    "category": "other",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.91,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 22,
+    "importance": 24,
     "importance_tier": "LOW"
   },
   {
@@ -1843,7 +2305,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1860,44 +2322,6 @@
       }
     },
     "importance": 29,
-    "importance_tier": "LOW"
-  },
-  {
-    "id": "53b5ed087a14",
-    "datetime_utc": "2026-08-02T10:11:00.000Z",
-    "place": "WORLD",
-    "what": "Romania issues air-raid warning over aerial asset from Ukraine",
-    "deck": "Romania's Ministry of Defence issued an air-raid warning on the morning of 2 August in the border county of Tulcea, which borders Odesa Oblast, over an aerial asset coming from Ukraine.",
-    "context": "Romania's Ministry of Defence issued an air-raid warning on the morning of 2 August in the border county of Tulcea, which borders Odesa Oblast, over an aerial asset coming from Ukraine.",
-    "sources": [
-      {
-        "outlet": "Ukrainska Pravda",
-        "url": "https://www.pravda.com.ua/eng/news/2026/08/02/8046905/",
-        "tier": "T2_indie"
-      }
-    ],
-    "category": "other",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.91,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 22,
     "importance_tier": "LOW"
   },
   {
@@ -1919,7 +2343,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1957,7 +2381,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1973,7 +2397,7 @@
         "forecast": "Analysis coming."
       }
     },
-    "importance": 31,
+    "importance": 29,
     "importance_tier": "LOW"
   },
   {
@@ -1995,7 +2419,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -2011,127 +2435,8 @@
         "forecast": "Analysis coming."
       }
     },
-    "importance": 32,
+    "importance": 29,
     "importance_tier": "LOW"
-  },
-  {
-    "id": "aba2ce84e63e",
-    "datetime_utc": "2026-08-02T08:51:49.000Z",
-    "place": "WORLD",
-    "what": "Colombia police station bombed wounding 14 people",
-    "deck": "Colombia’s government has blamed rebel groups for a truck bomb that wounded 14 people near the border with Venezuela.",
-    "context": "Colombia’s government has blamed rebel groups for a truck bomb that wounded 14 people near the border with Venezuela. The attack came less than a week before President-elect Abelardo de la Espriella is due to take office. He has said he plans to end the current administration’s peace negotiations with various armed groups. Morgan Ayre reports.",
-    "sources": [
-      {
-        "outlet": "France 24",
-        "url": "https://www.france24.com/en/colombia-police-station-bombed-wounding-14-people",
-        "tier": "T1_wire"
-      }
-    ],
-    "category": "government",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 43,
-    "importance_tier": "MED"
-  },
-  {
-    "id": "a04a5bc32d8c",
-    "datetime_utc": "2026-08-02T08:50:08.000Z",
-    "place": "WORLD",
-    "what": "Peru: Tourist plane crashes killing all 13 people aboard",
-    "deck": "Eleven foreign tourists and two crew members have been killed after a small sightseeing plane crashed shortly after take-off in Peru.",
-    "context": "Eleven foreign tourists and two crew members have been killed after a small sightseeing plane crashed shortly after take-off in Peru. The cause of the crash is not yet known, and an investigation is underway. Peter O' Brien has more.",
-    "sources": [
-      {
-        "outlet": "France 24",
-        "url": "https://www.france24.com/en/peru-tourist-plane-crashes-killing-all-13-people-aboard",
-        "tier": "T1_wire"
-      }
-    ],
-    "category": "other",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 24,
-    "importance_tier": "LOW"
-  },
-  {
-    "id": "12780eb8ef01",
-    "datetime_utc": "2026-08-02T08:42:26.000Z",
-    "place": "WORLD",
-    "what": "Gaza: overnight Israeli strikes kill at least 8",
-    "deck": "Israel carried out overnight strikes in Gaza, killing at least eight people.",
-    "context": "Reported by 2 sources. Israel carried out overnight strikes in Gaza, killing at least eight people. This is a look at the Strip this Sunday morning. In one attack, an Israeli military helicopter struck an apartment, killing a husband and wife. In another, an elderly man and a child were killed. Earlier on Saturday, at least seven people were killed in strikes that also damaged medical supplies at a hospital. The attacks came after Hamas said it had agreed to the latest stage of a deal aimed at ending the war. Morgan Ayre reports.",
-    "sources": [
-      {
-        "outlet": "France 24",
-        "url": "https://www.france24.com/en/gaza-overnight-israeli-strikes-kill-at-least-8",
-        "tier": "T1_wire"
-      },
-      {
-        "outlet": "Jerusalem Post",
-        "url": "https://www.jpost.com/middle-east/article-904378",
-        "tier": "T2_indie"
-      }
-    ],
-    "category": "war",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 49,
-    "importance_tier": "MED"
   },
   {
     "id": "d2b87fde6ec6",
@@ -2157,7 +2462,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.91,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -2195,7 +2500,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -2233,7 +2538,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -2276,7 +2581,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -2314,7 +2619,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -2358,7 +2663,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -2396,7 +2701,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.73,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -2434,7 +2739,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.91,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -2472,7 +2777,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -2510,7 +2815,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.91,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -2548,7 +2853,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.91,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -2586,7 +2891,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -2624,7 +2929,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -2662,7 +2967,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -2700,7 +3005,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -2738,7 +3043,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.73,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -2776,83 +3081,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.91,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 22,
-    "importance_tier": "LOW"
-  },
-  {
-    "id": "760efa37d40b",
-    "datetime_utc": "2026-07-31T09:00:11.000Z",
-    "place": "WORLD",
-    "what": "Gemma Stevenson appointed as HMTC for Middle East & Pakistan",
-    "deck": "Gemma Stevenson has been appointed as HMTC for the Middle East and Pakistan and His Majesty’s Consul General to Dubai and the Northern Emirates.",
-    "context": "Gemma Stevenson has been appointed as HMTC for the Middle East and Pakistan and His Majesty’s Consul General to Dubai and the Northern Emirates.",
-    "sources": [
-      {
-        "outlet": "UK Government",
-        "url": "https://www.gov.uk/government/news/gemma-stevenson-appointed-as-hmtc-for-middle-east-pakistan",
-        "tier": "T1_gov"
-      }
-    ],
-    "category": "other",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.73,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 22,
-    "importance_tier": "LOW"
-  },
-  {
-    "id": "c22582298156",
-    "datetime_utc": "2026-07-31T09:00:06.000Z",
-    "place": "WORLD",
-    "what": "Appointment of the Bishop of Leeds: 31 July 2026",
-    "deck": "This appointment was approved by The King on the advice of the previous Prime Minister.",
-    "context": "This appointment was approved by The King on the advice of the previous Prime Minister.",
-    "sources": [
-      {
-        "outlet": "UK Government",
-        "url": "https://www.gov.uk/government/news/appointment-of-the-bishop-of-leeds-31-july-2026",
-        "tier": "T1_gov"
-      }
-    ],
-    "category": "other",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.91,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -2900,7 +3129,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -2918,44 +3147,6 @@
     },
     "importance": 18,
     "importance_tier": "BURIED"
-  },
-  {
-    "id": "a8469b8dc6d3",
-    "datetime_utc": "2026-07-31T08:12:37.000Z",
-    "place": "WORLD",
-    "what": "Court fines Lincolnshire cousins following waste crime probe",
-    "deck": "Environment Agency investigation ends in prosecutions of 2 cousins who are ordered to pay fines and costs totalling nearly £7,000.",
-    "context": "Environment Agency investigation ends in prosecutions of 2 cousins who are ordered to pay fines and costs totalling nearly £7,000.",
-    "sources": [
-      {
-        "outlet": "UK Government",
-        "url": "https://www.gov.uk/government/news/court-fines-lincolnshire-cousins-following-waste-crime-probe",
-        "tier": "T1_gov"
-      }
-    ],
-    "category": "courts",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 40,
-    "importance_tier": "MED"
   },
   {
     "id": "b6adcd36c60d",
@@ -2976,7 +3167,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3019,7 +3210,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3062,7 +3253,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3100,7 +3291,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3148,7 +3339,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3191,7 +3382,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3229,7 +3420,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3267,7 +3458,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.73,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3316,7 +3507,7 @@
     ],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3379,7 +3570,7 @@
     },
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3427,7 +3618,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3465,7 +3656,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3503,7 +3694,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3541,7 +3732,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3579,7 +3770,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.73,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3617,7 +3808,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.73,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3655,7 +3846,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3708,7 +3899,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.73,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3751,7 +3942,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.73,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3789,7 +3980,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3827,7 +4018,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3865,7 +4056,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3883,44 +4074,6 @@
     },
     "importance": 30,
     "importance_tier": "LOW"
-  },
-  {
-    "id": "823f76be8cbd",
-    "datetime_utc": "2026-07-28T21:58:25.000Z",
-    "place": "NEW YORK",
-    "what": "From Gaza to Gulf, Peace in Middle East Hinges on Resolving Israel-Palestinian Conflict, Security Council Speakers Stress, amid Calls for Political Progress",
-    "deck": "In a Middle East aflame with tensions, from Gaza to the Gulf, resolving the Palestine-Israel conflict remains central to wider peace, the Security Council heard today.",
-    "context": "In a Middle East aflame with tensions, from Gaza to the Gulf, resolving the Palestine-Israel conflict remains central to wider peace, the Security Council heard today.",
-    "sources": [
-      {
-        "outlet": "UN Press",
-        "url": "https://press.un.org/en/2026/sc16423.doc.htm",
-        "tier": "T1_gov"
-      }
-    ],
-    "category": "world",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 49,
-    "importance_tier": "MED"
   },
   {
     "id": "3442599e76af",
@@ -3941,7 +4094,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3979,7 +4132,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4022,7 +4175,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4060,7 +4213,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4103,7 +4256,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4141,7 +4294,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.73,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4179,7 +4332,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4217,7 +4370,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4255,7 +4408,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4293,7 +4446,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4331,7 +4484,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4374,7 +4527,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4428,7 +4581,7 @@
     ],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4475,7 +4628,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4513,7 +4666,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4556,7 +4709,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4581,12 +4734,17 @@
     "place": "WASHINGTON",
     "what": "U.S. Concludes 13th Night of Strikes on Iranian Military Targets",
     "deck": "U.S.",
-    "context": "U.S. Central Command forces successfully completed the 13th consecutive night of strikes against Iran.",
+    "context": "Reported by 2 sources. U.S. Central Command forces successfully completed the 13th consecutive night of strikes against Iran.",
     "sources": [
       {
         "outlet": "U.S. Dept. of Defense",
         "url": "https://www.war.gov/News/News-Stories/Article/Article/4554671/us-concludes-13th-night-of-strikes-on-iranian-military-targets/",
         "tier": "T1_gov"
+      },
+      {
+        "outlet": "Jerusalem Post",
+        "url": "https://www.jpost.com/middle-east/iran-news/article-904383",
+        "tier": "T2_indie"
       }
     ],
     "category": "war",
@@ -4594,7 +4752,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4632,7 +4790,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4670,7 +4828,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4708,7 +4866,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4746,7 +4904,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4784,7 +4942,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4842,7 +5000,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4891,7 +5049,7 @@
     ],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4937,7 +5095,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4975,7 +5133,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5013,7 +5171,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5056,7 +5214,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5094,7 +5252,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5132,7 +5290,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5170,7 +5328,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5208,7 +5366,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5276,7 +5434,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5314,7 +5472,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5352,7 +5510,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5395,7 +5553,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5433,7 +5591,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5471,7 +5629,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.91,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5509,7 +5667,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5547,7 +5705,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5585,7 +5743,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5623,7 +5781,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5661,7 +5819,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.73,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5699,7 +5857,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5737,7 +5895,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5775,7 +5933,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5813,7 +5971,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5876,7 +6034,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5914,7 +6072,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5952,7 +6110,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.91,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5990,7 +6148,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6033,7 +6191,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6071,7 +6229,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6109,7 +6267,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6147,7 +6305,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6185,7 +6343,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6223,7 +6381,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6261,7 +6419,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6299,7 +6457,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6337,7 +6495,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6375,7 +6533,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.91,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6438,7 +6596,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6476,7 +6634,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6514,7 +6672,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6568,7 +6726,7 @@
     },
     "classifier_kind": "event_report",
     "classifier_confidence": 0.91,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6606,7 +6764,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6644,7 +6802,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6682,7 +6840,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6720,7 +6878,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6763,7 +6921,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6801,7 +6959,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6850,7 +7008,7 @@
     ],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6901,7 +7059,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6939,7 +7097,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6977,7 +7135,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7015,7 +7173,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7053,7 +7211,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7091,7 +7249,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7129,7 +7287,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7167,7 +7325,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7205,7 +7363,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7254,7 +7412,7 @@
     ],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7300,7 +7458,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7338,7 +7496,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7376,7 +7534,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7414,7 +7572,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7453,7 +7611,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7491,7 +7649,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7529,7 +7687,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7567,7 +7725,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7605,7 +7763,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7643,7 +7801,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7686,7 +7844,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.91,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7724,7 +7882,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7762,7 +7920,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7800,7 +7958,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7838,7 +7996,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7881,7 +8039,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7919,7 +8077,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7957,7 +8115,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7995,7 +8153,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -8043,7 +8201,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -8081,7 +8239,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-03T01:54:17.170Z",
+    "ingested_at": "2026-08-03T09:23:14.089Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
