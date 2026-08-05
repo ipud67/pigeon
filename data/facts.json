@@ -18,7 +18,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -38,16 +38,16 @@
     "importance_tier": "BURIED"
   },
   {
-    "id": "4f16099c4116",
-    "datetime_utc": "2026-08-05T03:10:09.000Z",
+    "id": "1fda68a907b7",
+    "datetime_utc": "2026-08-05T09:17:52.000Z",
     "place": "WORLD",
-    "what": "Border police arrest two for alleged vandalization of IDF soldier’s memorial site",
-    "deck": "Fallen soldier Sgt.",
-    "context": "Fallen soldier Sgt. Yehuda Peretz was killed when the vehicle he was traveling in crashed into a barrier on Route 222, only a month before his wedding date.",
+    "what": "David Appel, Michael Kleiner named as suspects in alleged multimillion-shekel real estate fraud",
+    "deck": "A Lahav 433 investigation named David Appel and former MK Michael Kleiner as the suspects in a multimillion-shekel real estate fraud probe.",
+    "context": "A Lahav 433 investigation named David Appel and former MK Michael Kleiner as the suspects in a multimillion-shekel real estate fraud probe.",
     "sources": [
       {
         "outlet": "Jerusalem Post",
-        "url": "https://www.jpost.com/israel-news/crime-in-israel/article-904604",
+        "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-904628",
         "tier": "T2_indie"
       }
     ],
@@ -56,7 +56,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -74,6 +74,703 @@
     },
     "importance": 22,
     "importance_tier": "LOW"
+  },
+  {
+    "id": "ce1844fb2b1a",
+    "datetime_utc": "2026-08-05T09:14:33.000Z",
+    "place": "WORLD",
+    "what": "Israel critic Abdul El-Sayed projected to defeat AIPAC-backed Haley Stevens in Michigan primary",
+    "deck": "Other news outlets have yet to call the results of the race, with the Associated Press reporting that 91% of the votes have been counted thus far.",
+    "context": "Other news outlets have yet to call the results of the race, with the Associated Press reporting that 91% of the votes have been counted thus far.",
+    "sources": [
+      {
+        "outlet": "Jerusalem Post",
+        "url": "https://www.jpost.com/american-politics/article-904629",
+        "tier": "T2_indie"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.82,
+    "ingested_at": "2026-08-05T08:18:59.375Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 22,
+    "importance_tier": "LOW"
+  },
+  {
+    "id": "f01248a47275",
+    "datetime_utc": "2026-08-05T08:15:43.000Z",
+    "place": "WORLD",
+    "what": "Ofsted wins first successful prosecution of illegal children's home provider",
+    "deck": "A company and its directors have been convicted and sentenced for operating unregistered children's homes in Kent following a criminal prosecution brought by Ofsted.",
+    "context": "A company and its directors have been convicted and sentenced for operating unregistered children's homes in Kent following a criminal prosecution brought by Ofsted.",
+    "sources": [
+      {
+        "outlet": "UK Government",
+        "url": "https://www.gov.uk/government/news/ofsted-wins-first-successful-prosecution-of-illegal-childrens-home-provider",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "courts",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.73,
+    "ingested_at": "2026-08-05T08:18:59.375Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 44,
+    "importance_tier": "MED"
+  },
+  {
+    "id": "768bd2c93fc4",
+    "datetime_utc": "2026-08-05T07:28:00.000Z",
+    "place": "WORLD",
+    "what": "Russians destroy Nova Poshta sorting hub in Kyiv: three killed",
+    "deck": "A sorting hub in Kyiv belonging to Nova Poshta (Nova Post), Ukraine's largest private delivery company, was destroyed in a large-scale Russian attack on the night of 4-5 August.",
+    "context": "Reported by 2 sources. A sorting hub in Kyiv belonging to Nova Poshta (Nova Post), Ukraine's largest private delivery company, was destroyed in a large-scale Russian attack on the night of 4-5 August. Three people have been killed and eight others have been injured in the strike.",
+    "sources": [
+      {
+        "outlet": "Ukrainska Pravda",
+        "url": "https://www.pravda.com.ua/eng/news/2026/08/05/8047327/",
+        "tier": "T2_indie"
+      },
+      {
+        "outlet": "Ukrainska Pravda",
+        "url": "https://www.pravda.com.ua/eng/news/2026/08/05/8047323/",
+        "tier": "T2_indie"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.93,
+    "ingested_at": "2026-08-05T08:18:59.375Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 27,
+    "importance_tier": "LOW"
+  },
+  {
+    "id": "597aa43d787a",
+    "datetime_utc": "2026-08-05T06:56:00.000Z",
+    "place": "WORLD",
+    "what": "They missed the last train: eight people killed at railway station in Brovary district",
+    "deck": "Eight people were killed at the Kvitneva railway station as a result of a Russian missile attack on the Brovary district in Kyiv Oblast on the night of 4-5 August.",
+    "context": "Reported by 2 sources. Eight people were killed at the Kvitneva railway station as a result of a Russian missile attack on the Brovary district in Kyiv Oblast on the night of 4-5 August.",
+    "sources": [
+      {
+        "outlet": "Ukrainska Pravda",
+        "url": "https://www.pravda.com.ua/eng/news/2026/08/05/8047322/",
+        "tier": "T2_indie"
+      },
+      {
+        "outlet": "Ukrainska Pravda",
+        "url": "https://www.pravda.com.ua/eng/news/2026/08/05/8047309/",
+        "tier": "T2_indie"
+      }
+    ],
+    "category": "war",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.91,
+    "ingested_at": "2026-08-05T08:18:59.375Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 49,
+    "importance_tier": "MED"
+  },
+  {
+    "id": "44bf7133b902",
+    "datetime_utc": "2026-08-05T06:26:00.000Z",
+    "place": "WORLD",
+    "what": "Russia destroys Biosphere warehouse in Dnipro",
+    "deck": "A 20,000-sq-m warehouse complex, including a storage facility owned by Ukrainian company Biosphere, was destroyed in a Russian drone attack on the city of Dnipro on 4 August.",
+    "context": "A 20,000-sq-m warehouse complex, including a storage facility owned by Ukrainian company Biosphere, was destroyed in a Russian drone attack on the city of Dnipro on 4 August.",
+    "sources": [
+      {
+        "outlet": "Ukrainska Pravda",
+        "url": "https://www.pravda.com.ua/eng/news/2026/08/05/8047316/",
+        "tier": "T2_indie"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.82,
+    "ingested_at": "2026-08-05T08:18:59.375Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 75,
+    "importance_tier": "HIGH"
+  },
+  {
+    "id": "17821eb6067b",
+    "datetime_utc": "2026-08-05T06:11:09.000Z",
+    "place": "WORLD",
+    "what": "Michigan Democratic primary seen as latest test for party's progressive wing",
+    "deck": "The race between US Representative Haley Stevens and former public health official Abdul El-Sayed in Michigan's Democratic Senate race is one of the clearest tests yet of the party’s future.",
+    "context": "Reported by 2 sources. The race between US Representative Haley Stevens and former public health official Abdul El-Sayed in Michigan's Democratic Senate race is one of the clearest tests yet of the party’s future. El-Sayed held a narrow lead over US Representative Haley Stevens as of Tuesday evening. The winner will face Mike Rogers, a former Republican congressman, in November's critical midterm elections.",
+    "sources": [
+      {
+        "outlet": "France 24",
+        "url": "https://www.france24.com/en/americas/20260805-michigan-democratic-primary-test-progressive-movement-us",
+        "tier": "T1_wire"
+      },
+      {
+        "outlet": "The Hill",
+        "url": "https://thehill.com/homenews/campaign/6009490-michigan-senate-race-too-close-to-call-5-takeaways/",
+        "tier": "T2_indie"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.86,
+    "ingested_at": "2026-08-05T08:18:59.375Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 46,
+    "importance_tier": "MED"
+  },
+  {
+    "id": "0afe2cab1ebe",
+    "datetime_utc": "2026-08-05T05:35:06.000Z",
+    "place": "WORLD",
+    "what": "AI before AI: The legacy of Norbert Wiener’s cybernetics (3/3)",
+    "deck": "Norbert Wiener, who founded the field of cybernetics in the 1940s, may deserve a place alongside artificial intelligence founders Alan Turing and John von Neumann.",
+    "context": "Norbert Wiener, who founded the field of cybernetics in the 1940s, may deserve a place alongside artificial intelligence founders Alan Turing and John von Neumann. FRANCE 24 revisits this overlooked mathematician who also was one of the first to warn against the automation of society.",
+    "sources": [
+      {
+        "outlet": "France 24",
+        "url": "https://www.france24.com/en/technology/20260805-ai-before-ai-the-legacy-of-norbert-wiener-s-cybernetics-3-3",
+        "tier": "T1_wire"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.93,
+    "ingested_at": "2026-08-05T08:18:59.375Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 24,
+    "importance_tier": "LOW"
+  },
+  {
+    "id": "876dbee3237f",
+    "datetime_utc": "2026-08-05T05:24:42.000Z",
+    "place": "WORLD",
+    "what": "Ukraine live: Russian strikes kill more than a dozen in Kyiv region, Zelensky says",
+    "deck": "Russian strikes on Kyiv and the surrounding region killed at least 17 people and wounded 44 more overnight, Ukrainian President Volodymyr Zelensky said on Wednesday.",
+    "context": "Reported by 6 sources. Russian strikes on Kyiv and the surrounding region killed at least 17 people and wounded 44 more overnight, Ukrainian President Volodymyr Zelensky said on Wednesday. In recent weeks, both sides have increased long-range attacks, with Russia more than doubling its use of missiles in July. On Tuesday, at least five were killed and 10 others wounded in the Moscow region. Follow our liveblog for the latest updates.",
+    "sources": [
+      {
+        "outlet": "Ukrainska Pravda",
+        "url": "https://www.pravda.com.ua/eng/news/2026/08/05/8047312/",
+        "tier": "T2_indie"
+      },
+      {
+        "outlet": "Ukrainska Pravda",
+        "url": "https://www.pravda.com.ua/eng/news/2026/08/05/8047294/",
+        "tier": "T2_indie"
+      },
+      {
+        "outlet": "Ukrainska Pravda",
+        "url": "https://www.pravda.com.ua/eng/news/2026/08/05/8047296/",
+        "tier": "T2_indie"
+      },
+      {
+        "outlet": "Ukrainska Pravda",
+        "url": "https://www.pravda.com.ua/eng/news/2026/08/05/8047306/",
+        "tier": "T2_indie"
+      },
+      {
+        "outlet": "France 24",
+        "url": "https://www.france24.com/en/europe/20260805-ukraine-live-russian-strikes-kill-at-least-15-in-kyiv-and-surrounding-region",
+        "tier": "T1_wire"
+      },
+      {
+        "outlet": "Ukrainska Pravda",
+        "url": "https://www.pravda.com.ua/eng/news/2026/08/05/8047321/",
+        "tier": "T2_indie"
+      }
+    ],
+    "category": "war",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.93,
+    "ingested_at": "2026-08-05T08:18:59.375Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 83,
+    "importance_tier": "HIGH"
+  },
+  {
+    "id": "186d6a874c32",
+    "datetime_utc": "2026-08-05T05:23:10.000Z",
+    "place": "WORLD",
+    "what": "Government orders that public spending must back British jobs and skills in every postcode",
+    "deck": "Government backs industry to create new British jobs and support local communities with new weighting in public contracts.",
+    "context": "Government backs industry to create new British jobs and support local communities with new weighting in public contracts.",
+    "sources": [
+      {
+        "outlet": "UK Government",
+        "url": "https://www.gov.uk/government/news/government-orders-that-public-spending-must-back-british-jobs-and-skills-in-every-postcode",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "other",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.73,
+    "ingested_at": "2026-08-05T08:18:59.375Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 24,
+    "importance_tier": "LOW"
+  },
+  {
+    "id": "aac347b13cbd",
+    "datetime_utc": "2026-08-05T05:19:28.000Z",
+    "place": "WORLD",
+    "what": "Champions League: Lyon in trouble after defeat in preliminary round",
+    "deck": "Olympique Lyonnais lost (2-1) away to Sparta Prague in the first leg of the third qualifying round.",
+    "context": "Olympique Lyonnais lost (2-1) away to Sparta Prague in the first leg of the third qualifying round. The return leg will take place on August 11 in Lyon.",
+    "sources": [
+      {
+        "outlet": "France 24",
+        "url": "https://www.france24.com/en/tv-shows/sports/20260805-champions-league-lyon-trouble-after-defeat-preliminary-round",
+        "tier": "T1_wire"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.82,
+    "ingested_at": "2026-08-05T08:18:59.375Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 24,
+    "importance_tier": "LOW"
+  },
+  {
+    "id": "ac2d13af9823",
+    "datetime_utc": "2026-08-05T03:56:34.000Z",
+    "place": "WORLD",
+    "what": "Trump-backed Hassan falls short in Michigan House primary to take on McDonald Rivet",
+    "deck": "President Trump’s pick to take on first-term Rep.",
+    "context": "Reported by 3 sources. President Trump’s pick to take on first-term Rep. Kristen McDonald Rivet (D-Mich.) in Michigan’s 8th Congressional District is projected to lose his GOP primary to a candidate who dropped out of the race, according to Decision Desk HQ. Republican Thomas Smith, a retired engineer, defeated Amir Hassan, a former federal law enforcement officer who was…",
+    "sources": [
+      {
+        "outlet": "The Hill",
+        "url": "https://thehill.com/homenews/campaign/5986241-mcdonald-rivet-hassan-michigan-house/",
+        "tier": "T2_indie"
+      },
+      {
+        "outlet": "The Hill",
+        "url": "https://thehill.com/homenews/campaign/6000027-bouchard-hines-michigan-house/",
+        "tier": "T2_indie"
+      },
+      {
+        "outlet": "The Hill",
+        "url": "https://thehill.com/homenews/campaign/6006165-benson-james-michigan-governor-race/",
+        "tier": "T2_indie"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.86,
+    "ingested_at": "2026-08-05T08:18:59.375Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 27,
+    "importance_tier": "LOW"
+  },
+  {
+    "id": "6516624b9823",
+    "datetime_utc": "2026-08-05T03:51:00.000Z",
+    "place": "WORLD",
+    "what": "Russia loses 1,130 soldiers and over 530 pieces of military equipment over past day",
+    "deck": "Ukraine's General Staff has updated data on Russian losses: Russia lost 1,130 soldiers killed and wounded over the past day.",
+    "context": "Ukraine's General Staff has updated data on Russian losses: Russia lost 1,130 soldiers killed and wounded over the past day.",
+    "sources": [
+      {
+        "outlet": "Ukrainska Pravda",
+        "url": "https://www.pravda.com.ua/eng/news/2026/08/05/8047303/",
+        "tier": "T2_indie"
+      }
+    ],
+    "category": "war",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.82,
+    "ingested_at": "2026-08-05T08:18:59.375Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 44,
+    "importance_tier": "MED"
+  },
+  {
+    "id": "eef96e3b4197",
+    "datetime_utc": "2026-08-05T03:35:19.000Z",
+    "place": "WORLD",
+    "what": "Taiwan launches annual war games as pressure from China grows",
+    "deck": "Taiwan on Wednesday launched its annual \"Han Kuang\" military exercises.",
+    "context": "Taiwan on Wednesday launched its annual \"Han Kuang\" military exercises. The event, which is the island's largest military drill, is meant to prepare the country for a potential Chinese invasion. China claims Taiwan as part of its territory, and has ramped up military pressure on the island in recent years.",
+    "sources": [
+      {
+        "outlet": "France 24",
+        "url": "https://www.france24.com/en/asia-pacific/20260805-taiwan-launches-major-war-games-as-china-pressure-grows",
+        "tier": "T1_wire"
+      }
+    ],
+    "category": "war",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.86,
+    "ingested_at": "2026-08-05T08:18:59.375Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 79,
+    "importance_tier": "HIGH"
+  },
+  {
+    "id": "314bc0490742",
+    "datetime_utc": "2026-08-05T03:27:25.000Z",
+    "place": "WORLD",
+    "what": "McKinney, Duresky to battle for Newhouse’s House seat in Washington",
+    "deck": "Washington’s 4th Congressional District candidates Amanda McKinney (R) and John Duresky (D) are projected to advance to the November general election in the battle for retiring Rep.",
+    "context": "Washington’s 4th Congressional District candidates Amanda McKinney (R) and John Duresky (D) are projected to advance to the November general election in the battle for retiring Rep. Dan Newhouse’s (R) seat, according to Decision Desk HQ (DDHQ). The two beat 11 candidates who sought to replace Newhouse, who in December said he would not seek…",
+    "sources": [
+      {
+        "outlet": "The Hill",
+        "url": "https://thehill.com/homenews/campaign/5994858-mckinney-duresky-washington-house-newhouse-primary/",
+        "tier": "T2_indie"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.93,
+    "ingested_at": "2026-08-05T08:18:59.375Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 22,
+    "importance_tier": "LOW"
+  },
+  {
+    "id": "8ad5509084eb",
+    "datetime_utc": "2026-08-05T03:24:38.000Z",
+    "place": "WORLD",
+    "what": "Huizenga to face McCann in tight Michigan House contest",
+    "deck": "Incumbent GOP Rep.",
+    "context": "Incumbent GOP Rep. Bill Huizenga (Mich.) is projected to win a Tuesday Republican primary in Michigan’s 4th congressional district to face off against Democratic state Sen. Sean McCann in November, according to Decision Desk HQ. Huizenga clinched the party nomination over Philip Tanis, the former mayor of Holland, Mich. and ex-city council member, while McCann…",
+    "sources": [
+      {
+        "outlet": "The Hill",
+        "url": "https://thehill.com/homenews/campaign/5994598-huizenga-mccann-michigan-house-primary/",
+        "tier": "T2_indie"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.93,
+    "ingested_at": "2026-08-05T08:18:59.375Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 22,
+    "importance_tier": "LOW"
+  },
+  {
+    "id": "e9431ac819b1",
+    "datetime_utc": "2026-08-05T03:10:23.000Z",
+    "place": "WORLD",
+    "what": "Tennessee governor bucks Trump, endorses against Ogles in primary",
+    "deck": "Tennessee Gov.",
+    "quote": "Charlie Hatcher and I have been friends for 25 years,",
+    "context": "Tennessee Gov. Bill Lee (R) on Tuesday endorsed Charlie Hatcher (R), who is challenging incumbent Rep. Andy Ogles (R-Tenn.) in the GOP primary in the Volunteer State’s 5th Congressional District. “Charlie Hatcher and I have been friends for 25 years,” Lee said in a video Hatcher posted to Facebook. “I’m a cattleman, he was our…",
+    "sources": [
+      {
+        "outlet": "The Hill",
+        "url": "https://thehill.com/homenews/house/6009695-lee-bucks-trump-hatcher-endorsement/",
+        "tier": "T2_indie"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.93,
+    "ingested_at": "2026-08-05T08:18:59.375Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 22,
+    "importance_tier": "LOW"
+  },
+  {
+    "id": "2dc9d7b7b08c",
+    "datetime_utc": "2026-08-05T02:42:43.000Z",
+    "place": "WORLD",
+    "what": "Progressives clinch win with Lawrence’s victory in House primary to face Barrett in Michigan",
+    "deck": "Sunrise Movement co-founder Will Lawrence, backed by Sen.",
+    "context": "Sunrise Movement co-founder Will Lawrence, backed by Sen. Bernie Sanders (I-Vt.), is projected to win the three-way Democratic primary for the Lansing-based 7th Congressional District and take on Rep. Tom Barrett (R-Mich.) this fall, according to Decision Desk HQ. Lawrence defeated former Ukraine Ambassador Bridget Brink, endorsed by former Democratic Govs. Jennifer Granholm and Jim Blanchard, and former U.S.…",
+    "sources": [
+      {
+        "outlet": "The Hill",
+        "url": "https://thehill.com/homenews/campaign/6006681-lawrence-wins-michigan-house-primary/",
+        "tier": "T2_indie"
+      }
+    ],
+    "category": "world",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.86,
+    "ingested_at": "2026-08-05T08:18:59.375Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 42,
+    "importance_tier": "MED"
   },
   {
     "id": "da902326ef15",
@@ -94,7 +791,127 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.91,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 22,
+    "importance_tier": "LOW"
+  },
+  {
+    "id": "b407b5091b34",
+    "datetime_utc": "2026-08-05T02:32:15.000Z",
+    "place": "WORLD",
+    "what": "Trump backs House-passed bill to make daylight savings time permanent",
+    "deck": "President Trump on Tuesday reiterated his support for making permanent daylight saving time, roughly three weeks after the House passed a bill that proposes implementing the change.",
+    "quote": "For many years, the vast Majority of Americans have asked to make Daylight Saving Time permanent, but no Administration has been able to get it done, until now,",
+    "context": "President Trump on Tuesday reiterated his support for making permanent daylight saving time, roughly three weeks after the House passed a bill that proposes implementing the change. “For many years, the vast Majority of Americans have asked to make Daylight Saving Time permanent, but no Administration has been able to get it done, until now,”…",
+    "sources": [
+      {
+        "outlet": "The Hill",
+        "url": "https://thehill.com/homenews/administration/6009651-trump-backs-house-passed-bill-to-make-daylight-savings-time-permanent/",
+        "tier": "T2_indie"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.86,
+    "ingested_at": "2026-08-05T08:18:59.375Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 41,
+    "importance_tier": "MED"
+  },
+  {
+    "id": "4206445e082b",
+    "datetime_utc": "2026-08-05T01:50:29.000Z",
+    "place": "WORLD",
+    "what": "Moss set to succeed Stevens in House after Michigan primary win",
+    "deck": "Michigan state Sen.",
+    "context": "Reported by 2 sources. Michigan state Sen. Jeremy Moss (D) is projected to win the Democratic primary in the state’s 11th Congressional District, according to Decision Desk HQ (DDHQ). Moss, the president pro tempore of the Michigan Senate since January 2023, defeated a crowded field of five other Democrats in the primary. His victory puts him on a glide…",
+    "sources": [
+      {
+        "outlet": "The Hill",
+        "url": "https://thehill.com/homenews/campaign/5983451-moss-stevens-michigan-house-primary/",
+        "tier": "T2_indie"
+      },
+      {
+        "outlet": "Jerusalem Post",
+        "url": "https://www.jpost.com/us-elections/article-904616",
+        "tier": "T2_indie"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.93,
+    "ingested_at": "2026-08-05T08:18:59.375Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 46,
+    "importance_tier": "MED"
+  },
+  {
+    "id": "c01d665f64c4",
+    "datetime_utc": "2026-08-05T01:44:13.000Z",
+    "place": "WORLD",
+    "what": "Graves-endorsed Stigall wins GOP primary for open Missouri House seat",
+    "deck": "Missouri House candidate Chris Stigall (R), who was endorsed by outgoing Rep.",
+    "context": "Missouri House candidate Chris Stigall (R), who was endorsed by outgoing Rep. Sam Graves (R-Mo.), is projected to win the GOP primary for Missouri’s open 6th Congressional District, according to Decision Desk HQ (DDHQ) results. Stigall triumphed over a crowded GOP field, including Kansas City Council member Nathan Willett, U.S. Army veteran Jim Ingram, financial…",
+    "sources": [
+      {
+        "outlet": "The Hill",
+        "url": "https://thehill.com/homenews/campaign/5978684-stigall-graves-missouri-house-primary/",
+        "tier": "T2_indie"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.86,
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -132,7 +949,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -157,11 +974,16 @@
     "place": "WORLD",
     "what": "Bell fends off Bush in House Democratic primary rematch in Missouri",
     "deck": "Rep.",
-    "context": "Rep. Wesley Bell (D) has fended off former Rep. Cori Bush’s (D) comeback bid as he seeks reelection to the House in Missouri, Decision Desk HQ projects. Bush was running to retake her seat in the solidly blue 1st Congression District two years after Bell ousted her by roughly 5 percentage points in the 2024 Democratic primary. Her…",
+    "context": "Reported by 2 sources. Rep. Wesley Bell (D) has fended off former Rep. Cori Bush’s (D) comeback bid as he seeks reelection to the House in Missouri, Decision Desk HQ projects. Bush was running to retake her seat in the solidly blue 1st Congression District two years after Bell ousted her by roughly 5 percentage points in the 2024 Democratic primary. Her…",
     "sources": [
       {
         "outlet": "The Hill",
         "url": "https://thehill.com/homenews/campaign/5988350-bell-fends-off-bush-missouri-house-primary/",
+        "tier": "T2_indie"
+      },
+      {
+        "outlet": "Jerusalem Post",
+        "url": "https://www.jpost.com/american-politics/article-904615",
         "tier": "T2_indie"
       }
     ],
@@ -170,7 +992,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -186,7 +1008,7 @@
         "forecast": "Analysis coming."
       }
     },
-    "importance": 22,
+    "importance": 27,
     "importance_tier": "LOW"
   },
   {
@@ -195,7 +1017,7 @@
     "place": "WORLD",
     "what": "Armed man arrested outside Trump's Los Angeles golf course before presidential visit",
     "deck": "Authorities arrested a man carrying ammunition and later found a loaded gun in his car outside US President Donald Trump's Los Angeles-area golf course, where he was allegedly photographing security preparations ahead…",
-    "context": "Authorities arrested a man carrying ammunition and later found a loaded gun in his car outside US President Donald Trump's Los Angeles-area golf course, where he was allegedly photographing security preparations ahead of the US president's fundraising event.",
+    "context": "Authorities arrested a man carrying ammunition and later found a loaded gun in his car outside US President Donald Trump's Los Angeles-area golf course, where he was allegedly photographing security preparations ahead of the president's fundraising event.",
     "sources": [
       {
         "outlet": "France 24",
@@ -208,7 +1030,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -225,44 +1047,6 @@
       }
     },
     "importance": 24,
-    "importance_tier": "LOW"
-  },
-  {
-    "id": "e2ad43774d1e",
-    "datetime_utc": "2026-08-05T01:16:15.000Z",
-    "place": "WORLD",
-    "what": "Benson, James set to showdown in Michigan governor’s race",
-    "deck": "Michigan Secretary of State Jocelyn Benson (D) and President Trump-endorsed Rep.",
-    "context": "Michigan Secretary of State Jocelyn Benson (D) and President Trump-endorsed Rep. John James (R-Mich.), are projected for a showdown in the critical Michigan governor’s race this fall, according to Decision Desk HQ. Benson easily defeated Genesee County Sheriff Chris Swanson for the Democratic nod while James defeated businessman Perry Johnson for the Republican nomination. Gov. Gretchen Whitmer (D), seen as a possible 2028…",
-    "sources": [
-      {
-        "outlet": "The Hill",
-        "url": "https://thehill.com/homenews/campaign/6006165-benson-james-michigan-governor-race/",
-        "tier": "T2_indie"
-      }
-    ],
-    "category": "other",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 28,
     "importance_tier": "LOW"
   },
   {
@@ -284,7 +1068,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -322,7 +1106,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -360,7 +1144,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -385,16 +1169,11 @@
     "place": "WORLD",
     "what": "Marshall set to face pastor in Kansas Senate election",
     "deck": "Sen.",
-    "context": "Reported by 2 sources. Sen. Roger Marshall (R-Kans.) is projected to win the GOP primary to face off against Democrat pastor Adam Hamilton in the Sunflower State this November, according to Decision Desk HQ (DDHQ). Marshall is seeking a second term in the Senate and is projected to defeat Arch Naramore in Tuesday’s contest, per DDHQ. The non-partisan Cook…",
+    "context": "Sen. Roger Marshall (R-Kans.) is projected to win the GOP primary to face off against Democrat pastor Adam Hamilton in the Sunflower State this November, according to Decision Desk HQ (DDHQ). Marshall is seeking a second term in the Senate and is projected to defeat Arch Naramore in Tuesday’s contest, per DDHQ. The non-partisan Cook…",
     "sources": [
       {
         "outlet": "The Hill",
         "url": "https://thehill.com/homenews/campaign/5978635-kansas-senate-marshall-hamilton/",
-        "tier": "T2_indie"
-      },
-      {
-        "outlet": "The Hill",
-        "url": "https://thehill.com/homenews/campaign/5987129-live-results-kansas-senate-primary/",
         "tier": "T2_indie"
       }
     ],
@@ -403,7 +1182,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -419,29 +1198,29 @@
         "forecast": "Analysis coming."
       }
     },
-    "importance": 46,
+    "importance": 41,
     "importance_tier": "MED"
   },
   {
-    "id": "d0ea0698536b",
-    "datetime_utc": "2026-08-05T00:51:14.000Z",
+    "id": "869fc5a3b859",
+    "datetime_utc": "2026-08-05T00:55:00.000Z",
     "place": "WORLD",
-    "what": "CDC expands largest known cyclosporiasis outbreak to 15 states - report",
-    "deck": "US cyclosporiasis cases have reached record levels this year, with the current epidemic among the largest foodborne illness outbreaks in recent US history.",
-    "context": "US cyclosporiasis cases have reached record levels this year, with the current epidemic among the largest foodborne illness outbreaks in recent US history.",
+    "what": "Russian missile hits ammonia storage site in Kyiv, leak contained",
+    "deck": "An ammonia leak has been recorded in the Holosiivskyi district in Kyiv as a result of an overnight Russian missile strike.",
+    "context": "An ammonia leak has been recorded in the Holosiivskyi district in Kyiv as a result of an overnight Russian missile strike. Emergency services have swiftly brought the incident under control and there is no threat to the population.",
     "sources": [
       {
-        "outlet": "Jerusalem Post",
-        "url": "https://www.jpost.com/health-and-wellness/article-904602",
+        "outlet": "Ukrainska Pravda",
+        "url": "https://www.pravda.com.ua/eng/news/2026/08/05/8047299/",
         "tier": "T2_indie"
       }
     ],
-    "category": "health",
+    "category": "war",
     "economics_flag": false,
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
-    "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "classifier_confidence": 0.86,
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -457,14 +1236,14 @@
         "forecast": "Analysis coming."
       }
     },
-    "importance": 40,
-    "importance_tier": "MED"
+    "importance": 82,
+    "importance_tier": "HIGH"
   },
   {
-    "id": "cb506c724911",
+    "id": "eaef3b3b6d8e",
     "datetime_utc": "2026-08-05T00:50:28.000Z",
     "place": "WORLD",
-    "what": "US revokes Brazilian ambassador's visa amid escalating diplomatic dispute",
+    "what": "US revokes Brazilian ambassador's visa amid escalating diplomatic row",
     "deck": "Washington stripped Brazil's ambassador of her US visa in an escalating diplomatic standoff, saying the move would be reversed if Brasília approves President Donald Trump's nominee for ambassador ahead of Brazil's clo…",
     "context": "Washington stripped Brazil's ambassador of her US visa in an escalating diplomatic standoff, saying the move would be reversed if Brasília approves President Donald Trump's nominee for ambassador ahead of Brazil's closely watched presidential election.",
     "sources": [
@@ -479,7 +1258,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -517,7 +1296,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -555,7 +1334,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -572,6 +1351,422 @@
       }
     },
     "importance": 40,
+    "importance_tier": "MED"
+  },
+  {
+    "id": "d8ef6c8bb7cf",
+    "datetime_utc": "2026-08-05T00:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Notice of Award of a Single-Source Grant To Fund Fondacioni SECID, Balkan Region",
+    "deck": "Notice.",
+    "context": "Reported by 4 sources. Notice. The Centers for Disease Control and Prevention (CDC), located within the Department of Health and Human Services (HHS), announces one award to fund Fondacioni SECID, Balkan Region, for approximately $800,000 in Federal Fiscal Year 2026, subject to the availability of funds. Funding amounts for years 2-5 will be set at continuation. (Health and Human Services Department, Centers for Disease Control and Prevention)",
+    "sources": [
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/08/05/2026-15908/notice-of-award-of-a-single-source-grant-to-fund-fondacioni-secid-balkan-region",
+        "tier": "T1_gov"
+      },
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/08/05/2026-15901/notice-of-award-of-a-sole-source-cooperative-agreement-to-fund-administracion-nacional-de",
+        "tier": "T1_gov"
+      },
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/08/05/2026-15909/notice-of-award-of-a-single-source-grant-to-fund-fundacion-mexico-estados-unidos-para-la-ciencia-ac",
+        "tier": "T1_gov"
+      },
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/08/05/2026-15904/notice-of-award-of-a-single-source-grant-to-fund-universidad-peruana-cayetano-heredia",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "economics",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.93,
+    "ingested_at": "2026-08-05T08:18:59.375Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 42,
+    "importance_tier": "MED"
+  },
+  {
+    "id": "de9e7a6b7062",
+    "datetime_utc": "2026-08-05T00:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Notice of Award of a Single-Source Grant To Fund HJF Medical Research International, Inc., Kenya",
+    "deck": "Notice.",
+    "context": "Reported by 5 sources. Notice. The Centers for Disease Control and Prevention (CDC), located within the Department of Health and Human Services (HHS), announces one award to fund HJF Medical Research International, Inc., Kenya, for approximately $1,000,000 in Federal Fiscal Year 2026, subject to the availability of funds. Funding amounts for years 2-5 will be set at continuation. (Health and Human Services Department, Centers for Disease Control and Prevention)",
+    "sources": [
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/08/05/2026-15907/notice-of-award-of-a-single-source-grant-to-fund-hjf-medical-research-international-inc-kenya",
+        "tier": "T1_gov"
+      },
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/08/05/2026-15906/notice-of-award-of-a-single-source-cooperative-agreement-to-fund-task-force-for-global-health-inc",
+        "tier": "T1_gov"
+      },
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/08/05/2026-15899/notice-of-award-of-a-single-source-cooperative-agreement-to-fund-association-institut-national",
+        "tier": "T1_gov"
+      },
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/08/05/2026-15903/notice-of-award-of-a-sole-source-cooperative-agreement-to-fund-ministry-of-health-bhutan-national",
+        "tier": "T1_gov"
+      },
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/08/05/2026-15900/notice-of-award-of-a-sole-source-cooperative-agreement-to-fund-association-heada-cameroon-instituto",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "economics",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.93,
+    "ingested_at": "2026-08-05T08:18:59.375Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 42,
+    "importance_tier": "MED"
+  },
+  {
+    "id": "652cbc845176",
+    "datetime_utc": "2026-08-05T00:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Western Pacific Fishery Management Council; Public Meetings",
+    "deck": "Notice.",
+    "context": "Notice. The Western Pacific Fishery Management Council (Council) will hold its Mariana Archipelago Fishery Ecosystem Plan (FEP) Guam Advisory Panel (AP) to discuss and make recommendations on fishery management issues in the Western Pacific Region. (Commerce Department, National Oceanic and Atmospheric Administration)",
+    "sources": [
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/08/05/2026-15898/western-pacific-fishery-management-council-public-meetings",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.77,
+    "ingested_at": "2026-08-05T08:18:59.375Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 15,
+    "importance_tier": "BURIED"
+  },
+  {
+    "id": "2c81a901110e",
+    "datetime_utc": "2026-08-05T00:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Notice of August 3, 2026 Decisions on Petitions for Small Refinery Exemptions Under the Renewable Fuel Standard Program",
+    "deck": "Notice.",
+    "quote": "August 3, 2026 SRE Decisions Action",
+    "context": "Notice. The Environmental Protection Agency (EPA) is providing notification of its final action entitled August 3, 2026 Decision on Petitions for RFS Small Refinery Exemptions (\"August 3, 2026 SRE Decisions Action\") in which EPA issued decisions on 6 small refinery exemption (SRE) petitions under the Renewable Fuel Standard (RFS) program. EPA is providing this notification for public awareness of, and the basis for, EPA's decision announced on August 3, 2026. (Environmental Protection Agency)",
+    "sources": [
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/08/05/2026-15905/notice-of-august-3-2026-decisions-on-petitions-for-small-refinery-exemptions-under-the-renewable",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.93,
+    "ingested_at": "2026-08-05T08:18:59.375Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 49,
+    "importance_tier": "MED"
+  },
+  {
+    "id": "f3de8c78162a",
+    "datetime_utc": "2026-08-05T00:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Fisheries of the Exclusive Economic Zone Off Alaska; Bering Sea and Aleutian Islands Management Area; Cost Recovery Fee Notice for the Pacific Cod Trawl Cooperative Program",
+    "deck": "Notice.",
+    "context": "Notice. NMFS publishes the fee percentage for cost recovery for the Pacific Cod Trawl Cooperative (PCTC) Program. The fee percentage for 2026 is 2.09 percent. This notice is intended to provide the 2026 fee percentage to calculate the required payment for cost recovery fees due by August 31, 2026. (Commerce Department, National Oceanic and Atmospheric Administration)",
+    "sources": [
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/08/05/2026-15911/fisheries-of-the-exclusive-economic-zone-off-alaska-bering-sea-and-aleutian-islands-management-area",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "economics",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.93,
+    "ingested_at": "2026-08-05T08:18:59.375Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 15,
+    "importance_tier": "BURIED"
+  },
+  {
+    "id": "6412e784a917",
+    "datetime_utc": "2026-08-05T00:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Amendment of United States Area Navigation Route Q-10 and Revocation of Alaska Area Navigation Routes J-804R and J-889R in Alaska",
+    "deck": "Rule.",
+    "context": "Rule. This action amends United States Area Navigation (RNAV) Route Q-10 and revokes Alaska RNAV Routes J-804R and J-889R in Alaska. These actions are part of a large and comprehensive airway modernization project for the state of Alaska. (Transportation Department, Federal Aviation Administration)",
+    "sources": [
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/08/05/2026-15912/amendment-of-united-states-area-navigation-route-q-10-and-revocation-of-alaska-area-navigation",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.86,
+    "ingested_at": "2026-08-05T08:18:59.375Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 8,
+    "importance_tier": "BURIED"
+  },
+  {
+    "id": "740710b1b9db",
+    "datetime_utc": "2026-08-05T00:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Caremark and Zinc Health Services; Analysis of Proposed Agreement Containing Consent Order To Aid Public Comment",
+    "deck": "Notice.",
+    "context": "Notice. The consent agreement in this matter settles alleged violations of Federal law prohibiting unfair methods of competition. The attached Analysis of Proposed Agreement Containing Consent Orders to Aid Public Comment describes both the allegations in the complaint and the terms of the consent order--embodied in the consent agreement-- that would settle these allegations. (Federal Trade Commission)",
+    "sources": [
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/08/05/2026-15913/caremark-and-zinc-health-services-analysis-of-proposed-agreement-containing-consent-order-to-aid",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "economics",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.77,
+    "ingested_at": "2026-08-05T08:18:59.375Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 36,
+    "importance_tier": "LOW"
+  },
+  {
+    "id": "63333c870bac",
+    "datetime_utc": "2026-08-05T00:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Agency Information Collection Activities; Proposed eCollection eComments Requested; Revision of a Previously Approved Collection; Title-Identity History Summary Request Form (1-783)",
+    "deck": "Notice.",
+    "context": "Notice. The CJIS Division, FBI, DOJ will be submitting the following information collection request to the Office of Management and Budget (OMB) for review and approval in accordance with the Paperwork Reduction Act of 1995. (Justice Department)",
+    "sources": [
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/08/05/2026-15914/agency-information-collection-activities-proposed-ecollection-ecomments-requested-revision-of-a",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "courts",
+    "economics_flag": true,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.93,
+    "ingested_at": "2026-08-05T08:18:59.375Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 10,
+    "importance_tier": "BURIED"
+  },
+  {
+    "id": "2de91623eec9",
+    "datetime_utc": "2026-08-05T00:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Micro-Tracers, Inc.; Response to Objections and Requests for a Public Hearing",
+    "deck": "Rule.",
+    "context": "Rule. The Food and Drug Administration (FDA or we) received objections and requests for a public hearing submitted by Buchanan Ingersoll & Rooney PC, on behalf of Micro-Tracers, Inc. (Micro-Tracers or objector), on the order granting a color additive petition (3C0323) requesting that we repeal specified regulations to no longer provide for the safe use of FD&C Red No. 3 in food (including dietary supplements) and ingested drugs. After reviewing the objections, we have concluded that the objections do not raise issues of material fact that justify a hearing. We are also providing notice that the administrative stay of the effective date for the repeal and delisting of the color additive regulations is now lifted. (Health and Human Services Department, Food and Drug Administration)",
+    "sources": [
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/08/05/2026-15920/micro-tracers-inc-response-to-objections-and-requests-for-a-public-hearing",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.86,
+    "ingested_at": "2026-08-05T08:18:59.375Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 49,
+    "importance_tier": "MED"
+  },
+  {
+    "id": "7d43cbd2d63d",
+    "datetime_utc": "2026-08-05T00:00:00.000Z",
+    "place": "WASHINGTON",
+    "what": "Improving Emergency Medical Kit Efficacy and Flexibility in Commercial Airline Operations",
+    "deck": "Proposed Rule.",
+    "context": "Proposed Rule. FAA proposes to eliminate the prescriptive list of required items in emergency medical kits and first aid kits and replace it with a performance-based requirement to ensure contents are practical and sufficient to allow crewmembers to address the most common medical emergencies that occur onboard commercial aircraft. FAA seeks to increase flexibility for operators while maintaining predictability for operators to equip their onboard medical kits. This rule would also remove an outdated reference to certain emergency medical kits modified on April 12, 2004. This action is necessary to address requirements in the FAA Reauthorization Act of 2024. (Transportation Department, Federal Aviation Administration)",
+    "sources": [
+      {
+        "outlet": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2026/08/05/2026-15929/improving-emergency-medical-kit-efficacy-and-flexibility-in-commercial-airline-operations",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "government",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.93,
+    "ingested_at": "2026-08-05T08:18:59.375Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 49,
     "importance_tier": "MED"
   },
   {
@@ -594,7 +1789,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -612,82 +1807,6 @@
     },
     "importance": 41,
     "importance_tier": "MED"
-  },
-  {
-    "id": "f3a526ebf3f2",
-    "datetime_utc": "2026-08-04T23:22:11.000Z",
-    "place": "WORLD",
-    "what": "Taylor looks to unseat Wittman in key Virginia House race",
-    "deck": "Democrat Shannon Taylor is projected to face off against Rep.",
-    "context": "Democrat Shannon Taylor is projected to face off against Rep. Rob Wittman (R-Va.) in a district that would have been a prime pick up for Democrats had their congressional map been implemented this spring, according to Decision Desk HQ. Wittman faced no primary on Tuesday for Virginia’s 1st Congressional District, while Taylor, Henrico County Commonwealth’s…",
-    "sources": [
-      {
-        "outlet": "The Hill",
-        "url": "https://thehill.com/homenews/campaign/6004695-taylor-wittman-virginia-house-race/",
-        "tier": "T2_indie"
-      }
-    ],
-    "category": "other",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 22,
-    "importance_tier": "LOW"
-  },
-  {
-    "id": "45454798b65f",
-    "datetime_utc": "2026-08-04T23:19:07.000Z",
-    "place": "WORLD",
-    "what": "Kiggans, Luria to duke it out in rematch for battleground Virginia House seat",
-    "deck": "Virginia Rep.",
-    "context": "Virginia Rep. Jen Kiggans (R-Va.) and her predecessor, former Rep. Elaine Luria (D-Va.), will face off in the November election to represent the state’s 2nd Congressional District. Since Kiggans unseated Luria in 2022, she has supported President Trump’s key policy objectives during her time in the House, including the Safeguard American Voter Eligibility America Act.…",
-    "sources": [
-      {
-        "outlet": "The Hill",
-        "url": "https://thehill.com/homenews/campaign/5986728-kiggans-luria-virginia-house-race/",
-        "tier": "T2_indie"
-      }
-    ],
-    "category": "other",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 22,
-    "importance_tier": "LOW"
   },
   {
     "id": "f5e55734b0ae",
@@ -708,7 +1827,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -728,272 +1847,25 @@
     "importance_tier": "LOW"
   },
   {
-    "id": "689a5951d8e9",
-    "datetime_utc": "2026-08-04T23:04:48.000Z",
+    "id": "c450f56afaf7",
+    "datetime_utc": "2026-08-04T22:00:00.000Z",
     "place": "WORLD",
-    "what": "Pentagon signs deal to expand missile interceptor systems production",
-    "deck": "Welcome to The Hill’s Defense & NatSec newsletter {beacon} Defense &National Security Defense &National Security The Big Story Pentagon signs deal to expand missile interceptor component production The Pentagon announ…",
-    "context": "Welcome to The Hill’s Defense & NatSec newsletter {beacon} Defense &National Security Defense &National Security The Big Story Pentagon signs deal to expand missile interceptor component production The Pentagon announced on Monday that it signed framework agreements with defense contractors Northrop Grumman and Lockheed Martin to boost production of missile interceptor parts. AP Photo/Julia…",
+    "what": "EU receives €1.4 billion in revenue from immobilised Russian assets to be used for supporting Ukraine",
+    "deck": "European Commission Press release Brussels, 05 Aug 2026 On 3rd of August, the European Union received €1.4 billion in windfall profits generated by the interest on the cash balances originating from immobilised assets…",
+    "context": "European Commission Press release Brussels, 05 Aug 2026 On 3rd of August, the European Union received €1.4 billion in windfall profits generated by the interest on the cash balances originating from immobilised assets of the Central Bank of Russia (CBR) held by Central Securities Depositories (CSDs).",
     "sources": [
       {
-        "outlet": "The Hill",
-        "url": "https://thehill.com/homenews/6009369-pentagon-signs-deal-to-expand-missile-interceptor-systems-production/",
-        "tier": "T2_indie"
-      }
-    ],
-    "category": "war",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 44,
-    "importance_tier": "MED"
-  },
-  {
-    "id": "d4c5168c86fa",
-    "datetime_utc": "2026-08-04T23:04:00.000Z",
-    "place": "WORLD",
-    "what": "Rubio leads Vance by 36 points in new 2028 GOP straw poll",
-    "deck": "Secretary of State Marco Rubio captured a strong majority of conservatives participating in a 2028 GOP presidential straw poll over the weekend, finishing 36 points ahead of Vice President Vance.",
-    "context": "Secretary of State Marco Rubio captured a strong majority of conservatives participating in a 2028 GOP presidential straw poll over the weekend, finishing 36 points ahead of Vice President Vance. The survey of attendees at the Western Conservative Summit in Colorado found that 57 percent of 500-plus respondents backed Rubio — who led a group…",
-    "sources": [
-      {
-        "outlet": "The Hill",
-        "url": "https://thehill.com/homenews/campaign/6009292-marco-rubio-wins-gop-strawpoll/",
-        "tier": "T2_indie"
-      }
-    ],
-    "category": "world",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 63,
-    "importance_tier": "HIGH"
-  },
-  {
-    "id": "e3ceac32d2b4",
-    "datetime_utc": "2026-08-04T22:19:27.000Z",
-    "place": "WORLD",
-    "what": "US supply of long-range missiles, THAAD interceptors nearly exhausted: Reports",
-    "deck": "The U.S.",
-    "context": "The U.S. military’s supply of its premier long-range missiles and interceptors for a key missile defense system are nearly exhausted after over five months of airstrikes against Iran, underscoring worries about U.S. preparedness to fight other conflicts that may emerge around the world, news outlets reported on Tuesday. The Army has expended “virtually all” of…",
-    "sources": [
-      {
-        "outlet": "The Hill",
-        "url": "https://thehill.com/policy/defense/6009275-us-missile-interceptor-stocks-dwindling-dangerous/",
-        "tier": "T2_indie"
-      }
-    ],
-    "category": "war",
-    "economics_flag": false,
-    "weigh_it_questions": [
-      {
-        "tenet": "foreign-restraint",
-        "question": "Does US supply of long-range missiles, THAAD interceptors nearly exhausted: Reports move American foreign policy toward permanent entanglement and standing-army interventionism, or toward the armed restraint Washington and Jefferson urged?",
-        "anchor": "Washington, Farewell Address (1796); Jefferson, First Inaugural (1801); Federalist No. 8 (Hamilton); Art. I §8 cl. 11"
-      },
-      {
-        "tenet": "historical-contrast",
-        "question": "Set against the founders’ framework and the presidents who best embodied it, is this action a step toward that tradition or away from it?",
-        "anchor": "The founding canon, taken as a whole"
-      }
-    ],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "rule-based",
-        "contrasts": [
-          {
-            "tenet": "foreign-restraint",
-            "label": "Foreign-policy restraint vs. interventionism",
-            "question": "Does US supply of long-range missiles, THAAD interceptors nearly exhausted: Reports move American foreign policy toward permanent entanglement and standing-army interventionism, or toward the armed restraint Washington and Jefferson urged?",
-            "within_bounds": "If the move keeps a solid defense without a permanent entanglement, it follows the founders' restraint — Washington warned against \"permanent alliances\"; Jefferson, \"entangling alliances with none.\"",
-            "beyond_bounds": "If it locks American force into an open-ended foreign commitment, it runs toward the constant-war footing Hamilton warned trades freedom for safety (Federalist 8).",
-            "anchor": "Washington, Farewell Address (1796); Jefferson, First Inaugural (1801); Federalist No. 8 (Hamilton); Art. I §8 cl. 11"
-          }
-        ]
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 82,
-    "importance_tier": "HIGH"
-  },
-  {
-    "id": "71f2bc80111d",
-    "datetime_utc": "2026-08-04T22:11:25.000Z",
-    "place": "WORLD",
-    "what": "Military retires ‘Southern Spear’ anti-drug operation for Western Hemisphere task force",
-    "deck": "The U.S.",
-    "context": "The U.S. military has officially retired the joint task force aimed at targeting suspected drug-carrying vessels coming from Central and South America, replacing it with a new command structure meant to handle the issue across the Western Hemisphere. Joint Task Force-Southern Spear was retired at midnight on Monday, putting in its place Joint Task Force-Western…",
-    "sources": [
-      {
-        "outlet": "The Hill",
-        "url": "https://thehill.com/policy/defense/6009243-us-military-retires-replaces-southern-spear/",
-        "tier": "T2_indie"
-      }
-    ],
-    "category": "war",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 44,
-    "importance_tier": "MED"
-  },
-  {
-    "id": "611063f30d43",
-    "datetime_utc": "2026-08-04T22:06:42.000Z",
-    "place": "WORLD",
-    "what": "Watch live: DDHQ, The Hill track primaries in Michigan, Virginia, Kansas, Missouri and Washington",
-    "deck": "The Hill presents an hour and a half of live, real-time coverage, diving deep into the 2026 primary elections in Michigan, Virginia, Missouri, Kansas and Washington.",
-    "context": "The Hill presents an hour and a half of live, real-time coverage, diving deep into the 2026 primary elections in Michigan, Virginia, Missouri, Kansas and Washington. The race in the Great Lakes State is especially notable as progressive Abdul El-Sayed takes on moderate Rep. Haley Stevens (D), shining a spotlight on a growing divide within…",
-    "sources": [
-      {
-        "outlet": "The Hill",
-        "url": "https://thehill.com/video-clips/6008521-watch-live-ddhq-the-hill-track-primaries-michigan-virginia-kansas-missouri-washington-midterms/",
-        "tier": "T2_indie"
-      }
-    ],
-    "category": "other",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 22,
-    "importance_tier": "LOW"
-  },
-  {
-    "id": "39aa23a1bbc1",
-    "datetime_utc": "2026-08-04T22:05:17.000Z",
-    "place": "WORLD",
-    "what": "Watch live: Nexstar’s South Carolina GOP Senate primary debate",
-    "deck": "The Hill will present live coverage of Nexstar Media Group’s exclusive Debate Night in South Carolina on Tuesday evening from 6:30 p.m.",
-    "context": "The Hill will present live coverage of Nexstar Media Group’s exclusive Debate Night in South Carolina on Tuesday evening from 6:30 p.m. to 8:30 p.m. EDT. The GOP Senate primary debate will be moderated by News 2’s Carolyn Murray and Queen City News’s Alicia Barnes. Participating candidates, looking to fill the seat vacated by the…",
-    "sources": [
-      {
-        "outlet": "The Hill",
-        "url": "https://thehill.com/video-clips/6008520-watch-live-nexstar-south-carolina-gop-senate-primary-debate/",
-        "tier": "T2_indie"
+        "outlet": "European Commission",
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1721",
+        "tier": "T1_gov"
       }
     ],
     "category": "government",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 41,
-    "importance_tier": "MED"
-  },
-  {
-    "id": "e124c7e9b970",
-    "datetime_utc": "2026-08-04T21:52:22.000Z",
-    "place": "WORLD",
-    "what": "FDA authorizes 4 flavored nicotine pouches",
-    "deck": "The Food and Drug Administration (FDA) on Tuesday granted marketing authorization to four new flavored nicotine pouches as part of the agency’s tobacco review pilot program launched last year.",
-    "context": "The Food and Drug Administration (FDA) on Tuesday granted marketing authorization to four new flavored nicotine pouches as part of the agency’s tobacco review pilot program launched last year. Four nicotine pouch products — Rich Berry 2 mg, Cappuccino 2 mg, Cappuccino 4 mg and Autumn Spice 2 mg — from Helix Innovations LLC received…",
-    "sources": [
-      {
-        "outlet": "The Hill",
-        "url": "https://thehill.com/policy/healthcare/6009152-fda-authorizes-helix-flavored-nicotine-pouches/",
-        "tier": "T2_indie"
-      }
-    ],
-    "category": "government",
-    "economics_flag": false,
+    "economics_flag": true,
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1009,16 +1881,16 @@
         "forecast": "Analysis coming."
       }
     },
-    "importance": 41,
+    "importance": 51,
     "importance_tier": "MED"
   },
   {
-    "id": "210b0c5bebdb",
+    "id": "18c318c4a645",
     "datetime_utc": "2026-08-04T21:46:45.000Z",
     "place": "WORLD",
-    "what": "US World Cup host cities seek millions in unpaid FIFA funding: report",
-    "deck": "Several US cities that staged World Cup matches are pressing FIFA for millions of dollars they say were promised to support football infrastructure and community projects, according to an Atheltic report that adds to…",
-    "context": "Several US cities that staged World Cup matches are pressing FIFA for millions of dollars they say were promised to support football infrastructure and community projects, according to an Atheltic report that adds to growing scrutiny of the governing body under president Gianni Infantino.",
+    "what": "US World Cup host cities seek millions in unpaid FIFA funding",
+    "deck": "Several US cities that staged World Cup matches are pressing FIFA for millions of dollars they say were promised to support football-related infrastructure and community projects, according to a report from The Athlet…",
+    "context": "Several US cities that staged World Cup matches are pressing FIFA for millions of dollars they say were promised to support football-related infrastructure and community projects, according to a report from The Athletic that adds to growing scrutiny of the governing body under president Gianni Infantino.",
     "sources": [
       {
         "outlet": "France 24",
@@ -1031,7 +1903,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1049,140 +1921,6 @@
     },
     "importance": 24,
     "importance_tier": "LOW"
-  },
-  {
-    "id": "c9fc80e7c6c3",
-    "datetime_utc": "2026-08-04T21:41:30.000Z",
-    "place": "WORLD",
-    "what": "Reform UK deputy leader faces inquiry over Israel visit",
-    "deck": "The September 2025 Israel trip included flights, accommodation, and hospitality organized by Reform Friends of Israel.",
-    "context": "The September 2025 Israel trip included flights, accommodation, and hospitality organized by Reform Friends of Israel.",
-    "sources": [
-      {
-        "outlet": "Jerusalem Post",
-        "url": "https://www.jpost.com/diaspora/antisemitism/article-904590",
-        "tier": "T2_indie"
-      }
-    ],
-    "category": "other",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 22,
-    "importance_tier": "LOW"
-  },
-  {
-    "id": "6dbeefd4a332",
-    "datetime_utc": "2026-08-04T21:13:02.000Z",
-    "place": "WORLD",
-    "what": "UFC parent company lost $30M on White House fight",
-    "deck": "An executive from TKO Group Holdings, the parent company of the UFC, said Monday the firm lost roughly $30 million from its June event at the White House.",
-    "quote": "With regards to UFC Freedom 250, we incurred significantly higher-than-normal costs, which we partially offset with sold-out global partnerships inventory,",
-    "context": "An executive from TKO Group Holdings, the parent company of the UFC, said Monday the firm lost roughly $30 million from its June event at the White House. “With regards to UFC Freedom 250, we incurred significantly higher-than-normal costs, which we partially offset with sold-out global partnerships inventory,” Andrew Schleimer, the chief financial officer of…",
-    "sources": [
-      {
-        "outlet": "The Hill",
-        "url": "https://thehill.com/business/6008924-tko-ufc-whitehouse-loss/",
-        "tier": "T2_indie"
-      }
-    ],
-    "category": "government",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 49,
-    "importance_tier": "MED"
-  },
-  {
-    "id": "97b5f923457d",
-    "datetime_utc": "2026-08-04T21:11:23.000Z",
-    "place": "WORLD",
-    "what": "Senate funding bill seeks delay of hemp THC ban",
-    "deck": "Makers of hemp THC products were thrown a lifeline when senators in a stopgap spending bill included a delay of a federal ban on their products.",
-    "context": "Makers of hemp THC products were thrown a lifeline when senators in a stopgap spending bill included a delay of a federal ban on their products. The Senate’s government funding bill set to be considered this week would delay the upcoming prohibition on most hemp-derived THC products until Dec. 11. Hemp industry groups and…",
-    "sources": [
-      {
-        "outlet": "The Hill",
-        "url": "https://thehill.com/policy/healthcare/6009069-senate-funding-bill-seeks-hemp-thc-ban-delay/",
-        "tier": "T2_indie"
-      }
-    ],
-    "category": "government",
-    "economics_flag": false,
-    "weigh_it_questions": [
-      {
-        "tenet": "power-scope",
-        "question": "Does Senate funding bill seeks delay of hemp THC ban keep Congress inside the powers the Constitution enumerates (Art. I §8; 10th Amendment), or does it extend federal reach beyond them?",
-        "anchor": "Federalist No. 45 (Madison); Constitution Art. I §8; Amendment X"
-      },
-      {
-        "tenet": "historical-contrast",
-        "question": "Set against the founders’ framework and the presidents who best embodied it, is this act of Congress a step toward that tradition or away from it?",
-        "anchor": "The founding canon, taken as a whole"
-      }
-    ],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "rule-based",
-        "contrasts": [
-          {
-            "tenet": "power-scope",
-            "label": "Enumerated & limited federal power",
-            "question": "Does Senate funding bill seeks delay of hemp THC ban keep Congress inside the powers the Constitution enumerates (Art. I §8; 10th Amendment), or does it extend federal reach beyond them?",
-            "within_bounds": "If the action uses a power the Constitution actually lists in Article I §8, it stays inside the lines the founders drew. Madison called the federal powers \"few and defined\" (Federalist 45).",
-            "beyond_bounds": "If it reaches into matters the 10th Amendment leaves to the states or the people, it stretches past those lines. The founders meant the states' powers to stay \"numerous and indefinite\" (Federalist 45).",
-            "anchor": "Federalist No. 45 (Madison); Constitution Art. I §8; Amendment X"
-          }
-        ]
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 41,
-    "importance_tier": "MED"
   },
   {
     "id": "3d6771d5b60e",
@@ -1203,7 +1941,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1241,7 +1979,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1301,7 +2039,7 @@
     },
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1321,18 +2059,13 @@
     "importance_tier": "BURIED"
   },
   {
-    "id": "7b92bda3bc67",
-    "datetime_utc": "2026-08-04T18:36:00.000Z",
+    "id": "9b121c8d6b90",
+    "datetime_utc": "2026-08-04T18:45:00.000Z",
     "place": "WORLD",
-    "what": "Woman injured in Russian attack on Brovary district in Kyiv Oblast",
-    "deck": "A woman was injured in a Russian attack on the Brovary district in Kyiv Oblast on 4 August.",
-    "context": "Reported by 3 sources. A woman was injured in a Russian attack on the Brovary district in Kyiv Oblast on 4 August.",
+    "what": "Russia attacks children's hospital in Zaporizhzhia – photos",
+    "deck": "Russian forces attacked Zaporizhzhia Oblast Children's Clinical Hospital on 4 August.",
+    "context": "Reported by 2 sources. Russian forces attacked Zaporizhzhia Oblast Children's Clinical Hospital on 4 August. No casualties have been reported.",
     "sources": [
-      {
-        "outlet": "Ukrainska Pravda",
-        "url": "https://www.pravda.com.ua/eng/news/2026/08/04/8047280/",
-        "tier": "T2_indie"
-      },
       {
         "outlet": "Ukrainska Pravda",
         "url": "https://www.pravda.com.ua/eng/news/2026/08/04/8047283/",
@@ -1340,7 +2073,7 @@
       },
       {
         "outlet": "Ukrainska Pravda",
-        "url": "https://www.pravda.com.ua/eng/news/2026/08/04/8047246/",
+        "url": "https://www.pravda.com.ua/eng/news/2026/08/04/8047280/",
         "tier": "T2_indie"
       }
     ],
@@ -1348,8 +2081,8 @@
     "economics_flag": false,
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
-    "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "classifier_confidence": 0.91,
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1365,8 +2098,8 @@
         "forecast": "Analysis coming."
       }
     },
-    "importance": 27,
-    "importance_tier": "LOW"
+    "importance": 80,
+    "importance_tier": "HIGH"
   },
   {
     "id": "f0fc58d538c6",
@@ -1387,7 +2120,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1425,7 +2158,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1445,60 +2178,17 @@
     "importance_tier": "MED"
   },
   {
-    "id": "10b6d4a114a3",
-    "datetime_utc": "2026-08-04T17:15:00.000Z",
-    "place": "WORLD",
-    "what": "German defence minister confirms delivery of latest RCH-155 howitzers to Ukraine",
-    "deck": "German Defence Minister Boris Pistorius has confirmed that Ukraine is receiving the RCH-155 wheeled howitzer.",
-    "context": "German Defence Minister Boris Pistorius has confirmed that Ukraine is receiving the RCH-155 wheeled howitzer.",
-    "sources": [
-      {
-        "outlet": "Ukrainska Pravda",
-        "url": "https://www.pravda.com.ua/eng/news/2026/08/04/8047272/",
-        "tier": "T2_indie"
-      }
-    ],
-    "category": "other",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 22,
-    "importance_tier": "LOW"
-  },
-  {
     "id": "555b60416518",
     "datetime_utc": "2026-08-04T16:40:54.000Z",
     "place": "WORLD",
     "what": "Ukraine: Drone follows man before detonating and injuring him",
     "deck": "The Kherson Regional Military Administration released a video showing a drone flying in front of a man, before detonating and injuring him.",
-    "context": "Reported by 2 sources. The Kherson Regional Military Administration released a video showing a drone flying in front of a man, before detonating and injuring him. The army says the incident occurred on August 4, 2026. The war in Ukraine has become the first major conflict dominated by unmanned aerial vehicles. Kyiv has set itself the ambitious target of producing seven million drones by 2026, which is about 10,000 per day. Russia currently has the capacity to fire 350 to 500 long-range attack drones per day, according to Ukrainian estimates.",
+    "context": "The Kherson Regional Military Administration released a video showing a drone flying in front of a man, before detonating and injuring him. The army says the incident occurred on August 4, 2026. The war in Ukraine has become the first major conflict dominated by unmanned aerial vehicles. Kyiv has set itself the ambitious target of producing seven million drones by 2026, which is about 10,000 per day. Russia currently has the capacity to fire 350 to 500 long-range attack drones per day, according to Ukrainian estimates.",
     "sources": [
       {
         "outlet": "France 24",
         "url": "https://www.france24.com/en/video/20260804-ukraine-drone-follows-man-before-detonating-and-injuring-him",
         "tier": "T1_wire"
-      },
-      {
-        "outlet": "Ukrainska Pravda",
-        "url": "https://www.pravda.com.ua/eng/news/2026/08/04/8047191/",
-        "tier": "T2_indie"
       }
     ],
     "category": "war",
@@ -1506,7 +2196,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1522,7 +2212,7 @@
         "forecast": "Analysis coming."
       }
     },
-    "importance": 49,
+    "importance": 46,
     "importance_tier": "MED"
   },
   {
@@ -1555,7 +2245,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1593,7 +2283,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1636,7 +2326,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1674,7 +2364,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.73,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1699,17 +2389,12 @@
     "place": "WORLD",
     "what": "Hezbollah rejects fresh round of talks between Lebanon and Israel",
     "deck": "Lebanon and Israel are holding a fresh round of direct talks in Rome under US sponsorship.",
-    "context": "Reported by 2 sources. Lebanon and Israel are holding a fresh round of direct talks in Rome under US sponsorship. It is the seventh such meeting since Hezbollah drew Lebanon into the Middle East war in March with rocket fire at Israel, which responded with heavy airstrikes and a ground invasion. The talks were criticised by the leader of Hezbollah, who said they brought 'shame' and 'humiliation' to Lebanon. FRANCE 24's Seema Gupta tells us more.",
+    "context": "Lebanon and Israel are holding a fresh round of direct talks in Rome under US sponsorship. It is the seventh such meeting since Hezbollah drew Lebanon into the Middle East war in March with rocket fire at Israel, which responded with heavy airstrikes and a ground invasion. The talks were criticised by the leader of Hezbollah, who said they brought 'shame' and 'humiliation' to Lebanon. FRANCE 24's Seema Gupta tells us more.",
     "sources": [
       {
         "outlet": "France 24",
         "url": "https://www.france24.com/en/hezbollah-rejects-fresh-round-of-talks-between-lebanon-and-israel",
         "tier": "T1_wire"
-      },
-      {
-        "outlet": "Jerusalem Post",
-        "url": "https://www.jpost.com/middle-east/article-904530",
-        "tier": "T2_indie"
       }
     ],
     "category": "war",
@@ -1717,7 +2402,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1733,7 +2418,7 @@
         "forecast": "Analysis coming."
       }
     },
-    "importance": 87,
+    "importance": 84,
     "importance_tier": "HIGH"
   },
   {
@@ -1755,7 +2440,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1793,7 +2478,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.73,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1831,7 +2516,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.73,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1849,44 +2534,6 @@
     },
     "importance": 44,
     "importance_tier": "MED"
-  },
-  {
-    "id": "5716f426ab7f",
-    "datetime_utc": "2026-08-04T14:03:00.000Z",
-    "place": "WORLD",
-    "what": "Another blackout recorded at Zaporizhzhia Nuclear Power Plant",
-    "deck": "The Zaporizhzhia Nuclear Power Plant (ZNPP) lost its external power supply once again on 4 August and was forced to operate on diesel generators for about an hour.",
-    "context": "The Zaporizhzhia Nuclear Power Plant (ZNPP) lost its external power supply once again on 4 August and was forced to operate on diesel generators for about an hour. These generators serve as a backup source to ensure nuclear and radiation safety.",
-    "sources": [
-      {
-        "outlet": "Ukrainska Pravda",
-        "url": "https://www.pravda.com.ua/eng/news/2026/08/04/8047233/",
-        "tier": "T2_indie"
-      }
-    ],
-    "category": "other",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 29,
-    "importance_tier": "LOW"
   },
   {
     "id": "1575f81497d7",
@@ -1907,7 +2554,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.91,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1945,7 +2592,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -1983,83 +2630,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 24,
-    "importance_tier": "LOW"
-  },
-  {
-    "id": "4eacf3ee58b6",
-    "datetime_utc": "2026-08-04T12:43:52.000Z",
-    "place": "WORLD",
-    "what": "Wildfire prevention requires 'nature-based solutions': Land 'treating us' the way we treat the land",
-    "deck": "Carys Garland is pleased to welcome Alexander Held, Senior Expert of the Resilience Programme for Integrated Fire Management.",
-    "context": "Carys Garland is pleased to welcome Alexander Held, Senior Expert of the Resilience Programme for Integrated Fire Management. Held explains how Europe's escalating wildfire crisis is exposing the limits of a response model built around emergency suppression rather than long-term resilience. He argues that while the European Union has significantly improved its capacity to coordinate firefighting efforts, it continues to intervene only after the fact: once wildfires have already become uncontrollable. His central thesis is that the challenge is no longer primarily one of firefighting but of landscape governance. Climate change may intensify the conditions for extreme fires, yet the scale and destructiveness of these events are also shaped by decades of land abandonment, fuel accumulation, changing agricultural practices, and political incentives that favour highly visible emergency responses over less visible preventive measures.",
-    "sources": [
-      {
-        "outlet": "France 24",
-        "url": "https://www.france24.com/en/video/20260804-wildfire-prevention-requires-nature-based-solutions-land-treating-us-the-way-we-treat-the-land-1",
-        "tier": "T1_wire"
-      }
-    ],
-    "category": "other",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 24,
-    "importance_tier": "LOW"
-  },
-  {
-    "id": "0f3bf74f5c8b",
-    "datetime_utc": "2026-08-04T12:43:12.000Z",
-    "place": "WORLD",
-    "what": "FIFA president Infantino's problems mount as key FIFA allies turn on him",
-    "deck": "FIFA president Gianni Infantino faced intensified pressure on Tuesday from within world football's governing body as well as from external critics over his since-abandoned proposal to open the World Cup to private inv…",
-    "context": "FIFA president Gianni Infantino faced intensified pressure on Tuesday from within world football's governing body as well as from external critics over his since-abandoned proposal to open the World Cup to private investment. Infantino has been swamped with criticism of his style of leadership and a previously smooth path to being re-elected unopposed to a fourth and final term next March now looks rocky",
-    "sources": [
-      {
-        "outlet": "France 24",
-        "url": "https://www.france24.com/en/sport/20260804-fifa-president-infantino-s-problems-mount-as-key-fifa-allies-turn-on-him",
-        "tier": "T1_wire"
-      }
-    ],
-    "category": "other",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -2097,7 +2668,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.73,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -2135,45 +2706,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.73,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 24,
-    "importance_tier": "LOW"
-  },
-  {
-    "id": "67d07d5c2b99",
-    "datetime_utc": "2026-08-04T11:44:56.000Z",
-    "place": "WORLD",
-    "what": "Pasta of the future: Italy tests climate-resistant wheat",
-    "deck": "Pasta may be one of the world's most beloved staples, but technology is being used to improve the iconic Italian dish.",
-    "context": "Pasta may be one of the world's most beloved staples, but technology is being used to improve the iconic Italian dish. In the Emilia-Romagna region, Italy's \"Food Valley\", researchers are creating the pasta of the future by focusing on its main ingredient, wheat. FRANCE 24's Natalia Mendoza, Laura Roudaut, Tommaso Marro and Charlotte Davan Wetton report.",
-    "sources": [
-      {
-        "outlet": "France 24",
-        "url": "https://www.france24.com/en/tv-shows/focus/20260804-pasta-of-the-future-italy-tests-climate-resistant-wheat",
-        "tier": "T1_wire"
-      }
-    ],
-    "category": "other",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -2211,7 +2744,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -2228,120 +2761,6 @@
       }
     },
     "importance": 30,
-    "importance_tier": "LOW"
-  },
-  {
-    "id": "8c4db384f66d",
-    "datetime_utc": "2026-08-04T11:11:23.000Z",
-    "place": "WORLD",
-    "what": "Amid successive energy blackouts, frustration grows in cut-off Cuba",
-    "deck": "Some Cubans stood on balconies on August 3, banging pots and pans, to make their frustration known after the sixth nationwide power outage of the year.",
-    "context": "Some Cubans stood on balconies on August 3, banging pots and pans, to make their frustration known after the sixth nationwide power outage of the year. The national grid had begun to restore electricity across the island when adverse weather conditions caused a second collapse. Successive outages lead to food spoiling, are causing the supply of treated drinking water to dwindle and are compromising public services.",
-    "sources": [
-      {
-        "outlet": "France 24",
-        "url": "https://www.france24.com/en/amid-successive-energy-blackouts-frustration-grows-in-cut-off-cuba",
-        "tier": "T1_wire"
-      }
-    ],
-    "category": "other",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 55,
-    "importance_tier": "MED"
-  },
-  {
-    "id": "05f5965c554d",
-    "datetime_utc": "2026-08-04T11:04:00.000Z",
-    "place": "WORLD",
-    "what": "After 40 days of operations to \"push Russia towards peace\", Zelenskyy approves new ones",
-    "deck": "President Volodymyr Zelenskyy has announced new operations by the Security Service of Ukraine and priorities for August, without clarifying the results of the 40-day operation.",
-    "context": "President Volodymyr Zelenskyy has announced new operations by the Security Service of Ukraine and priorities for August, without clarifying the results of the 40-day operation.",
-    "sources": [
-      {
-        "outlet": "Ukrainska Pravda",
-        "url": "https://www.pravda.com.ua/eng/news/2026/08/04/8047197/",
-        "tier": "T2_indie"
-      }
-    ],
-    "category": "other",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.91,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 22,
-    "importance_tier": "LOW"
-  },
-  {
-    "id": "af02e44a89fd",
-    "datetime_utc": "2026-08-04T10:23:00.000Z",
-    "place": "WORLD",
-    "what": "Spanish MEP appeals to Netanyahu to back Spain's sovereignty amid Ceuta border crisis",
-    "deck": "Tens of thousands crossed into a city of 84,000 in a matter of days, leaving at least 83 dead and raising questions about Morocco’s role, Spain’s sovereignty, and Israel’s response.",
-    "context": "Tens of thousands crossed into a city of 84,000 in a matter of days, leaving at least 83 dead and raising questions about Morocco’s role, Spain’s sovereignty, and Israel’s response.",
-    "sources": [
-      {
-        "outlet": "Jerusalem Post",
-        "url": "https://www.jpost.com/international/article-904518",
-        "tier": "T2_indie"
-      }
-    ],
-    "category": "other",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 29,
     "importance_tier": "LOW"
   },
   {
@@ -2363,7 +2782,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.73,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -2401,7 +2820,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.73,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -2419,82 +2838,6 @@
     },
     "importance": 44,
     "importance_tier": "MED"
-  },
-  {
-    "id": "a6fbc4014cd2",
-    "datetime_utc": "2026-08-04T09:52:00.000Z",
-    "place": "WORLD",
-    "what": "Applications open for 2026 to 2027 Chevening Scholarships to study in the UK",
-    "deck": "Indian students can apply for the UK government’s flagship international scholarships programme from 4 August to 6 October 2026.",
-    "context": "Indian students can apply for the UK government’s flagship international scholarships programme from 4 August to 6 October 2026.",
-    "sources": [
-      {
-        "outlet": "UK Government",
-        "url": "https://www.gov.uk/government/news/applications-open-for-2026-to-2027-chevening-scholarships-to-study-in-the-uk",
-        "tier": "T1_gov"
-      }
-    ],
-    "category": "other",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 24,
-    "importance_tier": "LOW"
-  },
-  {
-    "id": "b7893fb1c78c",
-    "datetime_utc": "2026-08-04T09:15:21.000Z",
-    "place": "WORLD",
-    "what": "Hundreds of UK jobs supported with million-pound contract to secure Royal Navy torpedo weapons",
-    "deck": "Britain will be better protected from undersea threats and hundreds of jobs will be secured through a new £135 million contract to maintain and repair Royal Navy torpedo weapons.",
-    "context": "Britain will be better protected from undersea threats and hundreds of jobs will be secured through a new £135 million contract to maintain and repair Royal Navy torpedo weapons.",
-    "sources": [
-      {
-        "outlet": "UK Government",
-        "url": "https://www.gov.uk/government/news/hundreds-of-uk-jobs-supported-with-million-pound-contract-to-secure-royal-navy-torpedo-weapons",
-        "tier": "T1_gov"
-      }
-    ],
-    "category": "other",
-    "economics_flag": true,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.73,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 32,
-    "importance_tier": "LOW"
   },
   {
     "id": "b114cdde3905",
@@ -2530,7 +2873,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -2568,7 +2911,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -2584,577 +2927,8 @@
         "forecast": "Analysis coming."
       }
     },
-    "importance": 43,
+    "importance": 40,
     "importance_tier": "MED"
-  },
-  {
-    "id": "330d6cfeb0ac",
-    "datetime_utc": "2026-08-04T05:32:16.000Z",
-    "place": "WORLD",
-    "what": "India steps up arms supplies to Israel, sent almost 3,000 arms consignments since October 7",
-    "deck": "India ranks second in the world's defense importers after Ukraine, and the subcontinent is the most prominent customer of Israel's defense industries",
-    "context": "India ranks second in the world's defense importers after Ukraine, and the subcontinent is the most prominent customer of Israel's defense industries",
-    "sources": [
-      {
-        "outlet": "Jerusalem Post",
-        "url": "https://www.jpost.com/defense-and-tech/article-904501",
-        "tier": "T2_indie"
-      }
-    ],
-    "category": "other",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 22,
-    "importance_tier": "LOW"
-  },
-  {
-    "id": "d6b7ecd8cdaa",
-    "datetime_utc": "2026-08-04T00:00:00.000Z",
-    "place": "WASHINGTON",
-    "what": "Hazardous Materials: Adoption of Department of Transportation Special Permit 21478",
-    "deck": "Rule.",
-    "context": "Reported by 7 sources. Rule. This final rule removes undue regulatory burdens by adopting the provisions of U.S. Department of Transportation (DOT) special permit (SP) 21478 to allow empty intermediate bulk containers (IBCs) that only contain the residue of a hazardous material to be transported without shipping papers, placards, and United Nations (UN) identification (ID) numbers. (Transportation Department, Pipeline and Hazardous Materials Safety Administration)",
-    "sources": [
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/08/04/2026-15820/hazardous-materials-adoption-of-department-of-transportation-special-permit-21478",
-        "tier": "T1_gov"
-      },
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/08/04/2026-15819/hazardous-materials-adoption-of-department-of-transportation-special-permit-14175",
-        "tier": "T1_gov"
-      },
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/08/04/2026-15818/hazardous-materials-adoption-of-department-of-transportation-special-permit-21379",
-        "tier": "T1_gov"
-      },
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/08/04/2026-15817/hazardous-materials-adoption-of-department-of-transportation-special-permit-21287",
-        "tier": "T1_gov"
-      },
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/08/04/2026-15816/hazardous-materials-adoption-of-department-of-transportation-special-permits-12412-and-11646-into",
-        "tier": "T1_gov"
-      },
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/08/04/2026-15811/hazardous-materials-improving-efficiencies-for-special-permits-and-approvals-renewals",
-        "tier": "T1_gov"
-      },
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/08/04/2026-15810/hazardous-materials-reducing-burdens-by-allowing-continued-use-of-department-of-transportation",
-        "tier": "T1_gov"
-      }
-    ],
-    "category": "world",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 52,
-    "importance_tier": "MED"
-  },
-  {
-    "id": "9c829cc259fb",
-    "datetime_utc": "2026-08-04T00:00:00.000Z",
-    "place": "WASHINGTON",
-    "what": "Hazardous Materials: Remove Redundant List of U.S. EPA CERCLA Hazardous Substances",
-    "deck": "Rule.",
-    "context": "Reported by 5 sources. Rule. To improve efficiency and eliminate redundancy, this final rule streamlines the Hazardous Materials Regulations by modifying how hazardous substances are listed. Instead of maintaining a duplicative list, the regulations will now rely on the authoritative, comprehensive list already maintained by the U.S. Environmental Protection Agency. (Transportation Department, Pipeline and Hazardous Materials Safety Administration)",
-    "sources": [
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/08/04/2026-15809/hazardous-materials-remove-redundant-list-of-us-epa-cercla-hazardous-substances",
-        "tier": "T1_gov"
-      },
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/08/04/2026-15813/hazardous-materials-reducing-recordkeeping-requirements-for-domestic-carriers",
-        "tier": "T1_gov"
-      },
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/08/04/2026-15815/hazardous-materials-removing-burdensome-rail-reporting-requirements",
-        "tier": "T1_gov"
-      },
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/08/04/2026-15808/hazardous-materials-reducing-undue-paperwork-burdens-to-domestic-carriers",
-        "tier": "T1_gov"
-      },
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/08/04/2026-15805/hazardous-materials-reducing-costs-to-domestic-shippers-and-carriers-of-limited-quantities",
-        "tier": "T1_gov"
-      }
-    ],
-    "category": "government",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 51,
-    "importance_tier": "MED"
-  },
-  {
-    "id": "8456d56555e8",
-    "datetime_utc": "2026-08-04T00:00:00.000Z",
-    "place": "WASHINGTON",
-    "what": "Large Diameter Welded Pipe From the Republic of Korea: Preliminary Results and Rescission, in Part, of Countervailing Duty Administrative Review; 2024",
-    "deck": "Notice.",
-    "context": "Notice. The U.S. Department of Commerce (Commerce) preliminarily determines that countervailable subsidies were provided to producers and exporters of large diameter welded pipe (welded pipe) from the Republic of Korea (Korea). The period of review (POR) is January 1, 2024, through December 31, 2024. In addition, Commerce is rescinding this review, in part, with respect to 16 companies. Interested parties are invited to comment on these preliminary results of review. (Commerce Department, International Trade Administration)",
-    "sources": [
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/08/04/2026-15802/large-diameter-welded-pipe-from-the-republic-of-korea-preliminary-results-and-rescission-in-part-of",
-        "tier": "T1_gov"
-      }
-    ],
-    "category": "economics",
-    "economics_flag": true,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 37,
-    "importance_tier": "LOW"
-  },
-  {
-    "id": "ff5fffee785f",
-    "datetime_utc": "2026-08-04T00:00:00.000Z",
-    "place": "WASHINGTON",
-    "what": "Foreign-Trade Zone (FTZ) 12; Authorization of Production Activity; Avant Technology, Inc.; (Solid-State Drives and Memory Modules); Pharr, Texas",
-    "deck": "Notice.",
-    "context": "Notice. Foreign-Trade Zone (FTZ) 12; Authorization of Production Activity; Avant Technology, Inc.; (Solid-State Drives and Memory Modules); Pharr, Texas (Commerce Department, Foreign-Trade Zones Board)",
-    "sources": [
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/08/04/2026-15804/foreign-trade-zone-ftz-12-authorization-of-production-activity-avant-technology-inc-solid-state",
-        "tier": "T1_gov"
-      }
-    ],
-    "category": "economics",
-    "economics_flag": true,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 33,
-    "importance_tier": "LOW"
-  },
-  {
-    "id": "b74d50796087",
-    "datetime_utc": "2026-08-04T00:00:00.000Z",
-    "place": "WASHINGTON",
-    "what": "Hazardous Materials: Modernizing Payments To and From America's Bank Account",
-    "deck": "Rule.",
-    "context": "Rule. This final rule modernizes the payment system for hazardous materials transportation registration fees by eliminating the option to pay by paper check and requiring electronic payment through the U.S. Department of Transportation (Department or DOT) e-Commerce internet site. This action improves processing efficiency, reduces administrative burden, and aligns payment procedures with current Government-wide electronic commerce practices. (Transportation Department, Pipeline and Hazardous Materials Safety Administration)",
-    "sources": [
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/08/04/2026-15812/hazardous-materials-modernizing-payments-to-and-from-americas-bank-account",
-        "tier": "T1_gov"
-      }
-    ],
-    "category": "government",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 45,
-    "importance_tier": "MED"
-  },
-  {
-    "id": "b32478f68b19",
-    "datetime_utc": "2026-08-04T00:00:00.000Z",
-    "place": "WASHINGTON",
-    "what": "Hazardous Materials: Reduce Training Burdens for America's Farmers",
-    "deck": "Rule.",
-    "context": "Rule. This final rule makes an inflationary adjustment to the monetary threshold for farmers to be eligible for an exception from security plan and in-depth security training requirements. (Transportation Department, Pipeline and Hazardous Materials Safety Administration)",
-    "sources": [
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/08/04/2026-15814/hazardous-materials-reduce-training-burdens-for-americas-farmers",
-        "tier": "T1_gov"
-      }
-    ],
-    "category": "economics",
-    "economics_flag": true,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 33,
-    "importance_tier": "LOW"
-  },
-  {
-    "id": "08d543a0ac49",
-    "datetime_utc": "2026-08-04T00:00:00.000Z",
-    "place": "WASHINGTON",
-    "what": "Hazardous Materials: Reducing Burdens on Domestic Companies Using Battery-Powered Equipment in Trades",
-    "deck": "Rule.",
-    "context": "Rule. This final rule modernizes the Materials of Trade (MOT) exception in the Hazardous Materials Regulations (HMR) by increasing the maximum allowable quantities of lithium batteries that can be transported as MOTs. This increase removes an undue regulatory burden which constrains the ability of construction, landscaping, mowing, tree service, food service, and entertainment companies to perform their trade. (Transportation Department, Pipeline and Hazardous Materials Safety Administration)",
-    "sources": [
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/08/04/2026-15823/hazardous-materials-reducing-burdens-on-domestic-companies-using-battery-powered-equipment-in-trades",
-        "tier": "T1_gov"
-      }
-    ],
-    "category": "economics",
-    "economics_flag": true,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 33,
-    "importance_tier": "LOW"
-  },
-  {
-    "id": "a35c15edac4e",
-    "datetime_utc": "2026-08-04T00:00:00.000Z",
-    "place": "WASHINGTON",
-    "what": "Petition for Rulemaking of Matheus Garcia Pereira",
-    "deck": "Proposed Rule.",
-    "context": "Proposed Rule. Please take notice that the Federal Trade Commission (\"Commission\") received a petition for rulemaking from Matheus Garcia Pereira and has published that petition online at https:// www.regulations.gov. The Commission invites written comments concerning the petition. Publication of this petition is pursuant to the Commission's Rules of Practice and Procedure and does not affect the legal status of the petition or its final disposition. (Federal Trade Commission)",
-    "sources": [
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/08/04/2026-15824/petition-for-rulemaking-of-matheus-garcia-pereira",
-        "tier": "T1_gov"
-      }
-    ],
-    "category": "economics",
-    "economics_flag": true,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 33,
-    "importance_tier": "LOW"
-  },
-  {
-    "id": "51bc195618b4",
-    "datetime_utc": "2026-08-04T00:00:00.000Z",
-    "place": "WASHINGTON",
-    "what": "Airworthiness Directives; Diamond Aircraft Industries Inc. Airplanes",
-    "deck": "Rule.",
-    "context": "Rule. The FAA is adopting a new airworthiness directive (AD) for certain Diamond Aircraft Industries Inc. (DAI) Model DA20-C1 airplanes. This AD was prompted by a report of a certain emergency locator transmitter (ELT) not activating due to a missing jumper wire. This AD requires a continuity inspection of the D-sub connector of the Artex ELT 1000 and, if necessary, corrective actions. The FAA is issuing this AD to address the unsafe condition on these products. (Transportation Department, Federal Aviation Administration)",
-    "sources": [
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/08/04/2026-15825/airworthiness-directives-diamond-aircraft-industries-inc-airplanes",
-        "tier": "T1_gov"
-      }
-    ],
-    "category": "government",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 45,
-    "importance_tier": "MED"
-  },
-  {
-    "id": "668e9beba059",
-    "datetime_utc": "2026-08-04T00:00:00.000Z",
-    "place": "WASHINGTON",
-    "what": "Medicare Program; Hospital Inpatient Prospective Payment Systems for Acute Care Hospitals (IPPS) and the Long-Term Care Hospital Prospective Payment System and Policy Changes and Fiscal Year (FY) 2027 Rates; Requirements for Quality Programs; Other Policy Changes; and Adoption of Updated Versions of Certain Health Information Technology Standards",
-    "deck": "Rule.",
-    "context": "Rule. This final rule will revise the Medicare hospital inpatient prospective payment systems (IPPS) for operating and capital-related costs of acute care hospitals; make changes relating to Medicare graduate medical education (GME) for teaching hospitals; update the payment policies and the annual payment rates for the Medicare prospective payment system (PPS) for inpatient hospital services provided by long-term care hospitals (LTCHs); update and make changes to requirements for certain quality programs; and make other policy- related changes. ONC also adopts certain health information technology (health IT) standards and specifications on behalf of HHS. (Health and Human Services Department, Centers for Medicare & Medicaid Services)",
-    "sources": [
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/08/04/2026-15833/medicare-program-hospital-inpatient-prospective-payment-systems-for-acute-care-hospitals-ipps-and",
-        "tier": "T1_gov"
-      }
-    ],
-    "category": "economics",
-    "economics_flag": true,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 33,
-    "importance_tier": "LOW"
-  },
-  {
-    "id": "98cf9bbaee2e",
-    "datetime_utc": "2026-08-04T00:00:00.000Z",
-    "place": "WASHINGTON",
-    "what": "Accessible Lavatories on Single-Aisle Aircraft and Ensuring Safe Accommodations for Air Travelers With Disabilities Using Wheelchairs",
-    "deck": "Rule.",
-    "quote": "Ensuring Safe Accommodations for Air Travelers With Disabilities Using Wheelchairs",
-    "context": "Rule. The U.S. Department of Transportation (DOT or Department) is extending its previously announced enforcement discretion for four provisions of the final rule on \"Ensuring Safe Accommodations for Air Travelers With Disabilities Using Wheelchairs\" (Wheelchair Rule I) related to airline liability for mishandled wheelchairs, refresher training frequency, pre-departure notifications, and fare difference reimbursements from December 31, 2026 to April 30, 2027. To maintain regulatory consistency, the Department is also expanding this enforcement discretion to include the 12-month hands-on training mandate for flight attendants regarding on-board wheelchair (OBW) assistance and lavatory accessibility in the final rule titled \"Accessible Lavatories on Single-Aisle Aircraft\" (Accessible Lavatory Rule). These provisions will be formally addressed in an upcoming rulemaking titled \"Airline Obligations to Accommodate Air Travelers with Disabilities Using Wheelchairs\" (Wheelchair Rule II). This extension is necessary to allow sufficient time for the Department to review and analyze public comments, and to make final determinations regarding the content of the final rule. This exercise of enforcement discretion is intended to remove the burden of complying with the requirements under review by DOT and does not prejudge the outcome of the new rulemaking. This notice does not affect the enforcement of requirements in the Accessible Lavatory Rule other than the one identified. (Transportation Department)",
-    "sources": [
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/08/04/2026-15835/accessible-lavatories-on-single-aisle-aircraft-and-ensuring-safe-accommodations-for-air-travelers",
-        "tier": "T1_gov"
-      }
-    ],
-    "category": "government",
-    "economics_flag": false,
-    "weigh_it_questions": [
-      {
-        "tenet": "power-scope",
-        "question": "Does Accessible Lavatories on Single-Aisle Aircraft and Ensuring Safe Accommodations for Air Travelers With Disabilities Using Wheelchairs keep the federal agency inside the powers the Constitution enumerates (Art. I §8; 10th Amendment), or does it extend federal reach beyond them?",
-        "anchor": "Federalist No. 45 (Madison); Constitution Art. I §8; Amendment X"
-      },
-      {
-        "tenet": "historical-contrast",
-        "question": "Set against the founders’ framework and the presidents who best embodied it, is this federal action a step toward that tradition or away from it?",
-        "anchor": "The founding canon, taken as a whole"
-      }
-    ],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "rule-based",
-        "contrasts": [
-          {
-            "tenet": "power-scope",
-            "label": "Enumerated & limited federal power",
-            "question": "Does Accessible Lavatories on Single-Aisle Aircraft and Ensuring Safe Accommodations for Air Travelers With Disabilities Using Wheelchairs keep the federal agency inside the powers the Constitution enumerates (Art. I §8; 10th Amendment), or does it extend federal reach beyond them?",
-            "within_bounds": "If the action uses a power the Constitution actually lists in Article I §8, it stays inside the lines the founders drew. Madison called the federal powers \"few and defined\" (Federalist 45).",
-            "beyond_bounds": "If it reaches into matters the 10th Amendment leaves to the states or the people, it stretches past those lines. The founders meant the states' powers to stay \"numerous and indefinite\" (Federalist 45).",
-            "anchor": "Federalist No. 45 (Madison); Constitution Art. I §8; Amendment X"
-          }
-        ]
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 34,
-    "importance_tier": "LOW"
-  },
-  {
-    "id": "813a338567c7",
-    "datetime_utc": "2026-08-04T00:00:00.000Z",
-    "place": "WASHINGTON",
-    "what": "Presidential Determination Pursuant to Section 101 of the Defense Production Act of 1950, as Amended, on Recoverable Critical Minerals and Materials",
-    "deck": "Presidential Document.",
-    "context": "Reported by 2 sources. Presidential Document. Presidential Determination Pursuant to Section 101 of the Defense Production Act of 1950, as Amended, on Recoverable Critical Minerals and Materials (Executive Office of the President)",
-    "sources": [
-      {
-        "outlet": "Federal Register",
-        "url": "https://www.federalregister.gov/documents/2026/08/04/2026-15859/presidential-determination-pursuant-to-section-101-of-the-defense-production-act-of-1950-as-amended",
-        "tier": "T1_gov"
-      },
-      {
-        "outlet": "White House",
-        "url": "https://www.whitehouse.gov/presidential-actions/2026/07/presidential-determination-pursuant-to-section-101-of-the-defense-production-act-of-1950-as-amended-on-recoverable-critical-minerals-and-materials/",
-        "tier": "T1_gov"
-      }
-    ],
-    "category": "other",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 30,
-    "importance_tier": "LOW"
   },
   {
     "id": "b35fd8d1697f",
@@ -3182,7 +2956,7 @@
     },
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3241,7 +3015,7 @@
     ],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3287,7 +3061,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.73,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3325,7 +3099,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3363,7 +3137,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3405,7 +3179,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3443,7 +3217,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3481,7 +3255,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3524,7 +3298,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3562,7 +3336,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3588,17 +3362,12 @@
     "what": "ICYMI: Confirm Todd Blanche as Attorney General",
     "deck": "President Donald J.",
     "quote": "Todd Blanche is a STAR, and everyone knows it!",
-    "context": "Reported by 2 sources. President Donald J. Trump’s nominee for Attorney General, Todd Blanche, should be confirmed by the U.S. Senate without delay. As President Trump has stated, “Todd Blanche is a STAR, and everyone knows it!” A broad coalition of law enforcement organizations, state attorneys general, former Justice Department officials, editorial boards, legal experts, advocacy groups, and Members",
+    "context": "President Donald J. Trump’s nominee for Attorney General, Todd Blanche, should be confirmed by the U.S. Senate without delay. As President Trump has stated, “Todd Blanche is a STAR, and everyone knows it!” A broad coalition of law enforcement organizations, state attorneys general, former Justice Department officials, editorial boards, legal experts, advocacy groups, and Members",
     "sources": [
       {
         "outlet": "White House",
         "url": "https://www.whitehouse.gov/releases/2026/07/icymi-confirm-todd-blanche-as-attorney-general/",
         "tier": "T1_gov"
-      },
-      {
-        "outlet": "The Hill",
-        "url": "https://thehill.com/homenews/senate/6009239-collins-opposes-blanche-ag-confirmation/",
-        "tier": "T2_indie"
       }
     ],
     "category": "courts",
@@ -3606,7 +3375,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3644,7 +3413,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.91,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3682,7 +3451,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3720,7 +3489,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3738,44 +3507,6 @@
     },
     "importance": 36,
     "importance_tier": "LOW"
-  },
-  {
-    "id": "e67f173357d5",
-    "datetime_utc": "2026-07-30T22:00:00.000Z",
-    "place": "WORLD",
-    "what": "Commission approves €59 million Slovenian State aid scheme to promote battery energy storage systems",
-    "deck": "European Commission Press release Brussels, 31 Jul 2026 The European Commission has approved a €59 million Slovenian State aid scheme to promote battery energy storage systems, in line with the objectives of the Clean…",
-    "context": "European Commission Press release Brussels, 31 Jul 2026 The European Commission has approved a €59 million Slovenian State aid scheme to promote battery energy storage systems, in line with the objectives of the Clean Industrial Deal. This measure will contribute to the transition towards a net-zero economy. The scheme was approved under the Clean Industrial Deal State Aid Framework (CISAF) adopted by the Commission on 25 June 2025.",
-    "sources": [
-      {
-        "outlet": "European Commission",
-        "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1505",
-        "tier": "T1_gov"
-      }
-    ],
-    "category": "government",
-    "economics_flag": false,
-    "weigh_it_questions": [],
-    "classifier_kind": "event_report",
-    "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
-    "depth": {
-      "short_history": {
-        "source": "placeholder",
-        "text": "Analysis coming."
-      },
-      "constitutional_analysis": {
-        "source": "placeholder",
-        "contrasts": [],
-        "note": "No constitutional question maps to this item."
-      },
-      "prediction": {
-        "source": "placeholder",
-        "forecast": "Analysis coming."
-      }
-    },
-    "importance": 41,
-    "importance_tier": "MED"
   },
   {
     "id": "318bccbffec7",
@@ -3806,7 +3537,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3823,6 +3554,49 @@
       }
     },
     "importance": 57,
+    "importance_tier": "MED"
+  },
+  {
+    "id": "e77821e59f66",
+    "datetime_utc": "2026-07-30T20:33:26.000Z",
+    "place": "WASHINGTON",
+    "what": "Presidential Determination Pursuant to Section 101 of the Defense Production Act of 1950, as Amended, on Recoverable Critical Minerals and Materials",
+    "deck": "MEMORANDUM FOR THE SECRETARY OF COMMERCE SUBJECT: Presidential Determination Pursuant to Section 101 of the Defense Production Act of 1950, as Amended, on Recoverable Critical Minerals and Materials Section 1.",
+    "context": "Reported by 2 sources. MEMORANDUM FOR THE SECRETARY OF COMMERCE SUBJECT: Presidential Determination Pursuant to Section 101 of the Defense Production Act of 1950, as Amended, on Recoverable Critical Minerals and Materials Section 1. Policy and General Findings. (a) Recoverable critical minerals and materials (CMMs) are industrial resources necessary to promote the national defense. (b) America’s inadequate supply of",
+    "sources": [
+      {
+        "outlet": "White House",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/07/presidential-determination-pursuant-to-section-101-of-the-defense-production-act-of-1950-as-amended-on-recoverable-critical-minerals-and-materials/",
+        "tier": "T1_gov"
+      },
+      {
+        "outlet": "White House",
+        "url": "https://www.whitehouse.gov/fact-sheets/2026/07/fact-sheet-president-donald-j-trump-delegates-defense-production-act-authority-with-respect-to-recoverable-critical-minerals-and-materials-that-are-essential-to-our-national-defense/",
+        "tier": "T1_gov"
+      }
+    ],
+    "category": "other",
+    "economics_flag": false,
+    "weigh_it_questions": [],
+    "classifier_kind": "event_report",
+    "classifier_confidence": 0.86,
+    "ingested_at": "2026-08-05T08:18:59.375Z",
+    "depth": {
+      "short_history": {
+        "source": "placeholder",
+        "text": "Analysis coming."
+      },
+      "constitutional_analysis": {
+        "source": "placeholder",
+        "contrasts": [],
+        "note": "No constitutional question maps to this item."
+      },
+      "prediction": {
+        "source": "placeholder",
+        "forecast": "Analysis coming."
+      }
+    },
+    "importance": 52,
     "importance_tier": "MED"
   },
   {
@@ -3844,7 +3618,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3882,7 +3656,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.73,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3931,7 +3705,7 @@
     ],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -3987,7 +3761,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4025,7 +3799,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4063,7 +3837,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4101,7 +3875,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.73,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4139,7 +3913,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.73,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4177,7 +3951,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4230,7 +4004,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.73,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4268,7 +4042,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.73,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4306,7 +4080,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4344,7 +4118,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4382,7 +4156,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4420,7 +4194,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4458,7 +4232,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4496,7 +4270,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4534,7 +4308,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4572,7 +4346,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.73,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4610,7 +4384,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4658,7 +4432,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4696,7 +4470,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4734,7 +4508,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4788,7 +4562,7 @@
     ],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4839,7 +4613,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4877,7 +4651,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4915,7 +4689,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4973,7 +4747,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -4998,16 +4772,11 @@
     "place": "WASHINGTON",
     "what": "Securing America’s Defense Supply Chains and Ensuring Domestic Acquisition of Critical Materials",
     "deck": "By the authority vested in me as President by the Constitution and the laws of the United States of America, it is hereby ordered: Section 1.",
-    "context": "Reported by 2 sources. By the authority vested in me as President by the Constitution and the laws of the United States of America, it is hereby ordered: Section 1. Policy. The United States military is the most effective and powerful fighting force on the planet. It fields the most advanced weapons systems and technologies in the world, utilizing",
+    "context": "By the authority vested in me as President by the Constitution and the laws of the United States of America, it is hereby ordered: Section 1. Policy. The United States military is the most effective and powerful fighting force on the planet. It fields the most advanced weapons systems and technologies in the world, utilizing",
     "sources": [
       {
         "outlet": "White House",
         "url": "https://www.whitehouse.gov/presidential-actions/2026/07/securing-americas-defense-supply-chains-and-ensuring-domestic-acquisition-of-critical-materials/",
-        "tier": "T1_gov"
-      },
-      {
-        "outlet": "White House",
-        "url": "https://www.whitehouse.gov/fact-sheets/2026/07/fact-sheet-president-donald-j-trump-delegates-defense-production-act-authority-with-respect-to-recoverable-critical-minerals-and-materials-that-are-essential-to-our-national-defense/",
         "tier": "T1_gov"
       }
     ],
@@ -5027,7 +4796,7 @@
     ],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5051,7 +4820,7 @@
         "forecast": "Analysis coming."
       }
     },
-    "importance": 40,
+    "importance": 38,
     "importance_tier": "MED"
   },
   {
@@ -5073,7 +4842,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5111,7 +4880,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5149,7 +4918,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5192,7 +4961,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5230,7 +4999,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5268,7 +5037,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5306,7 +5075,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5344,7 +5113,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5382,7 +5151,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5420,7 +5189,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5458,7 +5227,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5496,7 +5265,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5534,7 +5303,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.91,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5572,7 +5341,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5640,7 +5409,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5678,7 +5447,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5716,7 +5485,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5759,7 +5528,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5797,7 +5566,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5835,7 +5604,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.91,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5873,7 +5642,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5911,7 +5680,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5949,7 +5718,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -5987,7 +5756,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6025,7 +5794,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.73,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6063,7 +5832,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6101,7 +5870,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6139,7 +5908,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6177,7 +5946,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6240,7 +6009,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6278,7 +6047,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6316,7 +6085,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.91,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6354,7 +6123,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6397,7 +6166,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6435,7 +6204,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6473,7 +6242,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6511,7 +6280,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6549,7 +6318,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6612,7 +6381,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6650,7 +6419,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6688,7 +6457,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6742,7 +6511,7 @@
     },
     "classifier_kind": "event_report",
     "classifier_confidence": 0.91,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6780,7 +6549,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6818,7 +6587,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6856,7 +6625,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6899,7 +6668,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6937,7 +6706,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -6986,7 +6755,7 @@
     ],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.77,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7032,7 +6801,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7070,7 +6839,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7108,7 +6877,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7146,7 +6915,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7184,7 +6953,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7222,7 +6991,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7260,7 +7029,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7298,7 +7067,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7336,7 +7105,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7374,7 +7143,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7412,7 +7181,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7450,7 +7219,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7488,7 +7257,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7526,7 +7295,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7564,7 +7333,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7607,7 +7376,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.91,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7650,7 +7419,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7688,7 +7457,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.82,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7736,7 +7505,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.86,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
@@ -7774,7 +7543,7 @@
     "weigh_it_questions": [],
     "classifier_kind": "event_report",
     "classifier_confidence": 0.93,
-    "ingested_at": "2026-08-05T01:43:19.098Z",
+    "ingested_at": "2026-08-05T08:18:59.375Z",
     "depth": {
       "short_history": {
         "source": "placeholder",
