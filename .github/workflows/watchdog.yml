@@ -1,0 +1,109 @@
+name: Watchdog
+
+# THE MACHINE-INDEPENDENT "IS THE PAPER OUT?" CHECKER — installed into the public mirror by
+# deploy/push-artifact.sh on every publish, the same way publish.yml arrives. Do not edit it in
+# the mirror; the next edition overwrites it. The source of truth is deploy/mirror/watchdog.yml
+# in the build pipeline's repository.
+#
+# WHY IT LIVES HERE: the mirror is a public repository, so its Actions minutes are free and
+# unlimited — a 30-minute cadence costs nothing. The build repository is private, metered
+# (2,000 min/month, $0 spending cap), and its own 2-hourly freshness guard is the cheap layer.
+# This is the aggressive layer: it watches the build pipeline from OUTSIDE, so it still fires
+# when the private repo's cron is dropped, its minutes are exhausted, or its schedule is
+# disabled — and unlike the local recovery script, it does not need anyone's computer to be on.
+#
+# It holds NO knowledge of the private repository beyond its name, which the README on this
+# mirror already states publicly. Nothing here is interpolated from the build pipeline.
+#
+# DORMANT UNTIL KEYED: it acts through a fine-grained PAT in the secret PIGEON_PUBLISH_PAT
+# (actions: read+write on the build repository). Without the secret it prints one line and exits
+# GREEN — a wall of scheduled red ✕s on a public repo would be noise, not signal.
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+# Acts on the OTHER repository via the PAT; needs no permissions on this one.
+permissions: {}
+
+concurrency:
+  group: watchdog
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      # One step, pure bash + the preinstalled gh. The decision ladder is a line-for-line port of
+      # the local watcher (scripts/publish-recovery.ps1 in the build repo) and must stay in step
+      # with it:
+      #   (a) a publish run is in_progress/queued/waiting  -> stand down (someone is on it)
+      #   (b) last successful publish < 12.5h ago          -> stand down (paper is fresh)
+      #   (c) last ATTEMPT, any outcome, < 45 min ago      -> stand down (cooldown: a failed run
+      #       costs money and usually needs a human; the build repo's notify already paged)
+      #   (d) otherwise press the button: workflow_dispatch publish-live.yml, dry_run=false
+      #
+      # RUNS_TSV / NOW_EPOCH / WATCHDOG_DRY are test seams (`${VAR-...}` — unset-only defaults):
+      # the harness in the build repo extracts THIS step's bash via js-yaml and drives the ladder
+      # with faked clocks and run lists, so the logic that ships is the logic that was tested.
+      - name: Is the paper publishing? Press the button if not.
+        env:
+          GH_TOKEN: ${{ secrets.PIGEON_PUBLISH_PAT }}
+          SOURCE_REPO: ipud67/pigeon-newsapp
+        run: |
+          set -uo pipefail
+
+          # Secrets cannot be tested in a job-level `if`; test the env instead. Absent secret
+          # expands to empty string. Exit 0: dormant is a configured state, not a failure.
+          if [ -z "${GH_TOKEN:-}" ]; then
+            echo "watchdog dormant — PIGEON_PUBLISH_PAT not configured; see pigeon-newsapp docs/PUBLISH_PIPELINE.md"
+            exit 0
+          fi
+
+          # Last 15 "Publish live" runs, newest first (API default order), one per line:
+          # status <TAB> conclusion <TAB> created_at
+          RUNS_TSV="${RUNS_TSV-$(gh api -X GET \
+            "repos/$SOURCE_REPO/actions/workflows/publish-live.yml/runs" \
+            -f per_page=15 \
+            --jq '.workflow_runs[] | [.status, (.conclusion // "none"), .created_at] | @tsv')}"
+
+          NOW="${NOW_EPOCH-$(date -u +%s)}"
+          ACTIVE=""
+          LAST_SUCCESS=""
+          LAST_ATTEMPT=""
+          while IFS="$(printf '\t')" read -r ST CONC CREATED; do
+            [ -z "$ST" ] && continue
+            case "$ST" in in_progress|queued|waiting) ACTIVE="$ST";; esac
+            EP=$(date -u -d "$CREATED" +%s)
+            [ -z "$LAST_ATTEMPT" ] && LAST_ATTEMPT=$EP
+            if [ -z "$LAST_SUCCESS" ] && [ "$CONC" = "success" ]; then LAST_SUCCESS=$EP; fi
+          done <<< "$RUNS_TSV"
+
+          # (a) someone is already on it
+          if [ -n "$ACTIVE" ]; then
+            echo "stand down: a publish run is $ACTIVE."
+            exit 0
+          fi
+
+          # (b) paper fresh enough? 12.5h = 45000s, same threshold as the local watcher.
+          if [ -n "$LAST_SUCCESS" ] && [ $(( NOW - LAST_SUCCESS )) -lt 45000 ]; then
+            echo "stand down: last successful publish $(( (NOW - LAST_SUCCESS) / 3600 ))h ago — fresh."
+            exit 0
+          fi
+
+          # (c) cooldown after any recent attempt. 45 min = 2700s.
+          if [ -n "$LAST_ATTEMPT" ] && [ $(( NOW - LAST_ATTEMPT )) -lt 2700 ]; then
+            echo "stand down: paper is stale but the last attempt was $(( (NOW - LAST_ATTEMPT) / 60 )) min ago — cooldown."
+            exit 0
+          fi
+
+          # (d) press the button.
+          echo "TRIGGER: no fresh edition, no active run, cooldown clear — dispatching publish-live.yml (dry_run=false)."
+          if [ "${WATCHDOG_DRY-0}" = "1" ]; then
+            echo "DRY: would dispatch workflow_dispatch on $SOURCE_REPO publish-live.yml with dry_run=false"
+            exit 0
+          fi
+          gh workflow run publish-live.yml --repo "$SOURCE_REPO" --ref main -f dry_run=false
+          echo "dispatch accepted."
