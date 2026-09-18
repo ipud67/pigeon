@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Offline — Pigeon News</title>
+    <!--
+      Shown only when a reader opens a page they have never loaded before AND has no signal.
+      A page they HAVE loaded comes back from the cache instead (see public/sw.js).
+      Deliberately self-contained: no fonts, no scripts, no stylesheet to fetch. Every one of
+      those would be a network request, and there is no network.
+    -->
+    <style>
+      :root {
+        color-scheme: dark;
+      }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #161510;
+        color: #edeae0;
+        font-family: Georgia, 'Times New Roman', serif;
+        padding: 24px;
+      }
+      .box {
+        max-width: 26rem;
+        text-align: center;
+      }
+      .name {
+        font-size: 1.9rem;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+      }
+      .rule {
+        height: 2px;
+        background: #3d3a30;
+        margin: 14px 0 22px;
+      }
+      h1 {
+        font-size: 1.15rem;
+        font-weight: 600;
+        margin: 0 0 0.6rem;
+      }
+      p {
+        margin: 0 0 1rem;
+        font-size: 1rem;
+        line-height: 1.55;
+        color: #a39e8e;
+      }
+      a {
+        color: #e89a86;
+        font-family: 'Inter', system-ui, sans-serif;
+        font-size: 0.8rem;
+        letter-spacing: 0.09em;
+        text-transform: uppercase;
+        text-decoration: none;
+        border-bottom: 1px solid #e89a86;
+      }
+      a:focus-visible {
+        outline: 2px solid #e89a86;
+        outline-offset: 3px;
+      }
+    </style>
+  </head>
+  <body data-offline-page="1">
+    <div class="box">
+      <div class="name">Pigeon News</div>
+      <div class="rule"></div>
+      <h1>You are offline.</h1>
+      <p>This is the last edition you loaded. New stories will show up when you are back online.</p>
+      <a href="/">Go to the front page</a>
+    </div>
+  </body>
+</html>
