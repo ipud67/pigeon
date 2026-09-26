@@ -1,0 +1,158 @@
+name: Watchdog
+
+# THE MACHINE-INDEPENDENT "IS THE PAPER OUT?" CHECKER — installed into the public mirror by
+# deploy/push-artifact.sh on every publish, the same way publish.yml arrives. Do not edit it in
+# the mirror; the next edition overwrites it. The source of truth is deploy/mirror/watchdog.yml
+# in the build pipeline's repository.
+#
+# WHY IT LIVES HERE: the mirror is a public repository, so its Actions minutes are free and
+# unlimited — a 30-minute cadence costs nothing. It watches the build pipeline from OUTSIDE, so it
+# still fires when the private repo's cron is dropped, its minutes are exhausted, or its schedule
+# is disabled — and it does not need anyone's computer to be on.
+#
+# It holds NO knowledge of the private repository beyond its name, which the README on this
+# mirror already states publicly. Nothing here is interpolated from the build pipeline.
+#
+# DORMANT UNTIL KEYED: it acts through a fine-grained PAT in the secret PIGEON_PUBLISH_PAT
+# (actions: read+write on the build repository). Without the secret it prints one line and exits
+# GREEN — a wall of scheduled red ✕s on a public repo would be noise, not signal.
+#
+# ORDER OF THE BACKUPS (2026-09-15; clock moved by R397 on 2026-09-17). The paper is ruled READY at
+# 6 AM and 6 PM Washington DC time; each edition's press boundary is 3 hours earlier, 03:00 and
+# 15:00 New York time (07:00/19:00 UTC in summer, 08:00/20:00 UTC in winter). GitHub's cron
+# fires on the hour; the server's own clock presses at +10 and +40; Timn's desktop at +60; this at
+# +90. Each re-reads the state before pressing. This used to wait until the paper was 12.5 hours
+# old, which is how the 14:00 edition of 2026-09-15 started at 16:33.
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+# contents: read on THIS repository only, for one call: when did the paper on this mirror last
+# change. The build repository is reached through the PAT.
+permissions:
+  contents: read
+
+concurrency:
+  group: watchdog
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      #   (a) a publish run is in_progress/queued/waiting            -> stand down (someone is on it)
+      #   (b) this mirror changed at/after the current edition
+      #       boundary (press start, 3h before 6 AM/6 PM DC)          -> stand down (paper is fresh)
+      #   (c) the boundary is less than 90 minutes old               -> stand down (the server
+      #       clock and the desktop backup go first)
+      #   (d) last ATTEMPT, any outcome, < 45 min ago                -> stand down (cooldown)
+      #   (e) otherwise press the button: workflow_dispatch publish-live.yml, dry_run=false
+      #
+      # RUNS_TSV / PAPER_ISO / NOW_EPOCH / WATCHDOG_DRY are test seams (`${VAR-...}` — unset-only).
+      - name: Is the paper publishing? Press the button if not.
+        env:
+          GH_TOKEN: ${{ secrets.PIGEON_PUBLISH_PAT }}
+          MIRROR_TOKEN: ${{ github.token }}
+          SOURCE_REPO: ipud67/pigeon-newsapp
+        run: |
+          set -uo pipefail
+
+          if [ -z "${GH_TOKEN:-}" ]; then
+            echo "watchdog dormant — PIGEON_PUBLISH_PAT not configured; see pigeon-newsapp docs/PUBLISH_PIPELINE.md"
+            exit 0
+          fi
+
+          RUNS_TSV="${RUNS_TSV-$(gh api -X GET \
+            "repos/$SOURCE_REPO/actions/workflows/publish-live.yml/runs" \
+            -f per_page=15 \
+            --jq '.workflow_runs[] | [.status, (.conclusion // "none"), .created_at] | @tsv')}"
+          PAPER_ISO="${PAPER_ISO-$(GH_TOKEN="$MIRROR_TOKEN" gh api "repos/${GITHUB_REPOSITORY:-ipud67/pigeon}/commits/main" --jq '.commit.committer.date' 2>/dev/null)}"
+
+          NOW="${NOW_EPOCH-$(date -u +%s)}"
+          # THE EDITION CLOCK (R397). This public repository cannot see the build repository's
+          # scripts, so this is the ONE other copy of scripts/freshness-guard.mjs editionBoundary()
+          # in existence. tests/edition-clock.test.mjs in the build repository extracts the code
+          # between the two EDITION-CLOCK markers and fails if it ever disagrees with the real
+          # clock, on any day including both daylight-saving changes. Node, not bash `date`: a
+          # runner without time-zone data would read New York as UTC without a word; this refuses.
+          # EDITION-CLOCK-BEGIN
+          BOUNDARY="$(NOW="$NOW" node -e '
+            const Z = "America/New_York", READY = [[6, 0], [18, 0]], MARGIN_MIN = 180;
+            const f = new Intl.DateTimeFormat("en-US", { timeZone: Z, hourCycle: "h23", year: "numeric", month: "numeric", day: "numeric", hour: "numeric", minute: "numeric", second: "numeric" });
+            const wall = (ms) => Object.fromEntries(f.formatToParts(new Date(ms)).filter((p) => p.type !== "literal").map((p) => [p.type, Number(p.value)]));
+            const off = (ms) => { const w = wall(ms); return Math.round((Date.UTC(w.year, w.month - 1, w.day, w.hour, w.minute, w.second) - Math.floor(ms / 1000) * 1000) / 60000); };
+            if (off(Date.UTC(2026, 6, 1, 12)) !== -240 || off(Date.UTC(2026, 0, 15, 12)) !== -300) process.exit(3);
+            const at = (y, m, d, h, mi) => { const g = Date.UTC(y, m - 1, d, h, mi); let t = g - off(g) * 60000; return g - off(t) * 60000; };
+            const now = Number(process.env.NOW), w = wall(now * 1000);
+            let best = null;
+            for (const k of [-2, -1, 0, 1]) {
+              const d = new Date(Date.UTC(w.year, w.month - 1, w.day + k, 12));
+              for (const [h, mi] of READY) {
+                const start = Math.floor(at(d.getUTCFullYear(), d.getUTCMonth() + 1, d.getUTCDate(), h, mi) / 1000) - MARGIN_MIN * 60;
+                if (start <= now && (best === null || start > best)) best = start;
+              }
+            }
+            console.log(best);
+          ')"
+          # EDITION-CLOCK-END
+          case "$BOUNDARY" in
+            ''|*[!0-9]*)
+              echo "stand down: could not read the edition clock (no node or no time-zone data) — not guessing."
+              exit 0 ;;
+          esac
+          MIN_IN=$(( (NOW - BOUNDARY) / 60 ))
+          BLABEL="$(NOW="$BOUNDARY" node -e 'console.log(new Intl.DateTimeFormat("en-US", { timeZone: "America/New_York", hour: "2-digit", minute: "2-digit", hourCycle: "h23" }).format(new Date(Number(process.env.NOW) * 1000)))') New York press"
+
+          ACTIVE=""
+          LAST_SUCCESS=""
+          LAST_ATTEMPT=""
+          while IFS="$(printf '\t')" read -r ST CONC CREATED; do
+            [ -z "$ST" ] && continue
+            case "$ST" in in_progress|queued|waiting) ACTIVE="$ST";; esac
+            EP=$(date -u -d "$CREATED" +%s)
+            [ -z "$LAST_ATTEMPT" ] && LAST_ATTEMPT=$EP
+            if [ -z "$LAST_SUCCESS" ] && [ "$CONC" = "success" ]; then LAST_SUCCESS=$EP; fi
+          done <<< "$RUNS_TSV"
+
+          # (a) someone is already on it
+          if [ -n "$ACTIVE" ]; then
+            echo "stand down: a publish run is $ACTIVE."
+            exit 0
+          fi
+
+          # (b) did the paper print after the boundary?
+          if [ -n "$PAPER_ISO" ]; then
+            PAPER_EP="$(date -u -d "$PAPER_ISO" +%s)"
+            if [ "$PAPER_EP" -ge "$BOUNDARY" ]; then
+              echo "stand down: the paper changed at $PAPER_ISO, after the $BLABEL boundary — fresh."
+              exit 0
+            fi
+          elif [ -n "$LAST_SUCCESS" ] && [ $(( NOW - LAST_SUCCESS )) -lt 45000 ]; then
+            # Could not read this mirror: keep the old conservative measure rather than guess.
+            echo "stand down: mirror unreadable, last successful run $(( (NOW - LAST_SUCCESS) / 3600 ))h ago."
+            exit 0
+          fi
+
+          # (c) the server clock and the desktop backup go first
+          if [ "$MIN_IN" -lt 90 ]; then
+            echo "stand down: the edition for the $BLABEL boundary is not out yet, but only $MIN_IN min have passed (this backup acts at +90)."
+            exit 0
+          fi
+
+          # (d) cooldown after any recent attempt. 45 min = 2700s.
+          if [ -n "$LAST_ATTEMPT" ] && [ $(( NOW - LAST_ATTEMPT )) -lt 2700 ]; then
+            echo "stand down: paper is stale but the last attempt was $(( (NOW - LAST_ATTEMPT) / 60 )) min ago — cooldown."
+            exit 0
+          fi
+
+          # (e) press the button.
+          echo "TRIGGER: the edition for the $BLABEL boundary is $MIN_IN min overdue, no active run, cooldown clear — dispatching publish-live.yml (dry_run=false)."
+          if [ "${WATCHDOG_DRY-0}" = "1" ]; then
+            echo "DRY: would dispatch workflow_dispatch on $SOURCE_REPO publish-live.yml with dry_run=false"
+            exit 0
+          fi
+          gh workflow run publish-live.yml --repo "$SOURCE_REPO" --ref main -f dry_run=false
+          echo "dispatch accepted."
