@@ -1,0 +1,43 @@
+name: Publish
+
+# This repository is a HOST, not a build. It contains a finished static site in site/ and
+# nothing else — no Node, no package.json, no application source, no fact store, no ingest.
+#
+# That is deliberate and it is the enforcement mechanism for one editorial rule: nothing reaches
+# a reader unless the ranking oracle, the lead oracle and the front-page rules passed first. A
+# repository with no ability to build cannot produce an ungated edition, so the rule holds by
+# construction rather than by anyone remembering it.
+#
+# Editions arrive as a force-pushed orphan commit from the build pipeline. Do not add a schedule,
+# a build step, or an ingest step here.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Upload the finished site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
