@@ -1,0 +1,33 @@
+{
+  "slug": "ordinance",
+  "word": "ordinance",
+  "category": "legal",
+  "plain": "A rule or law made by authority, often by a city.",
+  "webster": {
+    "text": "A rule established by authority; a permanent rule of action.",
+    "page_url": "https://archive.org/details/americandictiona02websrich/page/n223/mode/1up",
+    "more": [
+      {
+        "n": 2,
+        "text": "Observance commanded.",
+        "check": "agree"
+      },
+      {
+        "n": 3,
+        "text": "Appointment.",
+        "check": "agree"
+      },
+      {
+        "n": 4,
+        "text": "Established rite or ceremony.",
+        "check": "agree"
+      }
+    ]
+  },
+  "example": {
+    "quote": "And the governor, legislative council, and house of representatives, shall have authority to make laws in all cases, for the good government of the district, not repugnant to the principles and articles in this ordinance established and declared.",
+    "cite": "Northwest Ordinance, July 13, 1787",
+    "url": "https://avalon.law.yale.edu/18th_century/nworder.asp",
+    "excerpt": false
+  }
+}
