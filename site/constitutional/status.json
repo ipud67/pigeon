@@ -1,7 +1,7 @@
 {
  "note": "Constitutional Analysis status per story, written by scripts/constitutional-pass.mts. coming = being written, expected by eta; published = /constitutional/analyses/<id>.json; none = no analysis for this story.",
- "updated_at": "2026-10-30T01:35:14.451Z",
- "edition": "2026-10-29T18:28:54.023Z",
+ "updated_at": "2026-10-30T08:12:09.466Z",
+ "edition": "2026-10-30T06:31:25.767Z",
  "stories": {
   "3a460b943ed5": {
    "id": "3a460b943ed5",
@@ -186,6 +186,94 @@
    "status": "none",
    "updated_at": "2026-10-30T01:35:14.451Z",
    "attempts": 1
+  },
+  "58a22155f9c0": {
+   "id": "58a22155f9c0",
+   "printed_at": "2026-10-30T07:21:09.522Z",
+   "eta": "2026-10-30T13:21:09.522Z",
+   "status": "coming",
+   "updated_at": "2026-10-30T08:12:10.202Z",
+   "attempts": 0
+  },
+  "ef0fea490bce": {
+   "id": "ef0fea490bce",
+   "printed_at": "2026-10-30T07:21:09.522Z",
+   "eta": "2026-10-30T13:21:09.522Z",
+   "status": "coming",
+   "updated_at": "2026-10-30T08:12:10.221Z",
+   "attempts": 0
+  },
+  "00730d73b772": {
+   "id": "00730d73b772",
+   "printed_at": "2026-10-30T07:21:09.522Z",
+   "eta": "2026-10-30T13:21:09.522Z",
+   "status": "coming",
+   "updated_at": "2026-10-30T08:12:10.238Z",
+   "attempts": 0
+  },
+  "66c467751b6c": {
+   "id": "66c467751b6c",
+   "printed_at": "2026-10-30T07:21:09.522Z",
+   "eta": "2026-10-30T13:21:09.522Z",
+   "status": "coming",
+   "updated_at": "2026-10-30T08:12:10.252Z",
+   "attempts": 0
+  },
+  "3b36d53013bd": {
+   "id": "3b36d53013bd",
+   "printed_at": "2026-10-30T07:21:09.522Z",
+   "eta": "2026-10-30T13:21:09.522Z",
+   "status": "coming",
+   "updated_at": "2026-10-30T08:12:10.268Z",
+   "attempts": 0
+  },
+  "3918c187e8e9": {
+   "id": "3918c187e8e9",
+   "printed_at": "2026-10-30T07:21:09.522Z",
+   "eta": "2026-10-30T13:21:09.522Z",
+   "status": "coming",
+   "updated_at": "2026-10-30T08:12:10.282Z",
+   "attempts": 0
+  },
+  "cf8974ecc26e": {
+   "id": "cf8974ecc26e",
+   "printed_at": "2026-10-30T07:21:09.522Z",
+   "eta": "2026-10-30T13:21:09.522Z",
+   "status": "coming",
+   "updated_at": "2026-10-30T08:12:10.298Z",
+   "attempts": 0
+  },
+  "708d9f8c2bef": {
+   "id": "708d9f8c2bef",
+   "printed_at": "2026-10-30T07:21:09.522Z",
+   "eta": "2026-10-30T13:21:09.522Z",
+   "status": "coming",
+   "updated_at": "2026-10-30T08:12:10.314Z",
+   "attempts": 0
+  },
+  "5e4a6ec058c8": {
+   "id": "5e4a6ec058c8",
+   "printed_at": "2026-10-30T07:21:09.522Z",
+   "eta": "2026-10-30T13:21:09.522Z",
+   "status": "coming",
+   "updated_at": "2026-10-30T08:12:10.330Z",
+   "attempts": 0
+  },
+  "5badde47271d": {
+   "id": "5badde47271d",
+   "printed_at": "2026-10-30T07:21:09.522Z",
+   "eta": "2026-10-30T13:21:09.522Z",
+   "status": "coming",
+   "updated_at": "2026-10-30T08:12:10.349Z",
+   "attempts": 0
+  },
+  "9c81764a3d2c": {
+   "id": "9c81764a3d2c",
+   "printed_at": "2026-10-30T07:21:09.522Z",
+   "eta": "2026-10-30T13:21:09.522Z",
+   "status": "coming",
+   "updated_at": "2026-10-30T08:12:10.364Z",
+   "attempts": 0
   }
  }
 }
