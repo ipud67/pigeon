@@ -1,7 +1,7 @@
 {
  "note": "Constitutional Analysis status per story, written by scripts/constitutional-pass.mts. coming = being written, expected by eta; published = /constitutional/analyses/<id>.json; none = no analysis for this story.",
- "updated_at": "2026-10-31T03:01:32.514Z",
- "edition": "2026-10-30T06:31:25.767Z",
+ "updated_at": "2026-10-31T08:25:58.600Z",
+ "edition": "2026-10-31T06:22:46.984Z",
  "stories": {
   "3a460b943ed5": {
    "id": "3a460b943ed5",
@@ -273,6 +273,62 @@
    "eta": "2026-10-30T13:21:09.522Z",
    "status": "none",
    "updated_at": "2026-10-30T13:55:37.253Z",
+   "attempts": 0
+  },
+  "21540b9bad30": {
+   "id": "21540b9bad30",
+   "printed_at": "2026-10-31T07:28:16.840Z",
+   "eta": "2026-10-31T13:28:16.840Z",
+   "status": "coming",
+   "updated_at": "2026-10-31T08:25:59.340Z",
+   "attempts": 0
+  },
+  "bb7c4c91e0c6": {
+   "id": "bb7c4c91e0c6",
+   "printed_at": "2026-10-31T07:28:16.840Z",
+   "eta": "2026-10-31T13:28:16.840Z",
+   "status": "coming",
+   "updated_at": "2026-10-31T08:25:59.355Z",
+   "attempts": 0
+  },
+  "6e85042e3b51": {
+   "id": "6e85042e3b51",
+   "printed_at": "2026-10-31T07:28:16.840Z",
+   "eta": "2026-10-31T13:28:16.840Z",
+   "status": "coming",
+   "updated_at": "2026-10-31T08:25:59.371Z",
+   "attempts": 0
+  },
+  "d1019449faf0": {
+   "id": "d1019449faf0",
+   "printed_at": "2026-10-31T07:28:16.840Z",
+   "eta": "2026-10-31T13:28:16.840Z",
+   "status": "coming",
+   "updated_at": "2026-10-31T08:25:59.389Z",
+   "attempts": 0
+  },
+  "a7adb23069cb": {
+   "id": "a7adb23069cb",
+   "printed_at": "2026-10-31T07:28:16.840Z",
+   "eta": "2026-10-31T13:28:16.840Z",
+   "status": "coming",
+   "updated_at": "2026-10-31T08:25:59.405Z",
+   "attempts": 0
+  },
+  "3ae32794b747": {
+   "id": "3ae32794b747",
+   "printed_at": "2026-10-31T07:28:16.840Z",
+   "eta": "2026-10-31T13:28:16.840Z",
+   "status": "coming",
+   "updated_at": "2026-10-31T08:25:59.419Z",
+   "attempts": 0
+  },
+  "2c5a40407bd7": {
+   "id": "2c5a40407bd7",
+   "printed_at": "2026-10-31T07:28:16.840Z",
+   "eta": "2026-10-31T13:28:16.840Z",
+   "status": "coming",
+   "updated_at": "2026-10-31T08:25:59.433Z",
    "attempts": 0
   }
  }
