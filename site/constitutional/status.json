@@ -1,7 +1,7 @@
 {
  "note": "Constitutional Analysis status per story, written by scripts/constitutional-pass.mts. coming = being written, expected by eta; published = /constitutional/analyses/<id>.json; none = no analysis for this story.",
- "updated_at": "2026-11-06T03:37:39.755Z",
- "edition": "2026-11-05T04:44:15.593Z",
+ "updated_at": "2026-11-06T06:34:10.476Z",
+ "edition": "2026-11-06T04:44:10.651Z",
  "stories": {
   "3a460b943ed5": {
    "id": "3a460b943ed5",
@@ -418,13 +418,12 @@
   },
   "9c50337615b3": {
    "id": "9c50337615b3",
-   "printed_at": "2026-11-05T05:47:02.352Z",
-   "eta": "2026-11-05T11:47:02.352Z",
-   "status": "none",
-   "updated_at": "2026-11-05T07:53:40.171Z",
-   "attempts": 2,
-   "miss": true,
-   "miss_reason": "after the code checks it no longer meets the standard: missing applies it to this event with exact facts"
+   "printed_at": "2026-11-06T05:43:26.370Z",
+   "eta": "2026-11-06T11:43:26.370Z",
+   "status": "coming",
+   "updated_at": "2026-11-06T06:34:10.476Z",
+   "attempts": 0,
+   "waiting_reason": "no second outlet stored for this event (ruling 4) - not written yet"
   },
   "7f71d50e0d5a": {
    "id": "7f71d50e0d5a",
@@ -560,13 +559,12 @@
   },
   "4f474e22f312": {
    "id": "4f474e22f312",
-   "printed_at": "2026-11-05T05:47:02.352Z",
-   "eta": "2026-11-05T11:47:02.352Z",
-   "status": "none",
-   "updated_at": "2026-11-05T07:53:40.389Z",
-   "attempts": 2,
-   "miss": true,
-   "miss_reason": "after the code checks it no longer meets the standard: missing applies it to this event with exact facts"
+   "printed_at": "2026-11-06T05:43:26.370Z",
+   "eta": "2026-11-06T11:43:26.370Z",
+   "status": "coming",
+   "updated_at": "2026-11-06T06:34:10.476Z",
+   "attempts": 0,
+   "waiting_reason": "no second outlet stored for this event (ruling 4) - not written yet"
   },
   "aa8331f144d8": {
    "id": "aa8331f144d8",
@@ -647,6 +645,24 @@
    "updated_at": "2026-11-05T07:12:32.317Z",
    "attempts": 1,
    "not_due_reason": "A remark with no official act gives no power to measure. If the story also reports an official act (a strike, a firing, a waiver, a decision), type THAT act, not the remark. A treaty-negotiate row nee"
+  },
+  "83b70da40e66": {
+   "id": "83b70da40e66",
+   "printed_at": "2026-11-06T05:43:26.370Z",
+   "eta": "2026-11-06T11:43:26.370Z",
+   "status": "not_due",
+   "updated_at": "2026-11-06T06:34:10.476Z",
+   "attempts": 1,
+   "not_due_reason": "no row in the actor-to-clause map for a doj doing \"regulate\""
+  },
+  "07bdc63c670e": {
+   "id": "07bdc63c670e",
+   "printed_at": "2026-11-06T05:43:26.370Z",
+   "eta": "2026-11-06T11:43:26.370Z",
+   "status": "coming",
+   "updated_at": "2026-11-06T06:34:10.476Z",
+   "attempts": 0,
+   "waiting_reason": "no second outlet stored for this event (ruling 4) - not written yet"
   }
  }
 }
