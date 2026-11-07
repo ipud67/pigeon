@@ -1,0 +1,674 @@
+{
+ "note": "Constitutional Analysis status per story, written by scripts/constitutional-pass.mts. coming = being written, expected by eta; published = /constitutional/analyses/<id>.json; none = no analysis for this story.",
+ "updated_at": "2026-11-07T03:35:39.855Z",
+ "edition": "2026-11-06T04:44:10.651Z",
+ "stories": {
+  "3a460b943ed5": {
+   "id": "3a460b943ed5",
+   "printed_at": "2026-10-28T08:12:49.832Z",
+   "eta": "2026-10-28T14:12:49.832Z",
+   "status": "none",
+   "updated_at": "2026-10-28T19:56:54.605Z",
+   "attempts": 0
+  },
+  "d7ab33e0dd47": {
+   "id": "d7ab33e0dd47",
+   "printed_at": "2026-10-28T08:12:49.832Z",
+   "eta": "2026-10-28T14:12:49.832Z",
+   "status": "none",
+   "updated_at": "2026-10-28T19:56:54.605Z",
+   "attempts": 0
+  },
+  "f15b6dc58666": {
+   "id": "f15b6dc58666",
+   "printed_at": "2026-10-28T08:12:49.832Z",
+   "eta": "2026-10-28T14:12:49.832Z",
+   "status": "none",
+   "updated_at": "2026-10-28T19:56:54.605Z",
+   "attempts": 0
+  },
+  "56727843b5d1": {
+   "id": "56727843b5d1",
+   "printed_at": "2026-11-01T09:16:40.717Z",
+   "eta": "2026-11-01T15:16:40.717Z",
+   "status": "published",
+   "updated_at": "2026-11-01T13:27:32.318Z",
+   "attempts": 1,
+   "published_at": "2026-11-01T12:30:36.525Z",
+   "checked_at": "2026-11-01T10:38:10.866Z",
+   "body_hash": "47e2292c55e5e2ca",
+   "second_read_at": "2026-11-01T13:27:32.318Z"
+  },
+  "52fbe010482e": {
+   "id": "52fbe010482e",
+   "printed_at": "2026-10-28T08:12:49.832Z",
+   "eta": "2026-10-28T14:12:49.832Z",
+   "status": "none",
+   "updated_at": "2026-10-28T19:56:54.605Z",
+   "attempts": 0
+  },
+  "4b44fde5fe21": {
+   "id": "4b44fde5fe21",
+   "printed_at": "2026-10-28T08:12:49.832Z",
+   "eta": "2026-10-28T14:12:49.832Z",
+   "status": "none",
+   "updated_at": "2026-10-28T19:56:54.605Z",
+   "attempts": 0
+  },
+  "3f79a75006e9": {
+   "id": "3f79a75006e9",
+   "printed_at": "2026-10-28T08:12:49.832Z",
+   "eta": "2026-10-28T14:12:49.832Z",
+   "status": "none",
+   "updated_at": "2026-10-28T19:56:54.605Z",
+   "attempts": 0
+  },
+  "e601f23e46ea": {
+   "id": "e601f23e46ea",
+   "printed_at": "2026-10-28T08:12:49.832Z",
+   "eta": "2026-10-28T14:12:49.832Z",
+   "status": "none",
+   "updated_at": "2026-10-28T19:56:54.605Z",
+   "attempts": 0
+  },
+  "3653dcdde845": {
+   "id": "3653dcdde845",
+   "printed_at": "2026-10-28T08:12:49.832Z",
+   "eta": "2026-10-28T14:12:49.832Z",
+   "status": "none",
+   "updated_at": "2026-10-28T19:56:54.605Z",
+   "attempts": 0
+  },
+  "ea83e082e19c": {
+   "id": "ea83e082e19c",
+   "printed_at": "2026-10-28T08:12:49.832Z",
+   "eta": "2026-10-28T14:12:49.832Z",
+   "status": "none",
+   "updated_at": "2026-10-28T19:56:54.605Z",
+   "attempts": 0
+  },
+  "77780998cd9d": {
+   "id": "77780998cd9d",
+   "printed_at": "2026-10-28T08:12:49.832Z",
+   "eta": "2026-10-28T14:12:49.832Z",
+   "status": "none",
+   "updated_at": "2026-10-28T19:56:54.605Z",
+   "attempts": 0
+  },
+  "b7fcf7d5fead": {
+   "id": "b7fcf7d5fead",
+   "printed_at": "2026-10-28T08:12:49.832Z",
+   "eta": "2026-10-28T14:12:49.832Z",
+   "status": "none",
+   "updated_at": "2026-10-28T19:56:54.605Z",
+   "attempts": 0
+  },
+  "62fcc99c06e8": {
+   "id": "62fcc99c06e8",
+   "printed_at": "2026-10-28T08:12:49.832Z",
+   "eta": "2026-10-28T14:12:49.832Z",
+   "status": "none",
+   "updated_at": "2026-10-28T19:56:54.605Z",
+   "attempts": 0
+  },
+  "c921c92798ca": {
+   "id": "c921c92798ca",
+   "printed_at": "2026-10-29T19:16:45.555Z",
+   "eta": "2026-10-30T01:16:45.555Z",
+   "status": "none",
+   "updated_at": "2026-10-30T01:35:14.451Z",
+   "attempts": 1
+  },
+  "c93ab35fb02d": {
+   "id": "c93ab35fb02d",
+   "printed_at": "2026-11-01T09:16:40.717Z",
+   "eta": "2026-11-01T15:16:40.717Z",
+   "status": "none",
+   "updated_at": "2026-11-01T16:17:54.078Z",
+   "attempts": 0
+  },
+  "9a7c11f7e64a": {
+   "id": "9a7c11f7e64a",
+   "printed_at": "2026-10-29T19:16:45.555Z",
+   "eta": "2026-10-30T01:16:45.555Z",
+   "status": "none",
+   "updated_at": "2026-10-30T01:35:14.451Z",
+   "attempts": 1
+  },
+  "fea0c59d74a7": {
+   "id": "fea0c59d74a7",
+   "printed_at": "2026-10-29T19:16:45.555Z",
+   "eta": "2026-10-30T01:16:45.555Z",
+   "status": "none",
+   "updated_at": "2026-10-30T01:35:14.451Z",
+   "attempts": 1
+  },
+  "cbc321438f45": {
+   "id": "cbc321438f45",
+   "printed_at": "2026-10-29T19:16:45.555Z",
+   "eta": "2026-10-30T01:16:45.555Z",
+   "status": "none",
+   "updated_at": "2026-10-30T01:35:14.451Z",
+   "attempts": 1
+  },
+  "0c3165803439": {
+   "id": "0c3165803439",
+   "printed_at": "2026-10-29T19:16:45.555Z",
+   "eta": "2026-10-30T01:16:45.555Z",
+   "status": "none",
+   "updated_at": "2026-10-30T01:35:14.451Z",
+   "attempts": 1
+  },
+  "75cfc019ae4c": {
+   "id": "75cfc019ae4c",
+   "printed_at": "2026-10-29T19:16:45.555Z",
+   "eta": "2026-10-30T01:16:45.555Z",
+   "status": "none",
+   "updated_at": "2026-10-30T01:35:14.451Z",
+   "attempts": 1
+  },
+  "201773d5ce00": {
+   "id": "201773d5ce00",
+   "printed_at": "2026-10-29T19:16:45.555Z",
+   "eta": "2026-10-30T01:16:45.555Z",
+   "status": "none",
+   "updated_at": "2026-10-30T01:35:14.451Z",
+   "attempts": 1
+  },
+  "ef7369ba1480": {
+   "id": "ef7369ba1480",
+   "printed_at": "2026-10-29T19:16:45.555Z",
+   "eta": "2026-10-30T01:16:45.555Z",
+   "status": "none",
+   "updated_at": "2026-10-30T01:35:14.451Z",
+   "attempts": 1
+  },
+  "b6053daed247": {
+   "id": "b6053daed247",
+   "printed_at": "2026-10-29T19:16:45.555Z",
+   "eta": "2026-10-30T01:16:45.555Z",
+   "status": "none",
+   "updated_at": "2026-10-30T01:35:14.451Z",
+   "attempts": 1
+  },
+  "58a22155f9c0": {
+   "id": "58a22155f9c0",
+   "printed_at": "2026-10-30T07:21:09.522Z",
+   "eta": "2026-10-30T13:21:09.522Z",
+   "status": "none",
+   "updated_at": "2026-10-30T13:55:37.253Z",
+   "attempts": 0
+  },
+  "ef0fea490bce": {
+   "id": "ef0fea490bce",
+   "printed_at": "2026-10-30T07:21:09.522Z",
+   "eta": "2026-10-30T13:21:09.522Z",
+   "status": "none",
+   "updated_at": "2026-10-30T13:55:37.253Z",
+   "attempts": 0
+  },
+  "00730d73b772": {
+   "id": "00730d73b772",
+   "printed_at": "2026-10-30T07:21:09.522Z",
+   "eta": "2026-10-30T13:21:09.522Z",
+   "status": "none",
+   "updated_at": "2026-10-30T13:55:37.253Z",
+   "attempts": 0
+  },
+  "66c467751b6c": {
+   "id": "66c467751b6c",
+   "printed_at": "2026-10-30T07:21:09.522Z",
+   "eta": "2026-10-30T13:21:09.522Z",
+   "status": "none",
+   "updated_at": "2026-10-30T13:55:37.253Z",
+   "attempts": 0
+  },
+  "3b36d53013bd": {
+   "id": "3b36d53013bd",
+   "printed_at": "2026-10-30T07:21:09.522Z",
+   "eta": "2026-10-30T13:21:09.522Z",
+   "status": "none",
+   "updated_at": "2026-10-30T13:55:37.253Z",
+   "attempts": 0
+  },
+  "3918c187e8e9": {
+   "id": "3918c187e8e9",
+   "printed_at": "2026-11-01T09:16:40.717Z",
+   "eta": "2026-11-01T15:16:40.717Z",
+   "status": "none",
+   "updated_at": "2026-11-01T16:17:54.078Z",
+   "attempts": 0
+  },
+  "cf8974ecc26e": {
+   "id": "cf8974ecc26e",
+   "printed_at": "2026-10-30T07:21:09.522Z",
+   "eta": "2026-10-30T13:21:09.522Z",
+   "status": "none",
+   "updated_at": "2026-10-30T13:55:37.253Z",
+   "attempts": 0
+  },
+  "708d9f8c2bef": {
+   "id": "708d9f8c2bef",
+   "printed_at": "2026-10-30T07:21:09.522Z",
+   "eta": "2026-10-30T13:21:09.522Z",
+   "status": "none",
+   "updated_at": "2026-10-30T13:55:37.253Z",
+   "attempts": 0
+  },
+  "5e4a6ec058c8": {
+   "id": "5e4a6ec058c8",
+   "printed_at": "2026-10-30T07:21:09.522Z",
+   "eta": "2026-10-30T13:21:09.522Z",
+   "status": "none",
+   "updated_at": "2026-10-30T13:55:37.253Z",
+   "attempts": 0
+  },
+  "5badde47271d": {
+   "id": "5badde47271d",
+   "printed_at": "2026-10-30T07:21:09.522Z",
+   "eta": "2026-10-30T13:21:09.522Z",
+   "status": "none",
+   "updated_at": "2026-10-30T13:55:37.253Z",
+   "attempts": 0
+  },
+  "9c81764a3d2c": {
+   "id": "9c81764a3d2c",
+   "printed_at": "2026-10-30T07:21:09.522Z",
+   "eta": "2026-10-30T13:21:09.522Z",
+   "status": "none",
+   "updated_at": "2026-10-30T13:55:37.253Z",
+   "attempts": 0
+  },
+  "21540b9bad30": {
+   "id": "21540b9bad30",
+   "printed_at": "2026-10-31T07:28:16.840Z",
+   "eta": "2026-10-31T13:28:16.840Z",
+   "status": "none",
+   "updated_at": "2026-10-31T14:13:06.806Z",
+   "attempts": 0
+  },
+  "bb7c4c91e0c6": {
+   "id": "bb7c4c91e0c6",
+   "printed_at": "2026-10-31T07:28:16.840Z",
+   "eta": "2026-10-31T13:28:16.840Z",
+   "status": "none",
+   "updated_at": "2026-10-31T14:13:06.806Z",
+   "attempts": 0
+  },
+  "6e85042e3b51": {
+   "id": "6e85042e3b51",
+   "printed_at": "2026-11-02T09:11:48.902Z",
+   "eta": "2026-11-02T15:11:48.902Z",
+   "status": "none",
+   "updated_at": "2026-11-02T10:24:15.092Z",
+   "attempts": 2
+  },
+  "d1019449faf0": {
+   "id": "d1019449faf0",
+   "printed_at": "2026-11-02T09:11:48.902Z",
+   "eta": "2026-11-02T15:11:48.902Z",
+   "status": "none",
+   "updated_at": "2026-11-02T10:16:53.866Z",
+   "attempts": 1
+  },
+  "a7adb23069cb": {
+   "id": "a7adb23069cb",
+   "printed_at": "2026-10-31T07:28:16.840Z",
+   "eta": "2026-10-31T13:28:16.840Z",
+   "status": "none",
+   "updated_at": "2026-10-31T14:13:06.806Z",
+   "attempts": 0
+  },
+  "3ae32794b747": {
+   "id": "3ae32794b747",
+   "printed_at": "2026-11-01T09:16:40.717Z",
+   "eta": "2026-11-01T15:16:40.717Z",
+   "status": "none",
+   "updated_at": "2026-11-01T16:17:54.078Z",
+   "attempts": 0
+  },
+  "2c5a40407bd7": {
+   "id": "2c5a40407bd7",
+   "printed_at": "2026-10-31T07:28:16.840Z",
+   "eta": "2026-10-31T13:28:16.840Z",
+   "status": "none",
+   "updated_at": "2026-10-31T14:13:06.806Z",
+   "attempts": 0
+  },
+  "8cee44f3c83d": {
+   "id": "8cee44f3c83d",
+   "printed_at": "2026-11-01T09:16:40.717Z",
+   "eta": "2026-11-01T15:16:40.717Z",
+   "status": "none",
+   "updated_at": "2026-11-01T12:22:39.224Z",
+   "attempts": 1
+  },
+  "37ec08775e18": {
+   "id": "37ec08775e18",
+   "printed_at": "2026-11-01T09:16:40.717Z",
+   "eta": "2026-11-01T15:16:40.717Z",
+   "status": "none",
+   "updated_at": "2026-11-01T12:30:38.837Z",
+   "attempts": 2
+  },
+  "51e359b9fc01": {
+   "id": "51e359b9fc01",
+   "printed_at": "2026-11-01T09:16:40.717Z",
+   "eta": "2026-11-01T15:16:40.717Z",
+   "status": "none",
+   "updated_at": "2026-11-01T12:30:38.840Z",
+   "attempts": 2
+  },
+  "e5a7085b921c": {
+   "id": "e5a7085b921c",
+   "printed_at": "2026-11-05T05:47:02.352Z",
+   "eta": "2026-11-05T11:47:02.352Z",
+   "status": "not_due",
+   "updated_at": "2026-11-05T06:50:38.351Z",
+   "attempts": 1,
+   "not_due_reason": "A remark with no official act gives no power to measure. If the story also reports an official act (a strike, a firing, a waiver, a decision), type THAT act, not the remark. A treaty-negotiate row nee"
+  },
+  "af2984609306": {
+   "id": "af2984609306",
+   "printed_at": "2026-11-01T09:16:40.717Z",
+   "eta": "2026-11-01T15:16:40.717Z",
+   "status": "none",
+   "updated_at": "2026-11-01T12:22:41.222Z",
+   "attempts": 1
+  },
+  "c5768e23d659": {
+   "id": "c5768e23d659",
+   "printed_at": "2026-11-01T09:16:40.717Z",
+   "eta": "2026-11-01T15:16:40.717Z",
+   "status": "none",
+   "updated_at": "2026-11-01T12:30:38.952Z",
+   "attempts": 2
+  },
+  "eebe3f416d03": {
+   "id": "eebe3f416d03",
+   "printed_at": "2026-11-02T09:11:48.902Z",
+   "eta": "2026-11-02T15:11:48.902Z",
+   "status": "none",
+   "updated_at": "2026-11-02T10:24:15.097Z",
+   "attempts": 2
+  },
+  "a971ad3ed783": {
+   "id": "a971ad3ed783",
+   "printed_at": "2026-11-02T09:11:48.902Z",
+   "eta": "2026-11-02T15:11:48.902Z",
+   "status": "none",
+   "updated_at": "2026-11-02T10:16:53.877Z",
+   "attempts": 1
+  },
+  "e21437b4a0f1": {
+   "id": "e21437b4a0f1",
+   "printed_at": "2026-11-01T09:16:40.717Z",
+   "eta": "2026-11-01T15:16:40.717Z",
+   "status": "none",
+   "updated_at": "2026-11-01T12:30:39.033Z",
+   "attempts": 2
+  },
+  "403ba17004fd": {
+   "id": "403ba17004fd",
+   "printed_at": "2026-11-01T09:16:40.717Z",
+   "eta": "2026-11-01T15:16:40.717Z",
+   "status": "none",
+   "updated_at": "2026-11-01T12:22:41.418Z",
+   "attempts": 1
+  },
+  "9c50337615b3": {
+   "id": "9c50337615b3",
+   "printed_at": "2026-11-06T05:43:26.370Z",
+   "eta": "2026-11-06T11:43:26.370Z",
+   "status": "none",
+   "updated_at": "2026-11-06T13:02:14.587Z",
+   "attempts": 0,
+   "waiting_reason": "no second outlet stored for this event (ruling 4) - not written yet",
+   "miss": true,
+   "miss_reason": "did not pass the checks within 6 hours of print"
+  },
+  "7f71d50e0d5a": {
+   "id": "7f71d50e0d5a",
+   "printed_at": "2026-11-02T09:11:48.902Z",
+   "eta": "2026-11-02T15:11:48.902Z",
+   "status": "none",
+   "updated_at": "2026-11-02T10:16:53.879Z",
+   "attempts": 2
+  },
+  "33e82ac5d9c1": {
+   "id": "33e82ac5d9c1",
+   "printed_at": "2026-11-02T09:11:48.902Z",
+   "eta": "2026-11-02T15:11:48.902Z",
+   "status": "none",
+   "updated_at": "2026-11-02T10:16:53.604Z",
+   "attempts": 1
+  },
+  "52d9dcaee8dc": {
+   "id": "52d9dcaee8dc",
+   "printed_at": "2026-11-02T09:11:48.902Z",
+   "eta": "2026-11-02T15:11:48.902Z",
+   "status": "none",
+   "updated_at": "2026-11-02T10:16:56.123Z",
+   "attempts": 2
+  },
+  "a486289b30ae": {
+   "id": "a486289b30ae",
+   "printed_at": "2026-11-02T09:11:48.902Z",
+   "eta": "2026-11-02T15:11:48.902Z",
+   "status": "none",
+   "updated_at": "2026-11-02T10:16:53.604Z",
+   "attempts": 1
+  },
+  "188789e82b0d": {
+   "id": "188789e82b0d",
+   "printed_at": "2026-11-02T09:11:48.902Z",
+   "eta": "2026-11-02T15:11:48.902Z",
+   "status": "none",
+   "updated_at": "2026-11-02T10:16:56.126Z",
+   "attempts": 2
+  },
+  "b4c624316439": {
+   "id": "b4c624316439",
+   "printed_at": "2026-11-04T12:29:07.967Z",
+   "eta": "2026-11-04T18:29:07.967Z",
+   "status": "published",
+   "updated_at": "2026-11-04T17:56:31.100Z",
+   "attempts": 1,
+   "published_at": "2026-11-04T17:15:02.764Z",
+   "checked_at": "2026-11-04T17:11:08.232Z",
+   "body_hash": "f1796c2df6ff821b",
+   "second_read_at": "2026-11-04T17:56:31.100Z"
+  },
+  "5337333bbcda": {
+   "id": "5337333bbcda",
+   "printed_at": "2026-11-04T12:29:07.967Z",
+   "eta": "2026-11-04T18:29:07.967Z",
+   "status": "none",
+   "updated_at": "2026-11-04T17:15:05.884Z",
+   "attempts": 2,
+   "miss": true,
+   "miss_reason": "after the code checks it no longer meets the standard: missing applies it to this event with exact facts"
+  },
+  "3bc4d23675be": {
+   "id": "3bc4d23675be",
+   "printed_at": "2026-11-04T12:29:07.967Z",
+   "eta": "2026-11-04T18:29:07.967Z",
+   "status": "none",
+   "updated_at": "2026-11-04T17:15:05.970Z",
+   "attempts": 2,
+   "miss": true,
+   "miss_reason": "after the code checks it no longer meets the standard: missing applies it to this event with exact facts"
+  },
+  "1577239b520d": {
+   "id": "1577239b520d",
+   "printed_at": "2026-11-04T12:29:07.967Z",
+   "eta": "2026-11-04T18:29:07.967Z",
+   "status": "none",
+   "updated_at": "2026-11-04T17:15:06.064Z",
+   "attempts": 2,
+   "miss": true,
+   "miss_reason": "after the code checks it no longer meets the standard: missing applies it to this event with exact facts"
+  },
+  "b9d37e59be5d": {
+   "id": "b9d37e59be5d",
+   "printed_at": "2026-11-04T12:29:07.967Z",
+   "eta": "2026-11-04T18:29:07.967Z",
+   "status": "none",
+   "updated_at": "2026-11-04T17:15:06.148Z",
+   "attempts": 2,
+   "miss": true,
+   "miss_reason": "after the code checks it no longer meets the standard: missing applies it to this event with exact facts"
+  },
+  "e3a8fa62e5e9": {
+   "id": "e3a8fa62e5e9",
+   "printed_at": "2026-11-04T12:29:07.967Z",
+   "eta": "2026-11-04T18:29:07.967Z",
+   "status": "none",
+   "updated_at": "2026-11-04T17:15:06.250Z",
+   "attempts": 2,
+   "miss": true,
+   "miss_reason": "after the code checks it no longer meets the standard: missing applies it to this event with exact facts"
+  },
+  "e00a8595989c": {
+   "id": "e00a8595989c",
+   "printed_at": "2026-11-05T05:47:02.352Z",
+   "eta": "2026-11-05T11:47:02.352Z",
+   "status": "none",
+   "updated_at": "2026-11-05T07:53:40.295Z",
+   "attempts": 2,
+   "miss": true,
+   "miss_reason": "after the code checks it no longer meets the standard: missing applies it to this event with exact facts"
+  },
+  "f7afa8c31a1a": {
+   "id": "f7afa8c31a1a",
+   "printed_at": "2026-11-04T12:29:07.967Z",
+   "eta": "2026-11-04T18:29:07.967Z",
+   "status": "none",
+   "updated_at": "2026-11-04T17:15:06.334Z",
+   "attempts": 1,
+   "miss": true,
+   "miss_reason": "Campaign activity is not an exercise of a government power."
+  },
+  "4726ebae8cfb": {
+   "id": "4726ebae8cfb",
+   "printed_at": "2026-11-04T12:29:07.967Z",
+   "eta": "2026-11-04T18:29:07.967Z",
+   "status": "none",
+   "updated_at": "2026-11-04T17:15:06.338Z",
+   "attempts": 1,
+   "miss": true,
+   "miss_reason": "No American government actor: the Constitution governs our governments."
+  },
+  "4f474e22f312": {
+   "id": "4f474e22f312",
+   "printed_at": "2026-11-06T05:43:26.370Z",
+   "eta": "2026-11-06T11:43:26.370Z",
+   "status": "none",
+   "updated_at": "2026-11-06T13:02:14.587Z",
+   "attempts": 0,
+   "waiting_reason": "no second outlet stored for this event (ruling 4) - not written yet",
+   "miss": true,
+   "miss_reason": "did not pass the checks within 6 hours of print"
+  },
+  "aa8331f144d8": {
+   "id": "aa8331f144d8",
+   "printed_at": "2026-11-05T05:47:02.352Z",
+   "eta": "2026-11-05T11:47:02.352Z",
+   "status": "published",
+   "updated_at": "2026-11-05T07:54:35.107Z",
+   "attempts": 1,
+   "published_at": "2026-11-05T07:13:03.194Z",
+   "checked_at": "2026-11-05T07:13:03.194Z",
+   "body_hash": "bd5ba892b79f41ac",
+   "fixed_before_live": 1,
+   "second_read_at": "2026-11-05T07:54:35.107Z"
+  },
+  "8768bf29d59a": {
+   "id": "8768bf29d59a",
+   "printed_at": "2026-11-05T05:47:02.352Z",
+   "eta": "2026-11-05T11:47:02.352Z",
+   "status": "none",
+   "updated_at": "2026-11-05T07:53:40.471Z",
+   "attempts": 2,
+   "miss": true,
+   "miss_reason": "after the code checks it no longer meets the standard: missing applies it to this event with exact facts"
+  },
+  "a927ffd3ed3d": {
+   "id": "a927ffd3ed3d",
+   "printed_at": "2026-11-05T05:47:02.352Z",
+   "eta": "2026-11-05T11:47:02.352Z",
+   "status": "none",
+   "updated_at": "2026-11-05T07:53:40.565Z",
+   "attempts": 2,
+   "miss": true,
+   "miss_reason": "after the code checks it no longer meets the standard: missing applies it to this event with exact facts"
+  },
+  "878e554ef122": {
+   "id": "878e554ef122",
+   "printed_at": "2026-11-05T05:47:02.352Z",
+   "eta": "2026-11-05T11:47:02.352Z",
+   "status": "none",
+   "updated_at": "2026-11-05T07:53:40.643Z",
+   "attempts": 2,
+   "miss": true,
+   "miss_reason": "after the code checks it no longer meets the standard: missing applies it to this event with exact facts"
+  },
+  "d1125c01fab0": {
+   "id": "d1125c01fab0",
+   "printed_at": "2026-11-05T05:47:02.352Z",
+   "eta": "2026-11-05T11:47:02.352Z",
+   "status": "not_due",
+   "updated_at": "2026-11-05T07:07:59.192Z",
+   "attempts": 1,
+   "not_due_reason": "A remark with no official act gives no power to measure. If the story also reports an official act (a strike, a firing, a waiver, a decision), type THAT act, not the remark. A treaty-negotiate row nee"
+  },
+  "72d2a8234a83": {
+   "id": "72d2a8234a83",
+   "printed_at": "2026-11-05T05:47:02.352Z",
+   "eta": "2026-11-05T11:47:02.352Z",
+   "status": "none",
+   "updated_at": "2026-11-05T07:53:40.731Z",
+   "attempts": 2,
+   "miss": true,
+   "miss_reason": "after the code checks it no longer meets the standard: missing states the point plainly; applies it to this event with exact facts"
+  },
+  "ba5d9bbc576a": {
+   "id": "ba5d9bbc576a",
+   "printed_at": "2026-11-05T05:47:02.352Z",
+   "eta": "2026-11-05T11:47:02.352Z",
+   "status": "not_due",
+   "updated_at": "2026-11-05T07:12:26.628Z",
+   "attempts": 1,
+   "not_due_reason": "No American government actor: the Constitution governs our governments."
+  },
+  "1bfee4f85db8": {
+   "id": "1bfee4f85db8",
+   "printed_at": "2026-11-05T05:47:02.352Z",
+   "eta": "2026-11-05T11:47:02.352Z",
+   "status": "not_due",
+   "updated_at": "2026-11-05T07:12:32.317Z",
+   "attempts": 1,
+   "not_due_reason": "A remark with no official act gives no power to measure. If the story also reports an official act (a strike, a firing, a waiver, a decision), type THAT act, not the remark. A treaty-negotiate row nee"
+  },
+  "83b70da40e66": {
+   "id": "83b70da40e66",
+   "printed_at": "2026-11-06T05:43:26.370Z",
+   "eta": "2026-11-06T11:43:26.370Z",
+   "status": "not_due",
+   "updated_at": "2026-11-06T06:34:10.476Z",
+   "attempts": 1,
+   "not_due_reason": "no row in the actor-to-clause map for a doj doing \"regulate\""
+  },
+  "07bdc63c670e": {
+   "id": "07bdc63c670e",
+   "printed_at": "2026-11-06T05:43:26.370Z",
+   "eta": "2026-11-06T11:43:26.370Z",
+   "status": "none",
+   "updated_at": "2026-11-06T13:02:14.587Z",
+   "attempts": 0,
+   "waiting_reason": "no second outlet stored for this event (ruling 4) - not written yet",
+   "miss": true,
+   "miss_reason": "did not pass the checks within 6 hours of print"
+  }
+ }
+}
