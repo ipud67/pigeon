@@ -1,6 +1,6 @@
 {
  "note": "Constitutional Analysis status per story, written by scripts/constitutional-pass.mts. coming = being written, expected by eta; published = /constitutional/analyses/<id>.json; none = no analysis for this story.",
- "updated_at": "2026-11-07T06:22:54.115Z",
+ "updated_at": "2026-11-07T08:44:06.754Z",
  "edition": "2026-11-07T04:28:24.515Z",
  "stories": {
   "3a460b943ed5": {
@@ -691,10 +691,11 @@
    "id": "c59394c3b9e0",
    "printed_at": "2026-11-07T05:12:59.885Z",
    "eta": "2026-11-07T11:12:59.885Z",
-   "status": "coming",
-   "updated_at": "2026-11-07T06:22:54.115Z",
-   "attempts": 0,
-   "waiting_reason": "no second outlet stored for this event (ruling 4) - not written yet"
+   "status": "not_due",
+   "updated_at": "2026-11-07T08:44:43.133Z",
+   "attempts": 1,
+   "waiting_reason": "no second outlet stored for this event (ruling 4) - not written yet",
+   "not_due_reason": "A remark with no official act gives no power to measure. If the story also reports an official act (a strike, a firing, a waiver, a decision), type THAT act, not the remark. A treaty-negotiate row nee"
   },
   "6e63320eb6b2": {
    "id": "6e63320eb6b2",
