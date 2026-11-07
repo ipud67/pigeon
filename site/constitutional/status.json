@@ -1,6 +1,6 @@
 {
  "note": "Constitutional Analysis status per story, written by scripts/constitutional-pass.mts. coming = being written, expected by eta; published = /constitutional/analyses/<id>.json; none = no analysis for this story.",
- "updated_at": "2026-11-07T10:49:23.157Z",
+ "updated_at": "2026-11-07T11:49:25.181Z",
  "edition": "2026-11-07T04:28:24.515Z",
  "stories": {
   "3a460b943ed5": {
@@ -563,10 +563,12 @@
    "id": "4f474e22f312",
    "printed_at": "2026-11-07T05:12:59.885Z",
    "eta": "2026-11-07T11:12:59.885Z",
-   "status": "coming",
-   "updated_at": "2026-11-07T06:22:54.115Z",
+   "status": "none",
+   "updated_at": "2026-11-07T11:49:25.181Z",
    "attempts": 0,
-   "waiting_reason": "no second outlet stored for this event (ruling 4) - not written yet"
+   "waiting_reason": "no second outlet stored for this event (ruling 4) - not written yet",
+   "miss": true,
+   "miss_reason": "did not pass the checks within 6 hours of print"
   },
   "aa8331f144d8": {
    "id": "aa8331f144d8",
@@ -672,10 +674,12 @@
    "id": "ad30c06e807d",
    "printed_at": "2026-11-07T05:12:59.885Z",
    "eta": "2026-11-07T11:12:59.885Z",
-   "status": "coming",
-   "updated_at": "2026-11-07T06:22:54.115Z",
+   "status": "none",
+   "updated_at": "2026-11-07T11:49:25.181Z",
    "attempts": 0,
-   "waiting_reason": "no second outlet stored for this event (ruling 4) - not written yet"
+   "waiting_reason": "no second outlet stored for this event (ruling 4) - not written yet",
+   "miss": true,
+   "miss_reason": "did not pass the checks within 6 hours of print"
   },
   "e71b1aabbef2": {
    "id": "e71b1aabbef2",
@@ -701,19 +705,23 @@
    "id": "6e63320eb6b2",
    "printed_at": "2026-11-07T05:12:59.885Z",
    "eta": "2026-11-07T11:12:59.885Z",
-   "status": "coming",
-   "updated_at": "2026-11-07T06:22:54.115Z",
+   "status": "none",
+   "updated_at": "2026-11-07T11:49:25.181Z",
    "attempts": 0,
-   "waiting_reason": "no second outlet stored for this event (ruling 4) - not written yet"
+   "waiting_reason": "no second outlet stored for this event (ruling 4) - not written yet",
+   "miss": true,
+   "miss_reason": "did not pass the checks within 6 hours of print"
   },
   "1e7846005855": {
    "id": "1e7846005855",
    "printed_at": "2026-11-07T05:12:59.885Z",
    "eta": "2026-11-07T11:12:59.885Z",
-   "status": "coming",
-   "updated_at": "2026-11-07T06:22:54.115Z",
+   "status": "none",
+   "updated_at": "2026-11-07T11:49:25.181Z",
    "attempts": 0,
-   "waiting_reason": "no second outlet stored for this event (ruling 4) - not written yet"
+   "waiting_reason": "no second outlet stored for this event (ruling 4) - not written yet",
+   "miss": true,
+   "miss_reason": "did not pass the checks within 6 hours of print"
   },
   "224d0d9ace2a": {
    "id": "224d0d9ace2a",
@@ -729,10 +737,12 @@
    "id": "faed14ade2b3",
    "printed_at": "2026-11-07T05:12:59.885Z",
    "eta": "2026-11-07T11:12:59.885Z",
-   "status": "coming",
-   "updated_at": "2026-11-07T06:22:54.115Z",
+   "status": "none",
+   "updated_at": "2026-11-07T11:49:25.181Z",
    "attempts": 0,
-   "waiting_reason": "no second outlet stored for this event (ruling 4) - not written yet"
+   "waiting_reason": "no second outlet stored for this event (ruling 4) - not written yet",
+   "miss": true,
+   "miss_reason": "did not pass the checks within 6 hours of print"
   }
  }
 }
