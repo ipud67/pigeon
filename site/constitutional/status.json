@@ -1,6 +1,6 @@
 {
  "note": "Constitutional Analysis status per story, written by scripts/constitutional-pass.mts. coming = being written, expected by eta; published = /constitutional/analyses/<id>.json; none = no analysis for this story.",
- "updated_at": "2026-11-13T06:03:55.805Z",
+ "updated_at": "2026-11-13T06:33:22.720Z",
  "edition": "2026-11-13T04:27:11.726Z",
  "stories": {
   "3a460b943ed5": {
@@ -920,10 +920,12 @@
    "id": "4fbef367a144",
    "printed_at": "2026-11-13T05:08:57.211Z",
    "eta": "2026-11-13T11:08:57.211Z",
-   "status": "coming",
-   "updated_at": "2026-11-13T06:03:57.965Z",
-   "attempts": 1,
-   "reopened_from": "2026-11-11T05:13:03.918Z"
+   "status": "none",
+   "updated_at": "2026-11-13T06:33:24.888Z",
+   "attempts": 2,
+   "reopened_from": "2026-11-11T05:13:03.918Z",
+   "miss": true,
+   "miss_reason": "the clause was refused by the fact-checkers and no other clause could be checked: A:  | B: The act is a one-house referral of an impeachment resolution, not bicameral lawmaking. Story: “the impeachmen"
   },
   "4538b730a451": {
    "id": "4538b730a451",
