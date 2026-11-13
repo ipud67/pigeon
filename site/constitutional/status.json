@@ -1,7 +1,7 @@
 {
  "note": "Constitutional Analysis status per story, written by scripts/constitutional-pass.mts. coming = being written, expected by eta; published = /constitutional/analyses/<id>.json; none = no analysis for this story.",
- "updated_at": "2026-11-13T02:35:29.681Z",
- "edition": "2026-11-12T04:28:01.052Z",
+ "updated_at": "2026-11-13T06:03:55.805Z",
+ "edition": "2026-11-13T04:27:11.726Z",
  "stories": {
   "3a460b943ed5": {
    "id": "3a460b943ed5",
@@ -918,14 +918,12 @@
   },
   "4fbef367a144": {
    "id": "4fbef367a144",
-   "printed_at": "2026-11-12T05:11:59.011Z",
-   "eta": "2026-11-12T11:11:59.011Z",
-   "status": "none",
-   "updated_at": "2026-11-12T06:22:00.787Z",
-   "attempts": 2,
-   "reopened_from": "2026-11-11T05:13:03.918Z",
-   "miss": true,
-   "miss_reason": "the clause was refused by the fact-checkers and no other clause could be checked: A:  | B: The act is a one-house referral of an impeachment resolution, not bicameral lawmaking. Story: “the impeachmen"
+   "printed_at": "2026-11-13T05:08:57.211Z",
+   "eta": "2026-11-13T11:08:57.211Z",
+   "status": "coming",
+   "updated_at": "2026-11-13T06:03:57.965Z",
+   "attempts": 1,
+   "reopened_from": "2026-11-11T05:13:03.918Z"
   },
   "4538b730a451": {
    "id": "4538b730a451",
@@ -973,14 +971,13 @@
   },
   "76743a44c04d": {
    "id": "76743a44c04d",
-   "printed_at": "2026-11-12T05:11:59.011Z",
-   "eta": "2026-11-12T11:11:59.011Z",
-   "status": "none",
-   "updated_at": "2026-11-12T13:15:36.737Z",
+   "printed_at": "2026-11-13T05:08:57.211Z",
+   "eta": "2026-11-13T11:08:57.211Z",
+   "status": "coming",
+   "updated_at": "2026-11-13T06:03:55.805Z",
    "attempts": 0,
-   "waiting_reason": "no second outlet stored for this event (ruling 4) - not written yet",
-   "miss": true,
-   "miss_reason": "did not pass the checks within 6 hours of print"
+   "reopened_from": "2026-11-12T05:11:59.011Z",
+   "waiting_reason": "no second outlet stored for this event (ruling 4) - not written yet"
   },
   "0ac8683aa37f": {
    "id": "0ac8683aa37f",
@@ -1023,6 +1020,16 @@
    "waiting_reason": "no second outlet stored for this event (ruling 4) - not written yet",
    "miss": true,
    "miss_reason": "did not pass the checks within 6 hours of print"
+  },
+  "4d15c7b24b6b": {
+   "id": "4d15c7b24b6b",
+   "printed_at": "2026-11-13T05:08:57.211Z",
+   "eta": "2026-11-13T11:08:57.211Z",
+   "status": "none",
+   "updated_at": "2026-11-13T06:03:57.983Z",
+   "attempts": 2,
+   "miss": true,
+   "miss_reason": "the worksheet could not be made correct: actor: No American government actor: the Constitution governs our governments."
   }
  }
 }
