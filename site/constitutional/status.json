@@ -1,6 +1,6 @@
 {
  "note": "Constitutional Analysis status per story, written by scripts/constitutional-pass.mts. coming = being written, expected by eta; published = /constitutional/analyses/<id>.json; none = no analysis for this story.",
- "updated_at": "2026-11-13T10:00:59.409Z",
+ "updated_at": "2026-11-13T11:29:14.640Z",
  "edition": "2026-11-13T04:27:11.726Z",
  "stories": {
   "3a460b943ed5": {
@@ -975,11 +975,13 @@
    "id": "76743a44c04d",
    "printed_at": "2026-11-13T05:08:57.211Z",
    "eta": "2026-11-13T11:08:57.211Z",
-   "status": "coming",
-   "updated_at": "2026-11-13T06:03:55.805Z",
+   "status": "none",
+   "updated_at": "2026-11-13T11:29:14.640Z",
    "attempts": 0,
    "reopened_from": "2026-11-12T05:11:59.011Z",
-   "waiting_reason": "no second outlet stored for this event (ruling 4) - not written yet"
+   "waiting_reason": "no second outlet stored for this event (ruling 4) - not written yet",
+   "miss": true,
+   "miss_reason": "did not pass the checks within 6 hours of print"
   },
   "0ac8683aa37f": {
    "id": "0ac8683aa37f",
