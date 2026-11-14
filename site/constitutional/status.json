@@ -1,6 +1,6 @@
 {
  "note": "Constitutional Analysis status per story, written by scripts/constitutional-pass.mts. coming = being written, expected by eta; published = /constitutional/analyses/<id>.json; none = no analysis for this story.",
- "updated_at": "2026-11-14T06:09:38.379Z",
+ "updated_at": "2026-11-14T08:45:39.014Z",
  "edition": "2026-11-14T04:23:07.699Z",
  "stories": {
   "3a460b943ed5": {
@@ -547,10 +547,12 @@
    "id": "f7afa8c31a1a",
    "printed_at": "2026-11-14T05:07:37.272Z",
    "eta": "2026-11-14T11:07:37.272Z",
-   "status": "coming",
-   "updated_at": "2026-11-14T06:09:38.992Z",
-   "attempts": 1,
-   "reopened_from": "2026-11-04T12:29:07.967Z"
+   "status": "none",
+   "updated_at": "2026-11-14T08:45:39.708Z",
+   "attempts": 2,
+   "reopened_from": "2026-11-04T12:29:07.967Z",
+   "miss": true,
+   "miss_reason": "the worksheet could not be made correct: power: no founding fact for the chosen power (elections-time-place-manner) is in the worksheet; choose a power that has one listed, and use a fact listed under"
   },
   "4726ebae8cfb": {
    "id": "4726ebae8cfb",
@@ -919,10 +921,12 @@
    "id": "4fbef367a144",
    "printed_at": "2026-11-14T05:07:37.272Z",
    "eta": "2026-11-14T11:07:37.272Z",
-   "status": "coming",
-   "updated_at": "2026-11-14T06:09:40.686Z",
-   "attempts": 1,
-   "reopened_from": "2026-11-11T05:13:03.918Z"
+   "status": "none",
+   "updated_at": "2026-11-14T08:45:41.318Z",
+   "attempts": 2,
+   "reopened_from": "2026-11-11T05:13:03.918Z",
+   "miss": true,
+   "miss_reason": "the clause was refused by the fact-checkers and no other clause could be checked: A:  | B: The act is a one-house referral of an impeachment resolution, not bicameral lawmaking. Story: “the impeachmen"
   },
   "4538b730a451": {
    "id": "4538b730a451",
@@ -1023,10 +1027,12 @@
    "id": "4d15c7b24b6b",
    "printed_at": "2026-11-14T05:07:37.272Z",
    "eta": "2026-11-14T11:07:37.272Z",
-   "status": "coming",
-   "updated_at": "2026-11-14T06:09:40.706Z",
-   "attempts": 1,
-   "reopened_from": "2026-11-13T05:08:57.211Z"
+   "status": "none",
+   "updated_at": "2026-11-14T08:45:41.338Z",
+   "attempts": 2,
+   "reopened_from": "2026-11-13T05:08:57.211Z",
+   "miss": true,
+   "miss_reason": "the worksheet could not be made correct: actor: No American government actor: the Constitution governs our governments."
   },
   "f124c8a20f23": {
    "id": "f124c8a20f23",
