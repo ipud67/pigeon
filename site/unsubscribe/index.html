@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="referrer" content="no-referrer">
+<title>Unsubscribe — Pigeon</title>
+<style>
+  :root { --bg:#f6f4ee; --ink:#1b1a17; --muted:#5f5b52; --rule:#c9c5ba; --btn:#1b1a17; --btn-ink:#f6f4ee; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#141311; --ink:#ece9e0; --muted:#a29e92; --rule:#38352f; --btn:#ece9e0; --btn-ink:#141311; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font-family: Georgia, 'Times New Roman', serif; line-height:1.5; }
+  main { max-width: 30rem; margin: 0 auto; padding: 18vh 16px 48px; }
+  .flag { font-size: 2rem; letter-spacing: .02em; margin: 0 0 .25rem; }
+  .rule { border:0; border-top:1px solid var(--rule); margin: .75rem 0 1.5rem; }
+  h1 { font-size: 1.35rem; font-weight: 600; margin: 0 0 .75rem; }
+  p { margin: 0 0 1rem; color: var(--muted); font-size: 1.05rem; }
+  button { font: inherit; font-size: 1rem; padding: .7rem 1.4rem; background: var(--btn); color: var(--btn-ink); border: 0; border-radius: 2px; cursor: pointer; }
+  button[disabled] { opacity: .5; cursor: default; }
+  a { color: var(--muted); }
+  [hidden] { display: none !important; }
+</style>
+</head>
+<body>
+<main>
+  <p class="flag" aria-hidden="true">Pigeon</p>
+  <hr class="rule">
+
+  <section id="ask" hidden>
+    <h1>Stop the emailed paper?</h1>
+    <p>You will no longer get Pigeon by email. Your account and your reading are not affected, and you can read the paper on the site any time.</p>
+    <button id="go" type="button">Unsubscribe</button>
+  </section>
+
+  <section id="done" hidden>
+    <h1>You are unsubscribed.</h1>
+    <p>You will not get the emailed paper again. If that was a mistake, write to <a href="mailto:editor@news.pigeonnewspaper.com">editor@news.pigeonnewspaper.com</a> and we will switch it back on.</p>
+  </section>
+
+  <section id="bad" hidden>
+    <h1>This link does not work.</h1>
+    <p>It may be incomplete or out of date. Use the Unsubscribe link at the bottom of your most recent Pigeon email, or write to <a href="mailto:editor@news.pigeonnewspaper.com?subject=unsubscribe">editor@news.pigeonnewspaper.com</a> and we will do it for you.</p>
+  </section>
+
+  <section id="err" hidden>
+    <h1>That did not go through.</h1>
+    <p>Nothing was changed. Try again in a minute, or write to <a href="mailto:editor@news.pigeonnewspaper.com?subject=unsubscribe">editor@news.pigeonnewspaper.com</a> and we will do it for you.</p>
+    <button id="retry" type="button">Try again</button>
+  </section>
+</main>
+
+<noscript><main><p>This page needs JavaScript to confirm. Or write to editor@news.pigeonnewspaper.com and we will unsubscribe you.</p></main></noscript>
+
+<script>
+(function () {
+  // The one-click endpoint (Supabase Edge Function). Its address is public: it is the same project address the site already ships.
+  var FUNCTION_URL = 'https://upngxiluehseveumjmrd.supabase.co/functions/v1/email-unsubscribe';
+  var token = new URLSearchParams(location.search).get('t') || '';
+  var el = function (id) { return document.getElementById(id); };
+  var show = function (id) { ['ask', 'done', 'bad', 'err'].forEach(function (s) { el(s).hidden = s !== id; }); };
+
+  if (!/^[0-9a-f-]{36}\.[A-Za-z0-9_-]{20,100}$/i.test(token)) { show('bad'); return; }
+  show('ask');
+
+  function go() {
+    var b = el('go'); b.disabled = true;
+    fetch(FUNCTION_URL + '?t=' + encodeURIComponent(token), {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: 'List-Unsubscribe=One-Click',
+      referrerPolicy: 'no-referrer'
+    }).then(function (r) {
+      if (r.ok) show('done');
+      else if (r.status === 400) show('bad');
+      else show('err');
+    }).catch(function () { show('err'); }).then(function () { b.disabled = false; });
+  }
+  el('go').addEventListener('click', go);
+  el('retry').addEventListener('click', function () { show('ask'); go(); });
+})();
+</script>
+</body>
+</html>
