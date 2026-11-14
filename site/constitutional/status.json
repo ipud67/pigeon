@@ -1,7 +1,7 @@
 {
  "note": "Constitutional Analysis status per story, written by scripts/constitutional-pass.mts. coming = being written, expected by eta; published = /constitutional/analyses/<id>.json; none = no analysis for this story.",
- "updated_at": "2026-11-14T01:43:30.779Z",
- "edition": "2026-11-13T04:27:11.726Z",
+ "updated_at": "2026-11-14T06:09:38.379Z",
+ "edition": "2026-11-14T04:23:07.699Z",
  "stories": {
   "3a460b943ed5": {
    "id": "3a460b943ed5",
@@ -545,13 +545,12 @@
   },
   "f7afa8c31a1a": {
    "id": "f7afa8c31a1a",
-   "printed_at": "2026-11-04T12:29:07.967Z",
-   "eta": "2026-11-04T18:29:07.967Z",
-   "status": "none",
-   "updated_at": "2026-11-04T17:15:06.334Z",
+   "printed_at": "2026-11-14T05:07:37.272Z",
+   "eta": "2026-11-14T11:07:37.272Z",
+   "status": "coming",
+   "updated_at": "2026-11-14T06:09:38.992Z",
    "attempts": 1,
-   "miss": true,
-   "miss_reason": "Campaign activity is not an exercise of a government power."
+   "reopened_from": "2026-11-04T12:29:07.967Z"
   },
   "4726ebae8cfb": {
    "id": "4726ebae8cfb",
@@ -918,14 +917,12 @@
   },
   "4fbef367a144": {
    "id": "4fbef367a144",
-   "printed_at": "2026-11-13T05:08:57.211Z",
-   "eta": "2026-11-13T11:08:57.211Z",
-   "status": "none",
-   "updated_at": "2026-11-13T06:33:24.888Z",
-   "attempts": 2,
-   "reopened_from": "2026-11-11T05:13:03.918Z",
-   "miss": true,
-   "miss_reason": "the clause was refused by the fact-checkers and no other clause could be checked: A:  | B: The act is a one-house referral of an impeachment resolution, not bicameral lawmaking. Story: “the impeachmen"
+   "printed_at": "2026-11-14T05:07:37.272Z",
+   "eta": "2026-11-14T11:07:37.272Z",
+   "status": "coming",
+   "updated_at": "2026-11-14T06:09:40.686Z",
+   "attempts": 1,
+   "reopened_from": "2026-11-11T05:13:03.918Z"
   },
   "4538b730a451": {
    "id": "4538b730a451",
@@ -973,15 +970,13 @@
   },
   "76743a44c04d": {
    "id": "76743a44c04d",
-   "printed_at": "2026-11-13T05:08:57.211Z",
-   "eta": "2026-11-13T11:08:57.211Z",
-   "status": "none",
-   "updated_at": "2026-11-13T11:29:14.640Z",
+   "printed_at": "2026-11-14T05:07:37.272Z",
+   "eta": "2026-11-14T11:07:37.272Z",
+   "status": "coming",
+   "updated_at": "2026-11-14T06:09:38.379Z",
    "attempts": 0,
    "reopened_from": "2026-11-12T05:11:59.011Z",
-   "waiting_reason": "no second outlet stored for this event (ruling 4) - not written yet",
-   "miss": true,
-   "miss_reason": "did not pass the checks within 6 hours of print"
+   "waiting_reason": "no second outlet stored for this event (ruling 4) - not written yet"
   },
   "0ac8683aa37f": {
    "id": "0ac8683aa37f",
@@ -996,14 +991,13 @@
   },
   "1ab1a1bd4442": {
    "id": "1ab1a1bd4442",
-   "printed_at": "2026-11-12T05:11:59.011Z",
-   "eta": "2026-11-12T11:11:59.011Z",
-   "status": "none",
-   "updated_at": "2026-11-12T13:15:36.737Z",
+   "printed_at": "2026-11-14T05:07:37.272Z",
+   "eta": "2026-11-14T11:07:37.272Z",
+   "status": "coming",
+   "updated_at": "2026-11-14T06:09:38.379Z",
    "attempts": 0,
-   "waiting_reason": "no second outlet stored for this event (ruling 4) - not written yet",
-   "miss": true,
-   "miss_reason": "did not pass the checks within 6 hours of print"
+   "reopened_from": "2026-11-12T05:11:59.011Z",
+   "waiting_reason": "no second outlet stored for this event (ruling 4) - not written yet"
   },
   "e3bf5c5eb910": {
    "id": "e3bf5c5eb910",
@@ -1027,13 +1021,77 @@
   },
   "4d15c7b24b6b": {
    "id": "4d15c7b24b6b",
-   "printed_at": "2026-11-13T05:08:57.211Z",
-   "eta": "2026-11-13T11:08:57.211Z",
+   "printed_at": "2026-11-14T05:07:37.272Z",
+   "eta": "2026-11-14T11:07:37.272Z",
+   "status": "coming",
+   "updated_at": "2026-11-14T06:09:40.706Z",
+   "attempts": 1,
+   "reopened_from": "2026-11-13T05:08:57.211Z"
+  },
+  "f124c8a20f23": {
+   "id": "f124c8a20f23",
+   "printed_at": "2026-11-14T05:07:37.272Z",
+   "eta": "2026-11-14T11:07:37.272Z",
+   "status": "coming",
+   "updated_at": "2026-11-14T06:09:38.379Z",
+   "attempts": 0,
+   "waiting_reason": "no second outlet stored for this event (ruling 4) - not written yet"
+  },
+  "3b1438701d9c": {
+   "id": "3b1438701d9c",
+   "printed_at": "2026-11-14T05:07:37.272Z",
+   "eta": "2026-11-14T11:07:37.272Z",
    "status": "none",
-   "updated_at": "2026-11-13T06:03:57.983Z",
+   "updated_at": "2026-11-14T06:09:40.739Z",
    "attempts": 2,
    "miss": true,
-   "miss_reason": "the worksheet could not be made correct: actor: No American government actor: the Constitution governs our governments."
+   "miss_reason": "the worksheet could not be made correct: actor: A remark with no official act gives no power to measure. If the story also reports an official act (a strike, a firing, a waiver, a decision), type THAT"
+  },
+  "e36eb761a8a6": {
+   "id": "e36eb761a8a6",
+   "printed_at": "2026-11-14T05:07:37.272Z",
+   "eta": "2026-11-14T11:07:37.272Z",
+   "status": "not_due",
+   "updated_at": "2026-11-14T06:09:38.379Z",
+   "attempts": 1,
+   "not_due_reason": "No American government actor: the Constitution governs our governments."
+  },
+  "6464f1dc7032": {
+   "id": "6464f1dc7032",
+   "printed_at": "2026-11-14T05:07:37.272Z",
+   "eta": "2026-11-14T11:07:37.272Z",
+   "status": "coming",
+   "updated_at": "2026-11-14T06:09:38.379Z",
+   "attempts": 0,
+   "waiting_reason": "no second outlet stored for this event (ruling 4) - not written yet"
+  },
+  "d4a685dc223a": {
+   "id": "d4a685dc223a",
+   "printed_at": "2026-11-14T05:07:37.272Z",
+   "eta": "2026-11-14T11:07:37.272Z",
+   "status": "none",
+   "updated_at": "2026-11-14T06:09:40.763Z",
+   "attempts": 2,
+   "miss": true,
+   "miss_reason": "no event survived the worksheet checks, so a second request cannot add one: after the code checks it no longer meets the standard: missing applies it to this event with exact facts"
+  },
+  "a0b699b5e370": {
+   "id": "a0b699b5e370",
+   "printed_at": "2026-11-14T05:07:37.272Z",
+   "eta": "2026-11-14T11:07:37.272Z",
+   "status": "not_due",
+   "updated_at": "2026-11-14T06:09:38.379Z",
+   "attempts": 1,
+   "not_due_reason": "A remark with no official act gives no power to measure. If the story also reports an official act (a strike, a firing, a waiver, a decision), type THAT act, not the remark. A treaty-negotiate row nee"
+  },
+  "d53281b2eb9d": {
+   "id": "d53281b2eb9d",
+   "printed_at": "2026-11-14T05:07:37.272Z",
+   "eta": "2026-11-14T11:07:37.272Z",
+   "status": "coming",
+   "updated_at": "2026-11-14T06:09:38.379Z",
+   "attempts": 0,
+   "waiting_reason": "no second outlet stored for this event (ruling 4) - not written yet"
   }
  }
 }
