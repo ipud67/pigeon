@@ -1,6 +1,6 @@
 {
  "note": "Constitutional Analysis status per story, written by scripts/constitutional-pass.mts. coming = being written, expected by eta; published = /constitutional/analyses/<id>.json; none = no analysis for this story.",
- "updated_at": "2026-11-20T07:38:11.009Z",
+ "updated_at": "2026-11-20T07:47:39.658Z",
  "edition": "2026-11-20T04:29:10.282Z",
  "stories": {
   "3a460b943ed5": {
@@ -1279,10 +1279,12 @@
    "id": "e6ec68adc6a8",
    "printed_at": "2026-11-20T05:15:30.297Z",
    "eta": "2026-11-20T11:15:30.297Z",
-   "status": "coming",
-   "updated_at": "2026-11-20T07:38:13.182Z",
-   "attempts": 1,
-   "reopened_from": "2026-11-19T05:12:01.222Z"
+   "status": "none",
+   "updated_at": "2026-11-20T07:47:40.100Z",
+   "attempts": 2,
+   "reopened_from": "2026-11-19T05:12:01.222Z",
+   "miss": true,
+   "miss_reason": "no event survived the worksheet checks, so a second request cannot add one: after the code checks it no longer meets the standard: missing applies it to this event with exact facts"
   },
   "a7afad5f0441": {
    "id": "a7afad5f0441",
