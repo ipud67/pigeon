@@ -1,7 +1,7 @@
 {
  "note": "Constitutional Analysis status per story, written by scripts/constitutional-pass.mts. coming = being written, expected by eta; published = /constitutional/analyses/<id>.json; none = no analysis for this story.",
- "updated_at": "2026-11-19T23:47:30.252Z",
- "edition": "2026-11-19T04:30:53.407Z",
+ "updated_at": "2026-11-20T07:38:11.009Z",
+ "edition": "2026-11-20T04:29:10.282Z",
  "stories": {
   "3a460b943ed5": {
    "id": "3a460b943ed5",
@@ -1225,15 +1225,13 @@
   },
   "9256b4e39fc5": {
    "id": "9256b4e39fc5",
-   "printed_at": "2026-11-19T05:12:01.222Z",
-   "eta": "2026-11-19T11:12:01.222Z",
-   "status": "none",
-   "updated_at": "2026-11-19T12:06:12.776Z",
+   "printed_at": "2026-11-20T05:15:30.297Z",
+   "eta": "2026-11-20T11:15:30.297Z",
+   "status": "coming",
+   "updated_at": "2026-11-20T07:38:11.009Z",
    "attempts": 0,
    "reopened_from": "2026-11-18T05:11:13.387Z",
-   "waiting_reason": "no second outlet stored for this event (ruling 4) - not written yet",
-   "miss": true,
-   "miss_reason": "did not pass the checks within 6 hours of print"
+   "waiting_reason": "no second outlet stored for this event (ruling 4) - not written yet"
   },
   "61e0ba2273e8": {
    "id": "61e0ba2273e8",
@@ -1279,13 +1277,12 @@
   },
   "e6ec68adc6a8": {
    "id": "e6ec68adc6a8",
-   "printed_at": "2026-11-19T05:12:01.222Z",
-   "eta": "2026-11-19T11:12:01.222Z",
-   "status": "none",
-   "updated_at": "2026-11-19T07:33:20.207Z",
-   "attempts": 2,
-   "miss": true,
-   "miss_reason": "no event survived the worksheet checks, so a second request cannot add one: after the code checks it no longer meets the standard: missing applies it to this event with exact facts"
+   "printed_at": "2026-11-20T05:15:30.297Z",
+   "eta": "2026-11-20T11:15:30.297Z",
+   "status": "coming",
+   "updated_at": "2026-11-20T07:38:13.182Z",
+   "attempts": 1,
+   "reopened_from": "2026-11-19T05:12:01.222Z"
   },
   "a7afad5f0441": {
    "id": "a7afad5f0441",
@@ -1319,6 +1316,75 @@
    "waiting_reason": "no second outlet stored for this event (ruling 4) - not written yet",
    "miss": true,
    "miss_reason": "did not pass the checks within 6 hours of print"
+  },
+  "45f5dbf7117c": {
+   "id": "45f5dbf7117c",
+   "printed_at": "2026-11-20T05:15:30.297Z",
+   "eta": "2026-11-20T11:15:30.297Z",
+   "status": "coming",
+   "updated_at": "2026-11-20T07:38:11.009Z",
+   "attempts": 0,
+   "waiting_reason": "no second outlet stored for this event (ruling 4) - not written yet"
+  },
+  "1b5ecac239cf": {
+   "id": "1b5ecac239cf",
+   "printed_at": "2026-11-20T05:15:30.297Z",
+   "eta": "2026-11-20T11:15:30.297Z",
+   "status": "not_due",
+   "updated_at": "2026-11-20T07:38:11.009Z",
+   "attempts": 1,
+   "not_due_reason": "No American government actor: the Constitution governs our governments."
+  },
+  "c44a12a1d6ea": {
+   "id": "c44a12a1d6ea",
+   "printed_at": "2026-11-20T05:15:30.297Z",
+   "eta": "2026-11-20T11:15:30.297Z",
+   "status": "published",
+   "updated_at": "2026-11-20T07:38:11.009Z",
+   "attempts": 1,
+   "published_at": "2026-11-20T07:38:11.009Z",
+   "checked_at": "2026-11-20T07:31:44.059Z",
+   "body_hash": "e3b0c44298fc1c14"
+  },
+  "d2673993ff9f": {
+   "id": "d2673993ff9f",
+   "printed_at": "2026-11-20T05:15:30.297Z",
+   "eta": "2026-11-20T11:15:30.297Z",
+   "status": "not_due",
+   "updated_at": "2026-11-20T07:38:11.009Z",
+   "attempts": 1,
+   "not_due_reason": "No American government actor: the Constitution governs our governments."
+  },
+  "358694980b1b": {
+   "id": "358694980b1b",
+   "printed_at": "2026-11-20T05:15:30.297Z",
+   "eta": "2026-11-20T11:15:30.297Z",
+   "status": "none",
+   "updated_at": "2026-11-20T07:38:13.212Z",
+   "attempts": 2,
+   "miss": true,
+   "miss_reason": "no event survived the worksheet checks, so a second request cannot add one: after the code checks it no longer meets the standard: missing applies it to this event with exact facts"
+  },
+  "6743deb316de": {
+   "id": "6743deb316de",
+   "printed_at": "2026-11-20T05:15:30.297Z",
+   "eta": "2026-11-20T11:15:30.297Z",
+   "status": "published",
+   "updated_at": "2026-11-20T07:38:11.009Z",
+   "attempts": 1,
+   "published_at": "2026-11-20T07:38:11.009Z",
+   "checked_at": "2026-11-20T07:32:44.250Z",
+   "body_hash": "6c2a62eb5795b32d",
+   "fixed_before_live": 1
+  },
+  "b28a72a8f987": {
+   "id": "b28a72a8f987",
+   "printed_at": "2026-11-20T05:15:30.297Z",
+   "eta": "2026-11-20T11:15:30.297Z",
+   "status": "coming",
+   "updated_at": "2026-11-20T07:38:11.009Z",
+   "attempts": 0,
+   "waiting_reason": "no second outlet stored for this event (ruling 4) - not written yet"
   }
  }
 }
