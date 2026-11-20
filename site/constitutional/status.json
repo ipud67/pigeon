@@ -1,6 +1,6 @@
 {
  "note": "Constitutional Analysis status per story, written by scripts/constitutional-pass.mts. coming = being written, expected by eta; published = /constitutional/analyses/<id>.json; none = no analysis for this story.",
- "updated_at": "2026-11-20T07:47:39.658Z",
+ "updated_at": "2026-11-20T08:15:44.808Z",
  "edition": "2026-11-20T04:29:10.282Z",
  "stories": {
   "3a460b943ed5": {
@@ -1342,11 +1342,12 @@
    "printed_at": "2026-11-20T05:15:30.297Z",
    "eta": "2026-11-20T11:15:30.297Z",
    "status": "published",
-   "updated_at": "2026-11-20T07:38:11.009Z",
+   "updated_at": "2026-11-20T08:16:32.771Z",
    "attempts": 1,
    "published_at": "2026-11-20T07:38:11.009Z",
    "checked_at": "2026-11-20T07:31:44.059Z",
-   "body_hash": "e3b0c44298fc1c14"
+   "body_hash": "e3b0c44298fc1c14",
+   "second_read_at": "2026-11-20T08:16:32.771Z"
   },
   "d2673993ff9f": {
    "id": "d2673993ff9f",
@@ -1372,12 +1373,13 @@
    "printed_at": "2026-11-20T05:15:30.297Z",
    "eta": "2026-11-20T11:15:30.297Z",
    "status": "published",
-   "updated_at": "2026-11-20T07:38:11.009Z",
+   "updated_at": "2026-11-20T08:18:23.896Z",
    "attempts": 1,
    "published_at": "2026-11-20T07:38:11.009Z",
    "checked_at": "2026-11-20T07:32:44.250Z",
    "body_hash": "6c2a62eb5795b32d",
-   "fixed_before_live": 1
+   "fixed_before_live": 1,
+   "second_read_at": "2026-11-20T08:18:23.896Z"
   },
   "b28a72a8f987": {
    "id": "b28a72a8f987",
