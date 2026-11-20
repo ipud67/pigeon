@@ -1,6 +1,6 @@
 {
  "note": "Constitutional Analysis status per story, written by scripts/constitutional-pass.mts. coming = being written, expected by eta; published = /constitutional/analyses/<id>.json; none = no analysis for this story.",
- "updated_at": "2026-11-20T10:29:03.307Z",
+ "updated_at": "2026-11-20T12:07:21.846Z",
  "edition": "2026-11-20T04:29:10.282Z",
  "stories": {
   "3a460b943ed5": {
@@ -1227,11 +1227,13 @@
    "id": "9256b4e39fc5",
    "printed_at": "2026-11-20T05:15:30.297Z",
    "eta": "2026-11-20T11:15:30.297Z",
-   "status": "coming",
-   "updated_at": "2026-11-20T07:38:11.009Z",
+   "status": "none",
+   "updated_at": "2026-11-20T12:07:21.846Z",
    "attempts": 0,
    "reopened_from": "2026-11-18T05:11:13.387Z",
-   "waiting_reason": "no second outlet stored for this event (ruling 4) - not written yet"
+   "waiting_reason": "no second outlet stored for this event (ruling 4) - not written yet",
+   "miss": true,
+   "miss_reason": "did not pass the checks within 6 hours of print"
   },
   "61e0ba2273e8": {
    "id": "61e0ba2273e8",
@@ -1323,10 +1325,12 @@
    "id": "45f5dbf7117c",
    "printed_at": "2026-11-20T05:15:30.297Z",
    "eta": "2026-11-20T11:15:30.297Z",
-   "status": "coming",
-   "updated_at": "2026-11-20T07:38:11.009Z",
+   "status": "none",
+   "updated_at": "2026-11-20T12:07:21.846Z",
    "attempts": 0,
-   "waiting_reason": "no second outlet stored for this event (ruling 4) - not written yet"
+   "waiting_reason": "no second outlet stored for this event (ruling 4) - not written yet",
+   "miss": true,
+   "miss_reason": "did not pass the checks within 6 hours of print"
   },
   "1b5ecac239cf": {
    "id": "1b5ecac239cf",
@@ -1385,10 +1389,12 @@
    "id": "b28a72a8f987",
    "printed_at": "2026-11-20T05:15:30.297Z",
    "eta": "2026-11-20T11:15:30.297Z",
-   "status": "coming",
-   "updated_at": "2026-11-20T07:38:11.009Z",
+   "status": "none",
+   "updated_at": "2026-11-20T12:07:21.846Z",
    "attempts": 0,
-   "waiting_reason": "no second outlet stored for this event (ruling 4) - not written yet"
+   "waiting_reason": "no second outlet stored for this event (ruling 4) - not written yet",
+   "miss": true,
+   "miss_reason": "did not pass the checks within 6 hours of print"
   }
  }
 }
