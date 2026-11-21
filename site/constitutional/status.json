@@ -1,6 +1,6 @@
 {
  "note": "Constitutional Analysis status per story, written by scripts/constitutional-pass.mts. coming = being written, expected by eta; published = /constitutional/analyses/<id>.json; none = no analysis for this story.",
- "updated_at": "2026-11-21T10:13:35.856Z",
+ "updated_at": "2026-11-21T11:16:08.476Z",
  "edition": "2026-11-21T04:29:16.343Z",
  "stories": {
   "3a460b943ed5": {
@@ -1326,11 +1326,13 @@
    "id": "45f5dbf7117c",
    "printed_at": "2026-11-21T05:13:50.474Z",
    "eta": "2026-11-21T11:13:50.474Z",
-   "status": "coming",
-   "updated_at": "2026-11-21T07:20:30.505Z",
+   "status": "none",
+   "updated_at": "2026-11-21T11:16:08.476Z",
    "attempts": 0,
    "reopened_from": "2026-11-20T05:15:30.297Z",
-   "waiting_reason": "no second outlet stored for this event (ruling 4) - not written yet"
+   "waiting_reason": "no second outlet stored for this event (ruling 4) - not written yet",
+   "miss": true,
+   "miss_reason": "did not pass the checks within 6 hours of print"
   },
   "1b5ecac239cf": {
    "id": "1b5ecac239cf",
@@ -1410,10 +1412,12 @@
    "id": "3f0d805a6a78",
    "printed_at": "2026-11-21T05:13:50.474Z",
    "eta": "2026-11-21T11:13:50.474Z",
-   "status": "coming",
-   "updated_at": "2026-11-21T07:20:30.505Z",
+   "status": "none",
+   "updated_at": "2026-11-21T11:16:08.476Z",
    "attempts": 0,
-   "waiting_reason": "no second outlet stored for this event (ruling 4) - not written yet"
+   "waiting_reason": "no second outlet stored for this event (ruling 4) - not written yet",
+   "miss": true,
+   "miss_reason": "did not pass the checks within 6 hours of print"
   },
   "7eeb68c5b0fd": {
    "id": "7eeb68c5b0fd",
