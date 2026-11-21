@@ -1,6 +1,6 @@
 {
  "note": "Constitutional Analysis status per story, written by scripts/constitutional-pass.mts. coming = being written, expected by eta; published = /constitutional/analyses/<id>.json; none = no analysis for this story.",
- "updated_at": "2026-11-21T07:20:30.505Z",
+ "updated_at": "2026-11-21T07:29:53.445Z",
  "edition": "2026-11-21T04:29:16.343Z",
  "stories": {
   "3a460b943ed5": {
@@ -1281,19 +1281,23 @@
    "id": "e6ec68adc6a8",
    "printed_at": "2026-11-21T05:13:50.474Z",
    "eta": "2026-11-21T11:13:50.474Z",
-   "status": "coming",
-   "updated_at": "2026-11-21T07:20:32.912Z",
-   "attempts": 1,
-   "reopened_from": "2026-11-19T05:12:01.222Z"
+   "status": "none",
+   "updated_at": "2026-11-21T07:29:53.959Z",
+   "attempts": 2,
+   "reopened_from": "2026-11-19T05:12:01.222Z",
+   "miss": true,
+   "miss_reason": "no event survived the worksheet checks, so a second request cannot add one: after the code checks it no longer meets the standard: missing applies it to this event with exact facts"
   },
   "a7afad5f0441": {
    "id": "a7afad5f0441",
    "printed_at": "2026-11-21T05:13:50.474Z",
    "eta": "2026-11-21T11:13:50.474Z",
-   "status": "coming",
-   "updated_at": "2026-11-21T07:20:32.919Z",
-   "attempts": 1,
-   "reopened_from": "2026-11-19T05:12:01.222Z"
+   "status": "none",
+   "updated_at": "2026-11-21T07:29:53.966Z",
+   "attempts": 2,
+   "reopened_from": "2026-11-19T05:12:01.222Z",
+   "miss": true,
+   "miss_reason": "no article: the act is only in our headline or summary, which are not evidence (ruling 4)"
   },
   "e4011f2f6204": {
    "id": "e4011f2f6204",
@@ -1362,10 +1366,12 @@
    "id": "358694980b1b",
    "printed_at": "2026-11-21T05:13:50.474Z",
    "eta": "2026-11-21T11:13:50.474Z",
-   "status": "coming",
-   "updated_at": "2026-11-21T07:20:33.078Z",
-   "attempts": 1,
-   "reopened_from": "2026-11-20T05:15:30.297Z"
+   "status": "none",
+   "updated_at": "2026-11-21T07:29:53.993Z",
+   "attempts": 2,
+   "reopened_from": "2026-11-20T05:15:30.297Z",
+   "miss": true,
+   "miss_reason": "no event survived the worksheet checks, so a second request cannot add one: after the code checks it no longer meets the standard: missing applies it to this event with exact facts"
   },
   "6743deb316de": {
    "id": "6743deb316de",
