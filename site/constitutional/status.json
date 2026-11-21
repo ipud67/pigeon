@@ -1,7 +1,7 @@
 {
  "note": "Constitutional Analysis status per story, written by scripts/constitutional-pass.mts. coming = being written, expected by eta; published = /constitutional/analyses/<id>.json; none = no analysis for this story.",
- "updated_at": "2026-11-21T03:29:25.530Z",
- "edition": "2026-11-20T04:29:10.282Z",
+ "updated_at": "2026-11-21T07:20:30.505Z",
+ "edition": "2026-11-21T04:29:16.343Z",
  "stories": {
   "3a460b943ed5": {
    "id": "3a460b943ed5",
@@ -1279,24 +1279,21 @@
   },
   "e6ec68adc6a8": {
    "id": "e6ec68adc6a8",
-   "printed_at": "2026-11-20T05:15:30.297Z",
-   "eta": "2026-11-20T11:15:30.297Z",
-   "status": "none",
-   "updated_at": "2026-11-20T07:47:40.100Z",
-   "attempts": 2,
-   "reopened_from": "2026-11-19T05:12:01.222Z",
-   "miss": true,
-   "miss_reason": "no event survived the worksheet checks, so a second request cannot add one: after the code checks it no longer meets the standard: missing applies it to this event with exact facts"
+   "printed_at": "2026-11-21T05:13:50.474Z",
+   "eta": "2026-11-21T11:13:50.474Z",
+   "status": "coming",
+   "updated_at": "2026-11-21T07:20:32.912Z",
+   "attempts": 1,
+   "reopened_from": "2026-11-19T05:12:01.222Z"
   },
   "a7afad5f0441": {
    "id": "a7afad5f0441",
-   "printed_at": "2026-11-19T05:12:01.222Z",
-   "eta": "2026-11-19T11:12:01.222Z",
-   "status": "none",
-   "updated_at": "2026-11-19T07:33:20.217Z",
-   "attempts": 2,
-   "miss": true,
-   "miss_reason": "no article: the act is only in our headline or summary, which are not evidence (ruling 4)"
+   "printed_at": "2026-11-21T05:13:50.474Z",
+   "eta": "2026-11-21T11:13:50.474Z",
+   "status": "coming",
+   "updated_at": "2026-11-21T07:20:32.919Z",
+   "attempts": 1,
+   "reopened_from": "2026-11-19T05:12:01.222Z"
   },
   "e4011f2f6204": {
    "id": "e4011f2f6204",
@@ -1323,14 +1320,13 @@
   },
   "45f5dbf7117c": {
    "id": "45f5dbf7117c",
-   "printed_at": "2026-11-20T05:15:30.297Z",
-   "eta": "2026-11-20T11:15:30.297Z",
-   "status": "none",
-   "updated_at": "2026-11-20T12:07:21.846Z",
+   "printed_at": "2026-11-21T05:13:50.474Z",
+   "eta": "2026-11-21T11:13:50.474Z",
+   "status": "coming",
+   "updated_at": "2026-11-21T07:20:30.505Z",
    "attempts": 0,
-   "waiting_reason": "no second outlet stored for this event (ruling 4) - not written yet",
-   "miss": true,
-   "miss_reason": "did not pass the checks within 6 hours of print"
+   "reopened_from": "2026-11-20T05:15:30.297Z",
+   "waiting_reason": "no second outlet stored for this event (ruling 4) - not written yet"
   },
   "1b5ecac239cf": {
    "id": "1b5ecac239cf",
@@ -1364,13 +1360,12 @@
   },
   "358694980b1b": {
    "id": "358694980b1b",
-   "printed_at": "2026-11-20T05:15:30.297Z",
-   "eta": "2026-11-20T11:15:30.297Z",
-   "status": "none",
-   "updated_at": "2026-11-20T07:38:13.212Z",
-   "attempts": 2,
-   "miss": true,
-   "miss_reason": "no event survived the worksheet checks, so a second request cannot add one: after the code checks it no longer meets the standard: missing applies it to this event with exact facts"
+   "printed_at": "2026-11-21T05:13:50.474Z",
+   "eta": "2026-11-21T11:13:50.474Z",
+   "status": "coming",
+   "updated_at": "2026-11-21T07:20:33.078Z",
+   "attempts": 1,
+   "reopened_from": "2026-11-20T05:15:30.297Z"
   },
   "6743deb316de": {
    "id": "6743deb316de",
@@ -1395,6 +1390,33 @@
    "waiting_reason": "no second outlet stored for this event (ruling 4) - not written yet",
    "miss": true,
    "miss_reason": "did not pass the checks within 6 hours of print"
+  },
+  "fa5d93ad733b": {
+   "id": "fa5d93ad733b",
+   "printed_at": "2026-11-21T05:13:50.474Z",
+   "eta": "2026-11-21T11:13:50.474Z",
+   "status": "not_due",
+   "updated_at": "2026-11-21T07:20:30.505Z",
+   "attempts": 1,
+   "not_due_reason": "A remark with no official act gives no power to measure. If the story also reports an official act (a strike, a firing, a waiver, a decision), type THAT act, not the remark. A treaty-negotiate row nee"
+  },
+  "3f0d805a6a78": {
+   "id": "3f0d805a6a78",
+   "printed_at": "2026-11-21T05:13:50.474Z",
+   "eta": "2026-11-21T11:13:50.474Z",
+   "status": "coming",
+   "updated_at": "2026-11-21T07:20:30.505Z",
+   "attempts": 0,
+   "waiting_reason": "no second outlet stored for this event (ruling 4) - not written yet"
+  },
+  "7eeb68c5b0fd": {
+   "id": "7eeb68c5b0fd",
+   "printed_at": "2026-11-21T05:13:50.474Z",
+   "eta": "2026-11-21T11:13:50.474Z",
+   "status": "not_due",
+   "updated_at": "2026-11-21T07:20:30.505Z",
+   "attempts": 1,
+   "not_due_reason": "A remark with no official act gives no power to measure. If the story also reports an official act (a strike, a firing, a waiver, a decision), type THAT act, not the remark. A treaty-negotiate row nee"
   }
  }
 }
